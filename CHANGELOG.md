@@ -1,5 +1,9 @@
 # Journal des mises à jour
 
+## 2026-10-26 · Passage exceptionnel (classements)
+
+- Ligue 2 : précision de la date du classement (pris avant Montpellier – Red Star du 26/10). Aucun autre changement : classements déjà remplis et vérifiés au passage précédent ; Ligue A volley toujours sans deuxième source pour les rangs 4 à 7 (Eurosport et BetExplorer n'affichent que la saison 2025/26).
+
 ## 2026-10-26 · Mise à jour hebdo (2e passage, classements)
 
 Modifications du calendrier
