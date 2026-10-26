@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Montpellier à domicile</title>
+<meta name="description" content="Calendrier 2026/2027 des matchs à domicile du MHSC, du MHR, du MHB et du Montpellier Volley.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Archivo:wght@400;500;600;700&display=swap">
+<style>
+/* Layout : grand titre façon panneau de stade, filtres par sport, puis un tableau d'affichage mois par mois (colonne date | matchs du jour) */
+:root {
+  --bg: #f3f5f8;
+  --surface: #ffffff;
+  --fg: #141a24;
+  --muted: #5b6577;
+  --line: #dde2ea;
+  --accent: #e8590c;
+  --foot: #e8590c;
+  --rugby: #1f56b8;
+  --hand: #0b8a6c;
+  --volley: #c2255c;
+  --past: #8a93a3;
+  --font-display: "Big Shoulders Display", "Arial Narrow", Impact, sans-serif;
+  --font-body: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #11151c; --surface: #181d26; --fg: #eef1f6; --muted: #9aa4b5; --line: #2a313e;
+    --accent: #ff8a3d; --foot: #ff8a3d; --rugby: #6f9cf0; --hand: #3cc49f; --volley: #f0679a; --past: #6b7484;
+    color-scheme: dark;
+  }
+}
+
+* { box-sizing: border-box; }
+html { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.45;
+}
+[hidden] { display: none !important; }
+a { color: inherit; }
+.wrap {
+  max-width: 860px;
+  margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 32px 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+header { display: flex; flex-direction: column; gap: 10px; }
+.season { font-size: 12px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+h1 {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: clamp(44px, 10vw, 84px);
+  line-height: .9;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: .01em;
+  text-wrap: balance;
+}
+h1 .at { color: var(--accent); }
+.lede { margin: 0; color: var(--muted); max-width: 60ch; }
+
+.next {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 4px 16px;
+  align-items: baseline;
+  padding: 16px 18px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+.next .k { font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); grid-column: 1 / -1; }
+.next .d { font-family: var(--font-display); font-weight: 700; font-size: 28px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.next .m { min-width: 0; font-weight: 600; display: grid; gap: 6px; }
+.next .m small { display: block; font-weight: 400; color: var(--muted); font-size: 13px; }
+
+.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.chip {
+  font: inherit; font-size: 14px; font-weight: 600;
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 7px 12px 7px 10px;
+  border-radius: 999px;
+  border: 1.5px solid var(--line);
+  background: var(--surface);
+  color: var(--fg);
+  cursor: pointer;
+}
+.chip .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--c); }
+.chip[aria-pressed="true"] { border-color: var(--c); background: color-mix(in srgb, var(--c) 12%, var(--surface)); }
+.chip[aria-pressed="false"] { color: var(--muted); }
+.chip[aria-pressed="false"] .dot { background: transparent; box-shadow: inset 0 0 0 1.5px var(--muted); }
+.chip:focus-visible, .toggle input:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.toggle { margin-left: auto; display: inline-flex; align-items: center; gap: 8px; font-size: 14px; color: var(--muted); cursor: pointer; }
+.toggle input { width: 16px; height: 16px; accent-color: var(--accent); }
+.count { font-size: 13px; color: var(--muted); width: 100%; font-variant-numeric: tabular-nums; }
+
+.month { display: flex; flex-direction: column; }
+.month + .month { margin-top: 28px; }
+.month h2 {
+  font-family: var(--font-display); font-weight: 900; text-transform: uppercase;
+  font-size: 30px; letter-spacing: .02em; margin: 0 0 6px;
+  display: flex; align-items: baseline; gap: 10px;
+}
+.month h2 span { font-family: var(--font-body); font-size: 13px; font-weight: 500; color: var(--muted); letter-spacing: 0; text-transform: none; }
+
+.day {
+  display: grid;
+  grid-template-columns: 9.5em 1fr;
+  gap: 14px;
+  padding-block: 12px;
+  border-top: 1px solid var(--line);
+}
+.date { font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; padding-top: 2px; }
+.date .tbc { display: block; font-size: 11px; font-weight: 600; color: var(--muted); letter-spacing: .04em; margin-top: 2px; }
+.games { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.game { display: grid; grid-template-columns: 4px 4.2em 1fr; gap: 0 12px; align-items: start; }
+.game .bar { align-self: stretch; border-radius: 2px; background: var(--c); }
+.game .time { font-weight: 600; font-variant-numeric: tabular-nums; padding-top: 1px; }
+.game .time.unk { color: var(--muted); font-weight: 400; font-size: 13px; padding-top: 2px; }
+.game .info { min-width: 0; }
+.game .opp { font-weight: 600; }
+.game .meta { font-size: 13px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 10px; }
+.game .sport { color: var(--c); font-weight: 700; }
+.game .score { font-variant-numeric: tabular-nums; }
+.game .src a { color: var(--muted); }
+.badge {
+  font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
+  padding: 1px 7px; border-radius: 4px; border: 1px solid var(--accent); color: var(--accent);
+  align-self: flex-start;
+}
+.day.past .date, .day.past .opp, .day.past .time { color: var(--past); }
+.day.past .bar { opacity: .4; }
+.day.today .date { color: var(--accent); }
+
+.status { color: var(--muted); padding: 24px 0; border-top: 1px solid var(--line); }
+
+.notes { border-top: 2px solid var(--fg); padding-top: 16px; display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); font-size: 14px; }
+.notes h3 { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; margin: 0 0 6px; }
+.notes ul { margin: 0; padding-left: 18px; color: var(--muted); display: grid; gap: 4px; }
+.foot-note { font-size: 13px; color: var(--muted); margin: 0; }
+
+[data-sport="foot"] { --c: var(--foot); }
+[data-sport="rugby"] { --c: var(--rugby); }
+[data-sport="hand"] { --c: var(--hand); }
+[data-sport="volley"] { --c: var(--volley); }
+
+@media (max-width: 520px) {
+  .day { grid-template-columns: 1fr; gap: 8px; }
+  .toggle { margin-left: 0; }
+  .game { grid-template-columns: 4px 3.8em 1fr; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="season">Saison 2026 / 2027 · Foot · Rugby · Hand · Volley</div>
+    <h1>Montpellier <span class="at">à domicile</span></h1>
+    <p class="lede">Tous les matchs à la maison du MHSC, du MHR, du MHB et du Montpellier Volley, championnat et coupes d'Europe, regroupés par date.</p>
+  </header>
+
+  <section class="next" id="next" aria-live="polite" hidden></section>
+
+  <section class="controls" aria-label="Filtres">
+    <button class="chip" data-sport="foot" id="f-foot" aria-pressed="true"><span class="dot"></span>Foot · MHSC</button>
+    <button class="chip" data-sport="rugby" id="f-rugby" aria-pressed="true"><span class="dot"></span>Rugby · MHR</button>
+    <button class="chip" data-sport="hand" id="f-hand" aria-pressed="true"><span class="dot"></span>Hand · MHB</button>
+    <button class="chip" data-sport="volley" id="f-volley" aria-pressed="true"><span class="dot"></span>Volley</button>
+    <label class="toggle" for="show-past"><input type="checkbox" id="show-past">Afficher les matchs joués</label>
+    <div class="count" id="count"></div>
+  </section>
+
+  <main id="cal"><p class="status">Chargement du calendrier…</p></main>
+
+  <section class="notes">
+    <div>
+      <h3>Comment lire les dates</h3>
+      <ul>
+        <li>Une date ou un horaire n'est affiché comme sûr que s'il est confirmé par au moins deux sources indépendantes.</li>
+        <li>« Date à confirmer » : jour pas encore fixé par la ligue ou sources en désaccord. En foot, le match peut glisser du vendredi au samedi ou au lundi ; en rugby, au dimanche.</li>
+        <li>« à conf. » : horaire pas encore confirmé.</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Pas encore au calendrier</h3>
+      <ul>
+        <li>Phases finales : volley (après le 20/03), hand (finale le 05/06), Top 14 (dès le 12/06), playoffs Ligue 2 (fin mai).</li>
+        <li>Tours européens après les poules et Coupes de France : ajoutés dès que les dates sont connues.</li>
+      </ul>
+    </div>
+  </section>
+  <p class="foot-note" id="verified">Calendrier vérifié chaque semaine. Sources : ligues, clubs et presse sportive.</p>
+</div>
+
+<script>
+const SPORT = { foot: "Foot", rugby: "Rugby", hand: "Hand", volley: "Volley" };
+const JOURS = ["Dim","Lun","Mar","Mer","Jeu","Ven","Sam"];
+const MOIS = ["Janvier","Février","Mars","Avril","Mai","Juin","Juillet","Août","Septembre","Octobre","Novembre","Décembre"];
+
+function parse(iso) { const [y,m,d] = iso.split("-").map(Number); return new Date(y, m-1, d); }
+function fmt(dt) {
+  const dd = String(dt.getDate()).padStart(2,"0");
+  const mm = String(dt.getMonth()+1).padStart(2,"0");
+  const yy = String(dt.getFullYear()).slice(2);
+  return `${JOURS[dt.getDay()]} - ${dd}/${mm}/${yy}`;
+}
+function esc(s) { return String(s || "").replace(/[&<>"]/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;" }[c])); }
+function host(u) { try { return new URL(u).hostname.replace(/^www\./, ""); } catch (e) { return "source"; } }
+
+const now = new Date(); const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+let MATCHES = [];
+
+const state = { sports: { foot: true, rugby: true, hand: true, volley: true }, past: false };
+try {
+  const saved = JSON.parse(localStorage.getItem("mtp-dom-filtres") || "null");
+  if (saved && saved.sports) Object.assign(state, saved);
+} catch (e) {}
+function save() { try { localStorage.setItem("mtp-dom-filtres", JSON.stringify(state)); } catch (e) {} }
+
+function gameHTML(m, past) {
+  const showTime = m.time && (m.time_ok || past);
+  const t = showTime ? `<div class="time">${esc(m.time)}</div>` : `<div class="time unk">à conf.</div>`;
+  const sc = m.score ? `<span class="score">Score ${esc(m.score)}</span>` : "";
+  const venue = m.venue ? `<span>${esc(m.venue)}</span>` : "";
+  const note = m.note ? `<span>${esc(m.note)}</span>` : "";
+  const src = (m.sources || []).length && !past
+    ? `<span class="src">Sources : ${m.sources.map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(host(u))}</a>`).join(" · ")}</span>` : "";
+  return `<div class="game" data-sport="${esc(m.sport)}">
+    <div class="bar"></div>${t}
+    <div class="info"><div class="opp">${esc(m.opponent)}</div>
+    <div class="meta"><span class="sport">${SPORT[m.sport] || ""}</span><span>${esc(m.competition)}</span>${venue}${sc}${note}${src}</div></div>
+  </div>`;
+}
+
+function render() {
+  for (const k in SPORT) document.getElementById("f-" + k).setAttribute("aria-pressed", String(state.sports[k]));
+  document.getElementById("show-past").checked = state.past;
+
+  const list = MATCHES.filter(m => state.sports[m.sport] && (state.past || parse(m.date) >= today));
+  const byMonth = new Map();
+  for (const m of list) {
+    const key = m.date.slice(0,7);
+    if (!byMonth.has(key)) byMonth.set(key, new Map());
+    const days = byMonth.get(key);
+    if (!days.has(m.date)) days.set(m.date, []);
+    days.get(m.date).push(m);
+  }
+
+  let html = "";
+  for (const [key, days] of byMonth) {
+    const [y, mo] = key.split("-").map(Number);
+    let n = 0; for (const g of days.values()) n += g.length;
+    html += `<section class="month"><h2>${MOIS[mo-1]} ${y}<span>${n} match${n>1?"s":""}</span></h2>`;
+    for (const [iso, games] of days) {
+      const dt = parse(iso);
+      const past = dt < today, isToday = +dt === +today;
+      const tbc = !past && games.some(g => !g.date_ok);
+      html += `<div class="day${past?" past":""}${isToday?" today":""}">
+        <div class="date">${fmt(dt)}${tbc?'<span class="tbc">Date à confirmer</span>':""}${isToday?'<span class="tbc">Aujourd\'hui</span>':""}</div>
+        <div class="games">${games.length>1?'<span class="badge">Double affiche</span>':""}${games.map(g => gameHTML(g, past)).join("")}</div>
+      </div>`;
+    }
+    html += `</section>`;
+  }
+  if (!html) html = `<p class="status">Aucun match avec ces filtres. Réactivez un sport ci-dessus.</p>`;
+  document.getElementById("cal").innerHTML = html;
+
+  const total = list.length;
+  document.getElementById("count").textContent = `${total} match${total>1?"s":""} affiché${total>1?"s":""}`;
+
+  const upcoming = MATCHES.filter(m => state.sports[m.sport] && parse(m.date) >= today);
+  const nx = document.getElementById("next");
+  if (upcoming.length) {
+    const first = upcoming[0].date;
+    const same = upcoming.filter(m => m.date === first);
+    nx.innerHTML = `<div class="k">Prochain match à domicile${same.some(m => !m.date_ok) ? " · date à confirmer" : ""}</div>
+      <div class="d">${fmt(parse(first))}</div>
+      <div class="m">${same.map(m => `<div>${SPORT[m.sport]} · ${esc(m.opponent)}${m.time && m.time_ok ? " · " + esc(m.time) : ""}<small>${esc(m.competition)}</small></div>`).join("")}</div>`;
+    nx.hidden = false;
+  } else nx.hidden = true;
+}
+
+document.querySelectorAll(".chip").forEach(b => b.addEventListener("click", () => {
+  const k = b.dataset.sport; state.sports[k] = !state.sports[k]; save(); render();
+}));
+document.getElementById("show-past").addEventListener("change", e => { state.past = e.target.checked; save(); render(); });
+
+fetch("data/matches.json", { cache: "no-store" })
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(data => {
+    MATCHES = (data.matches || []).slice().sort((a, b) => a.date.localeCompare(b.date));
+    if (data.verified) {
+      document.getElementById("verified").textContent =
+        `Dernière vérification : ${fmt(parse(data.verified))}. Calendrier revérifié chaque semaine à partir des ligues, des clubs et de la presse sportive.`;
+    }
+    render();
+  })
+  .catch(() => {
+    document.getElementById("cal").innerHTML = `<p class="status">Le calendrier n'a pas pu être chargé. Rechargez la page dans un instant.</p>`;
+  });
+</script>
+</body>
+</html>

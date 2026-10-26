@@ -1,0 +1,1045 @@
+{
+  "season": "2026-2027",
+  "verified": "2026-10-26",
+  "matches": [
+    {
+      "date": "2026-08-08",
+      "sport": "foot",
+      "time": "20h45",
+      "opponent": "Dijon",
+      "competition": "Ligue 2",
+      "venue": "Stade de la Mosson",
+      "date_ok": true,
+      "time_ok": true,
+      "score": "1-1",
+      "note": "",
+      "sources": [
+        "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md",
+        "https://www.herault-tourisme.com/fr/fiche/fetes-et-manifestations/football-mhsc-vs-dijon-fco-montpellier_TFOFMALAR034V52UC2U/"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "sport": "foot",
+      "time": "20h00",
+      "opponent": "Boulogne",
+      "competition": "Ligue 2",
+      "venue": "Stade de la Mosson",
+      "date_ok": true,
+      "time_ok": true,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "sport": "hand",
+      "time": "20h00",
+      "opponent": "Chartres",
+      "competition": "Starligue",
+      "venue": "",
+      "date_ok": true,
+      "time_ok": true,
+      "score": "41-22",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/",
+        "https://www.365scores.com/handball/team/montpellier-8120/matches"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "sport": "rugby",
+      "time": "19h00",
+      "opponent": "Section Paloise",
+      "competition": "Top 14",
+      "venue": "",
+      "date_ok": true,
+      "time_ok": true,
+      "score": "19-27",
+      "note": "",
+      "sources": [
+        "https://sports.orange.fr/rugby/top-14/calendrier-resultats.html",
+        "https://www.tv-direct.fr/sport-direct/rugby/"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "sport": "foot",
+      "time": "20h00",
+      "opponent": "Pau",
+      "competition": "Ligue 2",
+      "venue": "Stade de la Mosson",
+      "date_ok": true,
+      "time_ok": true,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md",
+        "https://unidivers.fr/event/football-mhsc-vs-pau-montpellier-herault-2026-09-11/"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "sport": "hand",
+      "time": "20h45",
+      "opponent": "FC Barcelone",
+      "competition": "Ligue des champions",
+      "venue": "Sud de France Arena (Pérols)",
+      "date_ok": true,
+      "time_ok": true,
+      "score": "",
+      "note": "Date ajustée : les sources annoncent « mercredi », soit le 16/09",
+      "sources": [
+        "https://www.herault-tourisme.com/fr/fiche/fetes-et-manifestations/handball-mhb-vs-barcelone-perols_TFOFMALAR034V52UUWH/",
+        "https://www.sportschau.de/live-und-ergebnisse/handball/ehf-champions-league/"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "sport": "rugby",
+      "time": "",
+      "opponent": "Perpignan",
+      "competition": "Top 14",
+      "venue": "",
+      "date_ok": true,
+      "time_ok": false,
+      "score": "50-13",
+      "note": "",
+      "sources": [
+        "https://sports.orange.fr/rugby/top-14/calendrier-resultats.html",
+        "https://www.tv-direct.fr/sport-direct/rugby/"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "sport": "hand",
+      "time": "17h00",
+      "opponent": "Nantes",
+      "competition": "Starligue",
+      "venue": "",
+      "date_ok": true,
+      "time_ok": true,
+      "score": "31-36",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/",
+        "https://www.365scores.com/handball/team/montpellier-8120/matches"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sport": "hand",
+      "time": "",
+      "opponent": "Chambéry",
+      "competition": "Starligue",
+      "venue": "",
+      "date_ok": true,
+      "time_ok": false,
+      "score": "25-25",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "sport": "rugby",
+      "time": "",
+      "opponent": "Toulon",
+      "competition": "Top 14",
+      "venue": "",
+      "date_ok": true,
+      "time_ok": false,
+      "score": "28-0",
+      "note": "",
+      "sources": [
+        "https://sports.orange.fr/rugby/top-14/calendrier-resultats.html"
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "sport": "foot",
+      "time": "20h00",
+      "opponent": "Grenoble",
+      "competition": "Ligue 2",
+      "venue": "Stade de la Mosson",
+      "date_ok": true,
+      "time_ok": true,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md",
+        "https://www.herault-tourisme.com/fr/fiche/fetes-et-manifestations/football-mhsc-vs-grenoble-montpellier_TFOFMALAR034V52VC9Y/"
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "sport": "hand",
+      "time": "20h45",
+      "opponent": "Skanderborg",
+      "competition": "Ligue des champions",
+      "venue": "Sud de France Arena (Pérols)",
+      "date_ok": true,
+      "time_ok": true,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/"
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "sport": "hand",
+      "time": "",
+      "opponent": "Limoges",
+      "competition": "Starligue",
+      "venue": "",
+      "date_ok": true,
+      "time_ok": false,
+      "score": "35-33",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "sport": "volley",
+      "time": "",
+      "opponent": "Plessis-Robinson",
+      "competition": "Ligue A",
+      "venue": "",
+      "date_ok": true,
+      "time_ok": false,
+      "score": "3-2",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "sport": "foot",
+      "time": "14h00",
+      "opponent": "Red Star",
+      "competition": "Ligue 2",
+      "venue": "Stade de la Mosson",
+      "date_ok": true,
+      "time_ok": true,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.jds.fr/artistes/montpellier-hsc-12956_N",
+        "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "sport": "hand",
+      "time": "17h00",
+      "opponent": "Saran",
+      "competition": "Starligue",
+      "venue": "",
+      "date_ok": true,
+      "time_ok": true,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/",
+        "https://www.365scores.com/handball/team/montpellier-8120/matches"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "sport": "hand",
+      "time": "20h45",
+      "opponent": "Dinamo Bucarest",
+      "competition": "Ligue des champions",
+      "venue": "Sud de France Arena (Pérols)",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "Sources en désaccord (28/10 ou 29/10)",
+      "sources": [
+        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/",
+        "https://www.sportschau.de/live-und-ergebnisse/handball/ehf-champions-league/"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "sport": "volley",
+      "time": "20h00",
+      "opponent": "Toulouse",
+      "competition": "Ligue A",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "sport": "rugby",
+      "time": "16h35",
+      "opponent": "Castres",
+      "competition": "Top 14",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://sports.orange.fr/rugby/top-14/calendrier-resultats.html",
+        "https://www.tv-direct.fr/sport-direct/rugby/"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "sport": "foot",
+      "time": "",
+      "opponent": "Metz",
+      "competition": "Ligue 2",
+      "venue": "Stade de la Mosson",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "Date de la journée, pas encore programmée par la LFP",
+      "sources": [
+        "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md",
+        "https://www.jds.fr/artistes/montpellier-hsc-12956_N"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "sport": "rugby",
+      "time": "16h35",
+      "opponent": "Lyon (LOU)",
+      "competition": "Top 14",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://sports.orange.fr/rugby/top-14/calendrier-resultats.html",
+        "https://www.tv-direct.fr/sport-direct/rugby/"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "sport": "volley",
+      "time": "18h00",
+      "opponent": "Paris",
+      "competition": "Supercoupe de France",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "Lieu à confirmer",
+      "sources": [
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "sport": "hand",
+      "time": "20h00",
+      "opponent": "Dunkerque",
+      "competition": "Starligue",
+      "venue": "",
+      "date_ok": true,
+      "time_ok": true,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/",
+        "https://www.365scores.com/handball/team/montpellier-8120/matches"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "sport": "volley",
+      "time": "17h00",
+      "opponent": "Cannes",
+      "competition": "Ligue A",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "sport": "volley",
+      "time": "20h00",
+      "opponent": "Chaumont",
+      "competition": "Ligue A",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "sport": "hand",
+      "time": "20h00",
+      "opponent": "Cesson-Rennes",
+      "competition": "Starligue",
+      "venue": "",
+      "date_ok": true,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/",
+        "https://www.365scores.com/handball/team/montpellier-8120/matches"
+      ]
+    },
+    {
+      "date": "2026-12-04",
+      "sport": "foot",
+      "time": "",
+      "opponent": "Nantes",
+      "competition": "Ligue 2",
+      "venue": "Stade de la Mosson",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "Date de la journée, pas encore programmée par la LFP",
+      "sources": [
+        "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md",
+        "https://www.jds.fr/artistes/montpellier-hsc-12956_N"
+      ]
+    },
+    {
+      "date": "2026-12-04",
+      "sport": "volley",
+      "time": "20h00",
+      "opponent": "Narbonne",
+      "competition": "Ligue A",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+      ]
+    },
+    {
+      "date": "2026-12-05",
+      "sport": "rugby",
+      "time": "",
+      "opponent": "La Rochelle",
+      "competition": "Top 14",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "Week-end des 05-06/12",
+      "sources": [
+        "https://www.tv-direct.fr/sport-direct/rugby/"
+      ]
+    },
+    {
+      "date": "2026-12-11",
+      "sport": "hand",
+      "time": "20h00",
+      "opponent": "Caen",
+      "competition": "Starligue",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/"
+      ]
+    },
+    {
+      "date": "2026-12-12",
+      "sport": "rugby",
+      "time": "16h15",
+      "opponent": "Bulls",
+      "competition": "Champions Cup",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://dicodusport.fr/blog/montpellier-en-champions-cup-2026-2027-calendrier-resultats-et-classement/"
+      ]
+    },
+    {
+      "date": "2026-12-18",
+      "sport": "volley",
+      "time": "20h00",
+      "opponent": "Tourcoing",
+      "competition": "Ligue A",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+      ]
+    },
+    {
+      "date": "2026-12-26",
+      "sport": "rugby",
+      "time": "",
+      "opponent": "Bayonne",
+      "competition": "Top 14",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "Week-end des 26-27/12",
+      "sources": [
+        "https://www.tv-direct.fr/sport-direct/rugby/"
+      ]
+    },
+    {
+      "date": "2026-12-30",
+      "sport": "volley",
+      "time": "20h00",
+      "opponent": "Sète",
+      "competition": "Ligue A",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+      ]
+    },
+    {
+      "date": "2027-01-02",
+      "sport": "foot",
+      "time": "",
+      "opponent": "Guingamp",
+      "competition": "Ligue 2",
+      "venue": "Stade de la Mosson",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "Date de la journée, pas encore programmée par la LFP",
+      "sources": [
+        "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md",
+        "https://www.jds.fr/artistes/montpellier-hsc-12956_N"
+      ]
+    },
+    {
+      "date": "2027-01-05",
+      "sport": "volley",
+      "time": "",
+      "opponent": "Perugia",
+      "competition": "Ligue des champions",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+      ]
+    },
+    {
+      "date": "2027-01-08",
+      "sport": "volley",
+      "time": "20h00",
+      "opponent": "Saint-Nazaire",
+      "competition": "Ligue A",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+      ]
+    },
+    {
+      "date": "2027-01-09",
+      "sport": "rugby",
+      "time": "18h30",
+      "opponent": "Northampton",
+      "competition": "Champions Cup",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://dicodusport.fr/blog/montpellier-en-champions-cup-2026-2027-calendrier-resultats-et-classement/"
+      ]
+    },
+    {
+      "date": "2027-01-15",
+      "sport": "foot",
+      "time": "",
+      "opponent": "Clermont",
+      "competition": "Ligue 2",
+      "venue": "Stade de la Mosson",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "Date de la journée, pas encore programmée par la LFP",
+      "sources": [
+        "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md",
+        "https://www.jds.fr/artistes/montpellier-hsc-12956_N"
+      ]
+    },
+    {
+      "date": "2027-01-23",
+      "sport": "rugby",
+      "time": "",
+      "opponent": "Stade Français",
+      "competition": "Top 14",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "Week-end des 23-24/01",
+      "sources": [
+        "https://www.tv-direct.fr/sport-direct/rugby/"
+      ]
+    },
+    {
+      "date": "2027-01-24",
+      "sport": "volley",
+      "time": "17h00",
+      "opponent": "Royan",
+      "competition": "Ligue A",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+      ]
+    },
+    {
+      "date": "2027-01-29",
+      "sport": "foot",
+      "time": "",
+      "opponent": "Rodez",
+      "competition": "Ligue 2",
+      "venue": "Stade de la Mosson",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "Derby occitan. Date de la journée",
+      "sources": [
+        "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md",
+        "https://www.jds.fr/artistes/montpellier-hsc-12956_N"
+      ]
+    },
+    {
+      "date": "2027-02-02",
+      "sport": "volley",
+      "time": "20h00",
+      "opponent": "Poitiers",
+      "competition": "Ligue A",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+      ]
+    },
+    {
+      "date": "2027-02-05",
+      "sport": "hand",
+      "time": "",
+      "opponent": "Tremblay",
+      "competition": "Starligue",
+      "venue": "",
+      "date_ok": true,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/",
+        "https://www.365scores.com/handball/team/montpellier-8120/matches"
+      ]
+    },
+    {
+      "date": "2027-02-09",
+      "sport": "volley",
+      "time": "",
+      "opponent": "Ziraat Bankası",
+      "competition": "Ligue des champions",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+      ]
+    },
+    {
+      "date": "2027-02-12",
+      "sport": "foot",
+      "time": "",
+      "opponent": "Reims",
+      "competition": "Ligue 2",
+      "venue": "Stade de la Mosson",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "Date de la journée, pas encore programmée par la LFP",
+      "sources": [
+        "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md",
+        "https://www.jds.fr/artistes/montpellier-hsc-12956_N"
+      ]
+    },
+    {
+      "date": "2027-02-12",
+      "sport": "volley",
+      "time": "20h00",
+      "opponent": "Nice",
+      "competition": "Ligue A",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+      ]
+    },
+    {
+      "date": "2027-02-17",
+      "sport": "volley",
+      "time": "",
+      "opponent": "Dinamo Bucarest",
+      "competition": "Ligue des champions",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+      ]
+    },
+    {
+      "date": "2027-02-19",
+      "sport": "hand",
+      "time": "",
+      "opponent": "PSG",
+      "competition": "Starligue",
+      "venue": "",
+      "date_ok": true,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/",
+        "https://www.365scores.com/handball/team/montpellier-8120/matches"
+      ]
+    },
+    {
+      "date": "2027-02-20",
+      "sport": "rugby",
+      "time": "",
+      "opponent": "Racing 92",
+      "competition": "Top 14",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "Week-end des 20-21/02",
+      "sources": [
+        "https://www.tv-direct.fr/sport-direct/rugby/"
+      ]
+    },
+    {
+      "date": "2027-02-26",
+      "sport": "foot",
+      "time": "",
+      "opponent": "Laval",
+      "competition": "Ligue 2",
+      "venue": "Stade de la Mosson",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "Date de la journée, pas encore programmée par la LFP",
+      "sources": [
+        "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md",
+        "https://www.jds.fr/artistes/montpellier-hsc-12956_N"
+      ]
+    },
+    {
+      "date": "2027-02-26",
+      "sport": "volley",
+      "time": "20h00",
+      "opponent": "Tours",
+      "competition": "Ligue A",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+      ]
+    },
+    {
+      "date": "2027-03-05",
+      "sport": "foot",
+      "time": "",
+      "opponent": "Annecy",
+      "competition": "Ligue 2",
+      "venue": "Stade de la Mosson",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "Date de la journée, pas encore programmée par la LFP",
+      "sources": [
+        "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md",
+        "https://www.jds.fr/artistes/montpellier-hsc-12956_N"
+      ]
+    },
+    {
+      "date": "2027-03-12",
+      "sport": "volley",
+      "time": "20h00",
+      "opponent": "Paris",
+      "competition": "Ligue A",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "Dernier match à domicile de saison régulière",
+      "sources": [
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+      ]
+    },
+    {
+      "date": "2027-03-19",
+      "sport": "hand",
+      "time": "",
+      "opponent": "Sélestat",
+      "competition": "Starligue",
+      "venue": "",
+      "date_ok": true,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/",
+        "https://www.365scores.com/handball/team/montpellier-8120/matches"
+      ]
+    },
+    {
+      "date": "2027-03-20",
+      "sport": "rugby",
+      "time": "",
+      "opponent": "Clermont",
+      "competition": "Top 14",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "Week-end des 20-21/03",
+      "sources": [
+        "https://www.tv-direct.fr/sport-direct/rugby/"
+      ]
+    },
+    {
+      "date": "2027-03-26",
+      "sport": "hand",
+      "time": "",
+      "opponent": "Nîmes",
+      "competition": "Starligue",
+      "venue": "",
+      "date_ok": true,
+      "time_ok": false,
+      "score": "",
+      "note": "Derby",
+      "sources": [
+        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/",
+        "https://www.365scores.com/handball/team/montpellier-8120/matches"
+      ]
+    },
+    {
+      "date": "2027-04-02",
+      "sport": "foot",
+      "time": "",
+      "opponent": "Dunkerque",
+      "competition": "Ligue 2",
+      "venue": "Stade de la Mosson",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "Date de la journée, pas encore programmée par la LFP",
+      "sources": [
+        "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md",
+        "https://www.jds.fr/artistes/montpellier-hsc-12956_N"
+      ]
+    },
+    {
+      "date": "2027-04-13",
+      "sport": "hand",
+      "time": "",
+      "opponent": "Saint-Raphaël",
+      "competition": "Starligue",
+      "venue": "",
+      "date_ok": true,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/",
+        "https://www.365scores.com/handball/team/montpellier-8120/matches"
+      ]
+    },
+    {
+      "date": "2027-04-16",
+      "sport": "foot",
+      "time": "",
+      "opponent": "Sochaux",
+      "competition": "Ligue 2",
+      "venue": "Stade de la Mosson",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "Date de la journée, pas encore programmée par la LFP",
+      "sources": [
+        "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md",
+        "https://www.jds.fr/artistes/montpellier-hsc-12956_N"
+      ]
+    },
+    {
+      "date": "2027-04-17",
+      "sport": "rugby",
+      "time": "",
+      "opponent": "Bordeaux-Bègles",
+      "competition": "Top 14",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "Week-end des 17-18/04",
+      "sources": [
+        "https://www.tv-direct.fr/sport-direct/rugby/"
+      ]
+    },
+    {
+      "date": "2027-04-30",
+      "sport": "foot",
+      "time": "",
+      "opponent": "Saint-Étienne",
+      "competition": "Ligue 2",
+      "venue": "Stade de la Mosson",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "Date de la journée, pas encore programmée par la LFP",
+      "sources": [
+        "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md",
+        "https://www.jds.fr/artistes/montpellier-hsc-12956_N"
+      ]
+    },
+    {
+      "date": "2027-04-30",
+      "sport": "hand",
+      "time": "",
+      "opponent": "Provence Aix (PAUC)",
+      "competition": "Starligue",
+      "venue": "",
+      "date_ok": true,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/",
+        "https://www.365scores.com/handball/team/montpellier-8120/matches"
+      ]
+    },
+    {
+      "date": "2027-05-08",
+      "sport": "rugby",
+      "time": "",
+      "opponent": "Stade Toulousain",
+      "competition": "Top 14",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "Revanche de la finale 2026. Week-end des 08-09/05",
+      "sources": [
+        "https://www.tv-direct.fr/sport-direct/rugby/"
+      ]
+    },
+    {
+      "date": "2027-05-14",
+      "sport": "foot",
+      "time": "",
+      "opponent": "Nancy",
+      "competition": "Ligue 2",
+      "venue": "Stade de la Mosson",
+      "date_ok": true,
+      "time_ok": false,
+      "score": "",
+      "note": "Avant-dernière journée, en multiplex",
+      "sources": [
+        "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md",
+        "https://sports.orange.fr/football/ligue-2/article/ligue-2-le-calendrier-2026-27-est-connu-exclu-CNT000002pTBQW.html"
+      ]
+    },
+    {
+      "date": "2027-05-19",
+      "sport": "hand",
+      "time": "",
+      "opponent": "Toulouse",
+      "competition": "Starligue",
+      "venue": "",
+      "date_ok": true,
+      "time_ok": false,
+      "score": "",
+      "note": "Dernière journée",
+      "sources": [
+        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/",
+        "https://www.365scores.com/handball/team/montpellier-8120/matches"
+      ]
+    },
+    {
+      "date": "2027-05-29",
+      "sport": "rugby",
+      "time": "",
+      "opponent": "Vannes",
+      "competition": "Top 14",
+      "venue": "",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "Week-end des 29-30/05",
+      "sources": [
+        "https://www.tv-direct.fr/sport-direct/rugby/"
+      ]
+    }
+  ]
+}
