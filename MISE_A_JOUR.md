@@ -1,6 +1,6 @@
 # Procédure de mise à jour hebdomadaire
 
-Ce fichier décrit exactement ce que fait chaque passage de mise à jour. La page (`index.html`) ne contient aucune donnée : tout est dans `data/matches.json`. Un passage ne modifie que `data/matches.json` et `CHANGELOG.md`.
+Ce fichier décrit exactement ce que fait chaque passage de mise à jour. La page (`index.html`) ne contient aucune donnée : le calendrier est dans `data/matches.json`, les classements dans `data/standings.json`. Un passage ne modifie que `data/matches.json`, `data/standings.json` et `CHANGELOG.md`.
 
 ## Périmètre
 
@@ -68,9 +68,23 @@ Les matchs à l'extérieur ne sont jamais ajoutés. Un match sur terrain neutre 
 
 Affichage sur la page : l'horaire n'apparaît que si `time_ok` est `true` (sinon « à conf. ») ; la mention « Date à confirmer » apparaît tant que `date_ok` est `false`.
 
+## Classements (`data/standings.json`)
+
+Les classements suivent la même règle des deux sources que les dates.
+
+1. Pour chaque compétition de `data/standings.json` (Ligue 2, Top 14, Champions Cup poule, Starligue, Ligue des champions EHF groupe, Ligue A volley, Ligue des champions CEV poule), récupérer le classement complet le plus récent dans **au moins deux sources indépendantes**.
+2. Si les deux sources concordent sur l'ordre et sur les points de toutes les équipes : remplacer `rows`, mettre `verified` à `true`, renseigner `as_of` (ex. « Après la 11e journée » ou « Au 04/11/2026 » si les équipes n'ont pas toutes joué le même nombre de matchs) et `sources` (les URL consultées).
+3. Si elles ne concordent pas (souvent une source pas encore à jour) : chercher une troisième source. Sans concordance, garder le dernier classement vérifié s'il existe, sinon `verified: false`, et noter le désaccord dans le journal.
+4. Format d'une ligne : `{"rank": 1, "team": "Saint-Étienne", "values": [...]}`, avec `values` dans l'ordre exact de `columns`, la dernière valeur étant toujours les points. Écrire l'équipe de Montpellier exactement comme le champ `club` de la compétition (`Montpellier`), sinon elle n'est pas mise en évidence. Différences au format `+15`, `-6` ou `0`. En volley, `Sets` au format `24-9`.
+5. Mettre `not_started` à `false` (ou retirer la clé) quand une compétition commence. Ajouter une compétition (phase finale, tour suivant européen) seulement si Montpellier y participe, avec les mêmes champs.
+6. `note` : une phrase utile au lecteur seulement si nécessaire (match en retard, pénalité de points, qualification acquise).
+7. Mettre la clé `verified` à la racine du fichier à la date du passage.
+8. Contrôles : `python3 -m json.tool data/standings.json` réussit ; chaque ligne a autant de `values` que `columns` ; les rangs vont de 1 à N sans trou ; l'équipe `club` apparaît dans chaque classement vérifié.
+
 ## Résumé de fin de passage
 
 Terminer par un court résumé en français :
 - ce qui a changé (dates, horaires, ajouts, scores) ;
+- la position de Montpellier dans chaque classement vérifié, et les classements restés non vérifiés ;
 - les matchs des 3 prochaines semaines encore non confirmés, et pourquoi ;
 - les désaccords entre sources non résolus.

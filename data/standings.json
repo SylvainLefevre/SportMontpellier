@@ -1,0 +1,597 @@
+{
+  "verified": "2026-10-26",
+  "competitions": [
+    {
+      "id": "ligue2",
+      "sport": "foot",
+      "name": "Ligue 2",
+      "club": "Montpellier",
+      "columns": [
+        "J",
+        "V",
+        "N",
+        "D",
+        "BP",
+        "BC",
+        "Diff",
+        "Pts"
+      ],
+      "as_of": "Avant la 11e journée, au 24/10/2026",
+      "verified": false,
+      "rows": [
+        {
+          "rank": 1,
+          "team": "Saint-Étienne",
+          "values": [
+            10,
+            8,
+            1,
+            1,
+            23,
+            8,
+            "+15",
+            25
+          ]
+        },
+        {
+          "rank": 2,
+          "team": "Nancy",
+          "values": [
+            10,
+            6,
+            1,
+            3,
+            12,
+            8,
+            "+4",
+            19
+          ]
+        },
+        {
+          "rank": 3,
+          "team": "Montpellier",
+          "values": [
+            9,
+            5,
+            3,
+            1,
+            11,
+            5,
+            "+6",
+            18
+          ]
+        },
+        {
+          "rank": 4,
+          "team": "Reims",
+          "values": [
+            9,
+            4,
+            5,
+            0,
+            19,
+            11,
+            "+8",
+            17
+          ]
+        },
+        {
+          "rank": 5,
+          "team": "Pau",
+          "values": [
+            10,
+            5,
+            2,
+            3,
+            13,
+            10,
+            "+3",
+            17
+          ]
+        },
+        {
+          "rank": 6,
+          "team": "Red Star",
+          "values": [
+            9,
+            5,
+            2,
+            2,
+            12,
+            10,
+            "+2",
+            17
+          ]
+        },
+        {
+          "rank": 7,
+          "team": "Annecy",
+          "values": [
+            10,
+            5,
+            1,
+            4,
+            14,
+            12,
+            "+2",
+            16
+          ]
+        },
+        {
+          "rank": 8,
+          "team": "Metz",
+          "values": [
+            10,
+            3,
+            5,
+            2,
+            16,
+            14,
+            "+2",
+            14
+          ]
+        },
+        {
+          "rank": 9,
+          "team": "Dijon",
+          "values": [
+            10,
+            3,
+            3,
+            4,
+            17,
+            18,
+            "-1",
+            12
+          ]
+        },
+        {
+          "rank": 10,
+          "team": "Dunkerque",
+          "values": [
+            10,
+            3,
+            3,
+            4,
+            14,
+            16,
+            "-2",
+            12
+          ]
+        },
+        {
+          "rank": 11,
+          "team": "Guingamp",
+          "values": [
+            10,
+            3,
+            2,
+            5,
+            13,
+            15,
+            "-2",
+            11
+          ]
+        },
+        {
+          "rank": 12,
+          "team": "Sochaux",
+          "values": [
+            10,
+            2,
+            5,
+            3,
+            8,
+            12,
+            "-4",
+            11
+          ]
+        },
+        {
+          "rank": 13,
+          "team": "Rodez",
+          "values": [
+            10,
+            3,
+            1,
+            6,
+            16,
+            22,
+            "-6",
+            10
+          ]
+        },
+        {
+          "rank": 14,
+          "team": "Boulogne",
+          "values": [
+            9,
+            1,
+            6,
+            2,
+            6,
+            6,
+            "0",
+            9
+          ]
+        },
+        {
+          "rank": 15,
+          "team": "Nantes",
+          "values": [
+            10,
+            2,
+            2,
+            6,
+            11,
+            17,
+            "-6",
+            8
+          ]
+        },
+        {
+          "rank": 16,
+          "team": "Grenoble",
+          "values": [
+            10,
+            2,
+            2,
+            6,
+            9,
+            17,
+            "-8",
+            8
+          ]
+        },
+        {
+          "rank": 17,
+          "team": "Clermont",
+          "values": [
+            10,
+            0,
+            7,
+            3,
+            9,
+            14,
+            "-5",
+            7
+          ]
+        },
+        {
+          "rank": 18,
+          "team": "Laval",
+          "values": [
+            10,
+            1,
+            3,
+            6,
+            13,
+            21,
+            "-8",
+            6
+          ]
+        }
+      ],
+      "note": "Montpellier compte un match en retard (Red Star, reporté au 26/10).",
+      "sources": [
+        "https://dailysports.net/fr/tournaments/france-ligue-2/table/"
+      ]
+    },
+    {
+      "id": "top14",
+      "sport": "rugby",
+      "name": "Top 14",
+      "club": "Montpellier",
+      "columns": [
+        "J",
+        "V",
+        "N",
+        "D",
+        "PP",
+        "PC",
+        "Diff",
+        "Pts"
+      ],
+      "as_of": "Après la 7e journée",
+      "verified": false,
+      "rows": [
+        {
+          "rank": 1,
+          "team": "Stade Toulousain",
+          "values": [
+            7,
+            6,
+            0,
+            1,
+            235,
+            157,
+            "+78",
+            28
+          ]
+        },
+        {
+          "rank": 2,
+          "team": "Bordeaux-Bègles",
+          "values": [
+            7,
+            5,
+            0,
+            2,
+            240,
+            170,
+            "+70",
+            23
+          ]
+        },
+        {
+          "rank": 3,
+          "team": "Section Paloise",
+          "values": [
+            7,
+            5,
+            0,
+            2,
+            259,
+            222,
+            "+37",
+            22
+          ]
+        },
+        {
+          "rank": 4,
+          "team": "Stade Rochelais",
+          "values": [
+            7,
+            4,
+            0,
+            3,
+            163,
+            160,
+            "+3",
+            18
+          ]
+        },
+        {
+          "rank": 5,
+          "team": "Lyon (LOU)",
+          "values": [
+            7,
+            4,
+            0,
+            3,
+            224,
+            229,
+            "-5",
+            18
+          ]
+        },
+        {
+          "rank": 6,
+          "team": "Montpellier",
+          "values": [
+            7,
+            4,
+            0,
+            3,
+            183,
+            139,
+            "+44",
+            18
+          ]
+        },
+        {
+          "rank": 7,
+          "team": "Bayonne",
+          "values": [
+            7,
+            4,
+            0,
+            3,
+            217,
+            245,
+            "-28",
+            18
+          ]
+        },
+        {
+          "rank": 8,
+          "team": "Toulon",
+          "values": [
+            7,
+            3,
+            0,
+            4,
+            171,
+            150,
+            "+21",
+            17
+          ]
+        },
+        {
+          "rank": 9,
+          "team": "Stade Français",
+          "values": [
+            7,
+            3,
+            0,
+            4,
+            155,
+            174,
+            "-19",
+            14
+          ]
+        },
+        {
+          "rank": 10,
+          "team": "Perpignan",
+          "values": [
+            7,
+            3,
+            0,
+            4,
+            199,
+            237,
+            "-38",
+            14
+          ]
+        },
+        {
+          "rank": 11,
+          "team": "Castres",
+          "values": [
+            7,
+            3,
+            0,
+            4,
+            142,
+            161,
+            "-19",
+            13
+          ]
+        },
+        {
+          "rank": 12,
+          "team": "Clermont",
+          "values": [
+            7,
+            2,
+            0,
+            5,
+            166,
+            196,
+            "-30",
+            12
+          ]
+        },
+        {
+          "rank": 13,
+          "team": "Racing 92",
+          "values": [
+            7,
+            2,
+            0,
+            5,
+            160,
+            216,
+            "-56",
+            11
+          ]
+        },
+        {
+          "rank": 14,
+          "team": "Vannes",
+          "values": [
+            7,
+            1,
+            0,
+            6,
+            144,
+            202,
+            "-58",
+            5
+          ]
+        }
+      ],
+      "note": "",
+      "sources": [
+        "https://www.eurosport.fr/rugby/top-14/standing.shtml"
+      ]
+    },
+    {
+      "id": "champions-cup",
+      "sport": "rugby",
+      "name": "Champions Cup · poule",
+      "club": "Montpellier",
+      "columns": [
+        "J",
+        "V",
+        "N",
+        "D",
+        "Diff",
+        "Pts"
+      ],
+      "as_of": "",
+      "verified": false,
+      "rows": [],
+      "note": "",
+      "sources": []
+    },
+    {
+      "id": "starligue",
+      "sport": "hand",
+      "name": "Starligue",
+      "club": "Montpellier",
+      "columns": [
+        "J",
+        "V",
+        "N",
+        "D",
+        "BP",
+        "BC",
+        "Diff",
+        "Pts"
+      ],
+      "as_of": "",
+      "verified": false,
+      "rows": [],
+      "note": "",
+      "sources": []
+    },
+    {
+      "id": "ehf-cl",
+      "sport": "hand",
+      "name": "Ligue des champions EHF · groupe",
+      "club": "Montpellier",
+      "columns": [
+        "J",
+        "V",
+        "N",
+        "D",
+        "Diff",
+        "Pts"
+      ],
+      "as_of": "",
+      "verified": false,
+      "rows": [],
+      "note": "",
+      "sources": []
+    },
+    {
+      "id": "ligue-a",
+      "sport": "volley",
+      "name": "Ligue A (Marmara SpikeLigue)",
+      "club": "Montpellier",
+      "columns": [
+        "J",
+        "V",
+        "D",
+        "Sets",
+        "Pts"
+      ],
+      "as_of": "",
+      "verified": false,
+      "rows": [],
+      "note": "",
+      "sources": []
+    },
+    {
+      "id": "cev-cl",
+      "sport": "volley",
+      "name": "Ligue des champions CEV · poule",
+      "club": "Montpellier",
+      "columns": [
+        "J",
+        "V",
+        "D",
+        "Sets",
+        "Pts"
+      ],
+      "as_of": "",
+      "verified": false,
+      "not_started": true,
+      "rows": [],
+      "note": "Phase de poules à partir du 08/12/2026.",
+      "sources": []
+    }
+  ]
+}

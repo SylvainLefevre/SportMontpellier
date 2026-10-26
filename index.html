@@ -152,6 +152,55 @@ h1 .at { color: var(--accent); }
 .notes ul { margin: 0; padding-left: 18px; color: var(--muted); display: grid; gap: 4px; }
 .foot-note { font-size: 13px; color: var(--muted); margin: 0; }
 
+/* Onglets */
+.tabs { display: flex; gap: 4px; border-bottom: 2px solid var(--line); }
+.tab {
+  font: inherit; font-family: var(--font-display); font-weight: 700; font-size: 22px;
+  text-transform: uppercase; letter-spacing: .03em;
+  background: none; border: 0; color: var(--muted); cursor: pointer;
+  padding: 6px 14px 8px; margin-bottom: -2px; border-bottom: 3px solid transparent;
+}
+.tab[aria-selected="true"] { color: var(--fg); border-bottom-color: var(--accent); }
+.tab:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.view { display: flex; flex-direction: column; gap: 28px; }
+
+/* Classements */
+.ranks { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; }
+.rank-card {
+  display: grid; gap: 2px; padding: 12px 14px;
+  background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--c); border-radius: 8px;
+  text-decoration: none; color: var(--fg);
+}
+.rank-card .pos { font-family: var(--font-display); font-weight: 900; font-size: 36px; line-height: 1; font-variant-numeric: tabular-nums; }
+.rank-card .pos sup { font-size: 16px; }
+.rank-card .comp { font-size: 13px; color: var(--muted); }
+.rank-card .club { font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--c); }
+.std-sport { display: flex; flex-direction: column; gap: 18px; }
+.std-sport > h2 {
+  font-family: var(--font-display); font-weight: 900; text-transform: uppercase;
+  font-size: 30px; letter-spacing: .02em; margin: 0;
+  display: flex; align-items: center; gap: 10px;
+}
+.std-sport > h2::before { content: ""; width: 12px; height: 12px; border-radius: 50%; background: var(--c); }
+.comp-block { display: flex; flex-direction: column; gap: 6px; }
+.comp-block h3 { margin: 0; font-size: 16px; }
+.comp-block .asof { font-size: 13px; color: var(--muted); }
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+table.std { border-collapse: collapse; width: 100%; font-size: 14px; font-variant-numeric: tabular-nums; }
+table.std th, table.std td { padding: 7px 10px; text-align: right; white-space: nowrap; border-bottom: 1px solid var(--line); }
+table.std th { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+table.std th.team, table.std td.team { text-align: left; width: 100%; }
+table.std td.rk { color: var(--muted); width: 2.5em; }
+table.std td.pts { font-weight: 700; }
+table.std tr:last-child td { border-bottom: 0; }
+table.std tr.me td { background: color-mix(in srgb, var(--c) 14%, var(--surface)); font-weight: 700; }
+table.std tr.me td.rk { color: var(--fg); }
+#std { display: flex; flex-direction: column; gap: 40px; }
+@media (max-width: 520px) { table.std .opt { display: none; } table.std th, table.std td { padding: 7px 7px; } }
+.pending { font-size: 14px; color: var(--muted); padding: 12px 14px; border: 1px dashed var(--line); border-radius: 8px; }
+.comp-block .meta { font-size: 13px; color: var(--muted); }
+.comp-block .meta a { color: var(--muted); }
+
 [data-sport="foot"] { --c: var(--foot); }
 [data-sport="rugby"] { --c: var(--rugby); }
 [data-sport="hand"] { --c: var(--hand); }
@@ -172,6 +221,18 @@ h1 .at { color: var(--accent); }
     <p class="lede">Tous les matchs à la maison du MHSC, du MHR, du MHB et du Montpellier Volley, championnat et coupes d'Europe, regroupés par date.</p>
   </header>
 
+  <nav class="tabs" role="tablist" aria-label="Vues">
+    <button class="tab" role="tab" id="tab-cal" aria-controls="view-cal" aria-selected="true">Calendrier</button>
+    <button class="tab" role="tab" id="tab-std" aria-controls="view-std" aria-selected="false">Classements</button>
+  </nav>
+
+  <div class="view" id="view-std" role="tabpanel" aria-labelledby="tab-std" hidden>
+    <p class="lede">Classement de Montpellier dans chaque compétition, puis le tableau complet. Un classement n'est affiché que s'il est confirmé par deux sources indépendantes.</p>
+    <section class="ranks" id="ranks" aria-label="Positions de Montpellier"></section>
+    <div id="std"><p class="status">Chargement des classements…</p></div>
+  </div>
+
+  <div class="view" id="view-cal" role="tabpanel" aria-labelledby="tab-cal">
   <section class="next" id="next" aria-live="polite" hidden></section>
 
   <section class="controls" aria-label="Filtres">
@@ -202,6 +263,7 @@ h1 .at { color: var(--accent); }
       </ul>
     </div>
   </section>
+  </div>
   <p class="foot-note" id="verified">Calendrier vérifié chaque semaine. Sources : ligues, clubs et presse sportive.</p>
 </div>
 
@@ -217,7 +279,7 @@ function fmt(dt) {
   const yy = String(dt.getFullYear()).slice(2);
   return `${JOURS[dt.getDay()]} - ${dd}/${mm}/${yy}`;
 }
-function esc(s) { return String(s || "").replace(/[&<>"]/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;" }[c])); }
+function esc(s) { return (s == null ? "" : String(s)).replace(/[&<>"]/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;" }[c])); }
 function host(u) { try { return new URL(u).hostname.replace(/^www\./, ""); } catch (e) { return "source"; } }
 
 const now = new Date(); const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
@@ -297,6 +359,75 @@ document.querySelectorAll(".chip").forEach(b => b.addEventListener("click", () =
   const k = b.dataset.sport; state.sports[k] = !state.sports[k]; save(); render();
 }));
 document.getElementById("show-past").addEventListener("change", e => { state.past = e.target.checked; save(); render(); });
+
+// Onglets (lien direct : #classements ou #calendrier)
+function showTab(name, push) {
+  const std = name === "classements" || name.startsWith("std-");
+  document.getElementById("tab-std").setAttribute("aria-selected", String(std));
+  document.getElementById("tab-cal").setAttribute("aria-selected", String(!std));
+  document.getElementById("view-std").hidden = !std;
+  document.getElementById("view-cal").hidden = std;
+  if (push) history.replaceState(null, "", "#" + (std ? "classements" : "calendrier"));
+}
+document.getElementById("tab-cal").addEventListener("click", () => showTab("calendrier", true));
+document.getElementById("tab-std").addEventListener("click", () => showTab("classements", true));
+window.addEventListener("hashchange", () => showTab(location.hash.slice(1)));
+showTab(location.hash.slice(1));
+
+// Classements
+const SPORT_ORDER = ["foot", "rugby", "hand", "volley"];
+const CLUB = { foot: "MHSC", rugby: "MHR", hand: "MHB", volley: "Montpellier Volley" };
+const OPT = new Set(["BP", "BC", "PP", "PC"]);
+function ord(n) { return n === 1 ? "er" : "e"; }
+
+function renderStandings(data) {
+  const comps = data.competitions || [];
+  const ok = c => c.verified && (c.rows || []).length;
+  const isMe = (c, r) => r.team === c.club;
+
+  document.getElementById("ranks").innerHTML = comps.filter(ok).map(c => {
+    const me = c.rows.find(r => isMe(c, r));
+    if (!me) return "";
+    return `<a class="rank-card" data-sport="${esc(c.sport)}" href="#std-${esc(c.id)}">
+      <span class="club">${CLUB[c.sport] || ""}</span>
+      <span class="pos">${me.rank}<sup>${ord(me.rank)}</sup></span>
+      <span class="comp">${esc(c.name)} · ${c.rows.length} équipes</span></a>`;
+  }).join("");
+
+  let html = "";
+  for (const sp of SPORT_ORDER) {
+    const list = comps.filter(c => c.sport === sp);
+    if (!list.length) continue;
+    html += `<section class="std-sport" data-sport="${sp}"><h2>${SPORT[sp]} · ${CLUB[sp]}</h2>`;
+    for (const c of list) {
+      html += `<div class="comp-block" id="std-${esc(c.id)}"><h3>${esc(c.name)}</h3>`;
+      if (c.not_started) {
+        html += `<p class="pending">Compétition pas encore commencée.${c.note ? " " + esc(c.note) : ""}</p>`;
+      } else if (!ok(c)) {
+        html += `<p class="pending">Classement en cours de vérification : il apparaîtra dès que deux sources indépendantes concordent.</p>`;
+      } else {
+        if (c.as_of) html += `<div class="asof">${esc(c.as_of)}</div>`;
+        html += `<div class="table-wrap"><table class="std"><thead><tr><th>#</th><th class="team">Équipe</th>${
+          c.columns.map(h => `<th${OPT.has(h) ? ' class="opt"' : ""}>${esc(h)}</th>`).join("")}</tr></thead><tbody>${
+          c.rows.map(r => `<tr${isMe(c, r) ? ' class="me"' : ""}><td class="rk">${r.rank}</td><td class="team">${esc(r.team)}</td>${
+            r.values.map((v, i) => `<td class="${i === r.values.length - 1 ? "pts" : ""}${OPT.has(c.columns[i]) ? " opt" : ""}">${esc(v)}</td>`).join("")}</tr>`).join("")
+        }</tbody></table></div>`;
+        const src = (c.sources || []).map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(host(u))}</a>`).join(" · ");
+        html += `<div class="meta">${c.note ? esc(c.note) + " " : ""}${src ? "Sources : " + src : ""}</div>`;
+      }
+      html += `</div>`;
+    }
+    html += `</section>`;
+  }
+  document.getElementById("std").innerHTML = html;
+}
+
+fetch("data/standings.json", { cache: "no-store" })
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(renderStandings)
+  .catch(() => {
+    document.getElementById("std").innerHTML = `<p class="status">Les classements n'ont pas pu être chargés. Rechargez la page dans un instant.</p>`;
+  });
 
 fetch("data/matches.json", { cache: "no-store" })
   .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })

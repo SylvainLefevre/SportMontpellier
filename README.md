@@ -10,6 +10,7 @@ Page publique : https://sylvainlefevre.github.io/SportMontpellier/
 |---|---|
 | `index.html` | La page. Elle ne contient aucune donnée et charge `data/matches.json`. |
 | `data/matches.json` | Tous les matchs, avec pour chacun le statut de vérification et les sources. |
+| `data/standings.json` | Les classements de chaque compétition, affichés dans l'onglet « Classements ». |
 | `MISE_A_JOUR.md` | La procédure suivie chaque semaine (règle des deux sources). |
 | `CHANGELOG.md` | Le journal des modifications, passage par passage. |
 
