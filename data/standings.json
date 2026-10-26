@@ -16,8 +16,8 @@
         "Diff",
         "Pts"
       ],
-      "as_of": "Avant la 11e journée, au 24/10/2026",
-      "verified": false,
+      "as_of": "Au 24/10/2026 (10e journée, deux matchs en retard)",
+      "verified": true,
       "rows": [
         {
           "rank": 1,
@@ -272,9 +272,11 @@
           ]
         }
       ],
-      "note": "Montpellier compte un match en retard (Red Star, reporté au 26/10).",
+      "note": "Montpellier – Red Star et Boulogne – Reims (10e journée) se jouent le lundi 26/10.",
       "sources": [
-        "https://dailysports.net/fr/tournaments/france-ligue-2/table/"
+        "https://www.maxifoot.fr/resultat-ligue-2-france.htm",
+        "https://www.ski-nordique.net/ligue-2-20262027-classement-apres-j10-saint-etienne-bat-nantes-et-file-seul-en-tete-nancy-2e.6750727-72348.html",
+        "https://peuple-vert.fr/ligue-2/ligue-2-resultats-dynamiques-et-classement-apres-la-j10/"
       ]
     },
     {
@@ -293,7 +295,7 @@
         "Pts"
       ],
       "as_of": "Après la 7e journée",
-      "verified": false,
+      "verified": true,
       "rows": [
         {
           "rank": 1,
@@ -367,20 +369,6 @@
         },
         {
           "rank": 6,
-          "team": "Montpellier",
-          "values": [
-            7,
-            4,
-            0,
-            3,
-            183,
-            139,
-            "+44",
-            18
-          ]
-        },
-        {
-          "rank": 7,
           "team": "Bayonne",
           "values": [
             7,
@@ -390,6 +378,20 @@
             217,
             245,
             "-28",
+            18
+          ]
+        },
+        {
+          "rank": 7,
+          "team": "Montpellier",
+          "values": [
+            7,
+            4,
+            0,
+            3,
+            183,
+            139,
+            "+44",
             18
           ]
         },
@@ -494,13 +496,16 @@
       ],
       "note": "",
       "sources": [
+        "https://www.racing92.fr/classement/",
+        "https://www.ski-nordique.net/top-14-20262027-classement-apres-j7-toulouse-sechappe-vannes-signe-enfin-sa-premiere-victoire.6752689-399118.html",
+        "https://top14.lnr.fr/calendrier-et-resultats/2026-2027/j8",
         "https://www.eurosport.fr/rugby/top-14/standing.shtml"
       ]
     },
     {
       "id": "champions-cup",
       "sport": "rugby",
-      "name": "Champions Cup · poule",
+      "name": "Champions Cup · poule 4",
       "club": "Montpellier",
       "columns": [
         "J",
@@ -510,11 +515,87 @@
         "Diff",
         "Pts"
       ],
-      "as_of": "",
-      "verified": false,
-      "rows": [],
+      "as_of": "Après la 1re journée",
+      "verified": true,
+      "rows": [
+        {
+          "rank": 1,
+          "team": "Bulls",
+          "values": [
+            1,
+            1,
+            0,
+            0,
+            "+36",
+            5
+          ]
+        },
+        {
+          "rank": 2,
+          "team": "Montpellier",
+          "values": [
+            1,
+            1,
+            0,
+            0,
+            "+18",
+            4
+          ]
+        },
+        {
+          "rank": 3,
+          "team": "Northampton",
+          "values": [
+            1,
+            1,
+            0,
+            0,
+            "+16",
+            4
+          ]
+        },
+        {
+          "rank": 4,
+          "team": "Cardiff",
+          "values": [
+            1,
+            0,
+            0,
+            1,
+            "-16",
+            0
+          ]
+        },
+        {
+          "rank": 5,
+          "team": "Bath",
+          "values": [
+            1,
+            0,
+            0,
+            1,
+            "-18",
+            0
+          ]
+        },
+        {
+          "rank": 6,
+          "team": "Stade Français",
+          "values": [
+            1,
+            0,
+            0,
+            1,
+            "-36",
+            0
+          ]
+        }
+      ],
       "note": "",
-      "sources": []
+      "sources": [
+        "https://www.skysports.com/rugby-union/champions-cup/table",
+        "https://itsrugby.com/champions-cup-round-1-2026-results-tables/"
+      ]
     },
     {
       "id": "starligue",
@@ -531,16 +612,245 @@
         "Diff",
         "Pts"
       ],
-      "as_of": "",
-      "verified": false,
-      "rows": [],
+      "as_of": "Après la 8e journée",
+      "verified": true,
+      "rows": [
+        {
+          "rank": 1,
+          "team": "Paris",
+          "values": [
+            8,
+            8,
+            0,
+            0,
+            281,
+            218,
+            "+63",
+            16
+          ]
+        },
+        {
+          "rank": 2,
+          "team": "Nantes",
+          "values": [
+            8,
+            7,
+            0,
+            1,
+            285,
+            232,
+            "+53",
+            14
+          ]
+        },
+        {
+          "rank": 3,
+          "team": "Montpellier",
+          "values": [
+            8,
+            5,
+            2,
+            1,
+            265,
+            230,
+            "+35",
+            12
+          ]
+        },
+        {
+          "rank": 4,
+          "team": "Nîmes",
+          "values": [
+            8,
+            6,
+            0,
+            2,
+            261,
+            260,
+            "+1",
+            12
+          ]
+        },
+        {
+          "rank": 5,
+          "team": "Limoges",
+          "values": [
+            8,
+            5,
+            0,
+            3,
+            266,
+            238,
+            "+28",
+            10
+          ]
+        },
+        {
+          "rank": 6,
+          "team": "Tremblay",
+          "values": [
+            8,
+            4,
+            1,
+            3,
+            265,
+            256,
+            "+9",
+            9
+          ]
+        },
+        {
+          "rank": 7,
+          "team": "Aix",
+          "values": [
+            8,
+            4,
+            0,
+            4,
+            259,
+            249,
+            "+10",
+            8
+          ]
+        },
+        {
+          "rank": 8,
+          "team": "Caen",
+          "values": [
+            8,
+            4,
+            0,
+            4,
+            224,
+            259,
+            "-35",
+            8
+          ]
+        },
+        {
+          "rank": 9,
+          "team": "Chartres",
+          "values": [
+            8,
+            3,
+            1,
+            4,
+            236,
+            257,
+            "-21",
+            7
+          ]
+        },
+        {
+          "rank": 10,
+          "team": "Sélestat",
+          "values": [
+            8,
+            3,
+            0,
+            5,
+            232,
+            243,
+            "-11",
+            6
+          ]
+        },
+        {
+          "rank": 11,
+          "team": "Saran",
+          "values": [
+            8,
+            3,
+            0,
+            5,
+            227,
+            247,
+            "-20",
+            6
+          ]
+        },
+        {
+          "rank": 12,
+          "team": "Toulouse",
+          "values": [
+            8,
+            3,
+            0,
+            5,
+            224,
+            233,
+            "-9",
+            6
+          ]
+        },
+        {
+          "rank": 13,
+          "team": "Chambéry",
+          "values": [
+            8,
+            2,
+            2,
+            4,
+            253,
+            272,
+            "-19",
+            6
+          ]
+        },
+        {
+          "rank": 14,
+          "team": "Saint-Raphaël",
+          "values": [
+            8,
+            2,
+            0,
+            6,
+            235,
+            267,
+            "-32",
+            4
+          ]
+        },
+        {
+          "rank": 15,
+          "team": "Cesson-Rennes",
+          "values": [
+            8,
+            1,
+            0,
+            7,
+            238,
+            261,
+            "-23",
+            2
+          ]
+        },
+        {
+          "rank": 16,
+          "team": "Dunkerque",
+          "values": [
+            8,
+            1,
+            0,
+            7,
+            199,
+            228,
+            "-29",
+            2
+          ]
+        }
+      ],
       "note": "",
-      "sources": []
+      "sources": [
+        "https://www.tremblayhandball.com/classement",
+        "https://www.srvhb.com/lequipe-pro-classement/",
+        "https://www.lnh.fr/daikin-starligue/accueil"
+      ]
     },
     {
       "id": "ehf-cl",
       "sport": "hand",
-      "name": "Ligue des champions EHF · groupe",
+      "name": "Ligue des champions EHF · groupe E",
       "club": "Montpellier",
       "columns": [
         "J",
@@ -550,11 +860,63 @@
         "Diff",
         "Pts"
       ],
-      "as_of": "",
-      "verified": false,
-      "rows": [],
-      "note": "",
-      "sources": []
+      "as_of": "Après la 5e journée",
+      "verified": true,
+      "rows": [
+        {
+          "rank": 1,
+          "team": "FC Barcelone",
+          "values": [
+            5,
+            5,
+            0,
+            0,
+            "+39",
+            10
+          ]
+        },
+        {
+          "rank": 2,
+          "team": "Aarhus (Skanderborg)",
+          "values": [
+            5,
+            2,
+            1,
+            2,
+            "-13",
+            5
+          ]
+        },
+        {
+          "rank": 3,
+          "team": "Dinamo Bucarest",
+          "values": [
+            5,
+            1,
+            1,
+            3,
+            "-11",
+            3
+          ]
+        },
+        {
+          "rank": 4,
+          "team": "Montpellier",
+          "values": [
+            5,
+            1,
+            0,
+            4,
+            "-15",
+            2
+          ]
+        }
+      ],
+      "note": "Montpellier ne peut plus dépasser la 3e place du groupe.",
+      "sources": [
+        "https://ehfcl.eurohandball.com/men/2026-27/standings/",
+        "https://www.tntsports.co.uk/handball/champions-league/standings.shtml"
+      ]
     },
     {
       "id": "ligue-a",
@@ -568,11 +930,170 @@
         "Sets",
         "Pts"
       ],
-      "as_of": "",
+      "as_of": "Après la 3e journée",
       "verified": false,
-      "rows": [],
+      "rows": [
+        {
+          "rank": 1,
+          "team": "Chaumont",
+          "values": [
+            3,
+            3,
+            0,
+            "9-1",
+            9
+          ]
+        },
+        {
+          "rank": 2,
+          "team": "Toulouse",
+          "values": [
+            3,
+            3,
+            0,
+            "9-2",
+            9
+          ]
+        },
+        {
+          "rank": 3,
+          "team": "Paris",
+          "values": [
+            3,
+            2,
+            1,
+            "7-3",
+            6
+          ]
+        },
+        {
+          "rank": 4,
+          "team": "Tourcoing",
+          "values": [
+            3,
+            2,
+            1,
+            "8-5",
+            6
+          ]
+        },
+        {
+          "rank": 5,
+          "team": "Tours",
+          "values": [
+            3,
+            2,
+            1,
+            "8-6",
+            6
+          ]
+        },
+        {
+          "rank": 6,
+          "team": "Cannes",
+          "values": [
+            3,
+            2,
+            1,
+            "7-6",
+            5
+          ]
+        },
+        {
+          "rank": 7,
+          "team": "Royan",
+          "values": [
+            3,
+            2,
+            1,
+            "8-7",
+            5
+          ]
+        },
+        {
+          "rank": 8,
+          "team": "Nice",
+          "values": [
+            3,
+            1,
+            2,
+            "6-7",
+            4
+          ]
+        },
+        {
+          "rank": 9,
+          "team": "Plessis-Robinson",
+          "values": [
+            3,
+            1,
+            2,
+            "5-7",
+            4
+          ]
+        },
+        {
+          "rank": 10,
+          "team": "Montpellier",
+          "values": [
+            3,
+            1,
+            2,
+            "5-8",
+            3
+          ]
+        },
+        {
+          "rank": 11,
+          "team": "Narbonne",
+          "values": [
+            3,
+            1,
+            2,
+            "4-8",
+            2
+          ]
+        },
+        {
+          "rank": 12,
+          "team": "Saint-Nazaire",
+          "values": [
+            3,
+            1,
+            2,
+            "3-8",
+            2
+          ]
+        },
+        {
+          "rank": 13,
+          "team": "Poitiers",
+          "values": [
+            3,
+            0,
+            3,
+            "5-9",
+            2
+          ]
+        },
+        {
+          "rank": 14,
+          "team": "Sète",
+          "values": [
+            3,
+            0,
+            3,
+            "2-9",
+            0
+          ]
+        }
+      ],
       "note": "",
-      "sources": []
+      "sources": [
+        "https://spikelive.fr/ligue/lam",
+        "https://scores24.live/en/volleyball/m-23-10-2026-arago-de-sete-chaumont-52--prediction",
+        "https://scores24.live/fr/volleyball/m-24-10-2026-plessis-robinson-narbonne-volley-prediction"
+      ]
     },
     {
       "id": "cev-cl",

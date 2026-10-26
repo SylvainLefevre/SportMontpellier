@@ -1,5 +1,34 @@
 # Journal des mises à jour
 
+## 2026-10-26 · Mise à jour hebdo (2e passage, classements)
+
+Modifications du calendrier
+- Foot · MHSC – Nantes (14e journée) : 05/12 sans horaire, à confirmer → samedi 05/12 14h00, confirmé. Sources : https://www.fcnantes.com/articles/article2809.php?num=49692 ; https://antichambre.eu/ligue-2-la-programmation-tv-de-la-14e-journee-devoilee/ ; https://tribunenantaise.fr/actus-fcnantes/fc-nantes-la-programmation-du-choc-contre-montpellier-est-tombee/
+- Hand · MHB – Dinamo Bucarest (29/10) : lieu Sud de France Arena (non confirmé) → FDI Stadium (René-Bougnol). Sources : https://www.montpellierhandball.com/equipe-pro-masculine/calendrier-resultats/ ; https://toutmontpellier.fr/club/montpellier-handball
+- Hand · MHB – Cesson-Rennes (27/11) : horaire 20h00 confirmé, lieu FDI Stadium. Sources : https://www.montpellierhandball.com/equipe-pro-masculine/calendrier-resultats/ ; https://www.cesson-handball.com/pro/saison ; https://www.montpellier-tourisme.fr/agenda/tout-l-agenda/handball-mhb-vs-cesson-rennes-montpellier-fr-6841786/
+- Hand · MHB – Caen : vendredi 11/12 20h00, date et horaire confirmés. Sources : https://www.montpellierhandball.com/equipe-pro-masculine/calendrier-resultats/ ; https://www.sofascore.com/handball/match/caen-handball-montpellier-handball/bHcsDAdb
+- Hand · scores : FC Barcelone 27-28, Skanderborg (SAH Aarhus) 30-38, Saran 31-25. Sources : https://ehfcl.eurohandball.com/men/2026-27/clubs/details/Iu6YXzV9GiRCnfLxHe7HuA/MontpellierHandball/ ; https://handnews.fr/2026/ldc-m-j2-montpellier-a-cru-a-lexploit-mais-est-defait-par-le-fc-barcelone/ ; https://handnews.fr/2026/ldc-m-j4-montpellier-une-nouvelle-fois-fesse-par-aarhus/ ; https://www.montpellierhandball.com/daikin-starligue-le-mhb-maitrise-son-sujet-face-a-saran/ ; https://www.lnh.fr/daikin-starligue/equipes/montpellier-handball
+- Volley · Ligue des champions Montpellier – Perugia : date du 05/01 confirmée ; horaire toujours à confirmer. Sources : https://www.sirsafetyperugia.it/cev/ ; https://volleybox.net/montpellier-volley-t1664/matches
+- Volley · Montpellier – Royan : 24/01 17h00 confirmé (Spikelive et 365scores concordent ; Volleybox, qui garde le calendrier initial comme pour Cannes et Chaumont, indique le 22/01). Sources : https://spikelive.fr/ligue/lam/calendrier ; https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches
+
+Classements
+- Ligue 2 : vérifié au 24/10 (10e journée, Montpellier et Reims avec un match en moins). Montpellier 3e, 18 pts. Sources : https://www.maxifoot.fr/resultat-ligue-2-france.htm ; https://www.ski-nordique.net/ligue-2-20262027-classement-apres-j10-saint-etienne-bat-nantes-et-file-seul-en-tete-nancy-2e.6750727-72348.html ; https://peuple-vert.fr/ligue-2/ligue-2-resultats-dynamiques-et-classement-apres-la-j10/
+- Top 14 : vérifié après la 7e journée. Ordre corrigé : Bayonne 6e, Montpellier 7e (18 pts, départage à la confrontation directe ; Eurosport inverse les deux). Sources : https://www.racing92.fr/classement/ ; https://www.ski-nordique.net/top-14-20262027-classement-apres-j7-toulouse-sechappe-vannes-signe-enfin-sa-premiere-victoire.6752689-399118.html ; https://top14.lnr.fr/calendrier-et-resultats/2026-2027/j8
+- Champions Cup, poule 4 : ajoutée après la 1re journée (Bath 14-32 Montpellier). Montpellier 2e, 4 pts. Sources : https://www.skysports.com/rugby-union/champions-cup/table ; https://itsrugby.com/champions-cup-round-1-2026-results-tables/
+- Starligue : vérifié après la 8e journée. Montpellier 3e, 12 pts. Sources : https://www.tremblayhandball.com/classement ; https://www.srvhb.com/lequipe-pro-classement/ ; https://www.lnh.fr/daikin-starligue/accueil
+- Ligue des champions EHF, groupe E (4 équipes) : vérifié après la 5e journée. Montpellier 4e, 2 pts. Sources : https://ehfcl.eurohandball.com/men/2026-27/standings/ ; https://www.tntsports.co.uk/handball/champions-league/standings.shtml
+- Ligue A volley : classement après la 3e journée renseigné mais non vérifié : 10 lignes sur 14 confirmées par deux sources (Montpellier 10e, 3 pts), les rangs 4 à 7 (Tourcoing, Tours, Cannes, Royan) seulement par Spikelive. Sources : https://spikelive.fr/ligue/lam ; https://scores24.live/en/volleyball/m-23-10-2026-arago-de-sete-chaumont-52--prediction
+- Ligue des champions CEV : pas encore commencée (poules à partir de décembre).
+
+Désaccords non résolus
+- Hand · MHB – FC Barcelone (match passé, date non modifiée) : EHF, handnews et fcbarcelona.com donnent le jeudi 17/09, la page affiche le 16/09.
+- Hand · MHB – Skanderborg (match passé, lieu non modifié) : MHB et handnews indiquent le FDI Stadium (René-Bougnol), la page affiche la Sud de France Arena.
+- Hand · lieu de MHB – Dunkerque (13/11) et MHB – Caen (11/12) : FDI Stadium selon le seul site du club.
+- Volley · horaire de Montpellier – Perugia : 21h00 (Perugia) contre 20h00 (Volleybox).
+- Volley · Ziraat (09/02) et Dinamo Bucarest (16 ou 17/02) : une seule source, calendrier CEV toujours introuvable.
+- Rugby · Champions Cup : Planet Rugby attribue un bonus offensif à Montpellier à Bath, Sky et itsrugby donnent 4 pts sans bonus (retenu).
+- Foot · Coupe de France : tirage du 7e tour le 28/10, à surveiller au prochain passage.
+
 ## 2026-10-26 · Mise à jour hebdo
 
 Modifications

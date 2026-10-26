@@ -94,7 +94,7 @@
       "venue": "Sud de France Arena (Pérols)",
       "date_ok": true,
       "time_ok": true,
-      "score": "",
+      "score": "27-28",
       "note": "Date ajustée : les sources annoncent « mercredi », soit le 16/09",
       "sources": [
         "https://www.herault-tourisme.com/fr/fiche/fetes-et-manifestations/handball-mhb-vs-barcelone-perols_TFOFMALAR034V52UUWH/",
@@ -190,7 +190,7 @@
       "venue": "Sud de France Arena (Pérols)",
       "date_ok": true,
       "time_ok": true,
-      "score": "",
+      "score": "30-38",
       "note": "",
       "sources": [
         "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/"
@@ -235,7 +235,7 @@
       "venue": "",
       "date_ok": true,
       "time_ok": true,
-      "score": "",
+      "score": "31-25",
       "note": "",
       "sources": [
         "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/",
@@ -264,15 +264,15 @@
       "time": "20h45",
       "opponent": "Dinamo Bucarest",
       "competition": "Ligue des champions",
-      "venue": "Sud de France Arena (Pérols)",
+      "venue": "FDI Stadium (René-Bougnol)",
       "date_ok": true,
       "time_ok": true,
       "score": "",
-      "note": "Lieu non confirmé par deux sources",
+      "note": "",
       "sources": [
-        "https://www.sportschau.de/live-und-ergebnisse/handball/ehf-champions-league/ma12367702/montpellier-hb_dinamo-bucuresti/blitztabelle",
-        "https://www.365scores.com/handball/team/montpellier-8120/matches",
-        "https://karlobag.eu/fr/sport/handball/europe/ligue-des-champions-ehf/montpellier-handball-vs-dinamo-bucuresti-j8n4a/"
+        "https://www.montpellierhandball.com/equipe-pro-masculine/calendrier-resultats/",
+        "https://toutmontpellier.fr/club/montpellier-handball",
+        "https://ehfcl.eurohandball.com/men/2026-27/clubs/details/Iu6YXzV9GiRCnfLxHe7HuA/MontpellierHandball/"
       ]
     },
     {
@@ -397,14 +397,15 @@
       "time": "20h00",
       "opponent": "Cesson-Rennes",
       "competition": "Starligue",
-      "venue": "",
+      "venue": "FDI Stadium (René-Bougnol)",
       "date_ok": true,
-      "time_ok": false,
+      "time_ok": true,
       "score": "",
       "note": "",
       "sources": [
-        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/",
-        "https://www.365scores.com/handball/team/montpellier-8120/matches"
+        "https://www.montpellierhandball.com/equipe-pro-masculine/calendrier-resultats/",
+        "https://www.cesson-handball.com/pro/saison",
+        "https://www.montpellier-tourisme.fr/agenda/tout-l-agenda/handball-mhb-vs-cesson-rennes-montpellier-fr-6841786/"
       ]
     },
     {
@@ -427,17 +428,18 @@
     {
       "date": "2026-12-05",
       "sport": "foot",
-      "time": "",
+      "time": "14h00",
       "opponent": "Nantes",
       "competition": "Ligue 2",
       "venue": "Stade de la Mosson",
-      "date_ok": false,
-      "time_ok": false,
+      "date_ok": true,
+      "time_ok": true,
       "score": "",
-      "note": "Pas encore programmé par la LFP : samedi 05/12 selon foot-direct et sport-flash, vendredi 04/12 (date par défaut) selon Vavel",
+      "note": "14e journée, programmée par la LFP (beIN SPORTS 1)",
       "sources": [
-        "https://www.foot-direct.com/equipe/montpellier-hsc",
-        "https://www.sport-flash.com/sports/football/fr/calendar/2026-12-05"
+        "https://www.fcnantes.com/articles/article2809.php?num=49692",
+        "https://antichambre.eu/ligue-2-la-programmation-tv-de-la-14e-journee-devoilee/",
+        "https://tribunenantaise.fr/actus-fcnantes/fc-nantes-la-programmation-du-choc-contre-montpellier-est-tombee/"
       ]
     },
     {
@@ -463,12 +465,13 @@
       "opponent": "Caen",
       "competition": "Starligue",
       "venue": "",
-      "date_ok": false,
-      "time_ok": false,
+      "date_ok": true,
+      "time_ok": true,
       "score": "",
       "note": "",
       "sources": [
-        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/"
+        "https://www.montpellierhandball.com/equipe-pro-masculine/calendrier-resultats/",
+        "https://www.sofascore.com/handball/match/caen-handball-montpellier-handball/bHcsDAdb"
       ]
     },
     {
@@ -559,12 +562,13 @@
       "opponent": "Perugia",
       "competition": "Ligue des champions",
       "venue": "",
-      "date_ok": false,
+      "date_ok": true,
       "time_ok": false,
       "score": "",
-      "note": "",
+      "note": "Horaire en désaccord : 21h00 selon Perugia, 20h00 selon Volleybox",
       "sources": [
-        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+        "https://www.sirsafetyperugia.it/cev/",
+        "https://volleybox.net/montpellier-volley-t1664/matches"
       ]
     },
     {
@@ -638,14 +642,13 @@
       "opponent": "Royan",
       "competition": "Ligue A",
       "venue": "",
-      "date_ok": false,
-      "time_ok": false,
+      "date_ok": true,
+      "time_ok": true,
       "score": "",
-      "note": "Désaccord : 24/01 17h00 selon Spikelive et 365scores, 22/01 selon Volleybox",
+      "note": "Volleybox indique encore le 22/01 (calendrier initial)",
       "sources": [
         "https://spikelive.fr/ligue/lam/calendrier",
-        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches",
-        "https://volleybox.net/montpellier-volley-t1664/matches"
+        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches"
       ]
     },
     {
