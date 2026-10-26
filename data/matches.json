@@ -27,10 +27,12 @@
       "venue": "Stade de la Mosson",
       "date_ok": true,
       "time_ok": true,
-      "score": "",
+      "score": "0-0",
       "note": "",
       "sources": [
-        "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md"
+        "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md",
+        "https://www.foot-direct.com/equipe/montpellier-hsc",
+        "https://www.vavel.com/en/data/montpellier/results/"
       ]
     },
     {
@@ -74,11 +76,13 @@
       "venue": "Stade de la Mosson",
       "date_ok": true,
       "time_ok": true,
-      "score": "",
+      "score": "1-0",
       "note": "",
       "sources": [
         "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md",
-        "https://unidivers.fr/event/football-mhsc-vs-pau-montpellier-herault-2026-09-11/"
+        "https://unidivers.fr/event/football-mhsc-vs-pau-montpellier-herault-2026-09-11/",
+        "https://www.foot-direct.com/equipe/montpellier-hsc",
+        "https://www.vavel.com/en/data/montpellier/results/"
       ]
     },
     {
@@ -168,11 +172,13 @@
       "venue": "Stade de la Mosson",
       "date_ok": true,
       "time_ok": true,
-      "score": "",
+      "score": "2-0",
       "note": "",
       "sources": [
         "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md",
-        "https://www.herault-tourisme.com/fr/fiche/fetes-et-manifestations/football-mhsc-vs-grenoble-montpellier_TFOFMALAR034V52VC9Y/"
+        "https://www.herault-tourisme.com/fr/fiche/fetes-et-manifestations/football-mhsc-vs-grenoble-montpellier_TFOFMALAR034V52VC9Y/",
+        "https://www.foot-direct.com/equipe/montpellier-hsc",
+        "https://www.vavel.com/en/data/montpellier/results/"
       ]
     },
     {
@@ -221,22 +227,6 @@
       ]
     },
     {
-      "date": "2026-10-24",
-      "sport": "foot",
-      "time": "14h00",
-      "opponent": "Red Star",
-      "competition": "Ligue 2",
-      "venue": "Stade de la Mosson",
-      "date_ok": true,
-      "time_ok": true,
-      "score": "",
-      "note": "",
-      "sources": [
-        "https://www.jds.fr/artistes/montpellier-hsc-12956_N",
-        "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md"
-      ]
-    },
-    {
       "date": "2026-10-25",
       "sport": "hand",
       "time": "17h00",
@@ -253,19 +243,36 @@
       ]
     },
     {
+      "date": "2026-10-26",
+      "sport": "foot",
+      "time": "20h45",
+      "opponent": "Red Star",
+      "competition": "Ligue 2",
+      "venue": "Stade de la Mosson",
+      "date_ok": true,
+      "time_ok": true,
+      "score": "",
+      "note": "Reporté du samedi 24/10 14h00 à la demande de la préfecture",
+      "sources": [
+        "https://ligue1.com/fr/articles/l1_article_5984-",
+        "https://www.foot-direct.com/equipe/montpellier-hsc"
+      ]
+    },
+    {
       "date": "2026-10-29",
       "sport": "hand",
       "time": "20h45",
       "opponent": "Dinamo Bucarest",
       "competition": "Ligue des champions",
       "venue": "Sud de France Arena (Pérols)",
-      "date_ok": false,
-      "time_ok": false,
+      "date_ok": true,
+      "time_ok": true,
       "score": "",
-      "note": "Sources en désaccord (28/10 ou 29/10)",
+      "note": "Lieu non confirmé par deux sources",
       "sources": [
-        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/",
-        "https://www.sportschau.de/live-und-ergebnisse/handball/ehf-champions-league/"
+        "https://www.sportschau.de/live-und-ergebnisse/handball/ehf-champions-league/ma12367702/montpellier-hb_dinamo-bucuresti/blitztabelle",
+        "https://www.365scores.com/handball/team/montpellier-8120/matches",
+        "https://karlobag.eu/fr/sport/handball/europe/ligue-des-champions-ehf/montpellier-handball-vs-dinamo-bucuresti-j8n4a/"
       ]
     },
     {
@@ -274,13 +281,15 @@
       "time": "20h00",
       "opponent": "Toulouse",
       "competition": "Ligue A",
-      "venue": "",
-      "date_ok": false,
-      "time_ok": false,
+      "venue": "Palais des Sports Chaban-Delmas (Castelnau-le-Lez)",
+      "date_ok": true,
+      "time_ok": true,
       "score": "",
       "note": "",
       "sources": [
-        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+        "https://www.mhscvolley.com/",
+        "https://spikelive.fr/ligue/lam/calendrier",
+        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches"
       ]
     },
     {
@@ -289,30 +298,30 @@
       "time": "16h35",
       "opponent": "Castres",
       "competition": "Top 14",
-      "venue": "",
-      "date_ok": false,
-      "time_ok": false,
+      "venue": "Septeo Stadium",
+      "date_ok": true,
+      "time_ok": true,
       "score": "",
       "note": "",
       "sources": [
-        "https://sports.orange.fr/rugby/top-14/calendrier-resultats.html",
-        "https://www.tv-direct.fr/sport-direct/rugby/"
+        "https://top14.lnr.fr/club/montpellier/calendrier-resultats",
+        "https://www.montpellier-rugby.com/equipes/equipe-pro/calendrier/match/mhr-vs-castres-2"
       ]
     },
     {
-      "date": "2026-11-06",
+      "date": "2026-11-07",
       "sport": "foot",
-      "time": "",
+      "time": "14h00",
       "opponent": "Metz",
       "competition": "Ligue 2",
       "venue": "Stade de la Mosson",
-      "date_ok": false,
-      "time_ok": false,
+      "date_ok": true,
+      "time_ok": true,
       "score": "",
-      "note": "Date de la journée, pas encore programmée par la LFP",
+      "note": "",
       "sources": [
-        "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md",
-        "https://www.jds.fr/artistes/montpellier-hsc-12956_N"
+        "https://ligue1.com/fr/articles/l1_article_5861-programmation-tv-j11-2",
+        "https://www.foot-direct.com/equipe/montpellier-hsc"
       ]
     },
     {
@@ -321,29 +330,15 @@
       "time": "16h35",
       "opponent": "Lyon (LOU)",
       "competition": "Top 14",
-      "venue": "",
-      "date_ok": false,
-      "time_ok": false,
+      "venue": "Septeo Stadium",
+      "date_ok": true,
+      "time_ok": true,
       "score": "",
       "note": "",
       "sources": [
-        "https://sports.orange.fr/rugby/top-14/calendrier-resultats.html",
-        "https://www.tv-direct.fr/sport-direct/rugby/"
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "sport": "volley",
-      "time": "18h00",
-      "opponent": "Paris",
-      "competition": "Supercoupe de France",
-      "venue": "",
-      "date_ok": false,
-      "time_ok": false,
-      "score": "",
-      "note": "Lieu à confirmer",
-      "sources": [
-        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+        "https://top14.lnr.fr/club/montpellier/calendrier-resultats",
+        "https://www.allrugby.com/news/top-14-2027-j9-programmation-3862.html",
+        "https://www.rugbypass.com/fr/live/lyon-vs-montpellier/"
       ]
     },
     {
@@ -368,13 +363,15 @@
       "time": "17h00",
       "opponent": "Cannes",
       "competition": "Ligue A",
-      "venue": "",
-      "date_ok": false,
-      "time_ok": false,
+      "venue": "Palais des Sports Chaban-Delmas (Castelnau-le-Lez)",
+      "date_ok": true,
+      "time_ok": true,
       "score": "",
-      "note": "",
+      "note": "Volleybox indique encore le 13/11 (calendrier initial)",
       "sources": [
-        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+        "https://www.mhscvolley.com/",
+        "https://spikelive.fr/ligue/lam/calendrier",
+        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches"
       ]
     },
     {
@@ -383,13 +380,15 @@
       "time": "20h00",
       "opponent": "Chaumont",
       "competition": "Ligue A",
-      "venue": "",
-      "date_ok": false,
-      "time_ok": false,
+      "venue": "Palais des Sports Chaban-Delmas (Castelnau-le-Lez)",
+      "date_ok": true,
+      "time_ok": true,
       "score": "",
-      "note": "",
+      "note": "Volleybox indique encore le 20/11 (calendrier initial)",
       "sources": [
-        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+        "https://www.mhscvolley.com/",
+        "https://spikelive.fr/ligue/lam/calendrier",
+        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches"
       ]
     },
     {
@@ -410,6 +409,23 @@
     },
     {
       "date": "2026-12-04",
+      "sport": "volley",
+      "time": "20h00",
+      "opponent": "Narbonne",
+      "competition": "Ligue A",
+      "venue": "",
+      "date_ok": true,
+      "time_ok": true,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://spikelive.fr/ligue/lam/calendrier",
+        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches",
+        "https://volleybox.net/montpellier-volley-t1664/matches"
+      ]
+    },
+    {
+      "date": "2026-12-05",
       "sport": "foot",
       "time": "",
       "opponent": "Nantes",
@@ -418,25 +434,10 @@
       "date_ok": false,
       "time_ok": false,
       "score": "",
-      "note": "Date de la journée, pas encore programmée par la LFP",
+      "note": "Pas encore programmé par la LFP : samedi 05/12 selon foot-direct et sport-flash, vendredi 04/12 (date par défaut) selon Vavel",
       "sources": [
-        "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md",
-        "https://www.jds.fr/artistes/montpellier-hsc-12956_N"
-      ]
-    },
-    {
-      "date": "2026-12-04",
-      "sport": "volley",
-      "time": "20h00",
-      "opponent": "Narbonne",
-      "competition": "Ligue A",
-      "venue": "",
-      "date_ok": false,
-      "time_ok": false,
-      "score": "",
-      "note": "",
-      "sources": [
-        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+        "https://www.foot-direct.com/equipe/montpellier-hsc",
+        "https://www.sport-flash.com/sports/football/fr/calendar/2026-12-05"
       ]
     },
     {
@@ -445,13 +446,14 @@
       "time": "",
       "opponent": "La Rochelle",
       "competition": "Top 14",
-      "venue": "",
+      "venue": "Septeo Stadium",
       "date_ok": false,
       "time_ok": false,
       "score": "",
-      "note": "Week-end des 05-06/12",
+      "note": "Week-end des 05-06/12, jour et horaire pas encore programmés par la LNR",
       "sources": [
-        "https://www.tv-direct.fr/sport-direct/rugby/"
+        "https://top14.lnr.fr/feuille-de-match/2026-2027/j11/11892-montpellier-la-rochelle",
+        "https://www.montpellier-rugby.com/equipes/equipe-pro/calendrier"
       ]
     },
     {
@@ -475,13 +477,14 @@
       "time": "16h15",
       "opponent": "Bulls",
       "competition": "Champions Cup",
-      "venue": "",
-      "date_ok": false,
-      "time_ok": false,
+      "venue": "Septeo Stadium",
+      "date_ok": true,
+      "time_ok": true,
       "score": "",
       "note": "",
       "sources": [
-        "https://dicodusport.fr/blog/montpellier-en-champions-cup-2026-2027-calendrier-resultats-et-classement/"
+        "https://www.planetrugby.com/news/investec-champions-cup-2026-27-pool-fixtures",
+        "https://bullsrugby.co.za/?p=22016"
       ]
     },
     {
@@ -491,12 +494,14 @@
       "opponent": "Tourcoing",
       "competition": "Ligue A",
       "venue": "",
-      "date_ok": false,
-      "time_ok": false,
+      "date_ok": true,
+      "time_ok": true,
       "score": "",
       "note": "",
       "sources": [
-        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+        "https://spikelive.fr/ligue/lam/calendrier",
+        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches",
+        "https://volleybox.net/montpellier-volley-t1664/matches"
       ]
     },
     {
@@ -521,12 +526,14 @@
       "opponent": "Sète",
       "competition": "Ligue A",
       "venue": "",
-      "date_ok": false,
-      "time_ok": false,
+      "date_ok": true,
+      "time_ok": true,
       "score": "",
       "note": "",
       "sources": [
-        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+        "https://spikelive.fr/ligue/lam/calendrier",
+        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches",
+        "https://volleybox.net/montpellier-volley-t1664/matches"
       ]
     },
     {
@@ -567,12 +574,14 @@
       "opponent": "Saint-Nazaire",
       "competition": "Ligue A",
       "venue": "",
-      "date_ok": false,
-      "time_ok": false,
+      "date_ok": true,
+      "time_ok": true,
       "score": "",
       "note": "",
       "sources": [
-        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+        "https://spikelive.fr/ligue/lam/calendrier",
+        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches",
+        "https://volleybox.net/montpellier-volley-t1664/matches"
       ]
     },
     {
@@ -581,13 +590,14 @@
       "time": "18h30",
       "opponent": "Northampton",
       "competition": "Champions Cup",
-      "venue": "",
-      "date_ok": false,
-      "time_ok": false,
+      "venue": "Septeo Stadium",
+      "date_ok": true,
+      "time_ok": true,
       "score": "",
       "note": "",
       "sources": [
-        "https://dicodusport.fr/blog/montpellier-en-champions-cup-2026-2027-calendrier-resultats-et-classement/"
+        "https://www.planetrugby.com/news/investec-champions-cup-2026-27-pool-fixtures",
+        "https://www.northamptonsaints.co.uk/news/saints-investec-champions-cup-pool-stage-fixtures-announced"
       ]
     },
     {
@@ -631,9 +641,11 @@
       "date_ok": false,
       "time_ok": false,
       "score": "",
-      "note": "",
+      "note": "Désaccord : 24/01 17h00 selon Spikelive et 365scores, 22/01 selon Volleybox",
       "sources": [
-        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+        "https://spikelive.fr/ligue/lam/calendrier",
+        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches",
+        "https://volleybox.net/montpellier-volley-t1664/matches"
       ]
     },
     {
@@ -659,12 +671,14 @@
       "opponent": "Poitiers",
       "competition": "Ligue A",
       "venue": "",
-      "date_ok": false,
-      "time_ok": false,
+      "date_ok": true,
+      "time_ok": true,
       "score": "",
       "note": "",
       "sources": [
-        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+        "https://spikelive.fr/ligue/lam/calendrier",
+        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches",
+        "https://volleybox.net/montpellier-volley-t1664/matches"
       ]
     },
     {
@@ -721,12 +735,14 @@
       "opponent": "Nice",
       "competition": "Ligue A",
       "venue": "",
-      "date_ok": false,
-      "time_ok": false,
+      "date_ok": true,
+      "time_ok": true,
       "score": "",
       "note": "",
       "sources": [
-        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+        "https://spikelive.fr/ligue/lam/calendrier",
+        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches",
+        "https://volleybox.net/montpellier-volley-t1664/matches"
       ]
     },
     {
@@ -739,9 +755,10 @@
       "date_ok": false,
       "time_ok": false,
       "score": "",
-      "note": "",
+      "note": "Désaccord : 17/02 selon BetExplorer, 16/02 selon Volleybox ; calendrier CEV non publié",
       "sources": [
-        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/",
+        "https://volleybox.net/montpellier-volley-t1664/matches"
       ]
     },
     {
@@ -798,12 +815,14 @@
       "opponent": "Tours",
       "competition": "Ligue A",
       "venue": "",
-      "date_ok": false,
-      "time_ok": false,
+      "date_ok": true,
+      "time_ok": true,
       "score": "",
       "note": "",
       "sources": [
-        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+        "https://spikelive.fr/ligue/lam/calendrier",
+        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches",
+        "https://volleybox.net/montpellier-volley-t1664/matches"
       ]
     },
     {
@@ -829,12 +848,13 @@
       "opponent": "Paris",
       "competition": "Ligue A",
       "venue": "",
-      "date_ok": false,
-      "time_ok": false,
+      "date_ok": true,
+      "time_ok": true,
       "score": "",
       "note": "Dernier match à domicile de saison régulière",
       "sources": [
-        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches",
+        "https://volleybox.net/montpellier-volley-t1664/matches"
       ]
     },
     {
