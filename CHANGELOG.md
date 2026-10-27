@@ -1,5 +1,12 @@
 # Journal des mises à jour
 
+## 2026-10-27 · Classements
+
+- Ligue 2 : vérifié après la 10e journée complète (Montpellier 2-1 Red Star, Boulogne 1-1 Reims). Montpellier passe de 3e (18 pts, un match en moins) à 2e (21 pts). Boulogne 13e devant Rodez à la différence de buts. Sources : https://www.footmercato.net/france/ligue-2/classement ; https://www.ski-nordique.net/ligue-2-20262027-classement-apres-j10-saint-tienne-en-tete-montpellier-bat-le-red-star-et-monte-2e.6750727-72348.html (score confirmé aussi par https://ontourfootball.com/fixtures/montpellier-vs-red-star-fc-93-2026-10-26)
+- Top 14, Champions Cup, Starligue, Ligue des champions EHF : aucun match joué depuis le dernier passage, classements inchangés.
+- Ligue A volley : toujours non vérifié après la 3e journée (seule Spikelive publie le classement complet de la saison 2026/27 : https://spikelive.fr/ligue/lam ; le site du club affiche encore 2025/26). Prochaine journée le 30/10.
+- Ligue des champions CEV : pas encore commencée.
+
 ## 2026-10-26 · Passage exceptionnel (classements)
 
 - Ligue 2 : précision de la date du classement (pris avant Montpellier – Red Star du 26/10). Aucun autre changement : classements déjà remplis et vérifiés au passage précédent ; Ligue A volley toujours sans deuxième source pour les rangs 4 à 7 (Eurosport et BetExplorer n'affichent que la saison 2025/26).

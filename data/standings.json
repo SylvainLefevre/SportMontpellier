@@ -1,5 +1,5 @@
 {
-  "verified": "2026-10-26",
+  "verified": "2026-10-27",
   "competitions": [
     {
       "id": "ligue2",
@@ -16,7 +16,7 @@
         "Diff",
         "Pts"
       ],
-      "as_of": "Au 24/10/2026, avant Montpellier – Red Star du 26/10 (10e journée)",
+      "as_of": "Après la 10e journée",
       "verified": true,
       "rows": [
         {
@@ -35,6 +35,20 @@
         },
         {
           "rank": 2,
+          "team": "Montpellier",
+          "values": [
+            10,
+            6,
+            3,
+            1,
+            13,
+            6,
+            "+7",
+            21
+          ]
+        },
+        {
+          "rank": 3,
           "team": "Nancy",
           "values": [
             10,
@@ -48,31 +62,17 @@
           ]
         },
         {
-          "rank": 3,
-          "team": "Montpellier",
-          "values": [
-            9,
-            5,
-            3,
-            1,
-            11,
-            5,
-            "+6",
-            18
-          ]
-        },
-        {
           "rank": 4,
           "team": "Reims",
           "values": [
-            9,
+            10,
             4,
-            5,
+            6,
             0,
-            19,
-            11,
+            20,
+            12,
             "+8",
-            17
+            18
           ]
         },
         {
@@ -93,13 +93,13 @@
           "rank": 6,
           "team": "Red Star",
           "values": [
-            9,
+            10,
             5,
             2,
-            2,
+            3,
+            13,
             12,
-            10,
-            "+2",
+            "+1",
             17
           ]
         },
@@ -189,6 +189,20 @@
         },
         {
           "rank": 13,
+          "team": "Boulogne",
+          "values": [
+            10,
+            1,
+            7,
+            2,
+            7,
+            7,
+            "0",
+            10
+          ]
+        },
+        {
+          "rank": 14,
           "team": "Rodez",
           "values": [
             10,
@@ -199,20 +213,6 @@
             22,
             "-6",
             10
-          ]
-        },
-        {
-          "rank": 14,
-          "team": "Boulogne",
-          "values": [
-            9,
-            1,
-            6,
-            2,
-            6,
-            6,
-            "0",
-            9
           ]
         },
         {
@@ -272,11 +272,10 @@
           ]
         }
       ],
-      "note": "Montpellier – Red Star et Boulogne – Reims (10e journée) se jouent le lundi 26/10.",
+      "note": "",
       "sources": [
-        "https://www.maxifoot.fr/resultat-ligue-2-france.htm",
-        "https://www.ski-nordique.net/ligue-2-20262027-classement-apres-j10-saint-etienne-bat-nantes-et-file-seul-en-tete-nancy-2e.6750727-72348.html",
-        "https://peuple-vert.fr/ligue-2/ligue-2-resultats-dynamiques-et-classement-apres-la-j10/"
+        "https://www.footmercato.net/france/ligue-2/classement",
+        "https://www.ski-nordique.net/ligue-2-20262027-classement-apres-j10-saint-tienne-en-tete-montpellier-bat-le-red-star-et-monte-2e.6750727-72348.html"
       ]
     },
     {
