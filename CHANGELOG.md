@@ -1,5 +1,32 @@
 # Journal des mises à jour
 
+## 2026-10-28 · Mise à jour hebdo
+
+Modifications
+- Foot · MHSC – Red Star (26/10) : score renseigné 2-1. Sources : https://www.fotmob.com/teams/10249/fixtures/montpellier ; https://www.allezpaillade.com/actualites/apres-matchs/mhsc-2-1-red-victoire-importantissime-dans-la-douleur/
+- Hand · MHB – Caen (11/12) : date et horaire repassés « à confirmer » (confirmé → non confirmé, valeurs inchangées : 11/12 20h00). Le site du club marque désormais ces dates comme provisoires, la LNH n'a pas encore programmé la 14e journée. Source : https://www.montpellierhandball.com/fr/l-equipe-pro/calendrier
+- Hand · MHB – Paris (19/02) : note ajoutée, Sud de France Arena selon le seul site du club (lieu non renseigné tant qu'il n'est pas confirmé).
+
+Vérifications (inchangé, sources mises à jour)
+- Hand · MHB – Dinamo Bucarest, jeu. 29/10 20h45, FDI Stadium : https://www.montpellierhandball.com/fr/l-equipe-pro/calendrier ; https://herault.planetekiosque.com/352-2299578-5-handball-mhb-bucarest.html
+- Volley · Montpellier – Toulouse, ven. 30/10 20h00 ; Cannes, dim. 15/11 17h00 ; Chaumont, jeu. 19/11 20h00 : https://www.mhscvolley.com/ ; https://spikelive.fr/ligue/lam/calendrier
+- Rugby · MHR – Castres, sam. 31/10 16h35 : https://www.montpellier-rugby.com/equipes/equipe-pro/calendrier ; https://www.allrugby.com/clubs/montpellier/calendrier
+- Rugby · MHR – Lyon, sam. 07/11 16h35 : https://top14.lnr.fr/feuille-de-match/2026-2027/j9/11878-montpellier-lyon ; https://www.allrugby.com/clubs/montpellier/calendrier
+- Foot · MHSC – Metz (12e journée), sam. 07/11 14h00 : https://antichambre.eu/ligue-2-la-programmation-tv-de-la-12eme-journee-devoilee/ ; https://www.fotmob.com/teams/10249/fixtures/montpellier (13h00 UTC)
+- Hand · MHB – Dunkerque, ven. 13/11 20h00 : https://www.lnh.fr/daikin-starligue/accueil ; https://www.montpellierhandball.com/fr/l-equipe-pro/calendrier
+- Hand · MHB – Cesson-Rennes, ven. 27/11 20h00 : https://www.montpellierhandball.com/fr/l-equipe-pro/calendrier ; https://www.betexplorer.com/handball/france/starligue/fixtures/
+- Foot · MHSC – Nantes, sam. 05/12 14h00 : toujours concordant (https://www.fotmob.com/teams/10249/fixtures/montpellier, 13h00 UTC).
+- Rugby · MHR – La Rochelle : toujours sans jour ni horaire (club et allrugby).
+
+Classements
+- Aucun match joué depuis le dernier passage (Ligue 2 J11, Top 14 J8, Starligue J9 et Ligue A J4 ce week-end ; Ligue des champions EHF J6 le 29/10). Classements inchangés. Starligue recoupée sur https://www.lnh.fr/daikin-starligue/accueil.
+- Ligue A volley : toujours non vérifié, Spikelive reste la seule source publiant le classement complet 2026/27 (https://spikelive.fr/ligue/lam).
+
+Désaccords et points en suspens
+- Foot · Coupe de France : tirage des 7e et 8e tours le 28/10 à 10h30 (après ce passage), 7e tour les 14-15/11. Source : https://news.footeo.com/2026/10/27/tirage-au-sort-de-la-coupe-de-france-en-direct-suivez-le-tirage-des-7e-et-8e-tours-en-video-16096
+- Volley · horaire de Montpellier – Perugia (21h00 contre 20h00), Ziraat (09/02) et Dinamo Bucarest (16 ou 17/02) : calendrier CEV toujours non trouvé.
+- Hand · horaires des matchs de février à avril : le club les donne à 20h00 mais « provisoires », non retenus.
+
 ## 2026-10-27 · Classements
 
 - Ligue 2 : vérifié après la 10e journée complète (Montpellier 2-1 Red Star, Boulogne 1-1 Reims). Montpellier passe de 3e (18 pts, un match en moins) à 2e (21 pts). Boulogne 13e devant Rodez à la différence de buts. Sources : https://www.footmercato.net/france/ligue-2/classement ; https://www.ski-nordique.net/ligue-2-20262027-classement-apres-j10-saint-tienne-en-tete-montpellier-bat-le-red-star-et-monte-2e.6750727-72348.html (score confirmé aussi par https://ontourfootball.com/fixtures/montpellier-vs-red-star-fc-93-2026-10-26)

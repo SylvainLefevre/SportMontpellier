@@ -1,6 +1,6 @@
 {
   "season": "2026-2027",
-  "verified": "2026-10-26",
+  "verified": "2026-10-28",
   "matches": [
     {
       "date": "2026-08-08",
@@ -251,11 +251,11 @@
       "venue": "Stade de la Mosson",
       "date_ok": true,
       "time_ok": true,
-      "score": "",
+      "score": "2-1",
       "note": "Reporté du samedi 24/10 14h00 à la demande de la préfecture",
       "sources": [
-        "https://ligue1.com/fr/articles/l1_article_5984-",
-        "https://www.foot-direct.com/equipe/montpellier-hsc"
+        "https://www.fotmob.com/teams/10249/fixtures/montpellier",
+        "https://www.allezpaillade.com/actualites/apres-matchs/mhsc-2-1-red-victoire-importantissime-dans-la-douleur/"
       ]
     },
     {
@@ -270,9 +270,8 @@
       "score": "",
       "note": "",
       "sources": [
-        "https://www.montpellierhandball.com/equipe-pro-masculine/calendrier-resultats/",
-        "https://toutmontpellier.fr/club/montpellier-handball",
-        "https://ehfcl.eurohandball.com/men/2026-27/clubs/details/Iu6YXzV9GiRCnfLxHe7HuA/MontpellierHandball/"
+        "https://www.montpellierhandball.com/fr/l-equipe-pro/calendrier",
+        "https://herault.planetekiosque.com/352-2299578-5-handball-mhb-bucarest.html"
       ]
     },
     {
@@ -288,8 +287,7 @@
       "note": "",
       "sources": [
         "https://www.mhscvolley.com/",
-        "https://spikelive.fr/ligue/lam/calendrier",
-        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches"
+        "https://spikelive.fr/ligue/lam/calendrier"
       ]
     },
     {
@@ -304,8 +302,8 @@
       "score": "",
       "note": "",
       "sources": [
-        "https://top14.lnr.fr/club/montpellier/calendrier-resultats",
-        "https://www.montpellier-rugby.com/equipes/equipe-pro/calendrier/match/mhr-vs-castres-2"
+        "https://www.montpellier-rugby.com/equipes/equipe-pro/calendrier",
+        "https://www.allrugby.com/clubs/montpellier/calendrier"
       ]
     },
     {
@@ -320,8 +318,8 @@
       "score": "",
       "note": "",
       "sources": [
-        "https://ligue1.com/fr/articles/l1_article_5861-programmation-tv-j11-2",
-        "https://www.foot-direct.com/equipe/montpellier-hsc"
+        "https://antichambre.eu/ligue-2-la-programmation-tv-de-la-12eme-journee-devoilee/",
+        "https://www.fotmob.com/teams/10249/fixtures/montpellier"
       ]
     },
     {
@@ -336,9 +334,8 @@
       "score": "",
       "note": "",
       "sources": [
-        "https://top14.lnr.fr/club/montpellier/calendrier-resultats",
-        "https://www.allrugby.com/news/top-14-2027-j9-programmation-3862.html",
-        "https://www.rugbypass.com/fr/live/lyon-vs-montpellier/"
+        "https://top14.lnr.fr/feuille-de-match/2026-2027/j9/11878-montpellier-lyon",
+        "https://www.allrugby.com/clubs/montpellier/calendrier"
       ]
     },
     {
@@ -353,8 +350,8 @@
       "score": "",
       "note": "",
       "sources": [
-        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/",
-        "https://www.365scores.com/handball/team/montpellier-8120/matches"
+        "https://www.lnh.fr/daikin-starligue/accueil",
+        "https://www.montpellierhandball.com/fr/l-equipe-pro/calendrier"
       ]
     },
     {
@@ -370,8 +367,7 @@
       "note": "Volleybox indique encore le 13/11 (calendrier initial)",
       "sources": [
         "https://www.mhscvolley.com/",
-        "https://spikelive.fr/ligue/lam/calendrier",
-        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches"
+        "https://spikelive.fr/ligue/lam/calendrier"
       ]
     },
     {
@@ -387,8 +383,7 @@
       "note": "Volleybox indique encore le 20/11 (calendrier initial)",
       "sources": [
         "https://www.mhscvolley.com/",
-        "https://spikelive.fr/ligue/lam/calendrier",
-        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches"
+        "https://spikelive.fr/ligue/lam/calendrier"
       ]
     },
     {
@@ -403,9 +398,8 @@
       "score": "",
       "note": "",
       "sources": [
-        "https://www.montpellierhandball.com/equipe-pro-masculine/calendrier-resultats/",
-        "https://www.cesson-handball.com/pro/saison",
-        "https://www.montpellier-tourisme.fr/agenda/tout-l-agenda/handball-mhb-vs-cesson-rennes-montpellier-fr-6841786/"
+        "https://www.montpellierhandball.com/fr/l-equipe-pro/calendrier",
+        "https://www.betexplorer.com/handball/france/starligue/fixtures/"
       ]
     },
     {
@@ -465,10 +459,10 @@
       "opponent": "Caen",
       "competition": "Starligue",
       "venue": "",
-      "date_ok": true,
-      "time_ok": true,
+      "date_ok": false,
+      "time_ok": false,
       "score": "",
-      "note": "",
+      "note": "Date et horaire marqués « provisoires » par le club (journée pas encore programmée par la LNH)",
       "sources": [
         "https://www.montpellierhandball.com/equipe-pro-masculine/calendrier-resultats/",
         "https://www.sofascore.com/handball/match/caen-handball-montpellier-handball/bHcsDAdb"
@@ -774,7 +768,7 @@
       "date_ok": true,
       "time_ok": false,
       "score": "",
-      "note": "",
+      "note": "Sud de France Arena selon le seul site du club (lieu à confirmer)",
       "sources": [
         "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/",
         "https://www.365scores.com/handball/team/montpellier-8120/matches"
