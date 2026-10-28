@@ -1,5 +1,11 @@
 # Journal des mises à jour
 
+## 2026-10-28 · Classements
+
+- Aucun match joué le 27 ou le 28/10 dans les compétitions suivies (Ligue 2 J11 à partir du 30/10, Top 14 J8 et Starligue J9 ce week-end, Ligue A J4 le 30/10, Ligue des champions EHF J6 le 29/10, Champions Cup en décembre). Classements inchangés. Vérification : https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md (aucun match les 27 et 28/10) ; https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/results/ (dernier match du MHB le 25/10).
+- Ligue A volley : toujours non vérifié après la 3e journée, aucune deuxième source publiant le classement complet 2026/27 en dehors de https://spikelive.fr/ligue/lam (Eurosport n'affiche que 2025/26).
+- Ligue des champions CEV : pas encore commencée.
+
 ## 2026-10-28 · Mise à jour hebdo
 
 Modifications
