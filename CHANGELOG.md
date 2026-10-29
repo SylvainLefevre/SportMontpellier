@@ -1,5 +1,12 @@
 # Journal des mises à jour
 
+## 2026-10-29 · Classements
+
+- Ligue des champions EHF · groupe E : vérifié après la 6e et dernière journée (Montpellier 26-36 Dinamo Bucarest, Aarhus 27-30 FC Barcelone). Montpellier reste 4e (2 pts, -25) et termine dernier du groupe, éliminé. Dinamo passe 2e devant Aarhus (5 pts chacun, confrontation directe). Sources : https://www.sport.ro/handbal/dinamo-performanta-istorica-in-champions-league-cum-arata-grupa-principala-a-dulailor.html ; https://golazo.ro/dinamo-bucuresti-montpellier-handbal-masculin-ehf-champions-league-cs-dinamo-190479 (scores confirmés par https://www.mediafax.ro/sport/dinamo-bucuresti-s-a-calificat-dramatic-in-top-12-al-ligii-campionilor-la-handbal-victorie-in-franta-si-ajutor-de-la-barcelona-23834182 et https://www.digisport.ro/handbal/montpellier-dinamo-26-36-dulaii-au-castigat-clar-in-franta-si-s-au-calificat-in-grupa-principala-din-champions-league-4572595). Différences de buts recalculées depuis le classement vérifié de la veille et ces deux scores (total nul ; Dinamo 170-171 comme indiqué par Mediafax). Désaccord noté : le tableau d'avant-match de Fanatik donnait Barcelone à +29, incohérent (total des différences non nul), non retenu.
+- Ligue 2, Top 14, Champions Cup, Starligue : aucun match joué le 29/10, classements inchangés (Ligue 2 J11 à partir du 30/10, Top 14 J8 et Starligue J9 ce week-end).
+- Ligue A volley : toujours non vérifié après la 3e journée, Spikelive reste la seule source du classement complet 2026/27 (https://spikelive.fr/ligue/lam ; Eurosport n'affiche que 2025/26). J4 le 30/10.
+- Ligue des champions CEV : pas encore commencée.
+
 ## 2026-10-28 · Classements
 
 - Aucun match joué le 27 ou le 28/10 dans les compétitions suivies (Ligue 2 J11 à partir du 30/10, Top 14 J8 et Starligue J9 ce week-end, Ligue A J4 le 30/10, Ligue des champions EHF J6 le 29/10, Champions Cup en décembre). Classements inchangés. Vérification : https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md (aucun match les 27 et 28/10) ; https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/results/ (dernier match du MHB le 25/10).
