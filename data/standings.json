@@ -1,5 +1,5 @@
 {
-  "verified": "2026-10-29",
+  "verified": "2026-10-30",
   "competitions": [
     {
       "id": "ligue2",
@@ -16,7 +16,7 @@
         "Diff",
         "Pts"
       ],
-      "as_of": "Après la 10e journée",
+      "as_of": "Au 30/10/2026, 11e journée en cours (avant Annecy – Montpellier du 31/10)",
       "verified": true,
       "rows": [
         {
@@ -49,6 +49,20 @@
         },
         {
           "rank": 3,
+          "team": "Pau",
+          "values": [
+            11,
+            6,
+            2,
+            3,
+            16,
+            11,
+            "+5",
+            20
+          ]
+        },
+        {
+          "rank": 4,
           "team": "Nancy",
           "values": [
             10,
@@ -62,7 +76,7 @@
           ]
         },
         {
-          "rank": 4,
+          "rank": 5,
           "team": "Reims",
           "values": [
             10,
@@ -73,20 +87,6 @@
             12,
             "+8",
             18
-          ]
-        },
-        {
-          "rank": 5,
-          "team": "Pau",
-          "values": [
-            10,
-            5,
-            2,
-            3,
-            13,
-            10,
-            "+3",
-            17
           ]
         },
         {
@@ -119,48 +119,62 @@
         },
         {
           "rank": 8,
-          "team": "Metz",
+          "team": "Dijon",
           "values": [
-            10,
+            11,
+            4,
             3,
-            5,
-            2,
-            16,
-            14,
-            "+2",
-            14
+            4,
+            20,
+            19,
+            "+1",
+            15
           ]
         },
         {
           "rank": 9,
-          "team": "Dijon",
+          "team": "Metz",
           "values": [
-            10,
+            11,
             3,
+            5,
             3,
-            4,
             17,
-            18,
-            "-1",
-            12
+            17,
+            "0",
+            14
           ]
         },
         {
           "rank": 10,
-          "team": "Dunkerque",
+          "team": "Rodez",
           "values": [
-            10,
-            3,
-            3,
+            11,
             4,
-            14,
-            16,
-            "-2",
-            12
+            1,
+            6,
+            17,
+            22,
+            "-5",
+            13
           ]
         },
         {
           "rank": 11,
+          "team": "Dunkerque",
+          "values": [
+            11,
+            3,
+            3,
+            5,
+            14,
+            17,
+            "-3",
+            12
+          ]
+        },
+        {
+          "rank": 12,
           "team": "Guingamp",
           "values": [
             10,
@@ -174,7 +188,7 @@
           ]
         },
         {
-          "rank": 12,
+          "rank": 13,
           "team": "Sochaux",
           "values": [
             10,
@@ -188,30 +202,16 @@
           ]
         },
         {
-          "rank": 13,
+          "rank": 14,
           "team": "Boulogne",
           "values": [
-            10,
+            11,
             1,
             7,
-            2,
-            7,
-            7,
-            "0",
-            10
-          ]
-        },
-        {
-          "rank": 14,
-          "team": "Rodez",
-          "values": [
-            10,
             3,
-            1,
-            6,
-            16,
-            22,
-            "-6",
+            7,
+            8,
+            "-1",
             10
           ]
         },
@@ -219,63 +219,64 @@
           "rank": 15,
           "team": "Nantes",
           "values": [
-            10,
-            2,
-            2,
-            6,
             11,
-            17,
+            2,
+            3,
+            6,
+            12,
+            18,
             "-6",
-            8
+            9
           ]
         },
         {
           "rank": 16,
-          "team": "Grenoble",
+          "team": "Laval",
           "values": [
-            10,
+            11,
             2,
-            2,
+            3,
             6,
-            9,
-            17,
-            "-8",
-            8
+            14,
+            21,
+            "-7",
+            9
           ]
         },
         {
           "rank": 17,
           "team": "Clermont",
           "values": [
-            10,
+            11,
             0,
-            7,
+            8,
             3,
-            9,
-            14,
+            10,
+            15,
             "-5",
-            7
+            8
           ]
         },
         {
           "rank": 18,
-          "team": "Laval",
+          "team": "Grenoble",
           "values": [
+            11,
+            2,
+            2,
+            7,
             10,
-            1,
-            3,
-            6,
-            13,
-            21,
-            "-8",
-            6
+            20,
+            "-10",
+            8
           ]
         }
       ],
-      "note": "",
+      "note": "Saint-Étienne, Montpellier, Nancy, Reims, Red Star, Annecy, Guingamp et Sochaux n'ont pas encore joué leur match de la 11e journée.",
       "sources": [
-        "https://www.footmercato.net/france/ligue-2/classement",
-        "https://www.ski-nordique.net/ligue-2-20262027-classement-apres-j10-saint-tienne-en-tete-montpellier-bat-le-red-star-et-monte-2e.6750727-72348.html"
+        "https://www.ski-nordique.net/?id=6750727",
+        "https://news.footeo.com/2026/10/30/ligue-2-pau-soffre-metz-et-le-podium-les-resultats-du-vendredi-16338",
+        "https://www.foot01.com/ligue2/l2-programme-tv-et-resultats-de-la-11e-journee-331182"
       ]
     },
     {
@@ -839,7 +840,7 @@
           ]
         }
       ],
-      "note": "",
+      "note": "Classement après la 8e journée. Le 30/10 (J9), Nîmes a battu Sélestat (34-28) et passe provisoirement 3e devant Montpellier (14 pts contre 12) ; classement complet de la J9 non encore recoupé.",
       "sources": [
         "https://www.tremblayhandball.com/classement",
         "https://www.srvhb.com/lequipe-pro-classement/",
