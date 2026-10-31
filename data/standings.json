@@ -1,5 +1,5 @@
 {
-  "verified": "2026-10-30",
+  "verified": "2026-10-31",
   "competitions": [
     {
       "id": "ligue2",
@@ -16,20 +16,20 @@
         "Diff",
         "Pts"
       ],
-      "as_of": "Au 30/10/2026, 11e journée en cours (avant Annecy – Montpellier du 31/10)",
+      "as_of": "Au 31/10/2026, 11e journée en cours (avant Reims – Sochaux et Red Star – Nancy du 02/11)",
       "verified": true,
       "rows": [
         {
           "rank": 1,
           "team": "Saint-Étienne",
           "values": [
-            10,
+            11,
             8,
             1,
-            1,
+            2,
             23,
-            8,
-            "+15",
+            11,
+            "+12",
             25
           ]
         },
@@ -37,14 +37,14 @@
           "rank": 2,
           "team": "Montpellier",
           "values": [
-            10,
-            6,
+            11,
+            7,
             3,
             1,
-            13,
+            16,
             6,
-            "+7",
-            21
+            "+10",
+            24
           ]
         },
         {
@@ -107,13 +107,13 @@
           "rank": 7,
           "team": "Annecy",
           "values": [
-            10,
+            11,
             5,
             1,
-            4,
+            5,
             14,
-            12,
-            "+2",
+            15,
+            "-1",
             16
           ]
         },
@@ -133,6 +133,20 @@
         },
         {
           "rank": 9,
+          "team": "Guingamp",
+          "values": [
+            11,
+            4,
+            2,
+            5,
+            16,
+            15,
+            "+1",
+            14
+          ]
+        },
+        {
+          "rank": 10,
           "team": "Metz",
           "values": [
             11,
@@ -146,7 +160,7 @@
           ]
         },
         {
-          "rank": 10,
+          "rank": 11,
           "team": "Rodez",
           "values": [
             11,
@@ -160,7 +174,7 @@
           ]
         },
         {
-          "rank": 11,
+          "rank": 12,
           "team": "Dunkerque",
           "values": [
             11,
@@ -171,20 +185,6 @@
             17,
             "-3",
             12
-          ]
-        },
-        {
-          "rank": 12,
-          "team": "Guingamp",
-          "values": [
-            10,
-            3,
-            2,
-            5,
-            13,
-            15,
-            "-2",
-            11
           ]
         },
         {
@@ -272,11 +272,13 @@
           ]
         }
       ],
-      "note": "Saint-Étienne, Montpellier, Nancy, Reims, Red Star, Annecy, Guingamp et Sochaux n'ont pas encore joué leur match de la 11e journée.",
+      "note": "Reims, Sochaux, Red Star et Nancy n'ont pas encore joué leur match de la 11e journée (lundi 02/11).",
       "sources": [
-        "https://www.ski-nordique.net/?id=6750727",
-        "https://news.footeo.com/2026/10/30/ligue-2-pau-soffre-metz-et-le-podium-les-resultats-du-vendredi-16338",
-        "https://www.foot01.com/ligue2/l2-programme-tv-et-resultats-de-la-11e-journee-331182"
+        "https://www.maxifoot.fr/resultat-ligue-2-france.htm",
+        "https://news.maxifoot.fr/ligue-2/guingamp-corrige-saint-etienne-foot-466842.htm",
+        "https://news.footeo.com/2026/10/31/ligue-2-saint-etienne-sombre-a-guingamp-3-0-le-leader-tombe-de-haut-16458",
+        "https://www.footmercato.net/live/3662637823817737358-annecy-vs-montpellier",
+        "https://www.beinsports.com/fr-fr/football/ligue-2/articles-video/ligue-2-montpellier-se-rapproche-de-saint-%C3%A9tienne-apr%C3%A8s-sa-large-victoire-%C3%A0-annecy-2026-10-31"
       ]
     },
     {
@@ -494,7 +496,7 @@
           ]
         }
       ],
-      "note": "",
+      "note": "8e journée en cours : Montpellier – Castres reporté au dimanche 01/11 (15h00), Pau – Toulouse le 01/11 ; classement de la 7e journée conservé en attendant la fin de la journée.",
       "sources": [
         "https://www.racing92.fr/classement/",
         "https://www.ski-nordique.net/top-14-20262027-classement-apres-j7-toulouse-sechappe-vannes-signe-enfin-sa-premiere-victoire.6752689-399118.html",
@@ -840,7 +842,7 @@
           ]
         }
       ],
-      "note": "Classement après la 8e journée. Le 30/10 (J9), Nîmes a battu Sélestat (34-28) et passe provisoirement 3e devant Montpellier (14 pts contre 12) ; classement complet de la J9 non encore recoupé.",
+      "note": "Classement après la 8e journée. 9e journée en cours : Nîmes (34-28 contre Sélestat le 30/10) et Nantes (46-37 à Cesson-Rennes le 31/10) ont déjà joué ; Paris – Montpellier le 01/11. Classement complet de la J9 non encore recoupé.",
       "sources": [
         "https://www.tremblayhandball.com/classement",
         "https://www.srvhb.com/lequipe-pro-classement/",
