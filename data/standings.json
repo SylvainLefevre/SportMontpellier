@@ -1,5 +1,5 @@
 {
-  "verified": "2026-11-01",
+  "verified": "2026-11-02",
   "competitions": [
     {
       "id": "ligue2",
@@ -16,7 +16,7 @@
         "Diff",
         "Pts"
       ],
-      "as_of": "Au 31/10/2026, 11e journée en cours (avant Reims – Sochaux et Red Star – Nancy du 02/11)",
+      "as_of": "Après la 11e journée",
       "verified": true,
       "rows": [
         {
@@ -49,6 +49,34 @@
         },
         {
           "rank": 3,
+          "team": "Nancy",
+          "values": [
+            11,
+            7,
+            1,
+            3,
+            16,
+            9,
+            "+7",
+            22
+          ]
+        },
+        {
+          "rank": 4,
+          "team": "Reims",
+          "values": [
+            11,
+            5,
+            6,
+            0,
+            22,
+            12,
+            "+10",
+            21
+          ]
+        },
+        {
+          "rank": 5,
           "team": "Pau",
           "values": [
             11,
@@ -62,44 +90,16 @@
           ]
         },
         {
-          "rank": 4,
-          "team": "Nancy",
-          "values": [
-            10,
-            6,
-            1,
-            3,
-            12,
-            8,
-            "+4",
-            19
-          ]
-        },
-        {
-          "rank": 5,
-          "team": "Reims",
-          "values": [
-            10,
-            4,
-            6,
-            0,
-            20,
-            12,
-            "+8",
-            18
-          ]
-        },
-        {
           "rank": 6,
           "team": "Red Star",
           "values": [
-            10,
+            11,
             5,
             2,
-            3,
-            13,
-            12,
-            "+1",
+            4,
+            14,
+            16,
+            "-2",
             17
           ]
         },
@@ -191,13 +191,13 @@
           "rank": 13,
           "team": "Sochaux",
           "values": [
-            10,
+            11,
             2,
             5,
-            3,
+            4,
             8,
-            12,
-            "-4",
+            14,
+            "-6",
             11
           ]
         },
@@ -272,13 +272,13 @@
           ]
         }
       ],
-      "note": "Reims, Sochaux, Red Star et Nancy n'ont pas encore joué leur match de la 11e journée (lundi 02/11).",
+      "note": "",
       "sources": [
-        "https://www.maxifoot.fr/resultat-ligue-2-france.htm",
-        "https://news.maxifoot.fr/ligue-2/guingamp-corrige-saint-etienne-foot-466842.htm",
-        "https://news.footeo.com/2026/10/31/ligue-2-saint-etienne-sombre-a-guingamp-3-0-le-leader-tombe-de-haut-16458",
-        "https://www.footmercato.net/live/3662637823817737358-annecy-vs-montpellier",
-        "https://www.beinsports.com/fr-fr/football/ligue-2/articles-video/ligue-2-montpellier-se-rapproche-de-saint-%C3%A9tienne-apr%C3%A8s-sa-large-victoire-%C3%A0-annecy-2026-10-31"
+        "https://sports.orange.fr/football/ligue-2/classement-equipes.html",
+        "https://www.footmercato.net/club/asse/classement",
+        "https://morning-foot.com/uncategorized/ligue-2-reims-sochaux-invaincu-classement-asse/",
+        "https://www.footmercato.net/a5294149208522341416-ligue-2-le-red-star-humilie-a-domicile-par-nancy",
+        "https://www.sportclub-reims.fr/2026/11/le-stade-de-reims-domine-sochaux-et-retrouve-le-podium/"
       ]
     },
     {
@@ -296,20 +296,20 @@
         "Diff",
         "Pts"
       ],
-      "as_of": "Après la 7e journée",
+      "as_of": "Après la 8e journée",
       "verified": true,
       "rows": [
         {
           "rank": 1,
           "team": "Stade Toulousain",
           "values": [
-            7,
+            8,
             6,
             0,
-            1,
-            235,
-            157,
-            "+78",
+            2,
+            249,
+            191,
+            "+58",
             28
           ]
         },
@@ -317,167 +317,167 @@
           "rank": 2,
           "team": "Bordeaux-Bègles",
           "values": [
-            7,
-            5,
+            8,
+            6,
             0,
             2,
-            240,
-            170,
-            "+70",
-            23
+            259,
+            184,
+            "+75",
+            27
           ]
         },
         {
           "rank": 3,
           "team": "Section Paloise",
           "values": [
-            7,
-            5,
+            8,
+            6,
             0,
             2,
-            259,
-            222,
-            "+37",
-            22
+            293,
+            236,
+            "+57",
+            26
           ]
         },
         {
           "rank": 4,
-          "team": "Stade Rochelais",
+          "team": "Montpellier",
           "values": [
-            7,
-            4,
+            8,
+            5,
             0,
             3,
-            163,
-            160,
-            "+3",
-            18
+            252,
+            149,
+            "+103",
+            23
           ]
         },
         {
           "rank": 5,
           "team": "Lyon (LOU)",
           "values": [
-            7,
-            4,
+            8,
+            5,
             0,
             3,
-            224,
-            229,
-            "-5",
-            18
+            272,
+            254,
+            "+18",
+            23
           ]
         },
         {
           "rank": 6,
-          "team": "Bayonne",
+          "team": "Toulon",
           "values": [
-            7,
+            8,
             4,
             0,
-            3,
-            217,
-            245,
-            "-28",
-            18
+            4,
+            196,
+            174,
+            "+22",
+            21
           ]
         },
         {
           "rank": 7,
-          "team": "Montpellier",
+          "team": "Bayonne",
           "values": [
-            7,
+            8,
             4,
             0,
-            3,
-            183,
-            139,
-            "+44",
-            18
+            4,
+            231,
+            264,
+            "-33",
+            19
           ]
         },
         {
           "rank": 8,
-          "team": "Toulon",
+          "team": "Stade Français",
           "values": [
-            7,
-            3,
+            8,
+            4,
             0,
             4,
-            171,
-            150,
-            "+21",
-            17
+            198,
+            198,
+            "0",
+            19
           ]
         },
         {
           "rank": 9,
-          "team": "Stade Français",
+          "team": "Stade Rochelais",
           "values": [
-            7,
-            3,
+            8,
+            4,
             0,
             4,
-            155,
-            174,
-            "-19",
-            14
+            187,
+            203,
+            "-16",
+            18
           ]
         },
         {
           "rank": 10,
-          "team": "Perpignan",
+          "team": "Clermont",
           "values": [
-            7,
+            8,
             3,
             0,
-            4,
-            199,
-            237,
-            "-38",
-            14
+            5,
+            203,
+            226,
+            "-23",
+            16
           ]
         },
         {
           "rank": 11,
-          "team": "Castres",
+          "team": "Perpignan",
           "values": [
-            7,
+            8,
             3,
             0,
-            4,
-            142,
-            161,
-            "-19",
-            13
+            5,
+            223,
+            262,
+            "-39",
+            15
           ]
         },
         {
           "rank": 12,
-          "team": "Clermont",
+          "team": "Castres",
           "values": [
-            7,
-            2,
+            8,
+            3,
             0,
             5,
-            166,
-            196,
-            "-30",
-            12
+            152,
+            230,
+            "-78",
+            13
           ]
         },
         {
           "rank": 13,
           "team": "Racing 92",
           "values": [
-            7,
+            8,
             2,
             0,
-            5,
-            160,
-            216,
-            "-56",
+            6,
+            190,
+            253,
+            "-63",
             11
           ]
         },
@@ -485,23 +485,22 @@
           "rank": 14,
           "team": "Vannes",
           "values": [
-            7,
+            8,
             1,
             0,
-            6,
-            144,
-            202,
-            "-58",
+            7,
+            169,
+            250,
+            "-81",
             5
           ]
         }
       ],
-      "note": "8e journée terminée (Montpellier 69-10 Castres, Pau 34-14 Toulouse) ; classement de la 7e journée conservé en attendant un classement complet recoupé par deux sources.",
+      "note": "",
       "sources": [
-        "https://www.racing92.fr/classement/",
-        "https://www.ski-nordique.net/top-14-20262027-classement-apres-j7-toulouse-sechappe-vannes-signe-enfin-sa-premiere-victoire.6752689-399118.html",
-        "https://top14.lnr.fr/calendrier-et-resultats/2026-2027/j8",
-        "https://www.eurosport.fr/rugby/top-14/standing.shtml"
+        "https://itsrugby.fr/top-14-j8-pau-bat-toulouse-montpellier-ecrase-castres/",
+        "https://www.xvovalie.com/top14-j8-2026-2027/",
+        "https://www.ski-nordique.net/?id=6752689"
       ]
     },
     {
@@ -935,149 +934,149 @@
         "Sets",
         "Pts"
       ],
-      "as_of": "Après la 3e journée",
-      "verified": false,
+      "as_of": "Après la 4e journée",
+      "verified": true,
       "rows": [
         {
           "rank": 1,
-          "team": "Chaumont",
+          "team": "Toulouse",
           "values": [
-            3,
-            3,
+            4,
+            4,
             0,
-            "9-1",
-            9
+            "12-3",
+            12
           ]
         },
         {
           "rank": 2,
-          "team": "Toulouse",
+          "team": "Chaumont",
           "values": [
-            3,
-            3,
+            4,
+            4,
             0,
-            "9-2",
-            9
+            "12-3",
+            11
           ]
         },
         {
           "rank": 3,
-          "team": "Paris",
+          "team": "Tourcoing",
           "values": [
+            4,
             3,
-            2,
             1,
-            "7-3",
-            6
+            "11-5",
+            9
           ]
         },
         {
           "rank": 4,
-          "team": "Tourcoing",
+          "team": "Tours",
           "values": [
+            4,
             3,
-            2,
             1,
-            "8-5",
-            6
+            "11-6",
+            9
           ]
         },
         {
           "rank": 5,
-          "team": "Tours",
+          "team": "Cannes",
           "values": [
+            4,
             3,
-            2,
             1,
-            "8-6",
-            6
+            "10-6",
+            8
           ]
         },
         {
           "rank": 6,
-          "team": "Cannes",
+          "team": "Nice",
           "values": [
-            3,
+            4,
             2,
-            1,
-            "7-6",
-            5
+            2,
+            "9-7",
+            7
           ]
         },
         {
           "rank": 7,
-          "team": "Royan",
+          "team": "Paris",
           "values": [
-            3,
+            4,
             2,
-            1,
-            "8-7",
-            5
+            2,
+            "7-6",
+            6
           ]
         },
         {
           "rank": 8,
-          "team": "Nice",
+          "team": "Royan",
           "values": [
-            3,
-            1,
+            4,
             2,
-            "6-7",
-            4
+            2,
+            "10-10",
+            6
           ]
         },
         {
           "rank": 9,
-          "team": "Plessis-Robinson",
+          "team": "Poitiers",
           "values": [
-            3,
+            4,
             1,
-            2,
-            "5-7",
-            4
+            3,
+            "8-10",
+            5
           ]
         },
         {
           "rank": 10,
-          "team": "Montpellier",
+          "team": "Plessis-Robinson",
           "values": [
-            3,
+            4,
             1,
-            2,
-            "5-8",
-            3
+            3,
+            "5-10",
+            4
           ]
         },
         {
           "rank": 11,
-          "team": "Narbonne",
+          "team": "Montpellier",
           "values": [
-            3,
+            4,
             1,
-            2,
-            "4-8",
-            2
+            3,
+            "6-11",
+            3
           ]
         },
         {
           "rank": 12,
-          "team": "Saint-Nazaire",
+          "team": "Narbonne",
           "values": [
-            3,
+            4,
             1,
-            2,
-            "3-8",
+            3,
+            "5-11",
             2
           ]
         },
         {
           "rank": 13,
-          "team": "Poitiers",
+          "team": "Saint-Nazaire",
           "values": [
+            4,
+            1,
             3,
-            0,
-            3,
-            "5-9",
+            "3-11",
             2
           ]
         },
@@ -1085,10 +1084,10 @@
           "rank": 14,
           "team": "Sète",
           "values": [
-            3,
+            4,
             0,
-            3,
-            "2-9",
+            4,
+            "2-12",
             0
           ]
         }
@@ -1096,8 +1095,9 @@
       "note": "",
       "sources": [
         "https://spikelive.fr/ligue/lam",
-        "https://scores24.live/en/volleyball/m-23-10-2026-arago-de-sete-chaumont-52--prediction",
-        "https://scores24.live/fr/volleyball/m-24-10-2026-plessis-robinson-narbonne-volley-prediction"
+        "https://www.365scores.com/fr/volleyball/league/lnv-ligue-a-5712/standings",
+        "https://spikelive.fr/resultats?ligue=lam",
+        "https://www.betexplorer.com/volleyball/france/ligue-a/"
       ]
     },
     {
