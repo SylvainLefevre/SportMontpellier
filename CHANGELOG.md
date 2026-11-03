@@ -1,5 +1,12 @@
 # Journal des mises à jour
 
+## 2026-11-03 · Classements
+
+- Aucun classement modifié : aucun match joué depuis le passage du 02/11 dans ces compétitions. Seule la date `verified` à la racine change.
+- Ligue A volley : inchangé après la 4e journée, Montpellier 11e (3 pts). Ordre et points identiques sur https://spikelive.fr/ligue/lam et https://www.365scores.com/fr/volleyball/league/lnv-ligue-a-5712/standings ; prochains matchs à partir du 05/11 (Spikelive).
+- Ligue 2 : inchangé après la 11e journée, Montpellier 2e (24 pts). https://www.goal.com/fr/ligue-2/classement/4w7x0s5gfs5abasphlha5de8k affiche encore le classement d'avant les deux matchs du 02/11 (Nancy, Reims, Red Star et Sochaux à 10 matchs), cohérent avec le classement vérifié une fois ces deux scores ajoutés. 12e journée non commencée.
+- Top 14 (Montpellier 4e, 23 pts ; J9 à venir), Starligue (4e, 12 pts ; trêve), Champions Cup (2e, 4 pts ; décembre), Ligue des champions EHF (4e, éliminé) : inchangés, sources non reconsultées ce soir. Ligue des champions CEV : pas encore commencée.
+
 ## 2026-11-02 · Classements
 
 - Ligue 2 : mis à jour et vérifié après la 11e journée complète. Reims 2-0 Sochaux (https://www.toutmontbeliard.com/2026/11/02/football-ligue-2-reims-2-0-fc-sochaux-montbeliard/ ; https://www.sportclub-reims.fr/2026/11/le-stade-de-reims-domine-sochaux-et-retrouve-le-podium/) et Red Star 1-4 Nancy (https://www.footmercato.net/a5294149208522341416-ligue-2-le-red-star-humilie-a-domicile-par-nancy ; https://peuple-vert.fr/ligue-2/ligue-2-week-end-noir-pour-lasse-le-top-5-se-resserre/). Montpellier reste 2e (24 pts, +10). Nancy 4e → 3e (22 pts), Reims 5e → 4e (21 pts), Pau 3e → 5e (20 pts) ; Red Star 6e et Sochaux 13e inchangés. Classement complet sur https://sports.orange.fr/football/ligue-2/classement-equipes.html, identique au recalcul depuis le classement vérifié de la veille et ces deux scores ; top 5 ou 6 concordant sur https://www.footmercato.net/club/asse/classement et https://morning-foot.com/uncategorized/ligue-2-reims-sochaux-invaincu-classement-asse/.
