@@ -1,5 +1,13 @@
 # Journal des mises à jour
 
+## 2026-11-04 · Ajout du hockey sur glace (Vipers)
+
+- Nouveau sport : Vipers de Montpellier, Division 2 poule B, patinoire Végapolis. 9 matchs à domicile en saison régulière (3 déjà joués).
+- Seule date confirmée par deux sources : Vipers – HCMP (Courchevel-Méribel-Pralognan) le samedi 14/11 (site du club, office de tourisme). Horaire 19h00 donné par l'office de tourisme uniquement, donc encore « à conf. ».
+- Matchs du 05/12 au 06/02 : dates issues du site du club, à confirmer avec le calendrier de la fédération (PDF non accessible lors de cet ajout). Sources : https://www.montpellier-vipers.com/prochains-matchs-vipers/
+- Scores : Vipers – Vaujany-Grenoble 2-1 (24/10) confirmé (fédération + club). Toulouse-Blagnac 5-1 (10/10) et Toulon 9-4 (31/10) publiés par la fédération seule, laissés à confirmer.
+- Classement D2 poule B ajouté (Montpellier 1er après 5 journées), une seule source pour l'instant (fédération), donc masqué jusqu'à vérification.
+
 ## 2026-11-04 · Mise à jour hebdo
 
 Modifications

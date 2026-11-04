@@ -21,6 +21,7 @@
   --rugby: #1f56b8;
   --hand: #0b8a6c;
   --volley: #c2255c;
+  --hockey: #6741d9;
   --past: #8a93a3;
   --font-display: "Big Shoulders Display", "Arial Narrow", Impact, sans-serif;
   --font-body: "Archivo", "Helvetica Neue", Arial, sans-serif;
@@ -29,7 +30,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #11151c; --surface: #181d26; --fg: #eef1f6; --muted: #9aa4b5; --line: #2a313e;
-    --accent: #ff8a3d; --foot: #ff8a3d; --rugby: #6f9cf0; --hand: #3cc49f; --volley: #f0679a; --past: #6b7484;
+    --accent: #ff8a3d; --foot: #ff8a3d; --rugby: #6f9cf0; --hand: #3cc49f; --volley: #f0679a; --hockey: #a48bff; --past: #6b7484;
     color-scheme: dark;
   }
 }
@@ -205,6 +206,7 @@ table.std tr.me td.rk { color: var(--fg); }
 [data-sport="rugby"] { --c: var(--rugby); }
 [data-sport="hand"] { --c: var(--hand); }
 [data-sport="volley"] { --c: var(--volley); }
+[data-sport="hockey"] { --c: var(--hockey); }
 
 @media (max-width: 520px) {
   .day { grid-template-columns: 1fr; gap: 8px; }
@@ -216,9 +218,9 @@ table.std tr.me td.rk { color: var(--fg); }
 <body>
 <div class="wrap">
   <header>
-    <div class="season">Saison 2026 / 2027 · Foot · Rugby · Hand · Volley</div>
+    <div class="season">Saison 2026 / 2027 · Foot · Rugby · Hand · Volley · Hockey</div>
     <h1>Montpellier <span class="at">à domicile</span></h1>
-    <p class="lede">Tous les matchs à la maison du MHSC, du MHR, du MHB et du Montpellier Volley, championnat et coupes d'Europe, regroupés par date.</p>
+    <p class="lede">Tous les matchs à la maison du MHSC, du MHR, du MHB, du Montpellier Volley et des Vipers (hockey sur glace), championnat et coupes d'Europe, regroupés par date.</p>
   </header>
 
   <nav class="tabs" role="tablist" aria-label="Vues">
@@ -240,6 +242,7 @@ table.std tr.me td.rk { color: var(--fg); }
     <button class="chip" data-sport="rugby" id="f-rugby" aria-pressed="true"><span class="dot"></span>Rugby · MHR</button>
     <button class="chip" data-sport="hand" id="f-hand" aria-pressed="true"><span class="dot"></span>Hand · MHB</button>
     <button class="chip" data-sport="volley" id="f-volley" aria-pressed="true"><span class="dot"></span>Volley</button>
+    <button class="chip" data-sport="hockey" id="f-hockey" aria-pressed="true"><span class="dot"></span>Hockey · Vipers</button>
     <label class="toggle" for="show-past"><input type="checkbox" id="show-past">Afficher les matchs joués</label>
     <div class="count" id="count"></div>
   </section>
@@ -258,7 +261,7 @@ table.std tr.me td.rk { color: var(--fg); }
     <div>
       <h3>Pas encore au calendrier</h3>
       <ul>
-        <li>Phases finales : volley (après le 20/03), hand (finale le 05/06), Top 14 (dès le 12/06), playoffs Ligue 2 (fin mai).</li>
+        <li>Phases finales : volley (après le 20/03), hand (finale le 05/06), Top 14 (dès le 12/06), playoffs Ligue 2 (fin mai), playoffs hockey D2 (à partir de fin février).</li>
         <li>Tours européens après les poules et Coupes de France : ajoutés dès que les dates sont connues.</li>
       </ul>
     </div>
@@ -268,7 +271,7 @@ table.std tr.me td.rk { color: var(--fg); }
 </div>
 
 <script>
-const SPORT = { foot: "Foot", rugby: "Rugby", hand: "Hand", volley: "Volley" };
+const SPORT = { foot: "Foot", rugby: "Rugby", hand: "Hand", volley: "Volley", hockey: "Hockey" };
 const JOURS = ["Dim","Lun","Mar","Mer","Jeu","Ven","Sam"];
 const MOIS = ["Janvier","Février","Mars","Avril","Mai","Juin","Juillet","Août","Septembre","Octobre","Novembre","Décembre"];
 
@@ -285,10 +288,10 @@ function host(u) { try { return new URL(u).hostname.replace(/^www\./, ""); } cat
 const now = new Date(); const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
 let MATCHES = [];
 
-const state = { sports: { foot: true, rugby: true, hand: true, volley: true }, past: false };
+const state = { sports: { foot: true, rugby: true, hand: true, volley: true, hockey: true }, past: false };
 try {
   const saved = JSON.parse(localStorage.getItem("mtp-dom-filtres") || "null");
-  if (saved && saved.sports) Object.assign(state, saved);
+  if (saved && saved.sports) { Object.assign(state.sports, saved.sports); state.past = !!saved.past; }
 } catch (e) {}
 function save() { try { localStorage.setItem("mtp-dom-filtres", JSON.stringify(state)); } catch (e) {} }
 
@@ -375,9 +378,9 @@ window.addEventListener("hashchange", () => showTab(location.hash.slice(1)));
 showTab(location.hash.slice(1));
 
 // Classements
-const SPORT_ORDER = ["foot", "rugby", "hand", "volley"];
-const CLUB = { foot: "MHSC", rugby: "MHR", hand: "MHB", volley: "Montpellier Volley" };
-const OPT = new Set(["BP", "BC", "PP", "PC"]);
+const SPORT_ORDER = ["foot", "rugby", "hand", "volley", "hockey"];
+const CLUB = { foot: "MHSC", rugby: "MHR", hand: "MHB", volley: "Montpellier Volley", hockey: "Vipers" };
+const OPT = new Set(["BP", "BC", "PP", "PC", "VP", "DP"]);
 function ord(n) { return n === 1 ? "er" : "e"; }
 
 function renderStandings(data) {

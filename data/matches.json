@@ -182,6 +182,21 @@
       ]
     },
     {
+      "date": "2026-10-10",
+      "sport": "hockey",
+      "time": "",
+      "opponent": "Toulouse-Blagnac",
+      "competition": "Division 2 · poule B",
+      "venue": "Patinoire Végapolis",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "Score à confirmer par une 2e source",
+      "sources": [
+        "https://www.hockeyfrance.com/competitions/2026/10/10/d2-j2-resultats-brest-seul-en-tete/"
+      ]
+    },
+    {
       "date": "2026-10-15",
       "sport": "hand",
       "time": "20h45",
@@ -224,6 +239,22 @@
       "note": "",
       "sources": [
         "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "sport": "hockey",
+      "time": "",
+      "opponent": "Vaujany-Grenoble",
+      "competition": "Division 2 · poule B",
+      "venue": "Patinoire Végapolis",
+      "date_ok": true,
+      "time_ok": false,
+      "score": "2-1",
+      "note": "",
+      "sources": [
+        "https://www.hockeyfrance.com/competitions/2026/10/24/d2-j4-des-francais-volants-survoltes/",
+        "https://www.montpellier-vipers.com/"
       ]
     },
     {
@@ -292,6 +323,21 @@
     },
     {
       "date": "2026-10-31",
+      "sport": "hockey",
+      "time": "",
+      "opponent": "Toulon",
+      "competition": "Division 2 · poule B",
+      "venue": "Patinoire Végapolis",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "Score à confirmer par une 2e source",
+      "sources": [
+        "https://www.hockeyfrance.com/competitions/2026/10/31/d2-j4-les-resultats-du-week-end/"
+      ]
+    },
+    {
+      "date": "2026-10-31",
       "sport": "rugby",
       "time": "16h35",
       "opponent": "Castres",
@@ -353,6 +399,23 @@
       "sources": [
         "https://www.lnh.fr/daikin-starligue/accueil",
         "https://www.herault-tourisme.com/fr/fiche/fetes-et-manifestations/handball-mhb-vs-dunkerque-montpellier_TFOFMALAR034V52VC9D/"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "sport": "hockey",
+      "time": "19h00",
+      "opponent": "Courchevel-Méribel-Pralognan (HCMP)",
+      "competition": "Division 2 · poule B",
+      "venue": "Patinoire Végapolis",
+      "date_ok": true,
+      "time_ok": false,
+      "score": "",
+      "note": "Horaire donné par l'office de tourisme seulement",
+      "sources": [
+        "https://www.montpellier-vipers.com/prochains-matchs-vipers/",
+        "https://www.montpellier-tourisme.fr/agenda/tout-l-agenda/hockey-sur-glace-vipers-vs-hcmp-montpellier-fr-6846708/",
+        "https://www.jds.fr/montpellier/sports/hockey-sur-glace-vipers-vs-hcmp-1800264_A"
       ]
     },
     {
@@ -437,6 +500,21 @@
     },
     {
       "date": "2026-12-05",
+      "sport": "hockey",
+      "time": "",
+      "opponent": "Mulhouse",
+      "competition": "Division 2 · poule B",
+      "venue": "Patinoire Végapolis",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.montpellier-vipers.com/prochains-matchs-vipers/"
+      ]
+    },
+    {
+      "date": "2026-12-05",
       "sport": "rugby",
       "time": "",
       "opponent": "La Rochelle",
@@ -465,6 +543,21 @@
       "sources": [
         "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/",
         "https://www.365scores.com/handball/team/montpellier-8120/matches"
+      ]
+    },
+    {
+      "date": "2026-12-12",
+      "sport": "hockey",
+      "time": "",
+      "opponent": "Clermont-Ferrand",
+      "competition": "Division 2 · poule B",
+      "venue": "Patinoire Végapolis",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.montpellier-vipers.com/prochains-matchs-vipers/"
       ]
     },
     {
@@ -498,6 +591,21 @@
         "https://spikelive.fr/ligue/lam/calendrier",
         "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches",
         "https://volleybox.net/montpellier-volley-t1664/matches"
+      ]
+    },
+    {
+      "date": "2026-12-19",
+      "sport": "hockey",
+      "time": "",
+      "opponent": "Annecy",
+      "competition": "Division 2 · poule B",
+      "venue": "Patinoire Végapolis",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.montpellier-vipers.com/prochains-matchs-vipers/"
       ]
     },
     {
@@ -614,6 +722,21 @@
       ]
     },
     {
+      "date": "2027-01-16",
+      "sport": "hockey",
+      "time": "",
+      "opponent": "Dijon",
+      "competition": "Division 2 · poule B",
+      "venue": "Patinoire Végapolis",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "",
+      "sources": [
+        "https://www.montpellier-vipers.com/prochains-matchs-vipers/"
+      ]
+    },
+    {
       "date": "2027-01-23",
       "sport": "rugby",
       "time": "",
@@ -691,6 +814,21 @@
       "sources": [
         "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/",
         "https://www.365scores.com/handball/team/montpellier-8120/matches"
+      ]
+    },
+    {
+      "date": "2027-02-06",
+      "sport": "hockey",
+      "time": "",
+      "opponent": "Roanne",
+      "competition": "Division 2 · poule B",
+      "venue": "Patinoire Végapolis",
+      "date_ok": false,
+      "time_ok": false,
+      "score": "",
+      "note": "Dernier match à domicile de saison régulière",
+      "sources": [
+        "https://www.montpellier-vipers.com/prochains-matchs-vipers/"
       ]
     },
     {

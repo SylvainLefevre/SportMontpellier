@@ -1,6 +1,6 @@
 # Montpellier à domicile
 
-Calendrier 2026/2027 des matchs à domicile du MHSC (foot), du MHR (rugby), du MHB (hand) et du Montpellier Volley.
+Calendrier 2026/2027 des matchs à domicile du MHSC (foot), du MHR (rugby), du MHB (hand), du Montpellier Volley et des Vipers (hockey sur glace).
 
 Page publique : https://sylvainlefevre.github.io/SportMontpellier/
 

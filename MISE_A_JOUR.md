@@ -12,6 +12,9 @@ Matchs **à domicile** de quatre clubs de Montpellier, saison 2026/2027 :
 | `rugby` | MHR (Montpellier Hérault Rugby) | Top 14, Champions Cup (et Challenge Cup si reversé), phases finales |
 | `hand` | MHB (Montpellier Handball) | Starligue, Ligue des champions EHF, Coupe de France, playoffs |
 | `volley` | Montpellier Volley (MUC / Montpellier Hérault Volley) | Ligue A (Marmara SpikeLigue), Ligue des champions CEV, Coupe de France, Supercoupe, playoffs |
+| `hockey` | Vipers de Montpellier (équipe masculine première, patinoire Végapolis) | Division 2 poule B (3e niveau national), Coupe de France, playoffs D2 |
+
+Hockey : seule l'équipe masculine première (les Vipers) est suivie, pas l'équipe féminine (Médusa) ni les jeunes. « HCMP » = Hockey Courchevel Méribel Pralognan. Sources de référence : le calendrier et les classements de la fédération (hockeyfrance.com, dont le PDF du calendrier D2) et le site du club (montpellier-vipers.com) ; l'office de tourisme de Montpellier publie souvent les horaires des matchs à Végapolis.
 
 Les matchs à l'extérieur ne sont jamais ajoutés. Un match sur terrain neutre n'est ajouté que s'il se joue dans la métropole de Montpellier.
 
@@ -36,13 +39,13 @@ Les matchs à l'extérieur ne sont jamais ajoutés. Un match sur terrain neutre 
    - Priorité de l'effort : tout match des 6 prochaines semaines doit être vérifié à chaque passage. Au-delà, vérifier en priorité ceux encore à `false`.
 3. Nouveaux matchs (tours de coupe, phases finales, poules européennes suivantes) : les ajouter quand **deux sources** confirment qu'ils se jouent à domicile, avec `date_ok` / `time_ok` selon la règle ci-dessus.
 4. Match déplacé ou annulé : ne le retirer ou le déplacer que sur confirmation de deux sources, et le consigner dans le journal.
-5. Matchs passés depuis le dernier passage : renseigner `score` (format `domicile-extérieur`, ex. `28-0`, sets en volley `3-1`) s'il est confirmé par deux sources. Ne pas modifier autre chose sur les matchs passés.
+5. Matchs passés depuis le dernier passage : renseigner `score` (format `domicile-extérieur`, ex. `28-0`, sets en volley `3-1`, en hockey préciser `(a.p.)` ou `(t.a.b.)` si besoin, ex. `3-2 (a.p.)`) s'il est confirmé par deux sources. Ne pas modifier autre chose sur les matchs passés.
 6. `venue` : renseigner le lieu seulement s'il est confirmé (le MHB joue parfois en Starligue à la Sud de France Arena au lieu de René-Bougnol).
 7. Mettre `verified` à la date du passage (format `AAAA-MM-JJ`), même si rien d'autre n'a changé.
 8. Contrôles avant commit :
    - `python3 -m json.tool data/matches.json > /dev/null` doit réussir ;
    - chaque match a les clés `date, sport, time, opponent, competition, venue, date_ok, time_ok, score, note, sources` ;
-   - `date` au format `AAAA-MM-JJ`, `time` vide ou au format `20h45`, `sport` parmi `foot rugby hand volley` ;
+   - `date` au format `AAAA-MM-JJ`, `time` vide ou au format `20h45`, `sport` parmi `foot rugby hand volley hockey` ;
    - aucun match en double (même date, même sport) ;
    - les matchs sont triés par date.
 9. Ajouter en tête de `CHANGELOG.md` une entrée datée listant chaque modification (match, ancienne → nouvelle valeur, URL des deux sources), les ajouts et les désaccords non résolus.
@@ -72,10 +75,10 @@ Affichage sur la page : l'horaire n'apparaît que si `time_ok` est `true` (sinon
 
 Les classements suivent la même règle des deux sources que les dates.
 
-1. Pour chaque compétition de `data/standings.json` (Ligue 2, Top 14, Champions Cup poule, Starligue, Ligue des champions EHF groupe, Ligue A volley, Ligue des champions CEV poule), récupérer le classement complet le plus récent dans **au moins deux sources indépendantes**.
+1. Pour chaque compétition de `data/standings.json` (Ligue 2, Top 14, Champions Cup poule, Starligue, Ligue des champions EHF groupe, Ligue A volley, Ligue des champions CEV poule, Division 2 hockey poule B), récupérer le classement complet le plus récent dans **au moins deux sources indépendantes**.
 2. Si les deux sources concordent sur l'ordre et sur les points de toutes les équipes : remplacer `rows`, mettre `verified` à `true`, renseigner `as_of` (ex. « Après la 11e journée » ou « Au 04/11/2026 » si les équipes n'ont pas toutes joué le même nombre de matchs) et `sources` (les URL consultées).
 3. Si elles ne concordent pas (souvent une source pas encore à jour) : chercher une troisième source. Sans concordance, garder le dernier classement vérifié s'il existe, sinon `verified: false`, et noter le désaccord dans le journal.
-4. Format d'une ligne : `{"rank": 1, "team": "Saint-Étienne", "values": [...]}`, avec `values` dans l'ordre exact de `columns`, la dernière valeur étant toujours les points. Écrire l'équipe de Montpellier exactement comme le champ `club` de la compétition (`Montpellier`), sinon elle n'est pas mise en évidence. Différences au format `+15`, `-6` ou `0`. En volley, `Sets` au format `24-9`.
+4. Format d'une ligne : `{"rank": 1, "team": "Saint-Étienne", "values": [...]}`, avec `values` dans l'ordre exact de `columns`, la dernière valeur étant toujours les points. Écrire l'équipe de Montpellier exactement comme le champ `club` de la compétition (`Montpellier`), sinon elle n'est pas mise en évidence. Différences au format `+15`, `-6` ou `0`. En volley, `Sets` au format `24-9`. En hockey, colonnes `J, V, VP, DP, D, BP, BC, Diff, Pts` (VP/DP = victoire/défaite en prolongation ou aux tirs au but).
 5. Mettre `not_started` à `false` (ou retirer la clé) quand une compétition commence. Ajouter une compétition (phase finale, tour suivant européen) seulement si Montpellier y participe, avec les mêmes champs.
 6. `note` : une phrase utile au lecteur seulement si nécessaire (match en retard, pénalité de points, qualification acquise).
 7. Mettre la clé `verified` à la racine du fichier à la date du passage.
