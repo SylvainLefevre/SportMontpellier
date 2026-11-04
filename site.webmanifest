@@ -1,0 +1,16 @@
+{
+  "name": "Montpellier à domicile",
+  "short_name": "Mtp domicile",
+  "description": "Calendrier 2026/2027 des matchs à domicile du MHSC, du MHR, du MHB, du Montpellier Volley et des Vipers.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f5f8",
+  "theme_color": "#141a24",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
