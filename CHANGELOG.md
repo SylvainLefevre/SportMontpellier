@@ -1,5 +1,19 @@
 # Journal des mises à jour
 
+## 2026-11-04 · Classements (passage du soir)
+
+Aucun classement modifié, aucun match joué depuis le passage de ce matin. Les huit compétitions gardent leur dernier état vérifié (ou non commencé pour la Ligue des champions CEV).
+
+Limite de ce passage : la plupart des pages de classement (Orange Sports, Foot Mercato, SpikeLive classement, 365Scores, Fédération de hockey, HBC Nantes, Tremblay, Sky Sports, BetExplorer, XV Ovalie) étaient inaccessibles en lecture automatique ce soir. Aucun tableau complet n'a donc été relu dans deux sources ; les tableaux conservés sont ceux vérifiés ce matin.
+
+Recoupements partiels
+- Ligue 2 : pas de match le 3 ou le 4/11, 12e journée à partir du 06/11, tête du classement inchangée (Saint-Étienne 25, Montpellier 24, Nancy 22, Reims 21, Pau 20). Sources : https://m.maxifoot.fr/calendrier-ligue-2-france.htm ; https://m.maxifoot.fr/classement-ligue-2-france.htm
+- Top 14 : Montpellier 4e, 23 pts, après la 8e journée ; prochain match le 07/11 contre Lyon. Source : https://top14.lnr.fr/club/montpellier
+- Ligue A volley : 5e journée du 05 au 07/11, aucun score encore. Source : https://spikelive.fr/ligue/lam/calendrier
+- Starligue, Champions Cup, Ligue des champions EHF : pas de nouvelle vérification ce soir, aucun match de Montpellier attendu à cette date. Division 2 hockey : pas de nouvelle source lisible ; absence de match en semaine non confirmée.
+
+Point à regarder (data/matches.json non modifié) : https://www.allrugby.com/clubs/montpellier/calendrier date MHR – Castres du 01/11 à 15h00, le calendrier du site indique le 31/10.
+
 ## 2026-11-04 · Passage exceptionnel hockey
 
 Classement
