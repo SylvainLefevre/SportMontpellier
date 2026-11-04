@@ -1,5 +1,17 @@
 # Journal des mises à jour
 
+## 2026-11-04 · Passage exceptionnel hockey
+
+Classement
+- Division 2 poule B : passé à vérifié, lignes inchangées, « Au 04/11/2026 » (Clermont-Ferrand, Annecy, HCMP et Roanne ont un match de moins). Montpellier 1er, 13 pts. Tableau complet identique sur https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/classements-2/ et https://hccalessangliers.fr/ (site du club de Clermont, mis à jour le 03/11). Réserve : ce tableau de club reprend peut-être les données fédérales. Recoupement indépendant, partiel : https://www.passionhockey.com/2026/11/01/division-2-5e-journee-soir-de-premiere-pour-wasquehal-et-dijon/ (ordre, écart Montpellier-Clermont). Contrôles : buts pour = buts contre (181), points cohérents avec les bilans.
+
+Matchs (aucune modification)
+- Scores 5-1 (Toulouse-Blagnac) et 9-4 (Toulon) : déjà confirmés au passage précédent, inchangés.
+- Vipers – HCMP, 14/11 : horaire 19h00 toujours non confirmé. https://icionsort.fr/montpellier/sortie/hockey-sur-glace-vipers-vs-hcmp-ba64016b/ reprend DATAtourisme, comme l'office de tourisme : même source.
+- Mulhouse 05/12, Clermont-Ferrand 12/12, Annecy 19/12, Dijon 16/01, Roanne 06/02 : site du club seul, restent à confirmer.
+- Calendrier fédéral non lu : l'accès au PDF https://www.hockeyfrance.com/competitions/wp-content/uploads/sites/3/2026/08/Calendrier-D2-2026-2027.pdf demande une autorisation restée sans réponse, et https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/calendrier-resultats-d2/ n'affiche pas les rencontres en lecture automatique.
+- Information sans effet sur les données : https://www.hockeyfrance.com/competitions/2026/10/30/d2-j4-les-matchs-du-week-end-2/ annonçait Montpellier – Toulon à 19h00 (match passé, non modifié selon la procédure).
+
 ## 2026-11-04 · Mise à jour hebdo (2e passage, hockey inclus)
 
 Modifications
