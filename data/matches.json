@@ -1,6 +1,6 @@
 {
   "season": "2026-2027",
-  "verified": "2026-10-28",
+  "verified": "2026-11-04",
   "matches": [
     {
       "date": "2026-08-08",
@@ -267,7 +267,7 @@
       "venue": "FDI Stadium (René-Bougnol)",
       "date_ok": true,
       "time_ok": true,
-      "score": "",
+      "score": "26-36",
       "note": "",
       "sources": [
         "https://www.montpellierhandball.com/fr/l-equipe-pro/calendrier",
@@ -283,7 +283,7 @@
       "venue": "Palais des Sports Chaban-Delmas (Castelnau-le-Lez)",
       "date_ok": true,
       "time_ok": true,
-      "score": "",
+      "score": "1-3",
       "note": "",
       "sources": [
         "https://www.mhscvolley.com/",
@@ -299,7 +299,7 @@
       "venue": "Septeo Stadium",
       "date_ok": true,
       "time_ok": true,
-      "score": "",
+      "score": "69-10",
       "note": "",
       "sources": [
         "https://www.montpellier-rugby.com/equipes/equipe-pro/calendrier",
@@ -307,19 +307,20 @@
       ]
     },
     {
-      "date": "2026-11-07",
+      "date": "2026-11-06",
       "sport": "foot",
-      "time": "14h00",
+      "time": "20h00",
       "opponent": "Metz",
       "competition": "Ligue 2",
       "venue": "Stade de la Mosson",
       "date_ok": true,
       "time_ok": true,
       "score": "",
-      "note": "",
+      "note": "Avancé du samedi 07/11 14h00 à la demande de la préfecture de l'Hérault",
       "sources": [
-        "https://antichambre.eu/ligue-2-la-programmation-tv-de-la-12eme-journee-devoilee/",
-        "https://www.fotmob.com/teams/10249/fixtures/montpellier"
+        "https://ligue1.com/fr/articles/l1_article_6014-j12-montpellier-metz-avance-au-vendredi-6-novembre-2026-2027",
+        "https://www.allezpaillade.com/mhsc-fcm/mhsc-metz-reprogramme-a-son-tour/",
+        "https://www.maxifoot.fr/calendrier-ligue2.htm"
       ]
     },
     {
@@ -334,7 +335,7 @@
       "score": "",
       "note": "",
       "sources": [
-        "https://top14.lnr.fr/feuille-de-match/2026-2027/j9/11878-montpellier-lyon",
+        "https://sports.orange.fr/rugby/top-14/calendrier-resultats.html",
         "https://www.allrugby.com/clubs/montpellier/calendrier"
       ]
     },
@@ -348,10 +349,10 @@
       "date_ok": true,
       "time_ok": true,
       "score": "",
-      "note": "",
+      "note": "FDI Stadium selon Hérault Tourisme (lieu à recouper avec le club)",
       "sources": [
         "https://www.lnh.fr/daikin-starligue/accueil",
-        "https://www.montpellierhandball.com/fr/l-equipe-pro/calendrier"
+        "https://www.herault-tourisme.com/fr/fiche/fetes-et-manifestations/handball-mhb-vs-dunkerque-montpellier_TFOFMALAR034V52VC9D/"
       ]
     },
     {
@@ -366,8 +367,8 @@
       "score": "",
       "note": "Volleybox indique encore le 13/11 (calendrier initial)",
       "sources": [
-        "https://www.mhscvolley.com/",
-        "https://spikelive.fr/ligue/lam/calendrier"
+        "https://spikelive.fr/ligue/lam/calendrier",
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
       ]
     },
     {
@@ -382,8 +383,8 @@
       "score": "",
       "note": "Volleybox indique encore le 20/11 (calendrier initial)",
       "sources": [
-        "https://www.mhscvolley.com/",
-        "https://spikelive.fr/ligue/lam/calendrier"
+        "https://spikelive.fr/ligue/lam/calendrier",
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
       ]
     },
     {
@@ -398,8 +399,8 @@
       "score": "",
       "note": "",
       "sources": [
-        "https://www.montpellierhandball.com/fr/l-equipe-pro/calendrier",
-        "https://www.betexplorer.com/handball/france/starligue/fixtures/"
+        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/",
+        "https://www.365scores.com/handball/team/montpellier-8120/matches"
       ]
     },
     {
@@ -415,8 +416,7 @@
       "note": "",
       "sources": [
         "https://spikelive.fr/ligue/lam/calendrier",
-        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches",
-        "https://volleybox.net/montpellier-volley-t1664/matches"
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
       ]
     },
     {
@@ -431,9 +431,8 @@
       "score": "",
       "note": "14e journée, programmée par la LFP (beIN SPORTS 1)",
       "sources": [
-        "https://www.fcnantes.com/articles/article2809.php?num=49692",
-        "https://antichambre.eu/ligue-2-la-programmation-tv-de-la-14e-journee-devoilee/",
-        "https://tribunenantaise.fr/actus-fcnantes/fc-nantes-la-programmation-du-choc-contre-montpellier-est-tombee/"
+        "https://www.vavel.com/en/data/montpellier/fixtures/",
+        "https://www.fotmob.com/ko/teams/10249/fixtures/montpellier"
       ]
     },
     {
@@ -448,8 +447,8 @@
       "score": "",
       "note": "Week-end des 05-06/12, jour et horaire pas encore programmés par la LNR",
       "sources": [
-        "https://top14.lnr.fr/feuille-de-match/2026-2027/j11/11892-montpellier-la-rochelle",
-        "https://www.montpellier-rugby.com/equipes/equipe-pro/calendrier"
+        "https://www.allrugby.com/clubs/montpellier/calendrier",
+        "https://www.allrugby.com/competitions/top-14/calendrier.html"
       ]
     },
     {
@@ -464,8 +463,8 @@
       "score": "",
       "note": "Date et horaire marqués « provisoires » par le club (journée pas encore programmée par la LNH)",
       "sources": [
-        "https://www.montpellierhandball.com/equipe-pro-masculine/calendrier-resultats/",
-        "https://www.sofascore.com/handball/match/caen-handball-montpellier-handball/bHcsDAdb"
+        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/",
+        "https://www.365scores.com/handball/team/montpellier-8120/matches"
       ]
     },
     {
@@ -559,10 +558,10 @@
       "date_ok": true,
       "time_ok": false,
       "score": "",
-      "note": "Horaire en désaccord : 21h00 selon Perugia, 20h00 selon Volleybox",
+      "note": "Horaire en désaccord : 21h00 selon Perugia, 17h00 selon BetExplorer (valeur par défaut probable), 20h00 selon Volleybox",
       "sources": [
         "https://www.sirsafetyperugia.it/cev/",
-        "https://volleybox.net/montpellier-volley-t1664/matches"
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
       ]
     },
     {
@@ -726,7 +725,7 @@
       ]
     },
     {
-      "date": "2027-02-12",
+      "date": "2027-02-13",
       "sport": "volley",
       "time": "20h00",
       "opponent": "Nice",
@@ -735,11 +734,10 @@
       "date_ok": true,
       "time_ok": true,
       "score": "",
-      "note": "",
+      "note": "Déplacé du 12/02 au samedi 13/02 ; 365Scores indique encore le 12/02",
       "sources": [
         "https://spikelive.fr/ligue/lam/calendrier",
-        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches",
-        "https://volleybox.net/montpellier-volley-t1664/matches"
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
       ]
     },
     {

@@ -1,5 +1,39 @@
 # Journal des mises à jour
 
+## 2026-11-04 · Mise à jour hebdo
+
+Modifications
+- Foot · MHSC – Metz : samedi 07/11 14h00 → vendredi 06/11 20h00, confirmé (avancé à la demande de la préfecture de l'Hérault). Sources : https://ligue1.com/fr/articles/l1_article_6014-j12-montpellier-metz-avance-au-vendredi-6-novembre-2026-2027 ; https://www.allezpaillade.com/mhsc-fcm/mhsc-metz-reprogramme-a-son-tour/ ; https://www.maxifoot.fr/calendrier-ligue2.htm
+- Volley · Montpellier – Nice : 12/02 → samedi 13/02 20h00, confirmé. Sources : https://spikelive.fr/ligue/lam/calendrier ; https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/
+- Hand · MHB – Dinamo Bucarest (29/10) : score renseigné 26-36. Sources : https://www.sport.ro/handbal/dinamo-performanta-istorica-in-champions-league-cum-arata-grupa-principala-a-dulailor.html ; https://www.flashscore.ro/stiri/handbal-liga-campionilor-masculin-cs-dinamo-bucuresti-a-castigat-la-montpellier-si-s-a-calificat-in-grupele-principale-ale-ligii-campionilor/vFuKna5e/
+- Volley · Montpellier – Toulouse (30/10) : score renseigné 1-3. Sources : https://www.mhscvolley.com/ ; https://www.betexplorer.com/volleyball/team/toulouse/6qbfvecr/
+- Rugby · MHR – Castres : score renseigné 69-10. Sources : https://x-tremlimit.com/rugby/montpellier-simpose-69-10-contre-castres-et-marque-dix-essais/ ; https://www.allrugby.com/clubs/montpellier/calendrier
+
+Vérifications (inchangé, sources mises à jour)
+- Rugby · MHR – Lyon, sam. 07/11 16h35 : https://sports.orange.fr/rugby/top-14/calendrier-resultats.html ; https://www.allrugby.com/clubs/montpellier/calendrier
+- Hand · MHB – Dunkerque, ven. 13/11 20h00 : https://www.lnh.fr/daikin-starligue/accueil ; https://www.herault-tourisme.com/fr/fiche/fetes-et-manifestations/handball-mhb-vs-dunkerque-montpellier_TFOFMALAR034V52VC9D/
+- Volley · Cannes, dim. 15/11 17h00 ; Chaumont, jeu. 19/11 20h00 ; Narbonne, ven. 04/12 20h00 : https://spikelive.fr/ligue/lam/calendrier ; https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/
+- Hand · MHB – Cesson-Rennes, ven. 27/11 20h00 : https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/ ; https://www.365scores.com/handball/team/montpellier-8120/matches
+- Foot · MHSC – Nantes, sam. 05/12 14h00 (13h00 GMT) : https://www.vavel.com/en/data/montpellier/fixtures/ ; https://www.fotmob.com/ko/teams/10249/fixtures/montpellier
+- Rugby · MHR – Bulls, sam. 12/12 16h15 : https://www.planetrugby.com/news/investec-champions-cup-2026-27-pool-fixtures ; https://bullsrugby.co.za/?p=22016
+- Rugby · MHR – La Rochelle : toujours sans jour ni horaire (J11 non programmée, 05/12 par défaut sur https://www.allrugby.com/clubs/montpellier/calendrier).
+- Hand · MHB – Caen : 11/12 20h00 chez BetExplorer et 365Scores, mais date marquée provisoire par le club au passage du 28/10 (site du club inaccessible ce jour) ; reste à confirmer.
+
+Classements
+- Aucun classement modifié : aucun match joué depuis le passage du 03/11 (Ligue A J5 à partir du 05/11, Ligue 2 J12 à partir du 06/11, Top 14 J9 le week-end, Starligue J10 à partir du 13/11). Seule la date `verified` à la racine change.
+- Recontrôlé ce matin : Ligue A identique sur https://spikelive.fr/ligue/lam (Montpellier 11e, 3 pts) ; Starligue top 7 identique sur https://www.lnh.fr/daikin-starligue/accueil (Montpellier 4e, 12 pts). https://www.goal.com/fr/ligue-2/classement/4w7x0s5gfs5abasphlha5de8k affiche toujours le classement d'avant les matchs du 02/11, non retenu. Top 14, Champions Cup, Ligue des champions EHF : inchangés, sources non reconsultées. Ligue des champions CEV : pas encore commencée.
+
+Non ajouté
+- Foot · Coupe de France, 7e tour : FC Balagne (N2) – Montpellier, le 14/11 au stade Jacques-Ambroggi, se joue en Corse d'après https://www.ici.fr/corse/7e-tour-de-la-coupe-de-france-le-fc-balagne-recoit-montpellier-l-as-furiani-se-deplace-en-picardie-6849083 (titre, page non lisible) et https://www.beinsports.com/en-au/football/coupe-de-france/balagne-vs-montpellier-2026-11-14. https://pensebet.com/coupe-de-france-tirage-7e-8e-tours-2026/ annonce Montpellier à domicile, à tort a priori. Match à l'extérieur, non ajouté.
+
+Désaccords et points en suspens
+- Rugby · MHR – Castres (match passé, date non modifiée selon la procédure) : joué le dimanche 01/11 à 15h00 (décalé par la préfecture ; allrugby, x-tremlimit), la page affiche encore le 31/10 16h35. https://www.allrugby.com/competitions/top-14/calendrier.html affiche 70-11, contre 69-10 sur sa page club et ailleurs (retenu).
+- Hand · lieu de MHB – Dunkerque : FDI Stadium selon Hérault Tourisme et, au dernier passage, le site du club, inaccessible ce jour ; lieu laissé vide.
+- Volley · Nice : 365Scores indique encore le 12/02.
+- Volley · horaire de Montpellier – Perugia : 21h00 (Perugia), 20h00 (Volleybox), 17h00 (BetExplorer, valeur par défaut probable). DAZN : fenêtre du 5 au 7/01, horaire non fixé.
+- Volley · Ziraat (09/02) et Dinamo Bucarest (16 ou 17/02) : une seule source (BetExplorer) pour ces dates, calendrier CEV toujours introuvable.
+- Sites inaccessibles ce jour : montpellierhandball.com, top14.lnr.fr, montpellier-rugby.com, Eurosport.
+
 ## 2026-11-03 · Classements
 
 - Aucun classement modifié : aucun match joué depuis le passage du 02/11 dans ces compétitions. Seule la date `verified` à la racine change.
