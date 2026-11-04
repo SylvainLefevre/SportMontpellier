@@ -1,5 +1,29 @@
 # Journal des mises à jour
 
+## 2026-11-04 · Mise à jour hebdo (2e passage, hockey inclus)
+
+Modifications
+- Hockey · Vipers – Toulouse-Blagnac (10/10) : score renseigné 5-1. Sources : https://www.hockeyfrance.com/competitions/2026/10/10/d2-j2-resultats-brest-seul-en-tete/ ; https://www.passionhockey.com/2026/10/11/division-2-2e-journee-la-parole-aux-buteurs/
+- Hockey · Vipers – Toulon (31/10) : score renseigné 9-4. Sources : https://www.hockeyfrance.com/competitions/2026/10/31/d2-j4-les-resultats-du-week-end/ ; https://www.passionhockey.com/2026/11/01/division-2-5e-journee-soir-de-premiere-pour-wasquehal-et-dijon/
+- Hockey · Vipers – Vaujany-Grenoble (24/10) : 2-1 recoupé, source ajoutée https://www.passionhockey.com/2026/10/25/division-2-4e-journee-les-sangliers-font-parler-la-poudre/
+- Sur ces matchs passés, les mentions « Score à confirmer » sont retirées ; date_ok reste inchangé selon la procédure.
+
+Vérifications (inchangé)
+- Hockey · Vipers – HCMP, sam. 14/11 : date concordante (https://www.montpellier-vipers.com/prochains-matchs-vipers/ ; https://www.montpellier-tourisme.fr/agenda/tout-l-agenda/hockey-sur-glace-vipers-vs-hcmp-montpellier-fr-6846708/). Horaire 19h00 sur le seul office de tourisme (https://www.jds.fr/montpellier/sports/hockey-sur-glace-vipers-vs-hcmp-1800264_A reprend sa fiche sans heure) : reste à confirmer.
+- Hockey · Mulhouse 05/12, Clermont-Ferrand 12/12, Annecy 19/12, Dijon 16/01, Roanne 06/02 : site du club seul, restent à confirmer. PDF fédéral repéré mais non lu : https://www.hockeyfrance.com/competitions/wp-content/uploads/sites/3/2026/08/Calendrier-D2-2026-2027.pdf
+- Hand · MHB – Dunkerque 13/11 20h00, Cesson-Rennes 27/11 20h00 : https://www.betexplorer.com/handball/france/starligue/fixtures/ ; https://www.365scores.com/handball/team/montpellier-8120/matches (19:00 sans fuseau, soit 20h00 à Paris si UTC). Lieu de Dunkerque : FDI Stadium sur la seule https://www.herault-tourisme.com/fr/fiche/fetes-et-manifestations/handball-mhb-vs-dunkerque-montpellier_TFOFMALAR034V52VC9D/, laissé vide.
+- Hand · MHB – Caen : 11/12 20h00 chez les mêmes agrégateurs, journée toujours sans programmation officielle trouvée ; reste à confirmer.
+- Rugby · MHR – La Rochelle : https://www.rugbypass.com/live/montpellier-vs-la-rochelle/?g=952544 affiche une heure incohérente (01h00 à Paris le 05/12), valeur par défaut non retenue ; reste à confirmer.
+- Volley · Montpellier – Perugia : 05/01 21h00 sur https://www.sirsafetyperugia.it/cev/, horaire « à définir » (fenêtre 5-7/01) sur https://www.dazn.com/it-IT/news/volley/perugia-volley-20262027-calendario-rosa-e-dove-vedere-le-partite/1lrbw7imk82511dkvvavo3pn7n ; time_ok reste à false.
+- Autres matchs des 6 prochaines semaines : vérifiés au passage de ce matin, pas de nouveau recoupement complet.
+
+Classements
+- Aucun classement modifié : aucun match joué depuis ce matin. Division 2 hockey poule B toujours non vérifiée (Montpellier 1er, 13 pts, selon https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/classements-2/) : https://www.passionhockey.com/2026/11/01/division-2-5e-journee-soir-de-premiere-pour-wasquehal-et-dijon/ concorde sur l'essentiel de l'ordre mais ne donne pas le tableau complet. Pas de 2e tableau complet trouvé (hockeyhebdo et hockeyarchives non lisibles).
+
+Désaccords et points en suspens
+- Hockey · https://www.montpellier-vipers.com/resultats-vipers/ affiche des scores différents (Toulon 2-1, Vaujany 2-4, Toulouse-Blagnac 3-2) sous le titre « saison 2025-2026 ». Page jugée non fiable : les scores retenus (fédération, passionhockey) redonnent bien 22 buts pour et 11 contre au classement fédéral, et la page d'accueil du club affiche 2-1 contre Vaujany.
+- Foot · MHSC – Nantes : https://www.jds.fr/montpellier/agenda/matchs-sportifs-466_B et https://starting11.com/fixtures/montpellier-vs-nantes affichent le vendredi 04/12, date de journée par défaut (ces agendas ne publient pas la programmation) ; 05/12 14h00 conservé.
+
 ## 2026-11-04 · Ajout du hockey sur glace (Vipers)
 
 - Nouveau sport : Vipers de Montpellier, Division 2 poule B, patinoire Végapolis. 9 matchs à domicile en saison régulière (3 déjà joués).

@@ -190,10 +190,11 @@
       "venue": "Patinoire Végapolis",
       "date_ok": false,
       "time_ok": false,
-      "score": "",
-      "note": "Score à confirmer par une 2e source",
+      "score": "5-1",
+      "note": "",
       "sources": [
-        "https://www.hockeyfrance.com/competitions/2026/10/10/d2-j2-resultats-brest-seul-en-tete/"
+        "https://www.hockeyfrance.com/competitions/2026/10/10/d2-j2-resultats-brest-seul-en-tete/",
+        "https://www.passionhockey.com/2026/10/11/division-2-2e-journee-la-parole-aux-buteurs/"
       ]
     },
     {
@@ -254,7 +255,8 @@
       "note": "",
       "sources": [
         "https://www.hockeyfrance.com/competitions/2026/10/24/d2-j4-des-francais-volants-survoltes/",
-        "https://www.montpellier-vipers.com/"
+        "https://www.montpellier-vipers.com/",
+        "https://www.passionhockey.com/2026/10/25/division-2-4e-journee-les-sangliers-font-parler-la-poudre/"
       ]
     },
     {
@@ -330,10 +332,11 @@
       "venue": "Patinoire Végapolis",
       "date_ok": false,
       "time_ok": false,
-      "score": "",
-      "note": "Score à confirmer par une 2e source",
+      "score": "9-4",
+      "note": "",
       "sources": [
-        "https://www.hockeyfrance.com/competitions/2026/10/31/d2-j4-les-resultats-du-week-end/"
+        "https://www.hockeyfrance.com/competitions/2026/10/31/d2-j4-les-resultats-du-week-end/",
+        "https://www.passionhockey.com/2026/11/01/division-2-5e-journee-soir-de-premiere-pour-wasquehal-et-dijon/"
       ]
     },
     {
@@ -411,7 +414,7 @@
       "date_ok": true,
       "time_ok": false,
       "score": "",
-      "note": "Horaire donné par l'office de tourisme seulement",
+      "note": "Horaire donné par l'office de tourisme seulement (ni le club ni la fédération ne le publient à ce jour)",
       "sources": [
         "https://www.montpellier-vipers.com/prochains-matchs-vipers/",
         "https://www.montpellier-tourisme.fr/agenda/tout-l-agenda/hockey-sur-glace-vipers-vs-hcmp-montpellier-fr-6846708/",
