@@ -1,5 +1,5 @@
 {
-  "verified": "2026-11-04",
+  "verified": "2026-11-05",
   "competitions": [
     {
       "id": "ligue2",
@@ -275,6 +275,7 @@
       "note": "",
       "sources": [
         "https://sports.orange.fr/football/ligue-2/classement-equipes.html",
+        "https://www.matchendirect.fr/classement-foot/france/classement-ligue-2.html",
         "https://www.footmercato.net/club/asse/classement",
         "https://morning-foot.com/uncategorized/ligue-2-reims-sochaux-invaincu-classement-asse/",
         "https://www.footmercato.net/a5294149208522341416-ligue-2-le-red-star-humilie-a-domicile-par-nancy",
@@ -934,7 +935,7 @@
         "Sets",
         "Pts"
       ],
-      "as_of": "Après la 4e journée",
+      "as_of": "Après la 4e journée (avant Tourcoing – Sète du 05/11)",
       "verified": true,
       "rows": [
         {
@@ -1092,7 +1093,7 @@
           ]
         }
       ],
-      "note": "",
+      "note": "Tourcoing – Sète (3-0 le 05/11) pas encore intégré au tableau, en attente de deux classements complets à jour.",
       "sources": [
         "https://spikelive.fr/ligue/lam",
         "https://www.365scores.com/fr/volleyball/league/lnv-ligue-a-5712/standings",

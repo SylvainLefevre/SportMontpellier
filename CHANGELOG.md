@@ -1,5 +1,19 @@
 # Journal des mises à jour
 
+## 2026-11-05 · Classements (passage du soir)
+
+Aucune ligne de classement modifiée, aucune position de Montpellier changée. Clé `verified` passée au 05/11.
+
+Ligue A volley : un seul match joué depuis hier, Tourcoing 3-0 Sète (25-23, 25-23, 29-27) le 05/11. Le tableau complet reste celui de la 4e journée, car aucune source lisible ne publie encore le classement complet à jour ; `as_of` et `note` le précisent. Montpellier reste 11e, 3 pts : ce match ne le concerne pas directement. Tourcoing passe à 12 pts (2e selon Scores24), Sète reste dernier. Sources du score : https://scores24.live/en/volleyball/m-06-11-2026-tourcoing-lille-metropole-arago-de-sete-prediction ; https://www.flashscore.com.ng/match/volleyball/sete-OhtH6NSF/tourcoing-lhL6wFCl/ ; https://volleyweek.bg/en/article/28103-Venislav-Antov-sas-17-tochki-Turkoan-prechupi-Set-sled-dramatichen-treti-geym . Tableau encore à 4 journées : https://spikelive.fr/ligue/lam
+
+Recoupements du soir
+- Ligue 2 : tableau complet identique au fichier sur deux sources, 12e journée à partir du 06/11. https://sports.orange.fr/football/ligue-2/classement-equipes.html ; https://www.matchendirect.fr/classement-foot/france/classement-ligue-2.html ; https://www.footmercato.net/france/ligue-2/
+- Champions Cup : tableau identique, journée 2 les 11-13/12. https://www.rugbypass.com/live/montpellier-vs-northampton/table/ ; https://www.planetrugby.com/news/investec-champions-cup-2026-27-pool-fixtures
+- Starligue : Montpellier 4e, 12 pts, identique ; haut de tableau (7 premiers) identique, J10 à partir du 13/11. https://www.montpellierhandball.com/fr/l-equipe-pro/liqui-moly-starligue ; https://www.lnh.fr/liquimoly-starligue/accueil
+- Top 14 : pas de match avant le 07/11, tableau conservé. https://sports.orange.fr/rugby/top-14/calendrier-resultats-9eme-journee.html . Le classement https://www.allrugby.com/competitions/top-14/classement.html est resté à 6 journées et n'a pas été retenu.
+- Division 2 hockey : tableau fédéral identique au fichier, deuxième source non relue ce soir, `as_of` inchangé. https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/classements-2/
+- Ligue des champions EHF (groupes terminés) et Ligue des champions CEV (début le 08/12) : sans changement.
+
 ## 2026-11-04 · Classements (passage du soir)
 
 Aucun classement modifié, aucun match joué depuis le passage de ce matin. Les huit compétitions gardent leur dernier état vérifié (ou non commencé pour la Ligue des champions CEV).
