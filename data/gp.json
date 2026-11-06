@@ -43,8 +43,8 @@
       ],
       "note": "",
       "sources": [
-        "https://www.tv-direct.fr/actualites/grand-prix-du-bresil-f1-2026-horaires-programme-tv-enjeux-interlagos/",
-        "https://motorsport.nextgen-auto.com/fr/formule-1/presentation-et-horaires-du-grand-prix-du-bresil-2026-de-f1,213006.html"
+        "https://www.formula1.com/en/latest/article/what-time-is-the-formula-1-2026-sao-paulo-grand-prix-and-how-can-i-watch-it.6hpbTPt6gucIHBH8QztPjb",
+        "https://the-race.com/formula-1/what-time-is-f1s-2026-brazilian-grand-prix-full-weekend-schedule"
       ]
     },
     {
@@ -153,7 +153,7 @@
       "note": "Course le samedi soir à Las Vegas, soit dimanche matin à Paris.",
       "sources": [
         "https://www.formula1.com/en/latest/article/formula-1-heineken-las-vegas-grand-prix-2026.1qmWzcBwKK5hkTbYbhVC22",
-        "https://www.zonef1.com/mobile/saisons/2026/courses/las-vegas/programme.php"
+        "https://www.gpfans.com/us/f1-race-calendar/las-vegas-grand-prix-2026"
       ]
     },
     {
@@ -211,10 +211,12 @@
           "time_ok": false
         }
       ],
-      "note": "Horaires encore provisoires. Course à 13h00 heure locale selon la plupart des sources, 14h00 selon d'autres : à confirmer.",
+      "note": "Horaires encore provisoires. Course probablement à 13h00 heure locale ; le site du circuit indique aussi 14h00 : à confirmer.",
       "sources": [
         "https://www.portugalmotogp.com/en/time-schedule-32",
         "https://statsniper.com/leagues/motogp/race/2026/grand-prix-of-portugal/",
+        "https://www.gootickets.com/en/10-motogp/53728-portugal/p-507-grand-prix-programme/",
+        "https://www.global-tickets.com/en/Sport/Motorsports/MotoGP/MotoGP-Portimao/",
         "https://www.foxsports.com/motor/motogp/schedule",
         "https://www.motorcycles.news/en/event/grande-premio-de-portugal-2026/"
       ]

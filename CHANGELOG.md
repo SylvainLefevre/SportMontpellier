@@ -1,5 +1,14 @@
 # Journal des mises à jour
 
+## 2026-11-06 · Passage exceptionnel GP
+
+Aucun horaire modifié. Matchs et classements non repris (vérifiés au passage précédent).
+
+- F1 São Paulo : les 5 sessions relues et concordantes (FP1 15h30, FP2 19h00, FP3 14h30, qualifications 18h00, course 17h00 UTC ; pas de sprint). https://www.formula1.com/en/latest/article/what-time-is-the-formula-1-2026-sao-paulo-grand-prix-and-how-can-i-watch-it.6hpbTPt6gucIHBH8QztPjb ; https://the-race.com/formula-1/what-time-is-f1s-2026-brazilian-grand-prix-full-weekend-schedule
+- F1 Las Vegas : les 5 sessions relues et concordantes (course 22/11 04h00 UTC). https://www.formula1.com/en/latest/article/formula-1-heineken-las-vegas-grand-prix-2026.1qmWzcBwKK5hkTbYbhVC22 (heure locale) ; https://www.gpfans.com/us/f1-race-calendar/las-vegas-grand-prix-2026 (sans fuseau affiché, valeurs compatibles avec l'heure de Paris).
+- MotoGP Portugal : deux sources de plus donnent le programme complet et la course à 13h00 locale. https://www.gootickets.com/en/10-motogp/53728-portugal/p-507-grand-prix-programme/ ; https://www.global-tickets.com/en/Sport/Motorsports/MotoGP/MotoGP-Portimao/ . Elles renforcent FP2, Q1 et Q2. La course reste à « à conf. » : le site du circuit se contredit (tableau 13h00, texte général 14h00) et https://www.motorcycles.news/en/event/grande-premio-de-portugal-2026/ indique 14h00. Note reformulée.
+- MotoGP Qatar et Valence : déjà confirmés au passage précédent, pas de nouvelle source.
+
 ## 2026-11-06 · Mise à jour hebdo
 
 Modifications (data/gp.json)
