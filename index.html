@@ -219,53 +219,19 @@ table.std tr.me td.rk { color: var(--fg); }
 [data-series="f1"] { --c: var(--f1); }
 [data-series="motogp"] { --c: var(--motogp); }
 
-/* Onglet GP */
-.gp-list { display: flex; flex-direction: column; gap: 28px; }
-.gp { display: flex; flex-direction: column; gap: 10px; padding-block: 14px 4px; border-top: 1px solid var(--line); }
-.gp-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; }
-.series {
-  font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
-  color: var(--surface); background: var(--c); padding: 2px 8px; border-radius: 4px;
+/* Onglet GP : même affichage par journée que le calendrier */
+.game.key { background: color-mix(in srgb, var(--c) 12%, var(--surface)); border-radius: 6px; padding-block: 7px; }
+.game.key .opp { color: var(--c); font-weight: 700; }
+.game.key .time { font-size: 17px; padding-top: 0; }
+.game.key .time.unk { font-size: 13px; }
+.game.done { opacity: .55; }
+.game .series {
+  font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--surface); background: var(--c); padding: 1px 6px; border-radius: 3px; margin-right: 2px;
 }
-.gp-name { font-size: 18px; font-weight: 700; margin: 0; }
-.gp-sub { font-size: 13px; color: var(--muted); width: 100%; display: flex; flex-wrap: wrap; gap: 4px 12px; }
-.gp-dates { font-weight: 600; color: var(--fg); font-variant-numeric: tabular-nums; }
-.tag { font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: 1px 7px; border-radius: 4px; border: 1px solid var(--c); color: var(--c); }
-.tag.muted { border-color: var(--line); color: var(--muted); }
-.sessions { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; font-variant-numeric: tabular-nums; }
-.s-row { display: contents; }
-.s-row > span { padding: 7px 0; border-bottom: 1px solid var(--line); }
-.s-row > .s-day { padding-right: 14px; }
-.s-row > .s-label { padding-right: 10px; }
-.s-day { color: var(--muted); white-space: nowrap; font-size: 14px; }
-.s-label { min-width: 0; }
-.s-time { text-align: right; white-space: nowrap; font-weight: 600; }
-.s-time small { display: block; font-size: 12px; font-weight: 400; color: var(--muted); }
-.s-time.unk { color: var(--muted); font-weight: 400; font-size: 13px; }
-.s-row.key > span { background: color-mix(in srgb, var(--c) 12%, var(--surface)); }
-.s-row.key .s-label { font-weight: 700; color: var(--c); }
-.s-row.key .s-day { box-shadow: inset 3px 0 0 var(--c); }
-.s-row.key .s-day { padding-left: 8px; color: var(--fg); font-weight: 600; }
-.s-row.key .s-time { font-size: 17px; padding-right: 8px; }
-.s-row.key .s-time.unk { font-size: 13px; }
-.s-row.done > span { opacity: .55; }
-.gp-pending { font-size: 14px; color: var(--muted); padding: 10px 12px; border: 1px dashed var(--line); border-radius: 8px; }
-.gp-note { font-size: 13px; color: var(--muted); }
-.gp-note a { color: var(--muted); }
-.gp.past .gp-name, .gp.past .gp-dates { color: var(--past); }
-.gp-month h2 {
-  font-family: var(--font-display); font-weight: 900; text-transform: uppercase;
-  font-size: 30px; letter-spacing: .02em; margin: 0;
-  display: flex; align-items: baseline; gap: 10px;
-}
-.gp-month h2 span { font-family: var(--font-body); font-size: 13px; font-weight: 500; color: var(--muted); letter-spacing: 0; text-transform: none; }
-.gp-month { display: flex; flex-direction: column; }
 
 @media (max-width: 520px) {
   .tab { font-size: 18px; padding: 6px 10px 8px; }
-  .s-day { font-size: 12.5px; }
-  .s-row > .s-day { padding-right: 10px; }
-  .s-time small { font-size: 11px; }
   .day { grid-template-columns: 1fr; gap: 8px; }
   .toggle { margin-left: 0; }
   .game { grid-template-columns: 4px 3.8em 1fr; }
@@ -295,7 +261,7 @@ table.std tr.me td.rk { color: var(--fg); }
       <label class="toggle" for="gp-past"><input type="checkbox" id="gp-past">Afficher les GP passés</label>
       <div class="count" id="gp-count"></div>
     </section>
-    <div class="gp-list" id="gp-list"><p class="status">Chargement des Grands Prix…</p></div>
+    <div id="gp-list"><p class="status">Chargement des Grands Prix…</p></div>
   </div>
 
   <div class="view" id="view-std" role="tabpanel" aria-labelledby="tab-std" hidden>
@@ -517,78 +483,100 @@ function ymdIn(date, tz) { return new Intl.DateTimeFormat("en-CA", { timeZone: t
 function hmIn(date, tz) { return new Intl.DateTimeFormat("fr-FR", { timeZone: tz, hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).format(date).replace(":", "h"); }
 const todayYmd = ymdIn(new Date(), PARIS);
 
-function sessionRow(e, x) {
-  const d = new Date(x.utc);
-  const parisYmd = ymdIn(d, PARIS);
-  const label = (SESSION_LABEL[e.series] || {})[x.type] || x.type;
-  const done = d < new Date();
-  let time;
-  if (x.time_ok) {
-    const localYmd = ymdIn(d, e.tz);
-    const shift = localYmd !== parisYmd ? JOURS[parse(localYmd).getDay()].toLowerCase() + ". " : "";
-    const local = e.tz === PARIS ? "" : `<small>${shift}${hmIn(d, e.tz)} sur place</small>`;
-    time = `<span class="s-time">${hmIn(d, PARIS)}${local}</span>`;
-  } else {
-    time = `<span class="s-time unk">à conf.</span>`;
+function dayBefore(ymd) { const d = parse(ymd); d.setDate(d.getDate() - 1); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`; }
+
+// Une entrée par session ; pour un GP sans horaires publiés, une entrée par course (sprint et course) à sa date.
+function gpItems(e) {
+  if ((e.sessions || []).length) {
+    return e.sessions.map(x => ({ e, type: x.type, utc: x.utc, time_ok: x.time_ok, ymd: ymdIn(new Date(x.utc), PARIS) }));
   }
-  return `<div class="s-row${KEY.has(x.type) ? " key" : ""}${done ? " done" : ""}">
-    <span class="s-day">${fmt(parse(parisYmd))}</span><span class="s-label">${esc(label)}</span>${time}</div>`;
+  const out = [];
+  if (e.series === "motogp" || e.sprint) out.push({ e, type: "sprint", utc: null, time_ok: false, ymd: dayBefore(e.end), placeholder: true });
+  out.push({ e, type: "race", utc: null, time_ok: false, ymd: e.end, placeholder: true });
+  return out;
 }
 
-function gpHTML(e) {
-  const past = e.end < todayYmd;
-  const tags = [];
-  if (e.sprint && e.series === "f1") tags.push(`<span class="tag">Week-end sprint</span>`);
-  if (!e.date_ok) tags.push(`<span class="tag muted">Dates à confirmer</span>`);
-  const round = e.round ? `<span>Manche ${e.round}</span>` : "";
-  let body;
-  if ((e.sessions || []).length) {
-    body = `<div class="sessions">${e.sessions.slice().sort((a, b) => a.utc.localeCompare(b.utc)).map(x => sessionRow(e, x)).join("")}</div>`;
-  } else {
-    const key = e.series === "motogp"
-      ? `Course sprint le ${fmt(parse(dayBefore(e.end)))}, course le ${fmt(parse(e.end))}.`
-      : (e.sprint ? `Course sprint le samedi, course le ${fmt(parse(e.end))}.` : `Course le ${fmt(parse(e.end))}.`);
-    body = `<p class="gp-pending">Horaires des sessions pas encore publiés. ${key}</p>`;
+function itemHTML(it, lastOfGp) {
+  const e = it.e;
+  const label = (SESSION_LABEL[e.series] || {})[it.type] || it.type;
+  const d = it.utc ? new Date(it.utc) : null;
+  const done = d && d < new Date();
+  let time = `<div class="time unk">à conf.</div>`;
+  let local = "";
+  if (d && it.time_ok) {
+    time = `<div class="time">${hmIn(d, PARIS)}</div>`;
+    if (e.tz !== PARIS) {
+      const localYmd = ymdIn(d, e.tz);
+      const shift = localYmd !== it.ymd ? JOURS[parse(localYmd).getDay()].toLowerCase() + ". " : "";
+      local = `<span>${shift}${hmIn(d, e.tz)} sur place</span>`;
+    }
   }
-  const src = (e.sources || []).map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(host(u))}</a>`).join(" · ");
-  const note = (e.note || src) ? `<div class="gp-note">${e.note ? esc(e.note) + " " : ""}${src && !past ? "Sources : " + src : ""}</div>` : "";
-  return `<article class="gp${past ? " past" : ""}" data-series="${esc(e.series)}" id="gp-${esc(e.id)}">
-    <div class="gp-head"><span class="series">${SERIES[e.series] || ""}</span><h3 class="gp-name">${esc(e.name)}</h3>${tags.join("")}
-      <div class="gp-sub"><span class="gp-dates">${fmt(parse(e.start))} → ${fmt(parse(e.end))}</span><span>${esc(e.circuit)} · ${esc(e.country)}</span>${round}</div></div>
-    ${body}${note}</article>`;
+  const round = e.round ? ` · manche ${e.round}` : "";
+  const extra = [];
+  if (it.placeholder) extra.push(`<span>Horaires des sessions pas encore publiés</span>`);
+  if (lastOfGp && e.note) extra.push(`<span>${esc(e.note)}</span>`);
+  if (lastOfGp && (e.sources || []).length && !done) {
+    extra.push(`<span class="src">Sources : ${e.sources.map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(host(u))}</a>`).join(" · ")}</span>`);
+  }
+  return `<div class="game${KEY.has(it.type) ? " key" : ""}${done ? " done" : ""}" data-series="${esc(e.series)}">
+    <div class="bar"></div>${time}
+    <div class="info"><div class="opp">${esc(label)}</div>
+    <div class="meta"><span><span class="series">${SERIES[e.series] || ""}</span> ${esc(e.name)}${round}</span>${KEY.has(it.type) ? `<span>${esc(e.circuit)} · ${esc(e.country)}</span>` : ""}${local}${extra.join("")}</div></div>
+  </div>`;
 }
-function dayBefore(ymd) { const d = parse(ymd); d.setDate(d.getDate() - 1); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`; }
 
 function renderGP() {
   for (const k in SERIES) document.getElementById("g-" + k).setAttribute("aria-pressed", String(gpState.series[k]));
   document.getElementById("gp-past").checked = gpState.past;
-  const list = GP.filter(e => gpState.series[e.series] && (gpState.past || e.end >= todayYmd));
+
+  const items = [];
+  for (const e of GP) if (gpState.series[e.series]) items.push(...gpItems(e));
+  items.sort((a, b) => a.ymd.localeCompare(b.ymd) || (a.utc || a.ymd + "T99").localeCompare(b.utc || b.ymd + "T99") || a.e.series.localeCompare(b.e.series));
+  const list = items.filter(it => gpState.past || it.ymd >= todayYmd);
+
+  // dernière entrée affichée de chaque GP : c'est là qu'on place la note et les sources
+  const lastIdx = new Map();
+  list.forEach((it, i) => lastIdx.set(it.e.id, i));
+
   const byMonth = new Map();
-  for (const e of list) { const k = e.start.slice(0, 7); if (!byMonth.has(k)) byMonth.set(k, []); byMonth.get(k).push(e); }
+  list.forEach((it, i) => {
+    const k = it.ymd.slice(0, 7);
+    if (!byMonth.has(k)) byMonth.set(k, new Map());
+    const days = byMonth.get(k);
+    if (!days.has(it.ymd)) days.set(it.ymd, []);
+    days.get(it.ymd).push([it, i]);
+  });
+
   let html = "";
-  for (const [k, evs] of byMonth) {
+  for (const [k, days] of byMonth) {
     const [y, mo] = k.split("-").map(Number);
-    html += `<section class="gp-month"><h2>${MOIS[mo-1]} ${y}<span>${evs.length} GP</span></h2>${evs.map(gpHTML).join("")}</section>`;
+    const gps = new Set(); for (const arr of days.values()) for (const [it] of arr) gps.add(it.e.id);
+    html += `<section class="month"><h2>${MOIS[mo-1]} ${y}<span>${gps.size} GP</span></h2>`;
+    for (const [ymd, arr] of days) {
+      const dt = parse(ymd);
+      const past = ymd < todayYmd, isToday = ymd === todayYmd;
+      const tbc = !past && arr.some(([it]) => !it.e.date_ok);
+      html += `<div class="day${past ? " past" : ""}${isToday ? " today" : ""}">
+        <div class="date">${fmt(dt)}${tbc ? '<span class="tbc">Date à confirmer</span>' : ""}${isToday ? '<span class="tbc">Aujourd\'hui</span>' : ""}</div>
+        <div class="games">${arr.map(([it, i]) => itemHTML(it, lastIdx.get(it.e.id) === i)).join("")}</div>
+      </div>`;
+    }
+    html += `</section>`;
   }
   if (!html) html = `<p class="status">Aucun Grand Prix avec ces filtres. Réactivez une catégorie ci-dessus.</p>`;
   document.getElementById("gp-list").innerHTML = html;
-  document.getElementById("gp-count").textContent = `${list.length} Grand${list.length > 1 ? "s" : ""} Prix affiché${list.length > 1 ? "s" : ""}`;
+  const nGp = new Set(list.map(it => it.e.id)).size;
+  document.getElementById("gp-count").textContent = `${nGp} Grand${nGp > 1 ? "s" : ""} Prix affiché${nGp > 1 ? "s" : ""}`;
 
   // Prochaine course (sprint ou course) avec horaire confirmé
   const now = new Date();
-  const upcoming = [];
-  for (const e of GP) {
-    if (!gpState.series[e.series]) continue;
-    for (const x of e.sessions || []) if (KEY.has(x.type) && x.time_ok && new Date(x.utc) > now) upcoming.push([x, e]);
-  }
-  upcoming.sort((a, b) => a[0].utc.localeCompare(b[0].utc));
+  const upcoming = items.filter(it => KEY.has(it.type) && it.time_ok && it.utc && new Date(it.utc) > now);
   const nx = document.getElementById("gp-next");
   if (upcoming.length) {
-    const [x, e] = upcoming[0];
-    const d = new Date(x.utc);
+    const it = upcoming[0], e = it.e, d = new Date(it.utc);
     nx.innerHTML = `<div class="k">Prochaine course</div>
-      <div class="d">${fmt(parse(ymdIn(d, PARIS)))}</div>
-      <div class="m"><div>${SERIES[e.series]} · ${esc(e.name)} · ${esc(SESSION_LABEL[e.series][x.type])} · ${hmIn(d, PARIS)}<small>${esc(e.circuit)} · ${hmIn(d, e.tz)} sur place</small></div></div>`;
+      <div class="d">${fmt(parse(it.ymd))}</div>
+      <div class="m"><div>${SERIES[e.series]} · ${esc(e.name)} · ${esc(SESSION_LABEL[e.series][it.type])} · ${hmIn(d, PARIS)}<small>${esc(e.circuit)}${e.tz !== PARIS ? " · " + hmIn(d, e.tz) + " sur place" : ""}</small></div></div>`;
     nx.hidden = false;
   } else nx.hidden = true;
 }

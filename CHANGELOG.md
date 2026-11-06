@@ -1,5 +1,10 @@
 # Journal des mises à jour
 
+## 2026-11-06 · Onglet GP affiché par journée
+
+- L'onglet GP suit maintenant le même affichage que le calendrier : une ligne par jour, avec toutes les sessions F1 et MotoGP de la journée (heure de Paris, heure sur place en dessous). Courses sprint et courses mises en avant.
+- GP sans horaires publiés (saison 2027) : la course sprint et la course apparaissent à leur date, « à conf. ».
+
 ## 2026-11-06 · Ajout de l'onglet GP (F1 et MotoGP)
 
 - Nouveau fichier `data/gp.json` : 53 Grands Prix (F1 : 4 en fin de saison 2026 + 24 en 2027 ; MotoGP : 3 en fin de saison 2026 + 22 en 2027).
