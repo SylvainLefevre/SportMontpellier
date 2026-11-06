@@ -1,5 +1,16 @@
 # Journal des mises à jour
 
+## 2026-11-06 · Classements (passage du soir)
+
+Ligue 2 : classement provisoire mis à jour après les six matchs du vendredi de la 12e journée. Montpellier passe de la 2e à la 3e place (24 pts, 12 matchs) après la défaite 2-3 contre Metz ; Nancy (1-0 contre Sochaux) monte à 25 pts, 2e derrière Saint-Étienne (25 pts, un match de moins). Autres résultats : Boulogne 3-0 Annecy, Dunkerque 3-0 Guingamp, Grenoble 3-2 Reims, Dijon 1-0 Red Star. `as_of` : « 12e journée en cours (avant Clermont – Rodez, Pau – Nantes et Saint-Étienne – Laval du 07/11) ».
+- Tableau complet identique sur deux sources, et identique au recalcul fait à partir du tableau vérifié de la 11e journée et des six scores : https://www.ski-nordique.net/?id=6750727 ; https://peuple-vert.fr/asse-actualite/ligue-2-multiplex-usbco-annecy-dijon-red-star-usld-eag-gf38-reims-mhsc-metz-asnl-fcsm
+- Scores recoupés : https://news.footeo.com/2026/11/06/ligue-2-les-resultats-de-la-soiree-metz-fait-tomber-montpellier-17091 ; https://www.footmercato.net/live/913634517208536200-montpellier-vs-metz
+- Désaccords sans effet : Peuple Vert écrit « Grenoble 2-3 Reims » dans sa liste de résultats, mais son tableau correspond à une victoire de Grenoble 3-2 (score donné par Footeo et Ski-Nordique). Le texte de l'article Ski-Nordique donne encore Montpellier 2e, son tableau le donne 3e. Foot Mercato, maxifoot et asnl.net affichent encore le tableau de la 11e journée.
+
+Autres classements (aucune ligne modifiée, clé `verified` au 06/11)
+- Ligue A volley : https://spikelive.fr/ligue/lam n'affiche toujours que Tourcoing 3-0 Sète pour la 5e journée (Montpellier 11e, 3 pts) ; pas de deuxième tableau complet lisible, tableau de la 4e journée conservé.
+- Top 14, Champions Cup, Division 2 hockey : matchs à partir du 07/11, non relus. Starligue : trêve jusqu'au 13/11. Ligue des champions EHF terminée, Ligue des champions CEV non commencée.
+
 ## 2026-11-06 · Passage exceptionnel GP
 
 Aucun horaire modifié. Matchs et classements non repris (vérifiés au passage précédent).

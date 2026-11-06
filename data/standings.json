@@ -16,7 +16,7 @@
         "Diff",
         "Pts"
       ],
-      "as_of": "Après la 11e journée",
+      "as_of": "12e journée en cours (avant Clermont – Rodez, Pau – Nantes et Saint-Étienne – Laval du 07/11)",
       "verified": true,
       "rows": [
         {
@@ -35,43 +35,43 @@
         },
         {
           "rank": 2,
-          "team": "Montpellier",
+          "team": "Nancy",
           "values": [
-            11,
-            7,
-            3,
+            12,
+            8,
             1,
-            16,
-            6,
-            "+10",
-            24
+            3,
+            17,
+            9,
+            "+8",
+            25
           ]
         },
         {
           "rank": 3,
-          "team": "Nancy",
+          "team": "Montpellier",
           "values": [
-            11,
+            12,
             7,
-            1,
             3,
-            16,
+            2,
+            18,
             9,
-            "+7",
-            22
+            "+9",
+            24
           ]
         },
         {
           "rank": 4,
           "team": "Reims",
           "values": [
-            11,
+            12,
             5,
             6,
-            0,
-            22,
-            12,
-            "+10",
+            1,
+            24,
+            15,
+            "+9",
             21
           ]
         },
@@ -91,76 +91,104 @@
         },
         {
           "rank": 6,
-          "team": "Red Star",
+          "team": "Dijon",
           "values": [
-            11,
+            12,
             5,
-            2,
+            3,
             4,
-            14,
-            16,
-            "-2",
-            17
+            21,
+            19,
+            "+2",
+            18
           ]
         },
         {
           "rank": 7,
-          "team": "Annecy",
+          "team": "Metz",
           "values": [
-            11,
+            12,
+            4,
             5,
-            1,
-            5,
-            14,
-            15,
-            "-1",
-            16
+            3,
+            20,
+            19,
+            "+1",
+            17
           ]
         },
         {
           "rank": 8,
-          "team": "Dijon",
+          "team": "Red Star",
           "values": [
-            11,
-            4,
-            3,
-            4,
-            20,
-            19,
-            "+1",
-            15
+            12,
+            5,
+            2,
+            5,
+            14,
+            17,
+            "-3",
+            17
           ]
         },
         {
           "rank": 9,
-          "team": "Guingamp",
+          "team": "Annecy",
           "values": [
-            11,
-            4,
-            2,
+            12,
             5,
-            16,
-            15,
-            "+1",
-            14
+            1,
+            6,
+            14,
+            18,
+            "-4",
+            16
           ]
         },
         {
           "rank": 10,
-          "team": "Metz",
+          "team": "Dunkerque",
           "values": [
-            11,
+            12,
+            4,
             3,
             5,
-            3,
             17,
             17,
             "0",
-            14
+            15
           ]
         },
         {
           "rank": 11,
+          "team": "Guingamp",
+          "values": [
+            12,
+            4,
+            2,
+            6,
+            16,
+            18,
+            "-2",
+            14
+          ]
+        },
+        {
+          "rank": 12,
+          "team": "Boulogne",
+          "values": [
+            12,
+            2,
+            7,
+            3,
+            10,
+            8,
+            "+2",
+            13
+          ]
+        },
+        {
+          "rank": 13,
           "team": "Rodez",
           "values": [
             11,
@@ -174,49 +202,35 @@
           ]
         },
         {
-          "rank": 12,
-          "team": "Dunkerque",
-          "values": [
-            11,
-            3,
-            3,
-            5,
-            14,
-            17,
-            "-3",
-            12
-          ]
-        },
-        {
-          "rank": 13,
+          "rank": 14,
           "team": "Sochaux",
           "values": [
-            11,
+            12,
             2,
             5,
-            4,
+            5,
             8,
-            14,
-            "-6",
+            15,
+            "-7",
             11
           ]
         },
         {
-          "rank": 14,
-          "team": "Boulogne",
+          "rank": 15,
+          "team": "Grenoble",
           "values": [
-            11,
-            1,
-            7,
+            12,
             3,
+            2,
             7,
-            8,
-            "-1",
-            10
+            13,
+            22,
+            "-9",
+            11
           ]
         },
         {
-          "rank": 15,
+          "rank": 16,
           "team": "Nantes",
           "values": [
             11,
@@ -230,7 +244,7 @@
           ]
         },
         {
-          "rank": 16,
+          "rank": 17,
           "team": "Laval",
           "values": [
             11,
@@ -244,7 +258,7 @@
           ]
         },
         {
-          "rank": 17,
+          "rank": 18,
           "team": "Clermont",
           "values": [
             11,
@@ -256,30 +270,14 @@
             "-5",
             8
           ]
-        },
-        {
-          "rank": 18,
-          "team": "Grenoble",
-          "values": [
-            11,
-            2,
-            2,
-            7,
-            10,
-            20,
-            "-10",
-            8
-          ]
         }
       ],
       "note": "",
       "sources": [
-        "https://sports.orange.fr/football/ligue-2/classement-equipes.html",
-        "https://www.matchendirect.fr/classement-foot/france/classement-ligue-2.html",
-        "https://www.footmercato.net/club/asse/classement",
-        "https://morning-foot.com/uncategorized/ligue-2-reims-sochaux-invaincu-classement-asse/",
-        "https://www.footmercato.net/a5294149208522341416-ligue-2-le-red-star-humilie-a-domicile-par-nancy",
-        "https://www.sportclub-reims.fr/2026/11/le-stade-de-reims-domine-sochaux-et-retrouve-le-podium/"
+        "https://www.ski-nordique.net/?id=6750727",
+        "https://peuple-vert.fr/asse-actualite/ligue-2-multiplex-usbco-annecy-dijon-red-star-usld-eag-gf38-reims-mhsc-metz-asnl-fcsm",
+        "https://news.footeo.com/2026/11/06/ligue-2-les-resultats-de-la-soiree-metz-fait-tomber-montpellier-17091",
+        "https://www.footmercato.net/live/913634517208536200-montpellier-vs-metz"
       ]
     },
     {
