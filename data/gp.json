@@ -1,0 +1,1251 @@
+{
+  "verified": "2026-11-06",
+  "events": [
+    {
+      "id": "f1-2026-2026-11-06",
+      "series": "f1",
+      "season": 2026,
+      "round": null,
+      "name": "Grand Prix de São Paulo",
+      "circuit": "Interlagos",
+      "country": "Brésil",
+      "tz": "America/Sao_Paulo",
+      "start": "2026-11-06",
+      "end": "2026-11-08",
+      "sprint": false,
+      "date_ok": true,
+      "sessions": [
+        {
+          "type": "fp1",
+          "utc": "2026-11-06T15:30:00Z",
+          "time_ok": true
+        },
+        {
+          "type": "fp2",
+          "utc": "2026-11-06T19:00:00Z",
+          "time_ok": true
+        },
+        {
+          "type": "fp3",
+          "utc": "2026-11-07T14:30:00Z",
+          "time_ok": true
+        },
+        {
+          "type": "quali",
+          "utc": "2026-11-07T18:00:00Z",
+          "time_ok": true
+        },
+        {
+          "type": "race",
+          "utc": "2026-11-08T17:00:00Z",
+          "time_ok": true
+        }
+      ],
+      "note": "",
+      "sources": [
+        "https://www.tv-direct.fr/actualites/grand-prix-du-bresil-f1-2026-horaires-programme-tv-enjeux-interlagos/",
+        "https://motorsport.nextgen-auto.com/fr/formule-1/presentation-et-horaires-du-grand-prix-du-bresil-2026-de-f1,213006.html"
+      ]
+    },
+    {
+      "id": "motogp-2026-2026-11-06",
+      "series": "motogp",
+      "season": 2026,
+      "round": null,
+      "name": "Grand Prix du Qatar",
+      "circuit": "Lusail",
+      "country": "Qatar",
+      "tz": "Asia/Qatar",
+      "start": "2026-11-06",
+      "end": "2026-11-08",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [
+        {
+          "type": "fp1",
+          "utc": "2026-11-06T11:45:00Z",
+          "time_ok": false
+        },
+        {
+          "type": "practice",
+          "utc": "2026-11-06T16:00:00Z",
+          "time_ok": false
+        },
+        {
+          "type": "fp2",
+          "utc": "2026-11-07T11:00:00Z",
+          "time_ok": false
+        },
+        {
+          "type": "q1",
+          "utc": "2026-11-07T11:40:00Z",
+          "time_ok": false
+        },
+        {
+          "type": "q2",
+          "utc": "2026-11-07T12:05:00Z",
+          "time_ok": false
+        },
+        {
+          "type": "sprint",
+          "utc": "2026-11-07T16:00:00Z",
+          "time_ok": false
+        },
+        {
+          "type": "warmup",
+          "utc": "2026-11-08T11:40:00Z",
+          "time_ok": false
+        },
+        {
+          "type": "race",
+          "utc": "2026-11-08T16:00:00Z",
+          "time_ok": false
+        }
+      ],
+      "note": "Reporté d'avril à novembre. Horaires publiés par une seule source pour l'instant.",
+      "sources": [
+        "https://rtrsports.com/en/blog/calendar-motogp-2026/",
+        "https://horizonf1.fr/gp-qatar-motogp-2026/"
+      ]
+    },
+    {
+      "id": "f1-2026-2026-11-19",
+      "series": "f1",
+      "season": 2026,
+      "round": null,
+      "name": "Grand Prix de Las Vegas",
+      "circuit": "Las Vegas Strip Circuit",
+      "country": "États-Unis",
+      "tz": "America/Los_Angeles",
+      "start": "2026-11-19",
+      "end": "2026-11-21",
+      "sprint": false,
+      "date_ok": true,
+      "sessions": [
+        {
+          "type": "fp1",
+          "utc": "2026-11-20T00:30:00Z",
+          "time_ok": true
+        },
+        {
+          "type": "fp2",
+          "utc": "2026-11-20T04:00:00Z",
+          "time_ok": true
+        },
+        {
+          "type": "fp3",
+          "utc": "2026-11-21T00:30:00Z",
+          "time_ok": true
+        },
+        {
+          "type": "quali",
+          "utc": "2026-11-21T04:00:00Z",
+          "time_ok": true
+        },
+        {
+          "type": "race",
+          "utc": "2026-11-22T04:00:00Z",
+          "time_ok": true
+        }
+      ],
+      "note": "Course le samedi soir à Las Vegas, soit dimanche matin à Paris.",
+      "sources": [
+        "https://www.formula1.com/en/latest/article/formula-1-heineken-las-vegas-grand-prix-2026.1qmWzcBwKK5hkTbYbhVC22",
+        "https://www.zonef1.com/mobile/saisons/2026/courses/las-vegas/programme.php"
+      ]
+    },
+    {
+      "id": "motogp-2026-2026-11-20",
+      "series": "motogp",
+      "season": 2026,
+      "round": null,
+      "name": "Grand Prix du Portugal",
+      "circuit": "Portimão",
+      "country": "Portugal",
+      "tz": "Europe/Lisbon",
+      "start": "2026-11-20",
+      "end": "2026-11-22",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [
+        {
+          "type": "fp1",
+          "utc": "2026-11-20T10:45:00Z",
+          "time_ok": false
+        },
+        {
+          "type": "practice",
+          "utc": "2026-11-20T15:00:00Z",
+          "time_ok": false
+        },
+        {
+          "type": "fp2",
+          "utc": "2026-11-21T10:10:00Z",
+          "time_ok": false
+        },
+        {
+          "type": "q1",
+          "utc": "2026-11-21T10:50:00Z",
+          "time_ok": false
+        },
+        {
+          "type": "q2",
+          "utc": "2026-11-21T11:15:00Z",
+          "time_ok": false
+        },
+        {
+          "type": "sprint",
+          "utc": "2026-11-21T15:00:00Z",
+          "time_ok": false
+        },
+        {
+          "type": "warmup",
+          "utc": "2026-11-22T09:40:00Z",
+          "time_ok": false
+        },
+        {
+          "type": "race",
+          "utc": "2026-11-22T13:00:00Z",
+          "time_ok": false
+        }
+      ],
+      "note": "Horaires provisoires du circuit ; la course est annoncée à 13h00 ou 14h00 (heure locale) selon les pages.",
+      "sources": [
+        "https://rtrsports.com/en/blog/calendar-motogp-2026/",
+        "https://www.portugalmotogp.com/fr/horaire-17"
+      ]
+    },
+    {
+      "id": "f1-2026-2026-11-27",
+      "series": "f1",
+      "season": 2026,
+      "round": null,
+      "name": "Grand Prix du Qatar",
+      "circuit": "Lusail",
+      "country": "Qatar",
+      "tz": "Asia/Qatar",
+      "start": "2026-11-27",
+      "end": "2026-11-29",
+      "sprint": false,
+      "date_ok": true,
+      "sessions": [
+        {
+          "type": "fp1",
+          "utc": "2026-11-27T13:30:00Z",
+          "time_ok": true
+        },
+        {
+          "type": "fp2",
+          "utc": "2026-11-27T17:00:00Z",
+          "time_ok": true
+        },
+        {
+          "type": "fp3",
+          "utc": "2026-11-28T14:30:00Z",
+          "time_ok": true
+        },
+        {
+          "type": "quali",
+          "utc": "2026-11-28T18:00:00Z",
+          "time_ok": true
+        },
+        {
+          "type": "race",
+          "utc": "2026-11-29T16:00:00Z",
+          "time_ok": true
+        }
+      ],
+      "note": "",
+      "sources": [
+        "https://www.grandprixpal.com/races/qatar-2026/schedule",
+        "https://racingnews365.com/f1/races/gp-qatar"
+      ]
+    },
+    {
+      "id": "motogp-2026-2026-11-27",
+      "series": "motogp",
+      "season": 2026,
+      "round": null,
+      "name": "Grand Prix de Valence",
+      "circuit": "Circuit Ricardo Tormo",
+      "country": "Espagne",
+      "tz": "Europe/Madrid",
+      "start": "2026-11-27",
+      "end": "2026-11-29",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "Décalé d'une semaine. Dernière course de la saison 2026.",
+      "sources": [
+        "https://rtrsports.com/en/blog/calendar-motogp-2026/",
+        "https://www.motogpvalencia.com/fr/motogp-valencia-5"
+      ]
+    },
+    {
+      "id": "f1-2026-2026-12-04",
+      "series": "f1",
+      "season": 2026,
+      "round": null,
+      "name": "Grand Prix d'Abu Dhabi",
+      "circuit": "Yas Marina",
+      "country": "Émirats arabes unis",
+      "tz": "Asia/Dubai",
+      "start": "2026-12-04",
+      "end": "2026-12-06",
+      "sprint": false,
+      "date_ok": true,
+      "sessions": [
+        {
+          "type": "fp1",
+          "utc": "2026-12-04T09:30:00Z",
+          "time_ok": true
+        },
+        {
+          "type": "fp2",
+          "utc": "2026-12-04T13:00:00Z",
+          "time_ok": true
+        },
+        {
+          "type": "fp3",
+          "utc": "2026-12-05T10:30:00Z",
+          "time_ok": true
+        },
+        {
+          "type": "quali",
+          "utc": "2026-12-05T14:00:00Z",
+          "time_ok": true
+        },
+        {
+          "type": "race",
+          "utc": "2026-12-06T13:00:00Z",
+          "time_ok": true
+        }
+      ],
+      "note": "Dernière course de la saison 2026.",
+      "sources": [
+        "https://www.formula1.com/en/latest/article/formula-1-etihad-airways-abu-dhabi-grand-prix-2026.5mmDojxBdiltjPgeIxAKOq",
+        "https://www.grandprixpal.com/races/abu-dhabi/schedule"
+      ]
+    },
+    {
+      "id": "motogp-2027-2027-03-05",
+      "series": "motogp",
+      "season": 2027,
+      "round": 1,
+      "name": "Grand Prix de Thaïlande",
+      "circuit": "Buriram",
+      "country": "Thaïlande",
+      "tz": "Asia/Bangkok",
+      "start": "2027-03-05",
+      "end": "2027-03-07",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589",
+        "https://www.crash.net/motogp/news/1105265/1/motogp-reveals-2027-calendar-confirms-adelaide-and-argentina-dates"
+      ]
+    },
+    {
+      "id": "f1-2027-2027-03-12",
+      "series": "f1",
+      "season": 2027,
+      "round": 1,
+      "name": "Grand Prix de Bahreïn",
+      "circuit": "Sakhir",
+      "country": "Bahreïn",
+      "tz": "Asia/Bahrain",
+      "start": "2027-03-12",
+      "end": "2027-03-14",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "Dates au Moyen-Orient susceptibles de changer.",
+      "sources": [
+        "https://www.racefans.net/2027-f1-season/2027-f1-calendar/",
+        "https://www.gpblog.com/en/breaking-news/f1-announces-2027-calendar-as-bahrain-testing-dates-and-british-gp-weekend-are-set"
+      ]
+    },
+    {
+      "id": "motogp-2027-2027-03-12",
+      "series": "motogp",
+      "season": 2027,
+      "round": 2,
+      "name": "Grand Prix du Qatar",
+      "circuit": "Lusail",
+      "country": "Qatar",
+      "tz": "Asia/Qatar",
+      "start": "2027-03-12",
+      "end": "2027-03-14",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589",
+        "https://www.crash.net/motogp/news/1105265/1/motogp-reveals-2027-calendar-confirms-adelaide-and-argentina-dates"
+      ]
+    },
+    {
+      "id": "f1-2027-2027-03-19",
+      "series": "f1",
+      "season": 2027,
+      "round": 2,
+      "name": "Grand Prix d'Arabie saoudite",
+      "circuit": "Djeddah",
+      "country": "Arabie saoudite",
+      "tz": "Asia/Riyadh",
+      "start": "2027-03-19",
+      "end": "2027-03-21",
+      "sprint": false,
+      "date_ok": true,
+      "sessions": [],
+      "note": "Dates au Moyen-Orient susceptibles de changer.",
+      "sources": [
+        "https://www.racefans.net/2027-f1-season/2027-f1-calendar/",
+        "https://www.gpblog.com/en/breaking-news/f1-announces-2027-calendar-as-bahrain-testing-dates-and-british-gp-weekend-are-set"
+      ]
+    },
+    {
+      "id": "f1-2027-2027-04-02",
+      "series": "f1",
+      "season": 2027,
+      "round": 3,
+      "name": "Grand Prix d'Australie",
+      "circuit": "Albert Park, Melbourne",
+      "country": "Australie",
+      "tz": "Australia/Melbourne",
+      "start": "2027-04-02",
+      "end": "2027-04-04",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.racefans.net/2027-f1-season/2027-f1-calendar/",
+        "https://www.gpblog.com/en/breaking-news/f1-announces-2027-calendar-as-bahrain-testing-dates-and-british-gp-weekend-are-set"
+      ]
+    },
+    {
+      "id": "motogp-2027-2027-04-02",
+      "series": "motogp",
+      "season": 2027,
+      "round": 3,
+      "name": "Grand Prix du Brésil",
+      "circuit": "Goiânia",
+      "country": "Brésil",
+      "tz": "America/Sao_Paulo",
+      "start": "2027-04-02",
+      "end": "2027-04-04",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589",
+        "https://www.crash.net/motogp/news/1105265/1/motogp-reveals-2027-calendar-confirms-adelaide-and-argentina-dates"
+      ]
+    },
+    {
+      "id": "f1-2027-2027-04-09",
+      "series": "f1",
+      "season": 2027,
+      "round": 4,
+      "name": "Grand Prix du Japon",
+      "circuit": "Suzuka",
+      "country": "Japon",
+      "tz": "Asia/Tokyo",
+      "start": "2027-04-09",
+      "end": "2027-04-11",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.racefans.net/2027-f1-season/2027-f1-calendar/",
+        "https://www.gpblog.com/en/breaking-news/f1-announces-2027-calendar-as-bahrain-testing-dates-and-british-gp-weekend-are-set"
+      ]
+    },
+    {
+      "id": "motogp-2027-2027-04-09",
+      "series": "motogp",
+      "season": 2027,
+      "round": 4,
+      "name": "Grand Prix d'Argentine",
+      "circuit": "Buenos Aires",
+      "country": "Argentine",
+      "tz": "America/Argentina/Buenos_Aires",
+      "start": "2027-04-09",
+      "end": "2027-04-11",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "Sous réserve d'homologation du circuit.",
+      "sources": [
+        "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589",
+        "https://www.crash.net/motogp/news/1105265/1/motogp-reveals-2027-calendar-confirms-adelaide-and-argentina-dates"
+      ]
+    },
+    {
+      "id": "f1-2027-2027-04-16",
+      "series": "f1",
+      "season": 2027,
+      "round": 5,
+      "name": "Grand Prix de Chine",
+      "circuit": "Shanghai",
+      "country": "Chine",
+      "tz": "Asia/Shanghai",
+      "start": "2027-04-16",
+      "end": "2027-04-18",
+      "sprint": false,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.racefans.net/2027-f1-season/2027-f1-calendar/",
+        "https://www.gpblog.com/en/breaking-news/f1-announces-2027-calendar-as-bahrain-testing-dates-and-british-gp-weekend-are-set"
+      ]
+    },
+    {
+      "id": "motogp-2027-2027-04-23",
+      "series": "motogp",
+      "season": 2027,
+      "round": 5,
+      "name": "Grand Prix des Amériques",
+      "circuit": "Circuit des Amériques, Austin",
+      "country": "États-Unis",
+      "tz": "America/Chicago",
+      "start": "2027-04-23",
+      "end": "2027-04-25",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "Sous réserve de contrat.",
+      "sources": [
+        "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589",
+        "https://www.crash.net/motogp/news/1105265/1/motogp-reveals-2027-calendar-confirms-adelaide-and-argentina-dates"
+      ]
+    },
+    {
+      "id": "f1-2027-2027-04-30",
+      "series": "f1",
+      "season": 2027,
+      "round": 6,
+      "name": "Grand Prix de Miami",
+      "circuit": "Miami",
+      "country": "États-Unis",
+      "tz": "America/New_York",
+      "start": "2027-04-30",
+      "end": "2027-05-02",
+      "sprint": false,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.racefans.net/2027-f1-season/2027-f1-calendar/",
+        "https://www.gpblog.com/en/breaking-news/f1-announces-2027-calendar-as-bahrain-testing-dates-and-british-gp-weekend-are-set"
+      ]
+    },
+    {
+      "id": "motogp-2027-2027-05-07",
+      "series": "motogp",
+      "season": 2027,
+      "round": 6,
+      "name": "Grand Prix d'Espagne",
+      "circuit": "Jerez",
+      "country": "Espagne",
+      "tz": "Europe/Madrid",
+      "start": "2027-05-07",
+      "end": "2027-05-09",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589",
+        "https://www.crash.net/motogp/news/1105265/1/motogp-reveals-2027-calendar-confirms-adelaide-and-argentina-dates"
+      ]
+    },
+    {
+      "id": "motogp-2027-2027-05-14",
+      "series": "motogp",
+      "season": 2027,
+      "round": 7,
+      "name": "Grand Prix de France",
+      "circuit": "Le Mans",
+      "country": "France",
+      "tz": "Europe/Paris",
+      "start": "2027-05-14",
+      "end": "2027-05-16",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589",
+        "https://www.crash.net/motogp/news/1105265/1/motogp-reveals-2027-calendar-confirms-adelaide-and-argentina-dates"
+      ]
+    },
+    {
+      "id": "f1-2027-2027-05-21",
+      "series": "f1",
+      "season": 2027,
+      "round": 7,
+      "name": "Grand Prix du Canada",
+      "circuit": "Circuit Gilles-Villeneuve, Montréal",
+      "country": "Canada",
+      "tz": "America/Toronto",
+      "start": "2027-05-21",
+      "end": "2027-05-23",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.racefans.net/2027-f1-season/2027-f1-calendar/",
+        "https://www.gpblog.com/en/breaking-news/f1-announces-2027-calendar-as-bahrain-testing-dates-and-british-gp-weekend-are-set"
+      ]
+    },
+    {
+      "id": "motogp-2027-2027-05-28",
+      "series": "motogp",
+      "season": 2027,
+      "round": 8,
+      "name": "Grand Prix d'Italie",
+      "circuit": "Mugello",
+      "country": "Italie",
+      "tz": "Europe/Rome",
+      "start": "2027-05-28",
+      "end": "2027-05-30",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589",
+        "https://www.crash.net/motogp/news/1105265/1/motogp-reveals-2027-calendar-confirms-adelaide-and-argentina-dates"
+      ]
+    },
+    {
+      "id": "f1-2027-2027-06-04",
+      "series": "f1",
+      "season": 2027,
+      "round": 8,
+      "name": "Grand Prix de Monaco",
+      "circuit": "Monaco",
+      "country": "Monaco",
+      "tz": "Europe/Monaco",
+      "start": "2027-06-04",
+      "end": "2027-06-06",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.racefans.net/2027-f1-season/2027-f1-calendar/",
+        "https://www.gpblog.com/en/breaking-news/f1-announces-2027-calendar-as-bahrain-testing-dates-and-british-gp-weekend-are-set"
+      ]
+    },
+    {
+      "id": "motogp-2027-2027-06-11",
+      "series": "motogp",
+      "season": 2027,
+      "round": 9,
+      "name": "Grand Prix de Catalogne",
+      "circuit": "Barcelone-Catalunya",
+      "country": "Espagne",
+      "tz": "Europe/Madrid",
+      "start": "2027-06-11",
+      "end": "2027-06-13",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589",
+        "https://www.crash.net/motogp/news/1105265/1/motogp-reveals-2027-calendar-confirms-adelaide-and-argentina-dates"
+      ]
+    },
+    {
+      "id": "f1-2027-2027-06-18",
+      "series": "f1",
+      "season": 2027,
+      "round": 9,
+      "name": "Grand Prix du Portugal",
+      "circuit": "Portimão",
+      "country": "Portugal",
+      "tz": "Europe/Lisbon",
+      "start": "2027-06-18",
+      "end": "2027-06-20",
+      "sprint": false,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.racefans.net/2027-f1-season/2027-f1-calendar/",
+        "https://www.gpblog.com/en/breaking-news/f1-announces-2027-calendar-as-bahrain-testing-dates-and-british-gp-weekend-are-set"
+      ]
+    },
+    {
+      "id": "motogp-2027-2027-06-25",
+      "series": "motogp",
+      "season": 2027,
+      "round": 10,
+      "name": "Grand Prix des Pays-Bas",
+      "circuit": "Assen",
+      "country": "Pays-Bas",
+      "tz": "Europe/Amsterdam",
+      "start": "2027-06-25",
+      "end": "2027-06-27",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589",
+        "https://www.crash.net/motogp/news/1105265/1/motogp-reveals-2027-calendar-confirms-adelaide-and-argentina-dates"
+      ]
+    },
+    {
+      "id": "f1-2027-2027-07-02",
+      "series": "f1",
+      "season": 2027,
+      "round": 10,
+      "name": "Grand Prix de Grande-Bretagne",
+      "circuit": "Silverstone",
+      "country": "Royaume-Uni",
+      "tz": "Europe/London",
+      "start": "2027-07-02",
+      "end": "2027-07-04",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.racefans.net/2027-f1-season/2027-f1-calendar/",
+        "https://www.gpblog.com/en/breaking-news/f1-announces-2027-calendar-as-bahrain-testing-dates-and-british-gp-weekend-are-set"
+      ]
+    },
+    {
+      "id": "f1-2027-2027-07-09",
+      "series": "f1",
+      "season": 2027,
+      "round": 11,
+      "name": "Grand Prix d'Autriche",
+      "circuit": "Red Bull Ring, Spielberg",
+      "country": "Autriche",
+      "tz": "Europe/Vienna",
+      "start": "2027-07-09",
+      "end": "2027-07-11",
+      "sprint": false,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.racefans.net/2027-f1-season/2027-f1-calendar/",
+        "https://www.gpblog.com/en/breaking-news/f1-announces-2027-calendar-as-bahrain-testing-dates-and-british-gp-weekend-are-set"
+      ]
+    },
+    {
+      "id": "motogp-2027-2027-07-09",
+      "series": "motogp",
+      "season": 2027,
+      "round": 11,
+      "name": "Grand Prix d'Allemagne",
+      "circuit": "Sachsenring",
+      "country": "Allemagne",
+      "tz": "Europe/Berlin",
+      "start": "2027-07-09",
+      "end": "2027-07-11",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589",
+        "https://www.crash.net/motogp/news/1105265/1/motogp-reveals-2027-calendar-confirms-adelaide-and-argentina-dates"
+      ]
+    },
+    {
+      "id": "motogp-2027-2027-07-16",
+      "series": "motogp",
+      "season": 2027,
+      "round": 12,
+      "name": "Grand Prix de République tchèque",
+      "circuit": "Brno",
+      "country": "Tchéquie",
+      "tz": "Europe/Prague",
+      "start": "2027-07-16",
+      "end": "2027-07-18",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589",
+        "https://www.crash.net/motogp/news/1105265/1/motogp-reveals-2027-calendar-confirms-adelaide-and-argentina-dates"
+      ]
+    },
+    {
+      "id": "f1-2027-2027-07-23",
+      "series": "f1",
+      "season": 2027,
+      "round": 12,
+      "name": "Grand Prix de Belgique",
+      "circuit": "Spa-Francorchamps",
+      "country": "Belgique",
+      "tz": "Europe/Brussels",
+      "start": "2027-07-23",
+      "end": "2027-07-25",
+      "sprint": false,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.racefans.net/2027-f1-season/2027-f1-calendar/",
+        "https://www.gpblog.com/en/breaking-news/f1-announces-2027-calendar-as-bahrain-testing-dates-and-british-gp-weekend-are-set"
+      ]
+    },
+    {
+      "id": "f1-2027-2027-07-30",
+      "series": "f1",
+      "season": 2027,
+      "round": 13,
+      "name": "Grand Prix de Hongrie",
+      "circuit": "Hungaroring, Budapest",
+      "country": "Hongrie",
+      "tz": "Europe/Budapest",
+      "start": "2027-07-30",
+      "end": "2027-08-01",
+      "sprint": false,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.racefans.net/2027-f1-season/2027-f1-calendar/",
+        "https://www.gpblog.com/en/breaking-news/f1-announces-2027-calendar-as-bahrain-testing-dates-and-british-gp-weekend-are-set"
+      ]
+    },
+    {
+      "id": "motogp-2027-2027-08-13",
+      "series": "motogp",
+      "season": 2027,
+      "round": 13,
+      "name": "Grand Prix de Grande-Bretagne",
+      "circuit": "Silverstone",
+      "country": "Royaume-Uni",
+      "tz": "Europe/London",
+      "start": "2027-08-13",
+      "end": "2027-08-15",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589",
+        "https://www.crash.net/motogp/news/1105265/1/motogp-reveals-2027-calendar-confirms-adelaide-and-argentina-dates"
+      ]
+    },
+    {
+      "id": "motogp-2027-2027-08-27",
+      "series": "motogp",
+      "season": 2027,
+      "round": 14,
+      "name": "Grand Prix d'Autriche",
+      "circuit": "Red Bull Ring, Spielberg",
+      "country": "Autriche",
+      "tz": "Europe/Vienna",
+      "start": "2027-08-27",
+      "end": "2027-08-29",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589",
+        "https://www.crash.net/motogp/news/1105265/1/motogp-reveals-2027-calendar-confirms-adelaide-and-argentina-dates"
+      ]
+    },
+    {
+      "id": "f1-2027-2027-09-03",
+      "series": "f1",
+      "season": 2027,
+      "round": 14,
+      "name": "Grand Prix d'Italie",
+      "circuit": "Monza",
+      "country": "Italie",
+      "tz": "Europe/Rome",
+      "start": "2027-09-03",
+      "end": "2027-09-05",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.racefans.net/2027-f1-season/2027-f1-calendar/",
+        "https://www.gpblog.com/en/breaking-news/f1-announces-2027-calendar-as-bahrain-testing-dates-and-british-gp-weekend-are-set"
+      ]
+    },
+    {
+      "id": "f1-2027-2027-09-10",
+      "series": "f1",
+      "season": 2027,
+      "round": 15,
+      "name": "Grand Prix d'Espagne",
+      "circuit": "Madring, Madrid",
+      "country": "Espagne",
+      "tz": "Europe/Madrid",
+      "start": "2027-09-10",
+      "end": "2027-09-12",
+      "sprint": false,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.racefans.net/2027-f1-season/2027-f1-calendar/",
+        "https://www.gpblog.com/en/breaking-news/f1-announces-2027-calendar-as-bahrain-testing-dates-and-british-gp-weekend-are-set"
+      ]
+    },
+    {
+      "id": "motogp-2027-2027-09-10",
+      "series": "motogp",
+      "season": 2027,
+      "round": 15,
+      "name": "Grand Prix de Saint-Marin",
+      "circuit": "Misano",
+      "country": "Italie",
+      "tz": "Europe/Rome",
+      "start": "2027-09-10",
+      "end": "2027-09-12",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589",
+        "https://www.crash.net/motogp/news/1105265/1/motogp-reveals-2027-calendar-confirms-adelaide-and-argentina-dates"
+      ]
+    },
+    {
+      "id": "motogp-2027-2027-09-17",
+      "series": "motogp",
+      "season": 2027,
+      "round": 16,
+      "name": "Grand Prix d'Aragon",
+      "circuit": "MotorLand Aragón",
+      "country": "Espagne",
+      "tz": "Europe/Madrid",
+      "start": "2027-09-17",
+      "end": "2027-09-19",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589",
+        "https://www.crash.net/motogp/news/1105265/1/motogp-reveals-2027-calendar-confirms-adelaide-and-argentina-dates"
+      ]
+    },
+    {
+      "id": "f1-2027-2027-09-24",
+      "series": "f1",
+      "season": 2027,
+      "round": 16,
+      "name": "Grand Prix d'Azerbaïdjan",
+      "circuit": "Bakou",
+      "country": "Azerbaïdjan",
+      "tz": "Asia/Baku",
+      "start": "2027-09-24",
+      "end": "2027-09-26",
+      "sprint": false,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.racefans.net/2027-f1-season/2027-f1-calendar/",
+        "https://www.gpblog.com/en/breaking-news/f1-announces-2027-calendar-as-bahrain-testing-dates-and-british-gp-weekend-are-set"
+      ]
+    },
+    {
+      "id": "f1-2027-2027-10-01",
+      "series": "f1",
+      "season": 2027,
+      "round": 17,
+      "name": "Grand Prix de Turquie",
+      "circuit": "Istanbul Park",
+      "country": "Turquie",
+      "tz": "Europe/Istanbul",
+      "start": "2027-10-01",
+      "end": "2027-10-03",
+      "sprint": false,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.racefans.net/2027-f1-season/2027-f1-calendar/",
+        "https://www.gpblog.com/en/breaking-news/f1-announces-2027-calendar-as-bahrain-testing-dates-and-british-gp-weekend-are-set"
+      ]
+    },
+    {
+      "id": "motogp-2027-2027-10-01",
+      "series": "motogp",
+      "season": 2027,
+      "round": 17,
+      "name": "Grand Prix du Portugal",
+      "circuit": "Portimão",
+      "country": "Portugal",
+      "tz": "Europe/Lisbon",
+      "start": "2027-10-01",
+      "end": "2027-10-03",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589",
+        "https://www.crash.net/motogp/news/1105265/1/motogp-reveals-2027-calendar-confirms-adelaide-and-argentina-dates"
+      ]
+    },
+    {
+      "id": "f1-2027-2027-10-08",
+      "series": "f1",
+      "season": 2027,
+      "round": 18,
+      "name": "Grand Prix de Singapour",
+      "circuit": "Marina Bay",
+      "country": "Singapour",
+      "tz": "Asia/Singapore",
+      "start": "2027-10-08",
+      "end": "2027-10-10",
+      "sprint": false,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.racefans.net/2027-f1-season/2027-f1-calendar/",
+        "https://www.gpblog.com/en/breaking-news/f1-announces-2027-calendar-as-bahrain-testing-dates-and-british-gp-weekend-are-set"
+      ]
+    },
+    {
+      "id": "motogp-2027-2027-10-15",
+      "series": "motogp",
+      "season": 2027,
+      "round": 18,
+      "name": "Grand Prix du Japon",
+      "circuit": "Motegi",
+      "country": "Japon",
+      "tz": "Asia/Tokyo",
+      "start": "2027-10-15",
+      "end": "2027-10-17",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589",
+        "https://www.crash.net/motogp/news/1105265/1/motogp-reveals-2027-calendar-confirms-adelaide-and-argentina-dates"
+      ]
+    },
+    {
+      "id": "f1-2027-2027-10-22",
+      "series": "f1",
+      "season": 2027,
+      "round": 19,
+      "name": "Grand Prix des États-Unis",
+      "circuit": "Circuit des Amériques, Austin",
+      "country": "États-Unis",
+      "tz": "America/Chicago",
+      "start": "2027-10-22",
+      "end": "2027-10-24",
+      "sprint": false,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.racefans.net/2027-f1-season/2027-f1-calendar/",
+        "https://www.gpblog.com/en/breaking-news/f1-announces-2027-calendar-as-bahrain-testing-dates-and-british-gp-weekend-are-set"
+      ]
+    },
+    {
+      "id": "motogp-2027-2027-10-22",
+      "series": "motogp",
+      "season": 2027,
+      "round": 19,
+      "name": "Grand Prix de Malaisie",
+      "circuit": "Sepang",
+      "country": "Malaisie",
+      "tz": "Asia/Kuala_Lumpur",
+      "start": "2027-10-22",
+      "end": "2027-10-24",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589",
+        "https://www.crash.net/motogp/news/1105265/1/motogp-reveals-2027-calendar-confirms-adelaide-and-argentina-dates"
+      ]
+    },
+    {
+      "id": "f1-2027-2027-10-29",
+      "series": "f1",
+      "season": 2027,
+      "round": 20,
+      "name": "Grand Prix de Mexico",
+      "circuit": "Autódromo Hermanos Rodríguez",
+      "country": "Mexique",
+      "tz": "America/Mexico_City",
+      "start": "2027-10-29",
+      "end": "2027-10-31",
+      "sprint": false,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.racefans.net/2027-f1-season/2027-f1-calendar/",
+        "https://www.gpblog.com/en/breaking-news/f1-announces-2027-calendar-as-bahrain-testing-dates-and-british-gp-weekend-are-set"
+      ]
+    },
+    {
+      "id": "motogp-2027-2027-10-29",
+      "series": "motogp",
+      "season": 2027,
+      "round": 20,
+      "name": "Grand Prix d'Indonésie",
+      "circuit": "Mandalika",
+      "country": "Indonésie",
+      "tz": "Asia/Makassar",
+      "start": "2027-10-29",
+      "end": "2027-10-31",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589",
+        "https://www.crash.net/motogp/news/1105265/1/motogp-reveals-2027-calendar-confirms-adelaide-and-argentina-dates"
+      ]
+    },
+    {
+      "id": "f1-2027-2027-11-05",
+      "series": "f1",
+      "season": 2027,
+      "round": 21,
+      "name": "Grand Prix de São Paulo",
+      "circuit": "Interlagos",
+      "country": "Brésil",
+      "tz": "America/Sao_Paulo",
+      "start": "2027-11-05",
+      "end": "2027-11-07",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.racefans.net/2027-f1-season/2027-f1-calendar/",
+        "https://www.gpblog.com/en/breaking-news/f1-announces-2027-calendar-as-bahrain-testing-dates-and-british-gp-weekend-are-set"
+      ]
+    },
+    {
+      "id": "motogp-2027-2027-11-12",
+      "series": "motogp",
+      "season": 2027,
+      "round": 21,
+      "name": "Grand Prix d'Australie",
+      "circuit": "Circuit urbain d'Adélaïde",
+      "country": "Australie",
+      "tz": "Australia/Adelaide",
+      "start": "2027-11-12",
+      "end": "2027-11-14",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "Sous réserve d'homologation du circuit.",
+      "sources": [
+        "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589",
+        "https://www.crash.net/motogp/news/1105265/1/motogp-reveals-2027-calendar-confirms-adelaide-and-argentina-dates"
+      ]
+    },
+    {
+      "id": "f1-2027-2027-11-18",
+      "series": "f1",
+      "season": 2027,
+      "round": 22,
+      "name": "Grand Prix de Las Vegas",
+      "circuit": "Las Vegas Strip Circuit",
+      "country": "États-Unis",
+      "tz": "America/Los_Angeles",
+      "start": "2027-11-18",
+      "end": "2027-11-20",
+      "sprint": false,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.racefans.net/2027-f1-season/2027-f1-calendar/",
+        "https://www.gpblog.com/en/breaking-news/f1-announces-2027-calendar-as-bahrain-testing-dates-and-british-gp-weekend-are-set"
+      ]
+    },
+    {
+      "id": "motogp-2027-2027-11-26",
+      "series": "motogp",
+      "season": 2027,
+      "round": 22,
+      "name": "Grand Prix de Valence",
+      "circuit": "Circuit Ricardo Tormo",
+      "country": "Espagne",
+      "tz": "Europe/Madrid",
+      "start": "2027-11-26",
+      "end": "2027-11-28",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589",
+        "https://www.crash.net/motogp/news/1105265/1/motogp-reveals-2027-calendar-confirms-adelaide-and-argentina-dates"
+      ]
+    },
+    {
+      "id": "f1-2027-2027-12-03",
+      "series": "f1",
+      "season": 2027,
+      "round": 23,
+      "name": "Grand Prix du Qatar",
+      "circuit": "Lusail",
+      "country": "Qatar",
+      "tz": "Asia/Qatar",
+      "start": "2027-12-03",
+      "end": "2027-12-05",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.racefans.net/2027-f1-season/2027-f1-calendar/",
+        "https://www.gpblog.com/en/breaking-news/f1-announces-2027-calendar-as-bahrain-testing-dates-and-british-gp-weekend-are-set"
+      ]
+    },
+    {
+      "id": "f1-2027-2027-12-10",
+      "series": "f1",
+      "season": 2027,
+      "round": 24,
+      "name": "Grand Prix d'Abu Dhabi",
+      "circuit": "Yas Marina",
+      "country": "Émirats arabes unis",
+      "tz": "Asia/Dubai",
+      "start": "2027-12-10",
+      "end": "2027-12-12",
+      "sprint": true,
+      "date_ok": true,
+      "sessions": [],
+      "note": "",
+      "sources": [
+        "https://www.racefans.net/2027-f1-season/2027-f1-calendar/",
+        "https://www.gpblog.com/en/breaking-news/f1-announces-2027-calendar-as-bahrain-testing-dates-and-british-gp-weekend-are-set"
+      ]
+    }
+  ]
+}

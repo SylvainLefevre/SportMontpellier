@@ -1,6 +1,6 @@
 # Procédure de mise à jour hebdomadaire
 
-Ce fichier décrit exactement ce que fait chaque passage de mise à jour. La page (`index.html`) ne contient aucune donnée : le calendrier est dans `data/matches.json`, les classements dans `data/standings.json`. Un passage ne modifie que `data/matches.json`, `data/standings.json` et `CHANGELOG.md`.
+Ce fichier décrit exactement ce que fait chaque passage de mise à jour. La page (`index.html`) ne contient aucune donnée : le calendrier est dans `data/matches.json`, les classements dans `data/standings.json`. Les Grands Prix de F1 et de MotoGP sont dans `data/gp.json`. Un passage ne modifie que `data/matches.json`, `data/standings.json`, `data/gp.json` et `CHANGELOG.md`.
 
 ## Périmètre
 
@@ -84,10 +84,27 @@ Les classements suivent la même règle des deux sources que les dates.
 7. Mettre la clé `verified` à la racine du fichier à la date du passage.
 8. Contrôles : `python3 -m json.tool data/standings.json` réussit ; chaque ligne a autant de `values` que `columns` ; les rangs vont de 1 à N sans trou ; l'équipe `club` apparaît dans chaque classement vérifié.
 
+## Grands Prix (`data/gp.json`, onglet « GP »)
+
+Toutes les manches de Formule 1 et de MotoGP (catégorie reine seulement), de la fin de saison 2026 à la fin de saison 2027. Même règle des deux sources que pour les matchs.
+
+1. Calendrier : `start` / `end` = premier et dernier jour du week-end en date locale du circuit (F1 : vendredi au dimanche, Las Vegas jeudi au samedi ; MotoGP : vendredi au dimanche). `date_ok` à `true` seulement si deux sources indépendantes donnent les mêmes dates. Une manche annulée, reportée ou ajoutée n'est modifiée que sur deux sources, et consignée dans le journal.
+2. `sprint` : en F1, `true` seulement pour les week-ends sprint officiels ; en MotoGP, toujours `true` (sprint chaque samedi).
+3. Sessions : remplir `sessions` dès que la F1 ou le MotoGP publient les horaires (F1 : en général en début d'année pour toute la saison ; MotoGP : quelques semaines avant chaque GP). Chaque session : `{"type": …, "utc": "AAAA-MM-JJTHH:MM:00Z", "time_ok": …}`.
+   - Types F1 : `fp1`, `fp2`, `fp3`, `sq` (qualifications sprint), `sprint`, `quali`, `race`. Types MotoGP : `fp1`, `practice`, `fp2`, `q1`, `q2`, `sprint`, `warmup`, `race`.
+   - `utc` est toujours en UTC : convertir depuis l'heure locale du circuit ou l'heure de Paris en tenant compte des changements d'heure (heure d'été). La page affiche ensuite l'heure de Paris et l'heure sur place.
+   - `time_ok` à `true` seulement si deux sources indépendantes donnent le même horaire (après conversion). Attention aux pages qui collent le numéro de session à l'heure (« Free Practice 28:00 PM » = FP2 à 8:00 PM) et aux tableaux sans fuseau indiqué.
+   - Priorité : vérifier à chaque passage toutes les sessions des 3 prochains week-ends de GP.
+4. `round` : numéro de manche officiel, seulement s'il est confirmé par deux sources (sinon `null`).
+5. `tz` : fuseau IANA du circuit (ex. `Asia/Qatar`, `America/Los_Angeles`). `note` : une phrase utile au lecteur seulement si nécessaire (report, course le samedi, réserve d'homologation).
+6. Ne jamais supprimer les GP passés : la page les masque d'elle-même.
+7. Mettre la clé `verified` à la racine du fichier à la date du passage.
+8. Contrôles : `python3 -m json.tool data/gp.json` réussit ; `series` parmi `f1 motogp` ; chaque `utc` se termine par `Z` ; sessions comprises entre `start` - 1 jour et `end` + 1 jour (décalage horaire) ; pas de doublon (même `series`, même `start`).
+
 ## Résumé de fin de passage
 
 Terminer par un court résumé en français :
-- ce qui a changé (dates, horaires, ajouts, scores) ;
+- ce qui a changé (dates, horaires, ajouts, scores, horaires des GP) ;
 - la position de Montpellier dans chaque classement vérifié, et les classements restés non vérifiés ;
 - les matchs des 3 prochaines semaines encore non confirmés, et pourquoi ;
 - les désaccords entre sources non résolus.

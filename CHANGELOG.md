@@ -1,5 +1,13 @@
 # Journal des mises à jour
 
+## 2026-11-06 · Ajout de l'onglet GP (F1 et MotoGP)
+
+- Nouveau fichier `data/gp.json` : 53 Grands Prix (F1 : 4 en fin de saison 2026 + 24 en 2027 ; MotoGP : 3 en fin de saison 2026 + 22 en 2027).
+- F1 2026 : horaires de toutes les sessions confirmés par deux sources pour São Paulo, Las Vegas, Qatar et Abu Dhabi. Qatar : grandprixpal.com colle le numéro de session à l'heure (« 28:00 PM » = FP2 20h00) ; horaires lus ainsi, concordants avec racingnews365.com (tableau en heure de Paris).
+- MotoGP 2026 : Qatar reporté au 06-08/11, Portugal au 20-22/11, Valence au 27-29/11 (dates confirmées). Horaires du Qatar (horizonf1.fr) et du Portugal (site du circuit, provisoire, course annoncée à 13h00 ou 14h00) à une seule source : affichés « à conf. ». Valence : horaires pas encore publiés.
+- 2027 : calendriers F1 (racefans.net, gpblog.com) et MotoGP (motogp.com, crash.net) confirmés, sessions pas encore publiées. MotoGP Argentine et Australie sous réserve d'homologation, Austin sous réserve de contrat.
+- Désaccord noté : numéro de manche F1 2026 (São Paulo manche 20 ou 21 selon les sources), donc numéros de manche 2026 non affichés.
+
 ## 2026-11-05 · Classements (passage du soir)
 
 Aucune ligne de classement modifiée, aucune position de Montpellier changée. Clé `verified` passée au 05/11.

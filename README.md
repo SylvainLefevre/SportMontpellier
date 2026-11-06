@@ -10,6 +10,7 @@ Page publique : https://sylvainlefevre.github.io/SportMontpellier/
 |---|---|
 | `index.html` | La page. Elle ne contient aucune donnée et charge `data/matches.json`. |
 | `data/matches.json` | Tous les matchs, avec pour chacun le statut de vérification et les sources. |
+| `data/gp.json` | Les Grands Prix de F1 et de MotoGP avec l'horaire de chaque session, affichés dans l'onglet « GP ». |
 | `data/standings.json` | Les classements de chaque compétition, affichés dans l'onglet « Classements ». |
 | `MISE_A_JOUR.md` | La procédure suivie chaque semaine (règle des deux sources). |
 | `icons/`, `favicon.ico`, `site.webmanifest` | Icône du site (onglet du navigateur, raccourci sur l'écran d'accueil). Source : `icons/favicon.svg`. |
