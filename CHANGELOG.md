@@ -1,5 +1,34 @@
 # Journal des mises à jour
 
+## 2026-11-06 · Mise à jour hebdo
+
+Modifications (data/gp.json)
+- MotoGP Qatar (06-08/11) : les 8 sessions passent de « à conf. » à confirmées, horaires inchangés. FP1, Practice, FP2, Q1, sprint, warm-up et course concordent sur https://www.crash.net/motogp/news/1109281/1/how-watch-qatar-grand-prix-full-motogp-schedule (GMT) et https://statsniper.com/leagues/motogp/race/2026/grand-prix-of-qatar/ (ET, converti). Sprint et course aussi sur https://www.foxsports.com/motor/motogp/schedule (sans fuseau affiché, valeurs compatibles avec l'UTC). Q2 12h05 UTC : Crash donne un créneau Q1/Q2 de 11h40 à 12h20 sans le détail ; 12h05 repose sur StatSniper et sur https://horizonf1.fr/gp-qatar-motogp-2026/ (lu lors de l'ajout de l'onglet, non relu ce passage).
+- MotoGP Portugal (20-22/11) : FP1, Practice, FP2, Q1, Q2, sprint et warm-up passent à confirmés, horaires inchangés ; https://www.portugalmotogp.com/en/time-schedule-32 et https://statsniper.com/leagues/motogp/race/2026/grand-prix-of-portugal/ concordent. Course (13h00 UTC) laissée à « à conf. », voir désaccords.
+- MotoGP Valence (27-29/11) : 8 sessions ajoutées et confirmées (UTC) : FP1 27/11 09h45, Practice 14h00, FP2 28/11 09h10, Q1 09h50, Q2 10h15, sprint 14h00, warm-up 29/11 08h40, course 13h00. Sources : https://statsniper.com/leagues/motogp/race/2026/grand-prix-of-valencia/ ; https://www.gootickets.com/en/10-motogp/2911-valencia/p-1058-grand-prix-programme/ ; https://www.global-tickets.com/en/Sport/Motorsports/MotoGP/MotoGP-Cheste-Valencia/ . Ces horaires restent annoncés « susceptibles de changer » par les billetteries.
+
+Matchs (aucune date, aucun horaire, aucun score modifié ; `sources` actualisées)
+- Montpellier – Metz, ce soir 20h00 : https://www.maxifoot.fr/calendrier-ligue2.htm ; https://ontourfootball.com/fixtures/montpellier-vs-metz-2026-11-06 (19h00 UTC). Score pas encore disponible.
+- MHR – Lyon, 07/11 16h35 : https://www.montpellier-rugby.com/match/ercc-j4 ; https://www.rugbypass.com/teams/montpellier/fixtures-results/ (10h35 sur la page, fuseau non nommé, cohérent avec 16h35 de Paris en heure de l'Est).
+- MHB – Dunkerque, 13/11 20h00 : https://www.herault-tourisme.com/fr/fiche/fetes-et-manifestations/handball-mhb-vs-dunkerque-montpellier_TFOFMALAR034V52VC9D/ ; https://www.365scores.com/handball/team/montpellier-8120/matches (19h00, sans fuseau, cohérent avec l'UTC).
+- Volley, Cannes 15/11 17h00, Chaumont 19/11 20h00, Narbonne 04/12 20h00 : https://www.betexplorer.com/br/volleyball/team/montpellier/fq1HkrTS/fixtures/ ; https://www.365scores.com/pt/volleyball/team/montpellier-15921/matches (une heure de moins, cohérent avec l'UTC).
+- Vipers – HCMP, 14/11 : horaire 19h00 toujours non confirmé, aucune nouvelle source lisible (site du club inaccessible à ce passage).
+
+Non ajoutés (hors périmètre, pas à domicile)
+- Foot, Coupe de France 7e tour (14-15/11) : FC Balagne – Montpellier, Balagne cité en premier, donc a priori à l'extérieur ; aucune source ne le dit explicitement. https://news.footeo.com/2026/10/28/coupe-de-france-le-tirage-au-sort-complet-du-7eme-tour-avec-un-choc-entre-versailles-et-rodez-16139 ; https://radiosports.fr/coupe-de-france-football-calendrier-et-resultats.html
+- Volley, Supercoupe contre Paris (11/11) : à Nancy, hors métropole. https://www.info-lux.com/supercoupe-de-france-volley-2026-nancy-jean-weille/pays/france/grand-est/meurthe-et-moselle/nancy-grand-est/ . Coupe de France à Narbonne le 24/11 : à l'extérieur.
+
+Classements (aucune ligne modifiée, clé `verified` au 06/11)
+- Ligue A volley : https://spikelive.fr/ligue/lam intègre Tourcoing 3-0 Sète (Tourcoing 2e, 12 pts ; Sète 14e, 0 pt ; Montpellier toujours 11e, 3 pts), mais aucune deuxième source de tableau complet n'a pu être lue (Sofascore, Wikipédia, les-sports.info inaccessibles) : tableau de la 4e journée conservé.
+- Division 2 hockey : tableau fédéral relu, identique au fichier ; pas de deuxième source relue, `as_of` inchangé. https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/classements-2/
+- Ligue 2 : 12e journée seulement à partir de ce soir, tableau conservé. Top 14, Champions Cup, Starligue : aucun match depuis le dernier passage, non relus. Ligue des champions EHF terminée, Ligue des champions CEV non commencée.
+
+Désaccords et limites
+- MotoGP Portugal, course : 13h00 locale (tableau du circuit, StatSniper, Fox) contre 14h00 (texte général de la même page du circuit, https://www.motorcycles.news/en/event/grande-premio-de-portugal-2026/ ). Motorcycles.news donne aussi FP2 à 10h45 et un créneau qualifications à 11h15, qui paraissent génériques et n'ont pas été retenus.
+- https://www.montpellier-vipers.com/resultats-vipers/ affiche des scores différents du fichier (Toulon 2-1, Vaujany-Grenoble 2-4, Toulouse-Blagnac 3-2) ; la page se contredit sur la saison couverte. Les scores du fichier, confirmés par la fédération et Passion Hockey, sont conservés (matchs passés, non modifiés).
+- F1 São Paulo, Las Vegas, Qatar : confirmés aujourd'hui lors de l'ajout de l'onglet GP, non relus à ce passage.
+- Lecture automatique refusée ce passage : spikelive.fr/ligue/lam/calendrier, sports.orange.fr, allrugby.com, montpellier-vipers.com/prochains-matchs-vipers, motogpvalencia.com. MHR – La Rochelle et les autres matchs de décembre encore à confirmer restent inchangés.
+
 ## 2026-11-06 · Onglet GP affiché par journée
 
 - L'onglet GP suit maintenant le même affichage que le calendrier : une ligne par jour, avec toutes les sessions F1 et MotoGP de la journée (heure de Paris, heure sur place en dessous). Courses sprint et courses mises en avant.
