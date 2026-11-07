@@ -1,5 +1,5 @@
 {
-  "verified": "2026-11-06",
+  "verified": "2026-11-07",
   "competitions": [
     {
       "id": "ligue2",
@@ -16,21 +16,21 @@
         "Diff",
         "Pts"
       ],
-      "as_of": "12e journée en cours (avant Clermont – Rodez, Pau – Nantes et Saint-Étienne – Laval du 07/11)",
+      "as_of": "Après la 12e journée",
       "verified": true,
       "rows": [
         {
           "rank": 1,
           "team": "Saint-Étienne",
           "values": [
-            11,
-            8,
+            12,
+            9,
             1,
             2,
-            23,
+            25,
             11,
-            "+12",
-            25
+            "+14",
+            28
           ]
         },
         {
@@ -79,13 +79,13 @@
           "rank": 5,
           "team": "Pau",
           "values": [
-            11,
+            12,
             6,
             2,
-            3,
+            4,
             16,
-            11,
-            "+5",
+            13,
+            "+3",
             20
           ]
         },
@@ -191,18 +191,46 @@
           "rank": 13,
           "team": "Rodez",
           "values": [
-            11,
+            12,
             4,
             1,
-            6,
+            7,
             17,
-            22,
-            "-5",
+            23,
+            "-6",
             13
           ]
         },
         {
           "rank": 14,
+          "team": "Nantes",
+          "values": [
+            12,
+            3,
+            3,
+            6,
+            14,
+            18,
+            "-4",
+            12
+          ]
+        },
+        {
+          "rank": 15,
+          "team": "Clermont",
+          "values": [
+            12,
+            1,
+            8,
+            3,
+            11,
+            15,
+            "-4",
+            11
+          ]
+        },
+        {
+          "rank": 16,
           "team": "Sochaux",
           "values": [
             12,
@@ -216,7 +244,7 @@
           ]
         },
         {
-          "rank": 15,
+          "rank": 17,
           "team": "Grenoble",
           "values": [
             12,
@@ -230,54 +258,27 @@
           ]
         },
         {
-          "rank": 16,
-          "team": "Nantes",
-          "values": [
-            11,
-            2,
-            3,
-            6,
-            12,
-            18,
-            "-6",
-            9
-          ]
-        },
-        {
-          "rank": 17,
+          "rank": 18,
           "team": "Laval",
           "values": [
-            11,
+            12,
             2,
             3,
-            6,
+            7,
             14,
-            21,
-            "-7",
+            23,
+            "-9",
             9
-          ]
-        },
-        {
-          "rank": 18,
-          "team": "Clermont",
-          "values": [
-            11,
-            0,
-            8,
-            3,
-            10,
-            15,
-            "-5",
-            8
           ]
         }
       ],
       "note": "",
       "sources": [
-        "https://www.ski-nordique.net/?id=6750727",
-        "https://peuple-vert.fr/asse-actualite/ligue-2-multiplex-usbco-annecy-dijon-red-star-usld-eag-gf38-reims-mhsc-metz-asnl-fcsm",
-        "https://news.footeo.com/2026/11/06/ligue-2-les-resultats-de-la-soiree-metz-fait-tomber-montpellier-17091",
-        "https://www.footmercato.net/live/913634517208536200-montpellier-vs-metz"
+        "https://news.maxifoot.fr/ligue-2/le-classement-provisoire-foot-467298.htm",
+        "https://sports.orange.fr/football/ligue-2/classement-equipes.html",
+        "https://www.maxifoot.fr/resultat-ligue-2-france.htm",
+        "https://www.titrespresse.com/28224972603/nantes-pau-ligue",
+        "https://news.footeo.com/2026/11/07/ligue-2-lasse-se-relance-face-a-laval-et-reprend-seule-la-tete-17175"
       ]
     },
     {
@@ -495,7 +496,7 @@
           ]
         }
       ],
-      "note": "",
+      "note": "9e journée en cours : Montpellier – Lyon 21-19 le 07/11 ; tableau de la 8e journée conservé en attente de deux classements complets à jour (Vannes – Bordeaux-Bègles et La Rochelle – Bayonne le 08/11).",
       "sources": [
         "https://itsrugby.fr/top-14-j8-pau-bat-toulouse-montpellier-ecrase-castres/",
         "https://www.xvovalie.com/top14-j8-2026-2027/",
@@ -1288,7 +1289,7 @@
           ]
         }
       ],
-      "note": "V/D = victoire/défaite dans le temps réglementaire (3/0 pt), VP/DP = en prolongation ou aux tirs au but (2/1 pt).",
+      "note": "V/D = victoire/défaite dans le temps réglementaire (3/0 pt), VP/DP = en prolongation ou aux tirs au but (2/1 pt). Roanne – Montpellier 4-0 le 07/11 pas encore intégré, en attente de deux classements à jour.",
       "sources": [
         "https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/classements-2/",
         "https://hccalessangliers.fr/",

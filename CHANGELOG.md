@@ -1,5 +1,22 @@
 # Journal des mises à jour
 
+## 2026-11-07 · Classements (passage du soir)
+
+Ligue 2 : classement complet après la 12e journée. Résultats du 07/11 : Clermont 1-0 Rodez, Pau 0-2 Nantes, Saint-Étienne 2-0 Laval. Saint-Étienne reprend seul la tête (28 pts), Nancy 2e (25), Montpellier reste 3e (24 pts). Nantes passe de la 16e à la 14e place, Clermont de la 18e à la 15e, Laval devient dernier. `as_of` : « Après la 12e journée ».
+- Tableau complet identique sur deux sources, et identique au recalcul fait à partir du tableau vérifié de la veille et des trois scores : https://news.maxifoot.fr/ligue-2/le-classement-provisoire-foot-467298.htm ; https://sports.orange.fr/football/ligue-2/classement-equipes.html
+- Scores recoupés : https://www.maxifoot.fr/resultat-ligue-2-france.htm (Clermont – Rodez) ; https://sports.orange.fr/football/ligue-2/article/ligue-2-j12-clermont-decroche-sa-premiere-victoire-face-a-rodez-exclu-CNT000002tBHpJ.html ; https://www.titrespresse.com/28224972603/nantes-pau-ligue ; https://news.footeo.com/2026/11/07/ligue-2-lasse-se-relance-face-a-laval-et-reprend-seule-la-tete-17175
+- Non retenu : https://www.asse.fr/fr/club/saison-2026-2027/classement-ligue-2-bkt/ (tableau incohérent, à moitié mis à jour). Foot Mercato et Ski-Nordique encore avant les matchs du 07/11.
+
+Top 14 (aucune ligne modifiée, tableau de la 8e journée conservé, `note` ajoutée)
+- 9e journée en cours : Toulouse 28-18 Clermont, Toulon 43-23 Stade Français (bonus), Pau 63-26 Perpignan (bonus), Montpellier 21-19 Lyon (bonus défensif pour Lyon), Castres 28-30 Racing 92. Vannes – Bordeaux-Bègles et La Rochelle – Bayonne le 08/11. https://sports.orange.fr/rugby/top-14/calendrier-resultats-9eme-journee.html ; https://www.rugbypass.com/fr/news/top-14-2026-2027-journee-9-resultats-stats/
+- Selon https://sports.orange.fr/rugby/top-14/article/top-14-j9-pau-atomise-perpignan-montpellier-retrouve-le-podium-exclu-CNT000002tBItl.html et https://www.planete-rugby.com/8770-pau-surclasse-perpignan-montpellier-revient-podium-top-14/ , Montpellier est provisoirement 3e avec 27 pts (à égalité avec Bordeaux-Bègles), mais aucune source ne publie encore le tableau complet (LNR encore à la 8e journée, allrugby.com incohérent).
+
+Division 2 hockey (aucune ligne modifiée, tableau au 04/11 conservé, `note` ajoutée)
+- 6e journée du 07/11 : Roanne 4-0 Montpellier, Clermont-Ferrand 6-4 Annecy, HCMP 13-6 Dijon, Mulhouse 3-2 Toulouse-Blagnac. https://www.hockeyfrance.com/competitions/2026/11/07/d2-j6-resultats-des-locaux-imprenables/ . D'après l'article fédéral, Clermont-Ferrand prend la tête de la poule ; recalcul : Clermont 15 pts (5 matchs), Montpellier 2e, 13 pts (6 matchs). Le tableau fédéral n'est pas encore à jour et aucune deuxième source n'a été trouvée.
+
+Autres classements (aucune ligne modifiée, clé `verified` au 07/11)
+- Ligue A volley : aucune nouvelle source de tableau complet, tableau de la 4e journée conservé. Champions Cup (journée 2 en décembre), Starligue (trêve jusqu'au 13/11), Ligue des champions EHF (terminée), Ligue des champions CEV (non commencée) : sans changement.
+
 ## 2026-11-06 · Classements (passage du soir)
 
 Ligue 2 : classement provisoire mis à jour après les six matchs du vendredi de la 12e journée. Montpellier passe de la 2e à la 3e place (24 pts, 12 matchs) après la défaite 2-3 contre Metz ; Nancy (1-0 contre Sochaux) monte à 25 pts, 2e derrière Saint-Étienne (25 pts, un match de moins). Autres résultats : Boulogne 3-0 Annecy, Dunkerque 3-0 Guingamp, Grenoble 3-2 Reims, Dijon 1-0 Red Star. `as_of` : « 12e journée en cours (avant Clermont – Rodez, Pau – Nantes et Saint-Étienne – Laval du 07/11) ».
