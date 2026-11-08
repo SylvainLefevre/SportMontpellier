@@ -1,5 +1,24 @@
 # Journal des mises à jour
 
+## 2026-11-08 · Classements (passage du soir)
+
+Top 14 : classement complet après la 9e journée. Résultats du 08/11 : Vannes 23-14 Bordeaux-Bègles (sans bonus), La Rochelle 22-18 Bayonne (bonus défensif pour Bayonne). Montpellier passe de la 4e à la 3e place (27 pts, devant Bordeaux-Bègles à égalité de points) ; Pau monte 2e (31), Toulouse reste 1er (32). La Rochelle passe 7e, Bayonne 8e. `note` retirée, `as_of` : « Après la 9e journée ».
+- Tableau complet identique (ordre, points, J/V/N/D, différence) sur deux sources, et identique au recalcul fait à partir du tableau vérifié de la 8e journée et des scores de la 9e : https://rugbypass.com/top-14/standings ; https://www.ski-nordique.net/?id=6752689
+- Concordants avant les matchs du dimanche : https://www.staderochelais.com/les-equipes/equipe-premiere/classement-top-14 (après Vannes – Bordeaux-Bègles) ; https://sports.orange.fr/rugby/top-14/classement-equipes.html (après les matchs du samedi).
+- Scores recoupés : https://top14.lnr.fr/actualite/j9-de-top-14-le-rc-vannes-domine-face-a-l-union-bordeaux-begles-23-14 ; https://sports.orange.fr/rugby/top-14/article/top-14-j9-vannes-s-impose-face-a-bordeaux-begles-a-la-beaujoire-exclu-CNT000002tCqbN.html ; https://www.allrugby.com/saison-2026-2027/matchs/la-rochelle-bayonne-26065.html ; https://vibrez-rugby.com/la-rochelle-bayonne-en-direct-3/
+- Non retenus : allrugby.com / all.rugby (tableau encore à la 7e journée), progrugby.com (avant La Rochelle – Bayonne), LNR (tableau non lisible).
+
+Division 2 hockey : tableau au 08/11 (6e journée) intégré. Roanne 4-0 Montpellier, Clermont-Ferrand 6-4 Annecy, HCMP 13-6 Dijon, Mulhouse 3-2 Toulouse-Blagnac ; Toulon – Vaujany-Grenoble reporté au 13/02. Montpellier passe de la 1re à la 2e place (13 pts, 6 matchs), derrière Clermont-Ferrand (15 pts, 5 matchs). `note` mise à jour (report), `as_of` : « Au 08/11/2026 ».
+- Tableau complet identique sur deux sources, et identique au recalcul : https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/classements-2/ ; https://hccalessangliers.fr/classement-2/
+- Résultats : https://www.passionhockey.com/2026/11/08/division-2-6e-journee-une-soiree-bien-singuliere/ ; https://www.hockeyfrance.com/competitions/2026/11/07/d2-j6-resultats-des-locaux-imprenables/
+
+Ligue A volley : classement complet après la 5e journée. Résultats : Tourcoing 3-0 Sète, Nice 3-1 Chaumont, Poitiers 3-0 Paris, Toulouse 3-0 Plessis-Robinson, Narbonne 1-3 Tours, Royan 1-3 Cannes, Saint-Nazaire 3-1 Montpellier. Montpellier passe de la 11e à la 12e place (3 pts, 7-14 en sets). `note` retirée, `as_of` : « Après la 5e journée ».
+- Tableau complet identique (points, victoires, défaites, sets) sur deux sources, et identique au recalcul : https://spikelive.fr/ligue/lam ; https://www.365scores.com/volleyball/team/montpellier-15921/standings
+- Score de Montpellier recoupé : https://www.titrespresse.com/28228192603/toulouse-montpellier-alterna
+
+Autres classements (aucune ligne modifiée, clé `verified` au 08/11)
+- Ligue 2 : 12e journée terminée, 13e journée pas encore commencée ; tableau inchangé. Champions Cup (journée 2 en décembre), Starligue (trêve jusqu'au 13/11), Ligue des champions EHF (terminée), Ligue des champions CEV (non commencée) : sans changement.
+
 ## 2026-11-07 · Classements (passage du soir)
 
 Ligue 2 : classement complet après la 12e journée. Résultats du 07/11 : Clermont 1-0 Rodez, Pau 0-2 Nantes, Saint-Étienne 2-0 Laval. Saint-Étienne reprend seul la tête (28 pts), Nancy 2e (25), Montpellier reste 3e (24 pts). Nantes passe de la 16e à la 14e place, Clermont de la 18e à la 15e, Laval devient dernier. `as_of` : « Après la 12e journée ».
