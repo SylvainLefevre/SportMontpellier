@@ -1,5 +1,11 @@
 # Journal des mises à jour
 
+## 2026-11-09 · Classements (passage du soir)
+
+Aucune ligne modifiée, clé `verified` au 09/11 : aucun match des compétitions suivies depuis le passage du 08/11.
+- Ligue 2 : 13e journée du 20 au 23/11 (Laval – Montpellier le 21/11), tableau de la 12e journée conservé. https://m.maxifoot.fr/calendrier-ligue-2-france.htm
+- Top 14 (9e journée terminée), Ligue A volley (6e journée à partir du week-end prochain), Division 2 hockey (prochaine journée le 14/11), Starligue (trêve jusqu'au 13/11), Champions Cup (journée 2 en décembre) : sans changement. Ligue des champions EHF terminée, Ligue des champions CEV non commencée.
+
 ## 2026-11-08 · Classements (passage du soir)
 
 Top 14 : classement complet après la 9e journée. Résultats du 08/11 : Vannes 23-14 Bordeaux-Bègles (sans bonus), La Rochelle 22-18 Bayonne (bonus défensif pour Bayonne). Montpellier passe de la 4e à la 3e place (27 pts, devant Bordeaux-Bègles à égalité de points) ; Pau monte 2e (31), Toulouse reste 1er (32). La Rochelle passe 7e, Bayonne 8e. `note` retirée, `as_of` : « Après la 9e journée ».
