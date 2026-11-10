@@ -1,5 +1,11 @@
 # Journal des mises à jour
 
+## 2026-11-10 · Classements (passage du soir)
+
+Aucune ligne modifiée, clé `verified` au 10/11 : aucun match des compétitions suivies depuis le passage du 09/11 (lundi et mardi sans rencontre).
+- Ligue 2 : 13e journée du 20 au 23/11, tableau de la 12e journée conservé. Top 14 : 9e journée terminée, tableau conservé.
+- Starligue (reprise le 13/11 avec Montpellier – Dunkerque), Division 2 hockey (prochaine journée le 14/11), Ligue A volley (6e journée le week-end du 14-15/11) : sans changement. Champions Cup (journée 2 en décembre) : sans changement. Ligue des champions EHF terminée, Ligue des champions CEV non commencée (08/12).
+
 ## 2026-11-09 · Classements (passage du soir)
 
 Aucune ligne modifiée, clé `verified` au 09/11 : aucun match des compétitions suivies depuis le passage du 08/11.
