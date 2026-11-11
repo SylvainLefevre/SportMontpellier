@@ -1,5 +1,5 @@
 {
-  "verified": "2026-11-06",
+  "verified": "2026-11-11",
   "events": [
     {
       "id": "f1-2026-2026-11-06",
@@ -114,7 +114,7 @@
       "id": "f1-2026-2026-11-19",
       "series": "f1",
       "season": 2026,
-      "round": null,
+      "round": 21,
       "name": "Grand Prix de Las Vegas",
       "circuit": "Las Vegas Strip Circuit",
       "country": "États-Unis",
@@ -153,14 +153,15 @@
       "note": "Course le samedi soir à Las Vegas, soit dimanche matin à Paris.",
       "sources": [
         "https://www.formula1.com/en/latest/article/formula-1-heineken-las-vegas-grand-prix-2026.1qmWzcBwKK5hkTbYbhVC22",
-        "https://www.gpfans.com/us/f1-race-calendar/las-vegas-grand-prix-2026"
+        "https://www.gpfans.com/us/f1-race-calendar/las-vegas-grand-prix-2026",
+        "https://www.racefans.net/2026-f1-season/2026-f1-calendar/"
       ]
     },
     {
       "id": "motogp-2026-2026-11-20",
       "series": "motogp",
       "season": 2026,
-      "round": null,
+      "round": 21,
       "name": "Grand Prix du Portugal",
       "circuit": "Portimão",
       "country": "Portugal",
@@ -208,24 +209,22 @@
         {
           "type": "race",
           "utc": "2026-11-22T13:00:00Z",
-          "time_ok": false
+          "time_ok": true
         }
       ],
-      "note": "Horaires encore provisoires. Course probablement à 13h00 heure locale ; le site du circuit indique aussi 14h00 : à confirmer.",
+      "note": "Horaires non encore publiés par motogp.com, mais concordants chez plusieurs éditeurs indépendants.",
       "sources": [
-        "https://www.portugalmotogp.com/en/time-schedule-32",
-        "https://statsniper.com/leagues/motogp/race/2026/grand-prix-of-portugal/",
-        "https://www.gootickets.com/en/10-motogp/53728-portugal/p-507-grand-prix-programme/",
-        "https://www.global-tickets.com/en/Sport/Motorsports/MotoGP/MotoGP-Portimao/",
-        "https://www.foxsports.com/motor/motogp/schedule",
-        "https://www.motorcycles.news/en/event/grande-premio-de-portugal-2026/"
+        "https://somosmotor.es/calendario/motogp/2026/gran-premio-de-portugal",
+        "https://www.quotidianomotori.com/motogp/motogp-portogallo-2026-orari-tv8-sky-portimao/",
+        "https://freshcalendars.com/news/motogp-2026-final-races-qatar-portugal-valencia-race-times-us-uk/",
+        "https://www.foxsports.com/motor/motogp/schedule"
       ]
     },
     {
       "id": "f1-2026-2026-11-27",
       "series": "f1",
       "season": 2026,
-      "round": null,
+      "round": 22,
       "name": "Grand Prix du Qatar",
       "circuit": "Lusail",
       "country": "Qatar",
@@ -263,15 +262,16 @@
       ],
       "note": "",
       "sources": [
-        "https://www.grandprixpal.com/races/qatar-2026/schedule",
-        "https://racingnews365.com/f1/races/gp-qatar"
+        "https://www.formula1.com/en/latest/article/formula-1-qatar-airways-qatar-grand-prix-2026.3XJyoYSnpJEcuZovstTdcG",
+        "https://oversteer48.com/?p=22302",
+        "https://www.racefans.net/2026-f1-season/2026-f1-calendar/"
       ]
     },
     {
       "id": "motogp-2026-2026-11-27",
       "series": "motogp",
       "season": 2026,
-      "round": null,
+      "round": 22,
       "name": "Grand Prix de Valence",
       "circuit": "Circuit Ricardo Tormo",
       "country": "Espagne",
@@ -324,18 +324,17 @@
       ],
       "note": "Décalé d'une semaine. Dernière course de la saison 2026.",
       "sources": [
+        "https://somosmotor.es/calendario/motogp/2026/gran-premio-de-la-comunitat-valenciana",
         "https://statsniper.com/leagues/motogp/race/2026/grand-prix-of-valencia/",
-        "https://www.gootickets.com/en/10-motogp/2911-valencia/p-1058-grand-prix-programme/",
-        "https://www.global-tickets.com/en/Sport/Motorsports/MotoGP/MotoGP-Cheste-Valencia/",
         "https://www.foxsports.com/motor/motogp/schedule",
-        "https://rtrsports.com/en/blog/calendar-motogp-2026/"
+        "https://freshcalendars.com/news/motogp-2026-final-races-qatar-portugal-valencia-race-times-us-uk/"
       ]
     },
     {
       "id": "f1-2026-2026-12-04",
       "series": "f1",
       "season": 2026,
-      "round": null,
+      "round": 23,
       "name": "Grand Prix d'Abu Dhabi",
       "circuit": "Yas Marina",
       "country": "Émirats arabes unis",
@@ -374,7 +373,8 @@
       "note": "Dernière course de la saison 2026.",
       "sources": [
         "https://www.formula1.com/en/latest/article/formula-1-etihad-airways-abu-dhabi-grand-prix-2026.5mmDojxBdiltjPgeIxAKOq",
-        "https://www.grandprixpal.com/races/abu-dhabi/schedule"
+        "https://oversteer48.com/?p=26187",
+        "https://www.racefans.net/2026-f1-season/2026-f1-calendar/"
       ]
     },
     {

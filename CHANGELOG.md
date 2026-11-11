@@ -1,5 +1,29 @@
 # Journal des mises à jour
 
+## 2026-11-11 · Mise à jour hebdo
+
+Calendrier (`data/matches.json`, `verified` au 11/11)
+- Scores : Montpellier 2-3 Metz (Ligue 2, 06/11) — https://beninwebtv.bj/ligue-2-bouna-sarr-retrouve-le-but-metz-gagne-a-montpellier/ ; https://www.sportsmole.co.uk/football/ligue-2/montpellier-hsc-vs-metz_game_261640.html
+- Scores : Montpellier 21-19 Lyon (Top 14, 07/11) — https://top14.lnr.fr/actualite/j9-de-top-14-succes-au-forceps-de-montpellier-face-au-lou-21-19 ; https://www.lyonmag.com/article/154784/top-14-le-lou-laisse-filer-la-victoire-a-montpellier-et-peut-nourrir-des-regrets-21-19
+- Hockey, Vipers – HCMP (14/11) : horaire 19h00 confirmé (`time_ok` false → true), note retirée — https://www.montpellier-vipers.com/ ; https://www.montpellier-tourisme.fr/agenda/tout-l-agenda/hockey-sur-glace-vipers-vs-hcmp-montpellier-fr-6846708/
+- Top 14, Montpellier – La Rochelle : programmé samedi 05/12 à 16h35, Septeo Stadium (date/heure à confirmer → confirmées) — https://top14.lnr.fr/feuille-de-match/2026-2027/j11/11892-montpellier-la-rochelle ; https://www.allrugby.com/news/top-14-2027-j11-programmation-3902.html
+- Ligue 2, Montpellier – Guingamp : date samedi 02/01/2027 confirmée (`date_ok` → true) ; horaire 19h00 selon la LFP, mais 20h00 selon JDS et matchs.tv (`time_ok` reste false) — https://ligue1.com/fr/articles/l1_article_6053-programmation-tv-j16-l2-2627 ; https://www.montpellier-tourisme.fr/agenda/tout-l-agenda/football-mhsc-vs-ea-guingamp-montpellier-fr-6881384/ ; https://www.jds.fr/montpellier/sports/matchs/montpellier-guingamp-football-ligue-2-1637208_A
+- Reconfirmés sans changement (sources mises à jour) : MHB – Dunkerque 13/11 20h00 ; volley – Cannes 15/11 17h00, – Chaumont 19/11 20h00, – Narbonne 04/12 20h00, – Tourcoing 18/12 20h00, – Sète 30/12 20h00 ; MHB – Cesson-Rennes 27/11 20h00 (BetExplorer + 365Scores) ; MHSC – Nantes 05/12 14h00 (https://ligue1.com/fr/articles/l1_article_5918-programmation-tv-j14-1 ; https://tribunenantaise.fr/actus-fcnantes/fc-nantes-la-programmation-du-choc-contre-montpellier-est-tombee/) ; MHR – Bulls 12/12 16h15 (https://www.allrugby.com/clubs/montpellier/calendrier ; https://sports.orange.fr/rugby/coupes-europe/champions-cup/calendrier-resultats-phase-de-groupes-poule-4.html).
+- Non ajoutés : Coupe de France foot, 7e tour à l'extérieur (FC Balagne – Montpellier, 14-15/11 ; https://news.footeo.com/2026/10/28/coupe-de-france-le-tirage-au-sort-complet-du-7eme-tour-avec-un-choc-entre-versailles-et-rodez-16139). Coupe de France hand, quart de finale contre le vainqueur de Saint-Raphaël/Nîmes : psg.fr place Montpellier en premier dans le tirage, BetExplorer annonce Saint-Raphaël – Montpellier le 18/12 ; lieu non tranché. Supercoupe de volley Montpellier – Paris (11/11) : lieu inconnu, horaire en désaccord (18h00 BetExplorer, 16h00 Paris selon 365Scores).
+
+Désaccords non résolus
+- MHB – Caen (11/12 20h00) : BetExplorer et 365Scores concordent, mais le club marque la date « provisoire » et la programmation LNH n'a pas pu être lue ; drapeaux laissés à false.
+- Hockey, Vipers – Mulhouse (05/12), – Clermont-Ferrand (12/12), – Annecy (19/12) : aucune source lisible (pages club et FFHG inaccessibles) ; drapeaux laissés à false.
+- Hockey, Vipers – Toulon (31/10) : la page résultats du club affiche 2-4, contre 9-4 en base ; cette page paraît peu fiable (libellée 2025-2026, autres scores erronés). Score non modifié.
+- Lieu de MHB – Dunkerque (FDI Stadium) toujours sur la seule source Hérault Tourisme.
+
+Grands Prix (`data/gp.json`, `verified` au 11/11)
+- MotoGP Portugal (20-22/11) : course à 13:00 UTC confirmée (`time_ok` false → true), toutes les sessions concordantes chez quatre éditeurs indépendants ; motogp.com n'a pas encore publié son horaire officiel. Note mise à jour. https://somosmotor.es/calendario/motogp/2026/gran-premio-de-portugal ; https://www.quotidianomotori.com/motogp/motogp-portogallo-2026-orari-tv8-sky-portimao/ ; https://freshcalendars.com/news/motogp-2026-final-races-qatar-portugal-valencia-race-times-us-uk/
+- Numéros de manche ajoutés (null → valeur) : F1 Las Vegas 21, Qatar 22, Abu Dhabi 23 (https://www.formula1.com/en/racing/2026 ; https://www.racefans.net/2026-f1-season/2026-f1-calendar/) ; MotoGP Portugal 21, Valence 22 (https://www.cyclenews.com/2026/03/article/2026-fim-motogp-calendar/ ; freshcalendars). RacingNews365 affiche encore l'ancienne numérotation (22-24), périmée.
+- Horaires F1 Las Vegas, Qatar, Abu Dhabi et MotoGP Valence reconfirmés, inchangés.
+
+Classements (`data/standings.json`) : aucune rencontre depuis le passage du 10/11 au soir ; lignes inchangées, clé `verified` au 11/11.
+
 ## 2026-11-10 · Classements (passage du soir)
 
 Aucune ligne modifiée, clé `verified` au 10/11 : aucun match des compétitions suivies depuis le passage du 09/11 (lundi et mardi sans rencontre).

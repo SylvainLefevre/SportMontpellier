@@ -1,6 +1,6 @@
 {
   "season": "2026-2027",
-  "verified": "2026-11-06",
+  "verified": "2026-11-11",
   "matches": [
     {
       "date": "2026-08-08",
@@ -364,12 +364,11 @@
       "venue": "Stade de la Mosson",
       "date_ok": true,
       "time_ok": true,
-      "score": "",
+      "score": "2-3",
       "note": "Avancé du samedi 07/11 14h00 à la demande de la préfecture de l'Hérault",
       "sources": [
-        "https://www.maxifoot.fr/calendrier-ligue2.htm",
-        "https://ontourfootball.com/fixtures/montpellier-vs-metz-2026-11-06",
-        "https://www.vavel.com/en/data/montpellier/fixtures/"
+        "https://beninwebtv.bj/ligue-2-bouna-sarr-retrouve-le-but-metz-gagne-a-montpellier/",
+        "https://www.sportsmole.co.uk/football/ligue-2/montpellier-hsc-vs-metz_game_261640.html"
       ]
     },
     {
@@ -381,11 +380,11 @@
       "venue": "Septeo Stadium",
       "date_ok": true,
       "time_ok": true,
-      "score": "",
+      "score": "21-19",
       "note": "",
       "sources": [
-        "https://www.montpellier-rugby.com/match/ercc-j4",
-        "https://www.rugbypass.com/teams/montpellier/fixtures-results/"
+        "https://top14.lnr.fr/actualite/j9-de-top-14-succes-au-forceps-de-montpellier-face-au-lou-21-19",
+        "https://www.lyonmag.com/article/154784/top-14-le-lou-laisse-filer-la-victoire-a-montpellier-et-peut-nourrir-des-regrets-21-19"
       ]
     },
     {
@@ -401,6 +400,7 @@
       "note": "FDI Stadium selon Hérault Tourisme (lieu à recouper avec le club)",
       "sources": [
         "https://www.herault-tourisme.com/fr/fiche/fetes-et-manifestations/handball-mhb-vs-dunkerque-montpellier_TFOFMALAR034V52VC9D/",
+        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/",
         "https://www.365scores.com/handball/team/montpellier-8120/matches"
       ]
     },
@@ -412,13 +412,12 @@
       "competition": "Division 2 · poule B",
       "venue": "Patinoire Végapolis",
       "date_ok": true,
-      "time_ok": false,
+      "time_ok": true,
       "score": "",
-      "note": "Horaire donné par l'office de tourisme seulement (ni le club ni la fédération ne le publient à ce jour)",
+      "note": "",
       "sources": [
-        "https://www.montpellier-vipers.com/prochains-matchs-vipers/",
-        "https://www.montpellier-tourisme.fr/agenda/tout-l-agenda/hockey-sur-glace-vipers-vs-hcmp-montpellier-fr-6846708/",
-        "https://www.jds.fr/montpellier/sports/hockey-sur-glace-vipers-vs-hcmp-1800264_A"
+        "https://www.montpellier-vipers.com/",
+        "https://www.montpellier-tourisme.fr/agenda/tout-l-agenda/hockey-sur-glace-vipers-vs-hcmp-montpellier-fr-6846708/"
       ]
     },
     {
@@ -433,8 +432,8 @@
       "score": "",
       "note": "Volleybox indique encore le 13/11 (calendrier initial)",
       "sources": [
-        "https://www.betexplorer.com/br/volleyball/team/montpellier/fq1HkrTS/fixtures/",
-        "https://www.365scores.com/pt/volleyball/team/montpellier-15921/matches"
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/",
+        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches"
       ]
     },
     {
@@ -449,8 +448,8 @@
       "score": "",
       "note": "Volleybox indique encore le 20/11 (calendrier initial)",
       "sources": [
-        "https://www.betexplorer.com/br/volleyball/team/montpellier/fq1HkrTS/fixtures/",
-        "https://www.365scores.com/pt/volleyball/team/montpellier-15921/matches"
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/",
+        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches"
       ]
     },
     {
@@ -481,8 +480,8 @@
       "score": "",
       "note": "",
       "sources": [
-        "https://www.betexplorer.com/br/volleyball/team/montpellier/fq1HkrTS/fixtures/",
-        "https://www.365scores.com/pt/volleyball/team/montpellier-15921/matches"
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/",
+        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches"
       ]
     },
     {
@@ -497,8 +496,9 @@
       "score": "",
       "note": "14e journée, programmée par la LFP (beIN SPORTS 1)",
       "sources": [
-        "https://www.vavel.com/en/data/montpellier/fixtures/",
-        "https://www.fotmob.com/ko/teams/10249/fixtures/montpellier"
+        "https://ligue1.com/fr/articles/l1_article_5918-programmation-tv-j14-1",
+        "https://tribunenantaise.fr/actus-fcnantes/fc-nantes-la-programmation-du-choc-contre-montpellier-est-tombee/",
+        "https://www.footmercato.net/live/6380758400408276708-montpellier-vs-nantes"
       ]
     },
     {
@@ -519,17 +519,17 @@
     {
       "date": "2026-12-05",
       "sport": "rugby",
-      "time": "",
+      "time": "16h35",
       "opponent": "La Rochelle",
       "competition": "Top 14",
       "venue": "Septeo Stadium",
-      "date_ok": false,
-      "time_ok": false,
+      "date_ok": true,
+      "time_ok": true,
       "score": "",
-      "note": "Week-end des 05-06/12, jour et horaire pas encore programmés par la LNR",
+      "note": "11e journée, programmée par la LNR (Canal+ Sport)",
       "sources": [
-        "https://www.allrugby.com/clubs/montpellier/calendrier",
-        "https://www.allrugby.com/competitions/top-14/calendrier.html"
+        "https://top14.lnr.fr/feuille-de-match/2026-2027/j11/11892-montpellier-la-rochelle",
+        "https://www.allrugby.com/news/top-14-2027-j11-programmation-3902.html"
       ]
     },
     {
@@ -575,8 +575,9 @@
       "score": "",
       "note": "",
       "sources": [
-        "https://www.planetrugby.com/news/investec-champions-cup-2026-27-pool-fixtures",
-        "https://bullsrugby.co.za/?p=22016"
+        "https://www.allrugby.com/clubs/montpellier/calendrier",
+        "https://sports.orange.fr/rugby/coupes-europe/champions-cup/calendrier-resultats-phase-de-groupes-poule-4.html",
+        "https://www.rugbypass.com/fr/live/bulls-vs-montpellier/"
       ]
     },
     {
@@ -591,9 +592,8 @@
       "score": "",
       "note": "",
       "sources": [
-        "https://spikelive.fr/ligue/lam/calendrier",
-        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches",
-        "https://volleybox.net/montpellier-volley-t1664/matches"
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/",
+        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches"
       ]
     },
     {
@@ -638,25 +638,25 @@
       "score": "",
       "note": "",
       "sources": [
-        "https://spikelive.fr/ligue/lam/calendrier",
-        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches",
-        "https://volleybox.net/montpellier-volley-t1664/matches"
+        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/",
+        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches"
       ]
     },
     {
       "date": "2027-01-02",
       "sport": "foot",
-      "time": "",
+      "time": "19h00",
       "opponent": "Guingamp",
       "competition": "Ligue 2",
       "venue": "Stade de la Mosson",
-      "date_ok": false,
+      "date_ok": true,
       "time_ok": false,
       "score": "",
-      "note": "Date de la journée, pas encore programmée par la LFP",
+      "note": "16e journée, programmée par la LFP le samedi 02/01 à 19h00 (multiplex beIN SPORTS) ; JDS et matchs.tv indiquent encore 20h00",
       "sources": [
-        "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md",
-        "https://www.jds.fr/artistes/montpellier-hsc-12956_N"
+        "https://ligue1.com/fr/articles/l1_article_6053-programmation-tv-j16-l2-2627",
+        "https://www.montpellier-tourisme.fr/agenda/tout-l-agenda/football-mhsc-vs-ea-guingamp-montpellier-fr-6881384/",
+        "https://www.jds.fr/montpellier/sports/matchs/montpellier-guingamp-football-ligue-2-1637208_A"
       ]
     },
     {
