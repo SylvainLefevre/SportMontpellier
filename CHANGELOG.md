@@ -1,5 +1,12 @@
 # Journal des mises à jour
 
+## 2026-11-13 · Classements (passage du soir)
+
+Aucune ligne de classement modifiée ; clé `verified` au 13/11.
+- Starligue, 10e journée (partielle, 6 matchs sur 8 joués le 13/11) : Chartres 26-35 Limoges, Sélestat 33-33 Saran, Cesson-Rennes 29-37 Toulouse, Tremblay 38-29 Caen, Chambéry 32-37 Nîmes, Montpellier 34-28 Dunkerque — https://www.lnh.fr/liquimoly-starligue/accueil ; https://www.titrespresse.com/29035262603/villeminot-mhb-dunkerque ; https://handnews.fr/2026/stl-j10-nimes-en-patron-au-phare-saran-arrache-un-nul-fou-a-selestat/
+- Classement Starligue non remplacé : le site LNH n'en publie qu'un extrait (top 7 : Paris 18, Nantes 16, Nîmes 16, Montpellier 14, Tremblay 13, Limoges 12, Aix 10) et aucune deuxième source ne donne le classement complet (pages de classement de hbcnantes.com, tremblayhandball.com et lnh.fr non consultables, 365Scores pas à jour). Désaccords de score : handnews.fr donne Montpellier 32-27 Dunkerque (34-28 chez LNH, Midi Libre via titrespresse.com et headtopics) et un widget 31-37 pour Chambéry – Nîmes. Dernier classement vérifié (après la 9e journée) conservé ; note mise à jour (Montpellier 4e avec 14 pts selon l'extrait LNH). Fin de journée : Nantes – Saint-Raphaël le 14/11, Aix – Paris le 15/11.
+- Autres compétitions : aucun match le 13/11. Division 2 hockey : prochaine journée le 14/11. Ligue A volley : 6e journée les 14-15/11. Ligue 2 : 13e journée du 20 au 23/11. Top 14, Champions Cup, Ligue des champions EHF (terminée), Ligue des champions CEV (08/12) : sans changement.
+
 ## 2026-11-12 · Classements (passage du soir)
 
 Aucune ligne modifiée ; clé `verified` au 12/11. Aucun match des compétitions suivies le 12/11.
