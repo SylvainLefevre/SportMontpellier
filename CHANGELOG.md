@@ -1,5 +1,12 @@
 # Journal des mises à jour
 
+## 2026-11-14 · Classements (passage du soir)
+
+Clé `verified` au 14/11.
+- Starligue : classement remplacé, « Après la 10e journée (avant Aix – Paris du 15/11) ». Nantes 36-23 Saint-Raphaël le 14/11. Montpellier reste 4e, 14 pts (12 → 14 après sa victoire contre Dunkerque) ; Nantes passe 1er (18 pts, 10 matchs) devant Paris (18 pts, 9 matchs). Trois classements complets concordants (ordre, points, buts) : https://www.srvhb.com/lequipe-pro-classement/ ; https://hbcnantes.com/equipe-professionnelle/classement/ ; https://www.montpellierhandball.com/fr/l-equipe-pro/liqui-moly-starligue — score : https://handnews.fr/2026/stl-j10-nantes-tout-en-controle-contre-saint-raphael/ ; note retirée.
+- Division 2 hockey, poule B, 7e journée (14/11) : Vaujany-Grenoble 3-2 Annecy, Montpellier 4-1 HCMP, Toulon 5-3 Roanne, Toulouse-Blagnac 4-5 Clermont-Ferrand (prol.), Dijon 7-4 Mulhouse — https://www.hockeyfrance.com/competitions/2026/11/14/d2-les-resultats-de-la-7eme-journee-5/. Classement non remplacé : le seul classement à jour (https://hccalessangliers.fr/, mis à jour à 22h10, Clermont 17, Montpellier 16) n'intègre pas Dijon – Mulhouse, et la page de classement FFHG en est encore au 08/11. Dernier classement vérifié conservé (Montpellier 2e) ; note mise à jour.
+- Ligue A volley : 6e journée en cours (Montpellier – Cannes le 15/11), classement après la 5e journée conservé. Ligue 2 (13e journée du 20 au 23/11), Top 14, Champions Cup, Ligue des champions EHF (terminée), Ligue des champions CEV (08/12) : sans changement.
+
 ## 2026-11-13 · Classements (passage du soir)
 
 Aucune ligne de classement modifiée ; clé `verified` au 13/11.

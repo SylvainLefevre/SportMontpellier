@@ -1,5 +1,5 @@
 {
-  "verified": "2026-11-13",
+  "verified": "2026-11-14",
   "competitions": [
     {
       "id": "ligue2",
@@ -617,11 +617,25 @@
         "Diff",
         "Pts"
       ],
-      "as_of": "Après la 9e journée",
+      "as_of": "Après la 10e journée (avant Aix – Paris du 15/11)",
       "verified": true,
       "rows": [
         {
           "rank": 1,
+          "team": "Nantes",
+          "values": [
+            10,
+            9,
+            0,
+            1,
+            367,
+            292,
+            "+75",
+            18
+          ]
+        },
+        {
+          "rank": 2,
           "team": "Paris",
           "values": [
             9,
@@ -635,73 +649,59 @@
           ]
         },
         {
-          "rank": 2,
-          "team": "Nantes",
-          "values": [
-            9,
-            8,
-            0,
-            1,
-            331,
-            269,
-            "+62",
-            16
-          ]
-        },
-        {
           "rank": 3,
           "team": "Nîmes",
           "values": [
-            9,
-            7,
+            10,
+            8,
             0,
             2,
-            295,
-            288,
-            "+7",
-            14
+            332,
+            320,
+            "+12",
+            16
           ]
         },
         {
           "rank": 4,
           "team": "Montpellier",
           "values": [
-            9,
-            5,
+            10,
+            6,
             2,
             2,
-            288,
-            263,
-            "+25",
-            12
+            322,
+            291,
+            "+31",
+            14
           ]
         },
         {
           "rank": 5,
           "team": "Tremblay",
           "values": [
-            9,
-            5,
+            10,
+            6,
             1,
             3,
-            300,
-            286,
-            "+14",
-            11
+            338,
+            315,
+            "+23",
+            13
           ]
         },
         {
           "rank": 6,
           "team": "Limoges",
           "values": [
-            9,
-            5,
+            10,
+            6,
             0,
             4,
-            296,
-            269,
-            "+27",
-            10
+            331,
+            295,
+            "+36",
+            12
           ]
         },
         {
@@ -722,13 +722,13 @@
           "rank": 8,
           "team": "Caen",
           "values": [
-            9,
+            10,
             5,
             0,
-            4,
-            256,
+            5,
             285,
-            "-29",
+            323,
+            "-38",
             10
           ]
         },
@@ -736,27 +736,27 @@
           "rank": 9,
           "team": "Toulouse",
           "values": [
-            9,
-            4,
+            10,
+            5,
             0,
             5,
-            255,
-            263,
-            "-8",
-            8
+            292,
+            292,
+            "0",
+            10
           ]
         },
         {
           "rank": 10,
-          "team": "Chartres",
+          "team": "Sélestat",
           "values": [
-            9,
+            10,
             3,
             1,
-            5,
-            262,
-            289,
-            "-27",
+            6,
+            293,
+            310,
+            "-17",
             7
           ]
         },
@@ -764,41 +764,41 @@
           "rank": 11,
           "team": "Saran",
           "values": [
-            9,
+            10,
             3,
-            0,
+            1,
             6,
-            257,
-            282,
+            290,
+            315,
             "-25",
-            6
+            7
           ]
         },
         {
           "rank": 12,
-          "team": "Sélestat",
+          "team": "Chartres",
           "values": [
-            9,
+            10,
             3,
-            0,
+            1,
             6,
-            260,
-            277,
-            "-17",
-            6
+            288,
+            324,
+            "-36",
+            7
           ]
         },
         {
           "rank": 13,
           "team": "Saint-Raphaël",
           "values": [
-            9,
+            10,
             3,
             0,
-            6,
-            269,
-            300,
-            "-31",
+            7,
+            292,
+            336,
+            "-44",
             6
           ]
         },
@@ -806,13 +806,13 @@
           "rank": 14,
           "team": "Chambéry",
           "values": [
-            9,
+            10,
             2,
             2,
-            5,
-            286,
-            306,
-            "-20",
+            6,
+            318,
+            343,
+            "-25",
             6
           ]
         },
@@ -820,13 +820,13 @@
           "rank": 15,
           "team": "Cesson-Rennes",
           "values": [
-            9,
+            10,
             1,
             0,
-            8,
-            275,
-            307,
-            "-32",
+            9,
+            304,
+            344,
+            "-40",
             2
           ]
         },
@@ -834,23 +834,23 @@
           "rank": 16,
           "team": "Dunkerque",
           "values": [
-            9,
+            10,
             1,
             0,
-            8,
-            223,
-            264,
-            "-41",
+            9,
+            251,
+            298,
+            "-47",
             2
           ]
         }
       ],
-      "note": "10e journée en cours : Montpellier a battu Dunkerque 34-28 le 13/11 ; classement mis à jour quand deux sources le confirmeront (Nantes – Saint-Raphaël le 14/11, Aix – Paris le 15/11).",
+      "note": "",
       "sources": [
+        "https://www.srvhb.com/lequipe-pro-classement/",
         "https://hbcnantes.com/equipe-professionnelle/classement/",
-        "https://www.tremblayhandball.com/classement",
-        "https://www.montpellierhandball.com/daikin-starligue-le-mhb-na-pas-pu-lutter-au-psg/",
-        "https://www.psg.fr/content/les-rouge-et-bleu-deroulent-a-coubertin-contre-montpellier-compte-rendu-paris-saint-germain-handball-montpellier-daikin-starligue-journee-9-2026-2027"
+        "https://www.montpellierhandball.com/fr/l-equipe-pro/liqui-moly-starligue",
+        "https://handnews.fr/2026/stl-j10-nantes-tout-en-controle-contre-saint-raphael/"
       ]
     },
     {
@@ -1292,7 +1292,7 @@
           ]
         }
       ],
-      "note": "V/D = victoire/défaite dans le temps réglementaire (3/0 pt), VP/DP = en prolongation ou aux tirs au but (2/1 pt). Toulon – Vaujany-Grenoble (6e journée) reporté au 13/02.",
+      "note": "V/D = victoire/défaite dans le temps réglementaire (3/0 pt), VP/DP = en prolongation ou aux tirs au but (2/1 pt). Toulon – Vaujany-Grenoble (6e journée) reporté au 13/02. 7e journée du 14/11 (Montpellier 4-1 HCMP) pas encore intégrée : classement mis à jour quand deux sources le confirmeront.",
       "sources": [
         "https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/classements-2/",
         "https://hccalessangliers.fr/classement-2/",
