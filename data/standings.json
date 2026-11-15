@@ -1,5 +1,5 @@
 {
-  "verified": "2026-11-14",
+  "verified": "2026-11-15",
   "competitions": [
     {
       "id": "ligue2",
@@ -617,7 +617,7 @@
         "Diff",
         "Pts"
       ],
-      "as_of": "Après la 10e journée (avant Aix – Paris du 15/11)",
+      "as_of": "Après la 10e journée, hors Aix – Paris du 15/11",
       "verified": true,
       "rows": [
         {
@@ -845,7 +845,7 @@
           ]
         }
       ],
-      "note": "",
+      "note": "Aix 26-37 Paris (15/11) pas encore intégré : Paris passera 1er avec 20 pts (10 matchs) ; Montpellier reste 4e.",
       "sources": [
         "https://www.srvhb.com/lequipe-pro-classement/",
         "https://hbcnantes.com/equipe-professionnelle/classement/",
@@ -938,105 +938,105 @@
         "Sets",
         "Pts"
       ],
-      "as_of": "Après la 5e journée",
+      "as_of": "Après la 6e journée",
       "verified": true,
       "rows": [
         {
           "rank": 1,
           "team": "Toulouse",
           "values": [
+            6,
             5,
-            5,
-            0,
-            "15-3",
+            1,
+            "15-6",
             15
           ]
         },
         {
           "rank": 2,
-          "team": "Tourcoing",
+          "team": "Tours",
           "values": [
+            6,
             5,
-            4,
             1,
-            "14-5",
-            12
+            "17-8",
+            15
           ]
         },
         {
           "rank": 3,
-          "team": "Tours",
+          "team": "Chaumont",
           "values": [
+            6,
             5,
-            4,
             1,
-            "14-7",
-            12
+            "16-6",
+            14
           ]
         },
         {
           "rank": 4,
-          "team": "Chaumont",
+          "team": "Tourcoing",
           "values": [
+            6,
             5,
-            4,
             1,
-            "13-6",
-            11
+            "17-7",
+            14
           ]
         },
         {
           "rank": 5,
           "team": "Cannes",
           "values": [
+            6,
             5,
-            4,
             1,
-            "13-7",
-            11
+            "16-7",
+            14
           ]
         },
         {
           "rank": 6,
           "team": "Nice",
           "values": [
-            5,
-            3,
+            6,
+            4,
             2,
-            "12-8",
-            10
+            "15-8",
+            13
           ]
         },
         {
           "rank": 7,
           "team": "Poitiers",
           "values": [
-            5,
-            2,
+            6,
             3,
-            "11-10",
-            8
+            3,
+            "14-12",
+            10
           ]
         },
         {
           "rank": 8,
-          "team": "Royan",
+          "team": "Paris",
           "values": [
-            5,
+            6,
             2,
-            3,
-            "11-13",
-            6
+            4,
+            "9-12",
+            7
           ]
         },
         {
           "rank": 9,
-          "team": "Paris",
+          "team": "Royan",
           "values": [
-            5,
+            6,
             2,
-            3,
-            "7-9",
+            4,
+            "11-16",
             6
           ]
         },
@@ -1044,10 +1044,10 @@
           "rank": 10,
           "team": "Saint-Nazaire",
           "values": [
-            5,
+            6,
             2,
-            3,
-            "6-12",
+            4,
+            "7-15",
             5
           ]
         },
@@ -1055,44 +1055,44 @@
           "rank": 11,
           "team": "Plessis-Robinson",
           "values": [
-            5,
+            6,
             1,
-            4,
-            "5-13",
-            4
+            5,
+            "7-16",
+            5
           ]
         },
         {
           "rank": 12,
           "team": "Montpellier",
           "values": [
-            5,
+            6,
             1,
-            4,
-            "7-14",
+            5,
+            "7-17",
             3
           ]
         },
         {
           "rank": 13,
-          "team": "Narbonne",
+          "team": "Sète",
           "values": [
-            5,
+            6,
             1,
-            4,
-            "6-14",
-            2
+            5,
+            "5-15",
+            3
           ]
         },
         {
           "rank": 14,
-          "team": "Sète",
+          "team": "Narbonne",
           "values": [
+            6,
+            1,
             5,
-            0,
-            5,
-            "2-15",
-            0
+            "6-17",
+            2
           ]
         }
       ],
@@ -1100,7 +1100,7 @@
       "sources": [
         "https://spikelive.fr/ligue/lam",
         "https://www.365scores.com/volleyball/team/montpellier-15921/standings",
-        "https://www.titrespresse.com/28228192603/toulouse-montpellier-alterna"
+        "https://spikelive.fr/ligue/lam/journee/6"
       ]
     },
     {
@@ -1292,7 +1292,7 @@
           ]
         }
       ],
-      "note": "V/D = victoire/défaite dans le temps réglementaire (3/0 pt), VP/DP = en prolongation ou aux tirs au but (2/1 pt). Toulon – Vaujany-Grenoble (6e journée) reporté au 13/02. 7e journée du 14/11 (Montpellier 4-1 HCMP) pas encore intégrée : classement mis à jour quand deux sources le confirmeront.",
+      "note": "V/D = victoire/défaite dans le temps réglementaire (3/0 pt), VP/DP = en prolongation ou aux tirs au but (2/1 pt). Toulon – Vaujany-Grenoble (6e journée) reporté au 13/02. 7e journée du 14/11 (Montpellier 4-1 HCMP) pas encore intégrée : selon la fédération, Montpellier est 2e avec 16 pts (7 matchs) derrière Clermont-Ferrand (17 pts, 6 matchs) ; classement mis à jour quand une deuxième source le confirmera.",
       "sources": [
         "https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/classements-2/",
         "https://hccalessangliers.fr/classement-2/",

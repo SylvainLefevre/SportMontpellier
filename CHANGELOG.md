@@ -1,5 +1,13 @@
 # Journal des mises à jour
 
+## 2026-11-15 · Classements (passage du soir)
+
+Clé `verified` au 15/11.
+- Ligue A volley : classement remplacé, « Après la 6e journée ». Montpellier 0-3 Cannes (15/11) : Montpellier reste 12e avec 3 pts (sets 7-14 → 7-17), à égalité de points avec Sète (13e, vainqueur 3-0 de Royan). Toulouse (battu 0-3 à Chaumont) reste 1er, 15 pts, devant Tours. Deux classements complets concordants (ordre, points, sets) : https://spikelive.fr/ligue/lam ; https://www.365scores.com/volleyball/team/montpellier-15921/standings — résultats : https://spikelive.fr/ligue/lam/journee/6
+- Starligue : Aix 26-37 Paris (15/11) — https://www.psg.fr/content/paris-signe-un-1010-a-aix-compte-rendu-pays-daix-paris-saint-germain-handball-daikin-starligue-2026-2027 ; https://www.beinsports.com/fr-fr/handball/lnh-star-ligue/articles-video/daikin-starligue-le-paris-saint-germain-d%C3%A9roule-%C3%A0-aix-en-provence-2026-11-15 ; https://handnews.fr/2026/stl-le-psg-fait-plier-aix-apres-un-debut-de-match-complique/. Classement non remplacé : les classements complets consultés (https://hbcnantes.com/equipe-professionnelle/classement/, https://www.usdk.fr/lidl-starligue/classement/) n'intègrent pas encore ce match (Paris à 9 matchs). Dernier classement vérifié conservé (Montpellier 4e, 14 pts) ; `as_of` et note mis à jour.
+- Division 2 hockey, poule B : la page de classement FFHG intègre désormais toute la 7e journée (Clermont-Ferrand 17 pts, Montpellier 16, Dijon 5, Mulhouse 6 en 7 matchs) — https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/classements-2/ — mais https://hccalessangliers.fr/ (mis à jour le 14/11 à 22h10) n'intègre toujours pas Dijon 7-4 Mulhouse (Dijon 2 pts). Pas de deuxième source concordante : dernier classement vérifié conservé (Montpellier 2e) ; note mise à jour.
+- Ligue 2 (13e journée du 20 au 23/11), Top 14 (10e journée les 28-29/11 — https://sports.orange.fr/rugby/top-14/calendrier-resultats-10eme-journee.html), Champions Cup, Ligue des champions EHF (terminée), Ligue des champions CEV (08/12) : sans changement.
+
 ## 2026-11-14 · Classements (passage du soir)
 
 Clé `verified` au 14/11.
