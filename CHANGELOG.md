@@ -1,5 +1,12 @@
 # Journal des mises à jour
 
+## 2026-11-16 · Classements (passage du soir)
+
+Clé `verified` au 16/11.
+- Starligue : classement remplacé, « Après la 10e journée » (Aix 26-37 Paris désormais intégré). Paris passe 1er (20 pts, 10 matchs, +84) devant Nantes (18) ; Montpellier reste 4e, 14 pts ; Aix 7e (10 pts, +11). Trois classements complets concordants (ordre, points, buts), identiques au recalcul : https://hbcnantes.com/equipe-professionnelle/classement/ ; https://www.srvhb.com/lequipe-pro-classement/ ; https://www.usdk.fr/lidl-starligue/classement/ — note retirée.
+- Division 2 hockey, poule B : classement remplacé, « Au 14/11/2026 » (7e journée complète). Montpellier reste 2e (16 pts, 7 matchs) derrière Clermont-Ferrand (17 pts, 6 matchs) ; Vaujany-Grenoble 5e (était 6e), Toulon 7e (9e), Mulhouse 8e (7e), Toulouse-Blagnac 9e (8e), Dijon reste 10e (5 pts). Classements concordants (ordre et points) : https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/classements-2/ ; https://hccalessangliers.fr/ (mis à jour le 15/11 à 19h10, tableau complet J/V/VP/DP/D/BP/BC) ; https://hcdijon.com/resultats/ ; identiques au recalcul à partir du tableau du 08/11 et des résultats https://www.hockeyfrance.com/competitions/2026/11/14/d2-les-resultats-de-la-7eme-journee-5/ . Note réduite (légende et report Toulon – Vaujany-Grenoble).
+- Ligue 2 (13e journée du 20 au 23/11), Top 14 (10e journée les 28-29/11), Champions Cup, Ligue A volley (7e journée à venir), Ligue des champions EHF (terminée), Ligue des champions CEV (08/12) : aucun match le 16/11, sans changement.
+
 ## 2026-11-15 · Classements (passage du soir)
 
 Clé `verified` au 15/11.
