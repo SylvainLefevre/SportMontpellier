@@ -1,5 +1,11 @@
 # Journal des mises à jour
 
+## 2026-11-17 · Classements (passage du soir)
+
+Aucune ligne modifiée ; clé `verified` au 17/11. Aucun match des compétitions suivies le 17/11.
+- Starligue : 11e journée à partir du 19/11 (Dunkerque – Cesson-Rennes, Caen – Nîmes), derniers résultats le 15/11 — https://www.betexplorer.com/handball/france/starligue/
+- Ligue A volley : 7e journée en semaine (Montpellier – Chaumont le 19/11), aucun résultat trouvé le 17/11. Ligue 2 : 13e journée du 20 au 23/11. Top 14 : 10e journée les 28-29/11. Division 2 hockey : prochaine journée le week-end. Champions Cup (décembre), Ligue des champions EHF (terminée), Ligue des champions CEV (08/12) : sans changement.
+
 ## 2026-11-16 · Classements (passage du soir)
 
 Clé `verified` au 16/11.
