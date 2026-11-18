@@ -1,5 +1,11 @@
 # Journal des mises à jour
 
+## 2026-11-18 · Classements (passage du soir)
+
+Aucune ligne modifiée ; clé `verified` déjà au 18/11 (passage hebdo). Aucun match des compétitions suivies le 18/11.
+- Ligue A volley : 7e journée du 19 au 21/11 (Montpellier – Chaumont le 19/11 à 20h00), aucun match joué — https://spikelive.fr/ligue/lam/journee/7
+- Starligue : 11e journée à partir du 19/11. Ligue 2 : 13e journée du 20 au 23/11. Top 14 : 10e journée les 28-29/11. Division 2 hockey : prochaine journée le week-end. Champions Cup (décembre), Ligue des champions EHF (terminée), Ligue des champions CEV (08/12) : sans changement.
+
 ## 2026-11-18 · Mise à jour hebdo
 
 Calendrier (`data/matches.json`, `verified` au 18/11)
