@@ -1,5 +1,32 @@
 # Journal des mises à jour
 
+## 2026-11-18 · Mise à jour hebdo
+
+Calendrier (`data/matches.json`, `verified` au 18/11)
+- Score : Montpellier 34-28 Dunkerque (Starligue, 13/11) — https://www.lnh.fr/daikin-starligue/accueil ; https://sports.orange.fr/plus-de-sport/handball/article/daikin-starligue-j10-montpellier-domine-dunkerque-mais-reste-quatrieme-exclu-CNT000002tIciv.html ; Midi Libre via https://www.titrespresse.com/29035262603/villeminot-mhb-dunkerque (le 32-27 de handnews.fr est isolé, écarté). Lieu FDI Stadium désormais confirmé par le club (https://www.montpellierhandball.com/contexte-dunkerque/) et la Ville (https://encommun.montpellier.fr/articles/2026-11-12-nos-coups-de-coeur-sorties-du-vendredi-13-au-dimanche-15-novembre-2026) ; match passé, champs `venue`/`note` laissés tels quels.
+- Score : Vipers 4-1 HCMP (D2, 14/11) — https://www.hockeyfrance.com/competitions/2026/11/14/d2-les-resultats-de-la-7eme-journee-5/ ; https://www.passionhockey.com/2026/11/15/division-2-7e-journee-la-roche-saccroche-a-la-premiere-place/ (la page résultats du club affiche 2-1, page non fiable).
+- Score : Montpellier 0-3 Cannes (Ligue A volley, 15/11) — https://spikelive.fr/ligue/lam/calendrier ; Midi Libre via https://www.titrespresse.com/29252722603/mhsc-vb-cannes
+- MHB – Caen (11/12) : 20h00 confirmé (`date_ok`/`time_ok` false → true), le club a retiré la mention « provisoire » — https://www.montpellierhandball.com/equipe-pro-masculine/calendrier-resultats/ ; https://www.graden.fr/event/montpellier-caen
+- MHSC – Guingamp (02/01) : 19h00 confirmé (`time_ok` false → true) — https://ligue1.com/fr/articles/l1_article_6053-programmation-tv-j16-l2-2627 ; https://sports.orange.fr/football/ligue-2/calendrier-resultats-16eme-journee.html (JDS, matchs.tv et le site de Guingamp affichent encore le 20h00 par défaut, pages antérieures à la programmation).
+- Vipers – Clermont-Ferrand (12/12) : date confirmée (`date_ok` false → true) ; horaire 19h00 renseigné mais `time_ok` reste false (seul le site de Clermont) — https://www.montpellier-vipers.com/prochains-matchs-vipers/ ; https://hccalessangliers.fr/prochains-matchs/
+- MHR – Bayonne : 13e journée (et non 12e), samedi 26/12 sans horaire selon la LNR ; MHR – Stade Français : 15e journée, samedi 23/01 sans horaire. Notes mises à jour, drapeaux à false.
+- Reconfirmés sans changement (sources mises à jour) : volley – Chaumont 19/11 20h00 (spikelive, https://cvb52.com/, https://jhm.fr/alterna-volstar-les-co-leaders-vont-se-departager/) ; MHB – Cesson-Rennes 27/11 20h00 (club, Montpellier Tourisme, Graden) ; volley – Narbonne 04/12 20h00 (spikelive, https://lnv.fr/xml/calendrier-narbonne.xml, https://narbonnevolley.com/) ; MHSC – Nantes 05/12 14h00 (Tribune Nantaise, Orange) ; MHR – La Rochelle 05/12 16h35 (https://top14.lnr.fr/club/montpellier/calendrier-resultats, allrugby) ; MHR – Bulls 12/12 16h15 et – Northampton 09/01 18h30 (https://www.planetrugby.com/news/investec-champions-cup-2026-27-pool-fixtures, Orange) ; volley – Tourcoing 18/12 et – Sète 30/12 20h00 (spikelive + 365Scores, affiché 19h00 UTC).
+- Non ajoutés (à l'extérieur) : Coupe de France foot, 8e tour Avenir Foot Lozère Mende – Montpellier (28-29/11, Mende ; FC Balagne 0-5 Montpellier au 7e tour) — https://toutmontpellier.fr/news/montpellier-le-mhsc-defiera-l-avenir-foot-lozere-au-8e-tour-de-la-coup ; https://www.footmercato.net/a316183198435727335-coupe-de-france-le-tirage-au-sort-complet-du-8e-tour. Coupe de France hand, quart de finale à Saint-Raphaël (18 ou 19/12) — https://www.montpellierhandball.com/coupe-de-france-le-mhb-se-deplacera-a-saint-raphael-en-quart-de-finale/. Coupe de France volley, 8e de finale à Narbonne (24/11). Ligue des champions CEV : premier match annoncé vers le 09/12 (probablement Ziraat), domicile/extérieur inconnu, calendrier CEV non publié.
+
+Désaccords non résolus
+- Volley – Chaumont (19/11) : une annonce de RTS FM (https://www.rtsfm.com/gagnez-vos-places-pour-mhsc-vb-vs-chaumont) donne vendredi 20/11 contre trois sources au 19/11 ; valeur conservée.
+- Volley – Perugia (05/01) : horaire toujours en désaccord (21h00 selon https://www.sirsafetyperugia.it/cev/ seul).
+- Hockey, Vipers – Mulhouse (05/12), – Annecy (19/12), – Dijon (16/01), – Roanne (06/02) : dates sur le seul site du club, aucun horaire publié (PDF FFHG non lisible) ; drapeaux à false.
+- Hockey, Vipers – Toulon (31/10) : 9-4 selon la FFHG ; le site du club affiche désormais 5-1 (et 2-4 auparavant, sans doute un score de période) ; pas de deuxième source, score inchangé.
+- MHB – Tremblay (05/02) : 20h00 selon Tremblay, « date provisoire » selon le club ; drapeau horaire à false.
+
+Classements (`data/standings.json`) : aucune rencontre depuis le passage du 17/11 au soir ; lignes inchangées, clé `verified` au 18/11. Division 2 hockey : tableau du 14/11 reconfirmé par https://hccalessangliers.fr/ (mis à jour le 17/11) ; Starligue et Ligue A volley reprennent le 19/11.
+
+Grands Prix (`data/gp.json`, `verified` au 18/11)
+- MotoGP Portugal : horaire officiel publié par motogp.com le 16/11 ; warm-up 09:40 → 09:00 UTC (09h00 locale, 10h00 Paris) — https://www.motogp.com/en/news/2026/11/16/time-schedule-repsol-grand-prix-of-portugal/1185224 ; https://www.speedweek.com/en/a/motogp/motogp-portimao-schedule-gp-portugal-2026 ; https://www.crash.net/motogp/news/1110109/1/2026-portimao-motogp-start-times-and-how-watch. Autres sessions inchangées et concordantes ; note et sources mises à jour.
+- F1 Las Vegas, Qatar, Abu Dhabi : horaires reconfirmés (formula1.com + The Race / Crash.net / Oversteer48), inchangés. MotoGP Valence : horaires reconfirmés par Crash.net et Statsniper, motogp.com pas encore publié (le warm-up pourrait bouger comme à Portimão).
+- Calendriers 2027 F1 et MotoGP : aucun changement signalé.
+
 ## 2026-11-17 · Classements (passage du soir)
 
 Aucune ligne modifiée ; clé `verified` au 17/11. Aucun match des compétitions suivies le 17/11.

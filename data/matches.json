@@ -1,6 +1,6 @@
 {
   "season": "2026-2027",
-  "verified": "2026-11-11",
+  "verified": "2026-11-18",
   "matches": [
     {
       "date": "2026-08-08",
@@ -396,12 +396,12 @@
       "venue": "",
       "date_ok": true,
       "time_ok": true,
-      "score": "",
+      "score": "34-28",
       "note": "FDI Stadium selon Hérault Tourisme (lieu à recouper avec le club)",
       "sources": [
-        "https://www.herault-tourisme.com/fr/fiche/fetes-et-manifestations/handball-mhb-vs-dunkerque-montpellier_TFOFMALAR034V52VC9D/",
-        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/",
-        "https://www.365scores.com/handball/team/montpellier-8120/matches"
+        "https://www.lnh.fr/daikin-starligue/accueil",
+        "https://sports.orange.fr/plus-de-sport/handball/article/daikin-starligue-j10-montpellier-domine-dunkerque-mais-reste-quatrieme-exclu-CNT000002tIciv.html",
+        "https://www.titrespresse.com/29035262603/villeminot-mhb-dunkerque"
       ]
     },
     {
@@ -413,11 +413,11 @@
       "venue": "Patinoire Végapolis",
       "date_ok": true,
       "time_ok": true,
-      "score": "",
+      "score": "4-1",
       "note": "",
       "sources": [
-        "https://www.montpellier-vipers.com/",
-        "https://www.montpellier-tourisme.fr/agenda/tout-l-agenda/hockey-sur-glace-vipers-vs-hcmp-montpellier-fr-6846708/"
+        "https://www.hockeyfrance.com/competitions/2026/11/14/d2-les-resultats-de-la-7eme-journee-5/",
+        "https://www.passionhockey.com/2026/11/15/division-2-7e-journee-la-roche-saccroche-a-la-premiere-place/"
       ]
     },
     {
@@ -429,11 +429,11 @@
       "venue": "Palais des Sports Chaban-Delmas (Castelnau-le-Lez)",
       "date_ok": true,
       "time_ok": true,
-      "score": "",
+      "score": "0-3",
       "note": "Volleybox indique encore le 13/11 (calendrier initial)",
       "sources": [
-        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/",
-        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches"
+        "https://spikelive.fr/ligue/lam/calendrier",
+        "https://www.titrespresse.com/29252722603/mhsc-vb-cannes"
       ]
     },
     {
@@ -446,10 +446,11 @@
       "date_ok": true,
       "time_ok": true,
       "score": "",
-      "note": "Volleybox indique encore le 20/11 (calendrier initial)",
+      "note": "Volleybox et une annonce de RTS FM indiquent encore le 20/11 (calendrier initial)",
       "sources": [
-        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/",
-        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches"
+        "https://spikelive.fr/ligue/lam/calendrier",
+        "https://cvb52.com/",
+        "https://jhm.fr/alterna-volstar-les-co-leaders-vont-se-departager/"
       ]
     },
     {
@@ -464,8 +465,9 @@
       "score": "",
       "note": "",
       "sources": [
-        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/",
-        "https://www.365scores.com/handball/team/montpellier-8120/matches"
+        "https://www.montpellierhandball.com/equipe-pro-masculine/calendrier-resultats/",
+        "https://www.montpellier-tourisme.fr/agenda/tout-l-agenda/handball-mhb-vs-cesson-rennes-montpellier-fr-6841786/",
+        "https://www.graden.fr/event/montpellier-cesson-rennes-1"
       ]
     },
     {
@@ -480,8 +482,9 @@
       "score": "",
       "note": "",
       "sources": [
-        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/",
-        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches"
+        "https://spikelive.fr/ligue/lam/calendrier",
+        "https://lnv.fr/xml/calendrier-narbonne.xml",
+        "https://narbonnevolley.com/"
       ]
     },
     {
@@ -496,9 +499,8 @@
       "score": "",
       "note": "14e journée, programmée par la LFP (beIN SPORTS 1)",
       "sources": [
-        "https://ligue1.com/fr/articles/l1_article_5918-programmation-tv-j14-1",
         "https://tribunenantaise.fr/actus-fcnantes/fc-nantes-la-programmation-du-choc-contre-montpellier-est-tombee/",
-        "https://www.footmercato.net/live/6380758400408276708-montpellier-vs-nantes"
+        "https://sports.orange.fr/football/ligue-2/calendrier-resultats-14eme-journee.html"
       ]
     },
     {
@@ -511,7 +513,7 @@
       "date_ok": false,
       "time_ok": false,
       "score": "",
-      "note": "",
+      "note": "Date selon le seul site du club ; horaire non publié",
       "sources": [
         "https://www.montpellier-vipers.com/prochains-matchs-vipers/"
       ]
@@ -528,7 +530,7 @@
       "score": "",
       "note": "11e journée, programmée par la LNR (Canal+ Sport)",
       "sources": [
-        "https://top14.lnr.fr/feuille-de-match/2026-2027/j11/11892-montpellier-la-rochelle",
+        "https://top14.lnr.fr/club/montpellier/calendrier-resultats",
         "https://www.allrugby.com/news/top-14-2027-j11-programmation-3902.html"
       ]
     },
@@ -539,28 +541,29 @@
       "opponent": "Caen",
       "competition": "Starligue",
       "venue": "",
-      "date_ok": false,
-      "time_ok": false,
+      "date_ok": true,
+      "time_ok": true,
       "score": "",
-      "note": "Date et horaire marqués « provisoires » par le club (journée pas encore programmée par la LNH)",
+      "note": "14e journée, confirmée par le club (mention « provisoire » retirée)",
       "sources": [
-        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/",
-        "https://www.365scores.com/handball/team/montpellier-8120/matches"
+        "https://www.montpellierhandball.com/equipe-pro-masculine/calendrier-resultats/",
+        "https://www.graden.fr/event/montpellier-caen"
       ]
     },
     {
       "date": "2026-12-12",
       "sport": "hockey",
-      "time": "",
+      "time": "19h00",
       "opponent": "Clermont-Ferrand",
       "competition": "Division 2 · poule B",
       "venue": "Patinoire Végapolis",
-      "date_ok": false,
+      "date_ok": true,
       "time_ok": false,
       "score": "",
-      "note": "",
+      "note": "11e journée. 19h00 selon le seul site de Clermont (horaire à recouper)",
       "sources": [
-        "https://www.montpellier-vipers.com/prochains-matchs-vipers/"
+        "https://www.montpellier-vipers.com/prochains-matchs-vipers/",
+        "https://hccalessangliers.fr/prochains-matchs/"
       ]
     },
     {
@@ -575,9 +578,8 @@
       "score": "",
       "note": "",
       "sources": [
-        "https://www.allrugby.com/clubs/montpellier/calendrier",
-        "https://sports.orange.fr/rugby/coupes-europe/champions-cup/calendrier-resultats-phase-de-groupes-poule-4.html",
-        "https://www.rugbypass.com/fr/live/bulls-vs-montpellier/"
+        "https://www.planetrugby.com/news/investec-champions-cup-2026-27-pool-fixtures",
+        "https://sports.orange.fr/rugby/coupes-europe/champions-cup/calendrier-resultats-phase-de-groupes-poule-4.html"
       ]
     },
     {
@@ -592,8 +594,8 @@
       "score": "",
       "note": "",
       "sources": [
-        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/",
-        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches"
+        "https://spikelive.fr/ligue/lam/calendrier",
+        "https://www.365scores.com/en-uk/volleyball/match/pro-a-5712/montpellier-tourcoing-15921-15927-5712"
       ]
     },
     {
@@ -606,7 +608,7 @@
       "date_ok": false,
       "time_ok": false,
       "score": "",
-      "note": "",
+      "note": "Date selon le seul site du club ; horaire non publié",
       "sources": [
         "https://www.montpellier-vipers.com/prochains-matchs-vipers/"
       ]
@@ -621,9 +623,10 @@
       "date_ok": false,
       "time_ok": false,
       "score": "",
-      "note": "Week-end des 26-27/12",
+      "note": "13e journée, samedi 26/12 selon la LNR (non encore programmée, jour et horaire à confirmer)",
       "sources": [
-        "https://www.tv-direct.fr/sport-direct/rugby/"
+        "https://top14.lnr.fr/club/montpellier/calendrier-resultats",
+        "https://www.allrugby.com/saison-2026-2027/matchs/montpellier-bayonne-26093.html"
       ]
     },
     {
@@ -638,8 +641,8 @@
       "score": "",
       "note": "",
       "sources": [
-        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/",
-        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches"
+        "https://spikelive.fr/ligue/lam/calendrier",
+        "https://www.365scores.com/fr/volleyball/team/sete-15919/matches"
       ]
     },
     {
@@ -650,13 +653,12 @@
       "competition": "Ligue 2",
       "venue": "Stade de la Mosson",
       "date_ok": true,
-      "time_ok": false,
+      "time_ok": true,
       "score": "",
-      "note": "16e journée, programmée par la LFP le samedi 02/01 à 19h00 (multiplex beIN SPORTS) ; JDS et matchs.tv indiquent encore 20h00",
+      "note": "16e journée, programmée par la LFP le samedi 02/01 à 19h00 (multiplex beIN SPORTS)",
       "sources": [
         "https://ligue1.com/fr/articles/l1_article_6053-programmation-tv-j16-l2-2627",
-        "https://www.montpellier-tourisme.fr/agenda/tout-l-agenda/football-mhsc-vs-ea-guingamp-montpellier-fr-6881384/",
-        "https://www.jds.fr/montpellier/sports/matchs/montpellier-guingamp-football-ligue-2-1637208_A"
+        "https://sports.orange.fr/football/ligue-2/calendrier-resultats-16eme-journee.html"
       ]
     },
     {
@@ -705,7 +707,7 @@
       "note": "",
       "sources": [
         "https://www.planetrugby.com/news/investec-champions-cup-2026-27-pool-fixtures",
-        "https://www.northamptonsaints.co.uk/news/saints-investec-champions-cup-pool-stage-fixtures-announced"
+        "https://sports.orange.fr/rugby/coupes-europe/champions-cup/calendrier-resultats-phase-de-groupes-poule-4.html"
       ]
     },
     {
@@ -749,7 +751,7 @@
       "date_ok": false,
       "time_ok": false,
       "score": "",
-      "note": "Week-end des 23-24/01",
+      "note": "15e journée, samedi 23/01 selon la LNR (non encore programmée, jour et horaire à confirmer)",
       "sources": [
         "https://www.tv-direct.fr/sport-direct/rugby/"
       ]

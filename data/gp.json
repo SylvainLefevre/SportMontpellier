@@ -1,5 +1,5 @@
 {
-  "verified": "2026-11-11",
+  "verified": "2026-11-18",
   "events": [
     {
       "id": "f1-2026-2026-11-06",
@@ -203,7 +203,7 @@
         },
         {
           "type": "warmup",
-          "utc": "2026-11-22T09:40:00Z",
+          "utc": "2026-11-22T09:00:00Z",
           "time_ok": true
         },
         {
@@ -212,12 +212,11 @@
           "time_ok": true
         }
       ],
-      "note": "Horaires non encore publiés par motogp.com, mais concordants chez plusieurs éditeurs indépendants.",
+      "note": "Horaire officiel publié par motogp.com le 16/11 : warm-up avancé à 09h00 locale (au lieu de 09h40).",
       "sources": [
-        "https://somosmotor.es/calendario/motogp/2026/gran-premio-de-portugal",
-        "https://www.quotidianomotori.com/motogp/motogp-portogallo-2026-orari-tv8-sky-portimao/",
-        "https://freshcalendars.com/news/motogp-2026-final-races-qatar-portugal-valencia-race-times-us-uk/",
-        "https://www.foxsports.com/motor/motogp/schedule"
+        "https://www.motogp.com/en/news/2026/11/16/time-schedule-repsol-grand-prix-of-portugal/1185224",
+        "https://www.speedweek.com/en/a/motogp/motogp-portimao-schedule-gp-portugal-2026",
+        "https://www.crash.net/motogp/news/1110109/1/2026-portimao-motogp-start-times-and-how-watch"
       ]
     },
     {
