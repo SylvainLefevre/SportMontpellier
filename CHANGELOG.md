@@ -1,5 +1,12 @@
 # Journal des mises à jour
 
+## 2026-11-19 · Classements (passage du soir)
+
+Aucune ligne modifiée ; clé `verified` au 19/11 ; `as_of` précisés pour la Starligue et la Ligue A volley.
+- Ligue A volley : Montpellier 3-0 Chaumont (25-22, 25-18, 25-15) le 19/11 — https://jhm.fr/le-cvb-craque-chez-le-champion/ ; https://spikelive.fr/ligue/lam/journee/7 . Le classement de https://spikelive.fr/ligue/lam est encore « après 6 journées » et aucune autre source complète à jour n'a été trouvée (https://www.montpellier-volley.com/index.php/table/ligue-am/ affiche une saison précédente, scorenco illisible). Dernier classement vérifié conservé (Montpellier 12e, 3 pts) ; `as_of` : « avant Montpellier – Chaumont du 19/11 ». Reste de la 7e journée les 20 et 21/11.
+- Starligue, 11e journée : Caen 36-34 Nîmes et Dunkerque 21-21 Cesson-Rennes le 19/11 — https://www.lnh.fr/daikin-starligue/accueil ; https://www.ouest-france.fr/sport/handball/caen-hb/en-images-le-caen-hb-terrasse-nimes-et-soffre-une-victoire-de-prestige-malgre-les-absents-349405b2-e461-11f1-a3b1-0c6de532ce7d . Seul https://www.srvhb.com/lequipe-pro-classement/ publie un classement complet intégrant ces matchs (Caen 7e, 12 pts ; Nîmes 3e, 16 pts ; Cesson-Rennes et Dunkerque 3 pts), cohérent avec le top 7 partiel de lnh.fr et avec le recalcul ; https://www.usdk.fr/lidl-starligue/classement/ n'est pas à jour (10 matchs), hbcnantes.com et Eurosport inaccessibles. Pas de deuxième classement complet concordant : dernier classement vérifié conservé (Montpellier 4e, 14 pts, inchangé dans les deux cas) ; `as_of` : « avant Caen – Nîmes et Dunkerque – Cesson-Rennes du 19/11 ». Toulouse – Montpellier le 22/11 à 17h00.
+- Ligue 2 (13e journée du 20 au 23/11), Top 14 (10e journée les 28-29/11), Champions Cup (décembre), Ligue des champions EHF (terminée), Ligue des champions CEV (08/12), Division 2 hockey (journée du week-end) : aucun match le 19/11, sans changement.
+
 ## 2026-11-18 · Classements (passage du soir)
 
 Aucune ligne modifiée ; clé `verified` déjà au 18/11 (passage hebdo). Aucun match des compétitions suivies le 18/11.

@@ -1,5 +1,5 @@
 {
-  "verified": "2026-11-18",
+  "verified": "2026-11-19",
   "competitions": [
     {
       "id": "ligue2",
@@ -617,7 +617,7 @@
         "Diff",
         "Pts"
       ],
-      "as_of": "Après la 10e journée",
+      "as_of": "Après la 10e journée (avant Caen – Nîmes et Dunkerque – Cesson-Rennes du 19/11)",
       "verified": true,
       "rows": [
         {
@@ -937,7 +937,7 @@
         "Sets",
         "Pts"
       ],
-      "as_of": "Après la 6e journée",
+      "as_of": "Après la 6e journée (avant Montpellier – Chaumont du 19/11)",
       "verified": true,
       "rows": [
         {
