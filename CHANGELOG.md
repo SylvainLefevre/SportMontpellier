@@ -1,5 +1,13 @@
 # Journal des mises à jour
 
+## 2026-11-20 · Classements (passage du soir)
+
+Clé `verified` au 20/11.
+- Starligue : classement mis à jour en cours de 11e journée (Caen 36-34 Nîmes et Dunkerque 21-21 Cesson-Rennes le 19/11, Saint-Raphaël 37-32 Chartres le 20/11). Tableaux complets identiques sur https://www.srvhb.com/lequipe-pro-classement/ et https://www.usdk.fr/lidl-starligue/classement/ , top 7 et résultats concordants sur https://www.lnh.fr/daikin-starligue/accueil (https://hbcnantes.com/equipe-professionnelle/classement/ pas encore à jour du 20/11). Nîmes 3e (16 pts, 11 m.), Caen 7e (12), Saint-Raphaël 10e (8), Chartres 13e, Cesson-Rennes et Dunkerque 3 pts. Montpellier toujours 4e, 14 pts ; `as_of` : « Au 20/11/2026 (11e journée en cours, Toulouse – Montpellier le 22/11) ».
+- Ligue A volley : 7e journée en cours — Montpellier 3-0 Chaumont (19/11), Nice 3-1 Paris, Poitiers 3-1 Sète, Cannes 3-1 Plessis-Robinson (20/11) selon https://spikelive.fr/ligue/lam/calendrier ; Nice – Paris aussi sur 365Scores. https://www.365scores.com/fr/volleyball/team/nice-vb-15924/standings intègre les quatre matchs (Montpellier 10e, 6 pts, 10-17), mais https://spikelive.fr/ligue/lam n'intègre que Montpellier – Chaumont (Montpellier 10e, 6 pts) ; Eurosport inaccessible, BetExplorer sans tableau lisible. Pas de deuxième classement complet concordant : dernier classement vérifié conservé (Montpellier 12e, 3 pts) ; `as_of` précisé. Reste de la journée le 21/11.
+- Ligue 2 : 13e journée commencée le 20/11 (Metz – Boulogne, Guingamp – Rodez, Nancy – Dijon, Annecy – Clermont, Red Star – Pau) ; https://www.maxifoot.fr/resultat-ligue-2-france.htm et https://m.maxifoot.fr/classement-ligue-2-france.htm encore après la 12e journée. Classement conservé (Montpellier 3e, 24 pts) ; `as_of` : « avant les matchs de la 13e journée du 20/11 ». Laval – Montpellier le 21/11.
+- Top 14, Champions Cup, Ligue des champions EHF (terminée), Ligue des champions CEV (08/12), Division 2 hockey (journée du week-end) : aucun match le 20/11, sans changement.
+
 ## 2026-11-19 · Classements (passage du soir)
 
 Aucune ligne modifiée ; clé `verified` au 19/11 ; `as_of` précisés pour la Starligue et la Ligue A volley.

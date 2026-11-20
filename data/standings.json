@@ -1,5 +1,5 @@
 {
-  "verified": "2026-11-19",
+  "verified": "2026-11-20",
   "competitions": [
     {
       "id": "ligue2",
@@ -16,7 +16,7 @@
         "Diff",
         "Pts"
       ],
-      "as_of": "Après la 12e journée",
+      "as_of": "Après la 12e journée (avant les matchs de la 13e journée du 20/11)",
       "verified": true,
       "rows": [
         {
@@ -617,7 +617,7 @@
         "Diff",
         "Pts"
       ],
-      "as_of": "Après la 10e journée (avant Caen – Nîmes et Dunkerque – Cesson-Rennes du 19/11)",
+      "as_of": "Au 20/11/2026 (11e journée en cours, Toulouse – Montpellier le 22/11)",
       "verified": true,
       "rows": [
         {
@@ -652,13 +652,13 @@
           "rank": 3,
           "team": "Nîmes",
           "values": [
-            10,
+            11,
             8,
             0,
-            2,
-            332,
-            320,
-            "+12",
+            3,
+            366,
+            356,
+            "+10",
             16
           ]
         },
@@ -706,6 +706,20 @@
         },
         {
           "rank": 7,
+          "team": "Caen",
+          "values": [
+            11,
+            6,
+            0,
+            5,
+            321,
+            357,
+            "-36",
+            12
+          ]
+        },
+        {
+          "rank": 8,
           "team": "Aix",
           "values": [
             10,
@@ -715,20 +729,6 @@
             321,
             310,
             "+11",
-            10
-          ]
-        },
-        {
-          "rank": 8,
-          "team": "Caen",
-          "values": [
-            10,
-            5,
-            0,
-            5,
-            285,
-            323,
-            "-38",
             10
           ]
         },
@@ -748,6 +748,20 @@
         },
         {
           "rank": 10,
+          "team": "Saint-Raphaël",
+          "values": [
+            11,
+            4,
+            0,
+            7,
+            329,
+            368,
+            "-39",
+            8
+          ]
+        },
+        {
+          "rank": 11,
           "team": "Sélestat",
           "values": [
             10,
@@ -761,7 +775,7 @@
           ]
         },
         {
-          "rank": 11,
+          "rank": 12,
           "team": "Saran",
           "values": [
             10,
@@ -775,31 +789,17 @@
           ]
         },
         {
-          "rank": 12,
+          "rank": 13,
           "team": "Chartres",
           "values": [
-            10,
+            11,
             3,
             1,
-            6,
-            288,
-            324,
-            "-36",
-            7
-          ]
-        },
-        {
-          "rank": 13,
-          "team": "Saint-Raphaël",
-          "values": [
-            10,
-            3,
-            0,
             7,
-            292,
-            336,
-            "-44",
-            6
+            320,
+            361,
+            "-41",
+            7
           ]
         },
         {
@@ -820,36 +820,36 @@
           "rank": 15,
           "team": "Cesson-Rennes",
           "values": [
-            10,
+            11,
             1,
-            0,
+            1,
             9,
-            304,
-            344,
+            325,
+            365,
             "-40",
-            2
+            3
           ]
         },
         {
           "rank": 16,
           "team": "Dunkerque",
           "values": [
-            10,
+            11,
             1,
-            0,
+            1,
             9,
-            251,
-            298,
+            272,
+            319,
             "-47",
-            2
+            3
           ]
         }
       ],
       "note": "",
       "sources": [
-        "https://hbcnantes.com/equipe-professionnelle/classement/",
         "https://www.srvhb.com/lequipe-pro-classement/",
-        "https://www.usdk.fr/lidl-starligue/classement/"
+        "https://www.usdk.fr/lidl-starligue/classement/",
+        "https://www.lnh.fr/daikin-starligue/accueil"
       ]
     },
     {
@@ -937,7 +937,7 @@
         "Sets",
         "Pts"
       ],
-      "as_of": "Après la 6e journée (avant Montpellier – Chaumont du 19/11)",
+      "as_of": "Après la 6e journée (avant Montpellier – Chaumont du 19/11 et les matchs du 20/11)",
       "verified": true,
       "rows": [
         {
