@@ -1,5 +1,5 @@
 {
-  "verified": "2026-11-20",
+  "verified": "2026-11-21",
   "competitions": [
     {
       "id": "ligue2",
@@ -16,48 +16,48 @@
         "Diff",
         "Pts"
       ],
-      "as_of": "Après la 12e journée (avant les matchs de la 13e journée du 20/11)",
+      "as_of": "Au 21/11/2026 (13e journée en cours : Dunkerque, Nantes, Sochaux et Grenoble jouent les 22-23/11)",
       "verified": true,
       "rows": [
         {
           "rank": 1,
           "team": "Saint-Étienne",
           "values": [
-            12,
-            9,
+            13,
+            10,
             1,
             2,
-            25,
+            26,
             11,
-            "+14",
-            28
+            "+15",
+            31
           ]
         },
         {
           "rank": 2,
           "team": "Nancy",
           "values": [
-            12,
-            8,
+            13,
+            9,
             1,
             3,
-            17,
+            18,
             9,
-            "+8",
-            25
+            "+9",
+            28
           ]
         },
         {
           "rank": 3,
           "team": "Montpellier",
           "values": [
-            12,
+            13,
             7,
             3,
-            2,
+            3,
             18,
-            9,
-            "+9",
+            10,
+            "+8",
             24
           ]
         },
@@ -65,88 +65,102 @@
           "rank": 4,
           "team": "Reims",
           "values": [
-            12,
+            13,
             5,
             6,
-            1,
+            2,
             24,
-            15,
-            "+9",
+            16,
+            "+8",
             21
           ]
         },
         {
           "rank": 5,
-          "team": "Pau",
+          "team": "Metz",
           "values": [
-            12,
-            6,
-            2,
-            4,
-            16,
             13,
-            "+3",
+            5,
+            5,
+            3,
+            22,
+            20,
+            "+2",
             20
           ]
         },
         {
           "rank": 6,
-          "team": "Dijon",
+          "team": "Pau",
           "values": [
-            12,
+            13,
+            6,
+            2,
             5,
-            3,
-            4,
-            21,
-            19,
+            17,
+            15,
             "+2",
-            18
+            20
           ]
         },
         {
           "rank": 7,
-          "team": "Metz",
+          "team": "Red Star",
           "values": [
-            12,
-            4,
+            13,
+            6,
+            2,
             5,
-            3,
-            20,
-            19,
-            "+1",
-            17
+            16,
+            18,
+            "-2",
+            20
           ]
         },
         {
           "rank": 8,
-          "team": "Red Star",
+          "team": "Annecy",
           "values": [
-            12,
-            5,
-            2,
-            5,
-            14,
-            17,
-            "-3",
-            17
+            13,
+            6,
+            1,
+            6,
+            18,
+            20,
+            "-2",
+            19
           ]
         },
         {
           "rank": 9,
-          "team": "Annecy",
+          "team": "Dijon",
           "values": [
-            12,
+            13,
+            5,
+            3,
+            5,
+            21,
+            20,
+            "+1",
+            18
+          ]
+        },
+        {
+          "rank": 10,
+          "team": "Rodez",
+          "values": [
+            13,
             5,
             1,
-            6,
-            14,
-            18,
+            7,
+            20,
+            24,
             "-4",
             16
           ]
         },
         {
-          "rank": 10,
+          "rank": 11,
           "team": "Dunkerque",
           "values": [
             12,
@@ -160,44 +174,30 @@
           ]
         },
         {
-          "rank": 11,
+          "rank": 12,
           "team": "Guingamp",
           "values": [
-            12,
+            13,
             4,
             2,
-            6,
-            16,
-            18,
-            "-2",
+            7,
+            17,
+            21,
+            "-4",
             14
           ]
         },
         {
-          "rank": 12,
+          "rank": 13,
           "team": "Boulogne",
           "values": [
-            12,
+            13,
             2,
             7,
-            3,
-            10,
-            8,
-            "+2",
-            13
-          ]
-        },
-        {
-          "rank": 13,
-          "team": "Rodez",
-          "values": [
-            12,
             4,
-            1,
-            7,
-            17,
-            23,
-            "-6",
+            11,
+            10,
+            "+1",
             13
           ]
         },
@@ -217,20 +217,34 @@
         },
         {
           "rank": 15,
-          "team": "Clermont",
+          "team": "Laval",
           "values": [
-            12,
-            1,
-            8,
+            13,
             3,
-            11,
+            3,
+            7,
             15,
-            "-4",
-            11
+            23,
+            "-8",
+            12
           ]
         },
         {
           "rank": 16,
+          "team": "Clermont",
+          "values": [
+            13,
+            1,
+            8,
+            4,
+            13,
+            19,
+            "-6",
+            11
+          ]
+        },
+        {
+          "rank": 17,
           "team": "Sochaux",
           "values": [
             12,
@@ -244,7 +258,7 @@
           ]
         },
         {
-          "rank": 17,
+          "rank": 18,
           "team": "Grenoble",
           "values": [
             12,
@@ -256,29 +270,13 @@
             "-9",
             11
           ]
-        },
-        {
-          "rank": 18,
-          "team": "Laval",
-          "values": [
-            12,
-            2,
-            3,
-            7,
-            14,
-            23,
-            "-9",
-            9
-          ]
         }
       ],
       "note": "",
       "sources": [
-        "https://news.maxifoot.fr/ligue-2/le-classement-provisoire-foot-467298.htm",
+        "https://www.maxifoot.fr/classement-ligue-2-france.htm",
         "https://sports.orange.fr/football/ligue-2/classement-equipes.html",
-        "https://www.maxifoot.fr/resultat-ligue-2-france.htm",
-        "https://www.titrespresse.com/28224972603/nantes-pau-ligue",
-        "https://news.footeo.com/2026/11/07/ligue-2-lasse-se-relance-face-a-laval-et-reprend-seule-la-tete-17175"
+        "https://news.maxifoot.fr/ligue-2/le-classement-provisoire-foot-468029.htm"
       ]
     },
     {
@@ -617,11 +615,25 @@
         "Diff",
         "Pts"
       ],
-      "as_of": "Au 20/11/2026 (11e journée en cours, Toulouse – Montpellier le 22/11)",
+      "as_of": "Au 21/11/2026 (11e journée en cours, Paris – Tremblay et Toulouse – Montpellier le 22/11)",
       "verified": true,
       "rows": [
         {
           "rank": 1,
+          "team": "Nantes",
+          "values": [
+            11,
+            10,
+            0,
+            1,
+            401,
+            314,
+            "+87",
+            20
+          ]
+        },
+        {
+          "rank": 2,
           "team": "Paris",
           "values": [
             10,
@@ -632,20 +644,6 @@
             267,
             "+84",
             20
-          ]
-        },
-        {
-          "rank": 2,
-          "team": "Nantes",
-          "values": [
-            10,
-            9,
-            0,
-            1,
-            367,
-            292,
-            "+75",
-            18
           ]
         },
         {
@@ -678,6 +676,20 @@
         },
         {
           "rank": 5,
+          "team": "Limoges",
+          "values": [
+            11,
+            7,
+            0,
+            4,
+            369,
+            330,
+            "+39",
+            14
+          ]
+        },
+        {
+          "rank": 6,
           "team": "Tremblay",
           "values": [
             10,
@@ -688,20 +700,6 @@
             315,
             "+23",
             13
-          ]
-        },
-        {
-          "rank": 6,
-          "team": "Limoges",
-          "values": [
-            10,
-            6,
-            0,
-            4,
-            331,
-            295,
-            "+36",
-            12
           ]
         },
         {
@@ -722,13 +720,13 @@
           "rank": 8,
           "team": "Aix",
           "values": [
-            10,
+            11,
             5,
             0,
-            5,
-            321,
-            310,
-            "+11",
+            6,
+            356,
+            348,
+            "+8",
             10
           ]
         },
@@ -748,6 +746,20 @@
         },
         {
           "rank": 10,
+          "team": "Saran",
+          "values": [
+            11,
+            4,
+            1,
+            6,
+            329,
+            350,
+            "-21",
+            9
+          ]
+        },
+        {
+          "rank": 11,
           "team": "Saint-Raphaël",
           "values": [
             11,
@@ -761,30 +773,16 @@
           ]
         },
         {
-          "rank": 11,
+          "rank": 12,
           "team": "Sélestat",
           "values": [
-            10,
+            11,
             3,
             1,
-            6,
-            293,
-            310,
-            "-17",
-            7
-          ]
-        },
-        {
-          "rank": 12,
-          "team": "Saran",
-          "values": [
-            10,
-            3,
-            1,
-            6,
-            290,
+            7,
             315,
-            "-25",
+            344,
+            "-29",
             7
           ]
         },
@@ -806,13 +804,13 @@
           "rank": 14,
           "team": "Chambéry",
           "values": [
-            10,
+            11,
             2,
             2,
-            6,
-            318,
-            343,
-            "-25",
+            7,
+            353,
+            382,
+            "-29",
             6
           ]
         },
@@ -849,6 +847,7 @@
       "sources": [
         "https://www.srvhb.com/lequipe-pro-classement/",
         "https://www.usdk.fr/lidl-starligue/classement/",
+        "https://hbcnantes.com/equipe-professionnelle/classement/",
         "https://www.lnh.fr/daikin-starligue/accueil"
       ]
     },
@@ -937,7 +936,7 @@
         "Sets",
         "Pts"
       ],
-      "as_of": "Après la 6e journée (avant Montpellier – Chaumont du 19/11 et les matchs du 20/11)",
+      "as_of": "Après la 6e journée (avant les matchs de la 7e journée des 19-21/11, dont Montpellier – Chaumont)",
       "verified": true,
       "rows": [
         {
@@ -1137,7 +1136,7 @@
         "Diff",
         "Pts"
       ],
-      "as_of": "Au 14/11/2026",
+      "as_of": "Au 14/11/2026 (avant la 8e journée du 21/11, dont Mulhouse – Montpellier)",
       "verified": true,
       "rows": [
         {

@@ -1,5 +1,14 @@
 # Journal des mises à jour
 
+## 2026-11-21 · Classements (passage du soir)
+
+Clé `verified` au 21/11.
+- Ligue 2 : 13e journée en cours — Metz 2-1 Boulogne, Guingamp 1-3 Rodez, Nancy 1-0 Dijon, Annecy et Red Star (2-1 contre Pau) victorieux le 20/11 ; Reims 0-1 Saint-Étienne et Laval – Montpellier (défaite de Montpellier, 1-0 d'après le tableau) le 21/11. Tableaux complets identiques sur https://www.maxifoot.fr/classement-ligue-2-france.htm (au 21/11 à 21h53) et https://sports.orange.fr/football/ligue-2/classement-equipes.html ; état du 20/11 sur https://news.maxifoot.fr/ligue-2/le-classement-provisoire-foot-468029.htm . Saint-Étienne 31 pts, Nancy 28, Montpellier toujours 3e (24 pts, 13 m.), Laval remonte 15e. `as_of` : « Au 21/11/2026 (13e journée en cours : Dunkerque, Nantes, Sochaux et Grenoble jouent les 22-23/11) ».
+- Starligue : Limoges 38-35 Aix, Saran 39-35 Chambéry, Nantes 34-22 Sélestat le 21/11 (https://www.lnh.fr/daikin-starligue/accueil). Tableaux complets identiques sur https://www.srvhb.com/lequipe-pro-classement/ , https://www.usdk.fr/lidl-starligue/classement/ et https://hbcnantes.com/equipe-professionnelle/classement/ ; top 7 concordant sur lnh.fr. Nantes 1er (20 pts, 11 m.) devant Paris (20, 10 m.), Limoges 5e (14), Saran 10e. Montpellier toujours 4e, 14 pts (10 m.) ; Toulouse – Montpellier le 22/11.
+- Ligue A volley : 7e journée terminée le 21/11 — Toulouse 2-3 Tours, Saint-Nazaire 3-0 Narbonne, Royan 1-3 Tourcoing selon https://www.365scores.com/fr/volleyball/league/lnv-ligue-a-5712/standings (Montpellier 11e, 6 pts, 10-17). https://spikelive.fr/ligue/lam n'intègre que les matchs des 19-20/11 (Montpellier 10e, 6 pts ; Royan – Tourcoing « commencé » sur https://spikelive.fr/ligue/lam/journee/7) ; les-sports.info et scorenco illisibles. Pas de deuxième classement complet concordant : dernier classement vérifié conservé (Montpellier 12e, 3 pts) ; `as_of` précisé.
+- Division 2 hockey poule B, 8e journée du 21/11 (Mulhouse – Montpellier, apparemment gagné par Montpellier, score non trouvé) : https://hccalessangliers.fr/ (mis à jour à 22h10) donne Montpellier 1er (19 pts, 8 m.) mais sans Clermont-Ferrand – Dijon ni Annecy – Toulouse-Blagnac ; https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/classements-2/ intègre toute la journée (Clermont-Ferrand 1er, 20 pts ; Montpellier 2e, 19 pts). https://www.hockeyhebdo.com/news-d2----resultats-de-la-8eme-journee---21-novembre-2026,35483.html inaccessible, site des Vipers pas à jour. Pas de concordance : classement vérifié du 14/11 conservé (Montpellier 2e, 16 pts) ; `as_of` précisé.
+- Top 14, Champions Cup, Ligue des champions EHF (terminée), Ligue des champions CEV (08/12) : aucun match, sans changement.
+
 ## 2026-11-20 · Classements (passage du soir)
 
 Clé `verified` au 20/11.
