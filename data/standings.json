@@ -1,5 +1,5 @@
 {
-  "verified": "2026-11-21",
+  "verified": "2026-11-22",
   "competitions": [
     {
       "id": "ligue2",
@@ -16,7 +16,7 @@
         "Diff",
         "Pts"
       ],
-      "as_of": "Au 21/11/2026 (13e journée en cours : Dunkerque, Nantes, Sochaux et Grenoble jouent les 22-23/11)",
+      "as_of": "Au 22/11/2026 (13e journée en cours : Nantes – Grenoble et Sochaux – Dunkerque le 23/11)",
       "verified": true,
       "rows": [
         {
@@ -274,9 +274,10 @@
       ],
       "note": "",
       "sources": [
-        "https://www.maxifoot.fr/classement-ligue-2-france.htm",
+        "https://m.maxifoot.fr/classement-ligue-2-france.htm",
         "https://sports.orange.fr/football/ligue-2/classement-equipes.html",
-        "https://news.maxifoot.fr/ligue-2/le-classement-provisoire-foot-468029.htm"
+        "https://www.footmercato.net/france/ligue-2/classement",
+        "https://www.eurofootnews.net/ligue-2-13e-journee-tous-les-resultats-le-classement/22/11/2026/"
       ]
     },
     {
@@ -615,11 +616,25 @@
         "Diff",
         "Pts"
       ],
-      "as_of": "Au 21/11/2026 (11e journée en cours, Paris – Tremblay et Toulouse – Montpellier le 22/11)",
+      "as_of": "Après la 11e journée",
       "verified": true,
       "rows": [
         {
           "rank": 1,
+          "team": "Paris",
+          "values": [
+            11,
+            11,
+            0,
+            0,
+            391,
+            300,
+            "+91",
+            22
+          ]
+        },
+        {
+          "rank": 2,
           "team": "Nantes",
           "values": [
             11,
@@ -633,21 +648,21 @@
           ]
         },
         {
-          "rank": 2,
-          "team": "Paris",
+          "rank": 3,
+          "team": "Montpellier",
           "values": [
-            10,
-            10,
-            0,
-            0,
-            351,
-            267,
-            "+84",
-            20
+            11,
+            7,
+            2,
+            2,
+            359,
+            325,
+            "+34",
+            16
           ]
         },
         {
-          "rank": 3,
+          "rank": 4,
           "team": "Nîmes",
           "values": [
             11,
@@ -658,20 +673,6 @@
             356,
             "+10",
             16
-          ]
-        },
-        {
-          "rank": 4,
-          "team": "Montpellier",
-          "values": [
-            10,
-            6,
-            2,
-            2,
-            322,
-            291,
-            "+31",
-            14
           ]
         },
         {
@@ -692,13 +693,13 @@
           "rank": 6,
           "team": "Tremblay",
           "values": [
-            10,
+            11,
             6,
             1,
-            3,
-            338,
-            315,
-            "+23",
+            4,
+            371,
+            355,
+            "+16",
             13
           ]
         },
@@ -734,13 +735,13 @@
           "rank": 9,
           "team": "Toulouse",
           "values": [
-            10,
+            11,
             5,
             0,
-            5,
-            292,
-            292,
-            "0",
+            6,
+            326,
+            329,
+            "-3",
             10
           ]
         },
@@ -845,10 +846,11 @@
       ],
       "note": "",
       "sources": [
-        "https://www.srvhb.com/lequipe-pro-classement/",
-        "https://www.usdk.fr/lidl-starligue/classement/",
         "https://hbcnantes.com/equipe-professionnelle/classement/",
-        "https://www.lnh.fr/daikin-starligue/accueil"
+        "https://www.usdk.fr/lidl-starligue/classement/",
+        "https://www.srvhb.com/lequipe-pro-classement/",
+        "https://www.lnh.fr/daikin-starligue/accueil",
+        "https://www.montpellierhandball.com/equipe-pro-masculine/calendrier-resultats/"
       ]
     },
     {
@@ -936,149 +938,149 @@
         "Sets",
         "Pts"
       ],
-      "as_of": "Après la 6e journée (avant les matchs de la 7e journée des 19-21/11, dont Montpellier – Chaumont)",
+      "as_of": "Après la 7e journée",
       "verified": true,
       "rows": [
         {
           "rank": 1,
-          "team": "Toulouse",
+          "team": "Tourcoing",
           "values": [
+            7,
             6,
-            5,
             1,
-            "15-6",
-            15
+            "20-8",
+            17
           ]
         },
         {
           "rank": 2,
-          "team": "Tours",
+          "team": "Cannes",
           "values": [
+            7,
             6,
-            5,
             1,
-            "17-8",
-            15
+            "19-8",
+            17
           ]
         },
         {
           "rank": 3,
-          "team": "Chaumont",
+          "team": "Tours",
           "values": [
+            7,
             6,
-            5,
             1,
-            "16-6",
-            14
+            "20-10",
+            17
           ]
         },
         {
           "rank": 4,
-          "team": "Tourcoing",
+          "team": "Nice",
           "values": [
-            6,
+            7,
             5,
-            1,
-            "17-7",
-            14
+            2,
+            "18-9",
+            16
           ]
         },
         {
           "rank": 5,
-          "team": "Cannes",
+          "team": "Toulouse",
           "values": [
-            6,
+            7,
             5,
-            1,
-            "16-7",
-            14
+            2,
+            "17-9",
+            16
           ]
         },
         {
           "rank": 6,
-          "team": "Nice",
+          "team": "Chaumont",
           "values": [
-            6,
-            4,
+            7,
+            5,
             2,
-            "15-8",
-            13
+            "16-9",
+            14
           ]
         },
         {
           "rank": 7,
           "team": "Poitiers",
           "values": [
-            6,
+            7,
+            4,
             3,
-            3,
-            "14-12",
-            10
+            "17-13",
+            13
           ]
         },
         {
           "rank": 8,
-          "team": "Paris",
+          "team": "Saint-Nazaire",
           "values": [
-            6,
-            2,
+            7,
+            3,
             4,
-            "9-12",
-            7
+            "10-15",
+            8
           ]
         },
         {
           "rank": 9,
-          "team": "Royan",
+          "team": "Paris",
           "values": [
-            6,
+            7,
             2,
-            4,
-            "11-16",
-            6
+            5,
+            "10-15",
+            7
           ]
         },
         {
           "rank": 10,
-          "team": "Saint-Nazaire",
+          "team": "Royan",
           "values": [
-            6,
+            7,
             2,
-            4,
-            "7-15",
-            5
+            5,
+            "12-19",
+            6
           ]
         },
         {
           "rank": 11,
-          "team": "Plessis-Robinson",
+          "team": "Montpellier",
           "values": [
-            6,
-            1,
+            7,
+            2,
             5,
-            "7-16",
-            5
+            "10-17",
+            6
           ]
         },
         {
           "rank": 12,
-          "team": "Montpellier",
+          "team": "Plessis-Robinson",
           "values": [
-            6,
+            7,
             1,
-            5,
-            "7-17",
-            3
+            6,
+            "8-19",
+            5
           ]
         },
         {
           "rank": 13,
           "team": "Sète",
           "values": [
-            6,
+            7,
             1,
-            5,
-            "5-15",
+            6,
+            "6-18",
             3
           ]
         },
@@ -1086,19 +1088,20 @@
           "rank": 14,
           "team": "Narbonne",
           "values": [
-            6,
+            7,
             1,
-            5,
-            "6-17",
+            6,
+            "6-20",
             2
           ]
         }
       ],
       "note": "",
       "sources": [
-        "https://spikelive.fr/ligue/lam",
+        "https://www.365scores.com/fr/volleyball/league/lnv-ligue-a-5712/standings",
         "https://www.365scores.com/volleyball/team/montpellier-15921/standings",
-        "https://spikelive.fr/ligue/lam/journee/6"
+        "https://scores24.live/fr/volleyball/l-france-ligue-a/standings",
+        "https://www.betexplorer.com/volleyball/france/ligue-a/"
       ]
     },
     {
@@ -1136,126 +1139,126 @@
         "Diff",
         "Pts"
       ],
-      "as_of": "Au 14/11/2026 (avant la 8e journée du 21/11, dont Mulhouse – Montpellier)",
+      "as_of": "Au 21/11/2026 (8e journée complète)",
       "verified": true,
       "rows": [
         {
           "rank": 1,
           "team": "Clermont-Ferrand",
           "values": [
+            7,
             6,
-            5,
             1,
             0,
             0,
-            38,
-            18,
-            "+20",
-            17
+            47,
+            19,
+            "+28",
+            20
           ]
         },
         {
           "rank": 2,
           "team": "Montpellier",
           "values": [
-            7,
-            5,
+            8,
+            6,
             0,
             1,
             1,
-            26,
-            16,
-            "+10",
-            16
+            31,
+            19,
+            "+12",
+            19
           ]
         },
         {
           "rank": 3,
-          "team": "HCMP",
+          "team": "Roanne",
           "values": [
-            6,
-            3,
-            1,
+            7,
+            4,
             0,
+            1,
             2,
-            31,
-            24,
-            "+7",
-            11
+            23,
+            17,
+            "+6",
+            13
           ]
         },
         {
           "rank": 4,
-          "team": "Roanne",
+          "team": "Annecy",
           "values": [
-            6,
+            7,
             3,
-            0,
             1,
-            2,
-            19,
-            15,
-            "+4",
-            10
+            0,
+            3,
+            30,
+            24,
+            "+6",
+            11
           ]
         },
         {
           "rank": 5,
-          "team": "Vaujany-Grenoble",
+          "team": "HCMP",
           "values": [
-            6,
+            7,
             3,
-            0,
             1,
-            2,
-            18,
-            19,
-            "-1",
-            10
+            0,
+            3,
+            36,
+            31,
+            "+5",
+            11
           ]
         },
         {
           "rank": 6,
-          "team": "Annecy",
+          "team": "Vaujany-Grenoble",
           "values": [
-            6,
-            2,
-            1,
-            0,
+            7,
             3,
-            24,
-            22,
-            "+2",
-            8
+            0,
+            1,
+            3,
+            20,
+            23,
+            "-3",
+            10
           ]
         },
         {
           "rank": 7,
           "team": "Toulon",
           "values": [
-            6,
-            2,
+            7,
+            3,
             0,
             1,
             3,
-            29,
-            37,
-            "-8",
-            7
+            36,
+            42,
+            "-6",
+            10
           ]
         },
         {
           "rank": 8,
           "team": "Mulhouse",
           "values": [
-            7,
+            8,
             2,
             0,
             0,
-            5,
-            23,
-            37,
-            "-14",
+            6,
+            26,
+            42,
+            "-16",
             6
           ]
         },
@@ -1263,14 +1266,14 @@
           "rank": 9,
           "team": "Toulouse-Blagnac",
           "values": [
-            7,
+            8,
             1,
             1,
             1,
-            4,
-            24,
-            27,
-            "-3",
+            5,
+            26,
+            33,
+            "-7",
             6
           ]
         },
@@ -1278,14 +1281,14 @@
           "rank": 10,
           "team": "Dijon",
           "values": [
-            7,
+            8,
             1,
             1,
             0,
-            5,
-            25,
-            42,
-            "-17",
+            6,
+            26,
+            51,
+            "-25",
             5
           ]
         }
@@ -1293,9 +1296,8 @@
       "note": "V/D = victoire/défaite dans le temps réglementaire (3/0 pt), VP/DP = en prolongation ou aux tirs au but (2/1 pt). Toulon – Vaujany-Grenoble (6e journée) reporté au 13/02.",
       "sources": [
         "https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/classements-2/",
-        "https://hccalessangliers.fr/",
         "https://hcdijon.com/resultats/",
-        "https://www.hockeyfrance.com/competitions/2026/11/14/d2-les-resultats-de-la-7eme-journee-5/"
+        "https://www.hockeyfrance.com/competitions/2026/11/21/d2-resultats-les-buts-etaient-au-rendez-vous/"
       ]
     }
   ]
