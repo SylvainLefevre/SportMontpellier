@@ -1,5 +1,11 @@
 # Journal des mises à jour
 
+## 2026-11-23 · Classements (passage du soir)
+
+Clé `verified` au 23/11 ; aucune ligne modifiée.
+- Ligue 2 : fin de la 13e journée le 23/11 — Nantes 1-0 Grenoble et Sochaux 2-3 Dunkerque (https://www.footmercato.net/a3627725368469876208-ligue-2-nantes-gagne-sochaux-enchaine-une-5e-defaite-consecutive ; https://www.toutmontbeliard.com/2026/11/23/football-ligue-2-fc-sochaux-montbeliard-2-3-dunkerque/ ; https://www.ouest-france.fr/sport/football/fc-nantes/dominateur-puis-solidaire-a-dix-le-fc-nantes-simpose-face-a-grenoble-1-0-22649cd2-e77f-11f1-afa7-9a0bb82a33d1). Deux tableaux complets intègrent ces matchs, https://www.ski-nordique.net/ligue-2-20262027-classement-j13-lasse-simpose-a-reims-montpellier-chute-a-laval.6750727-72348.html et https://peuple-vert.fr/asse-actualite/ligue-2-la-13e-journee-bouclee-place-au-choc-asse-nancy/ : points identiques (et identiques au recalcul : Dunkerque 18 pts, Nantes 15, Sochaux et Grenoble 11), mais ordre différent pour Metz et Pau (20 pts, +2 chacun : Metz 5e chez ski-nordique, Pau 5e chez peuple-vert). Foot Mercato annonce Dunkerque 9e alors que les deux tableaux le placent 10e derrière Dijon (18 pts, +1). https://m.maxifoot.fr/classement-ligue-2-france.htm , https://www.goal.com/fr/ligue-2/classement/4w7x0s5gfs5abasphlha5de8k et https://www.eurofootnews.net/ligue-2-13e-journee-tous-les-resultats-le-classement/22/11/2026/ pas encore à jour ; Orange et Ouest-France inaccessibles. Pas de concordance complète : classement vérifié du 22/11 conservé (Montpellier 3e, 24 pts, inchangé dans toutes les sources) ; `as_of` précisé.
+- Top 14 (10e journée les 28-29/11), Champions Cup (décembre), Starligue, Ligue des champions EHF (terminée), Ligue A volley (8e journée à partir du 26/11), Ligue des champions CEV (08/12), Division 2 hockey (journée du week-end) : aucun match le 23/11, sans changement.
+
 ## 2026-11-22 · Classements (passage du soir)
 
 Clé `verified` au 22/11.

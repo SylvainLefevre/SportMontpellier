@@ -1,5 +1,5 @@
 {
-  "verified": "2026-11-22",
+  "verified": "2026-11-23",
   "competitions": [
     {
       "id": "ligue2",
@@ -16,7 +16,7 @@
         "Diff",
         "Pts"
       ],
-      "as_of": "Au 22/11/2026 (13e journée en cours : Nantes – Grenoble et Sochaux – Dunkerque le 23/11)",
+      "as_of": "Au 22/11/2026 (avant Nantes – Grenoble et Sochaux – Dunkerque du 23/11)",
       "verified": true,
       "rows": [
         {
