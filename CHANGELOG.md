@@ -1,5 +1,11 @@
 # Journal des mises à jour
 
+## 2026-11-24 · Classements (passage du soir)
+
+Clé `verified` au 24/11.
+- Ligue 2 : classement remplacé, « Après la 13e journée » (intègre Nantes 1-0 Grenoble et Sochaux 2-3 Dunkerque du 23/11). Tableaux complets identiques (ordre et points des 18 équipes) sur https://www.footmercato.net/france/ligue-2/classement , https://sports.orange.fr/football/ligue-2/classement-equipes.html (généré le 24/11 à 06h07), https://www.goal.com/fr/ligue-2/classement/4w7x0s5gfs5abasphlha5de8k et https://www.ski-nordique.net/ligue-2-20262027-classement-j13-lasse-simpose-a-reims-montpellier-chute-a-laval.6750727-72348.html , identiques au recalcul ; le désaccord Metz/Pau de la veille est levé (Metz 5e, Pau 6e partout). Dunkerque passe de 11e à 10e (18 pts), Nantes de 14e à 12e (15), Rodez 11e, Guingamp 13e, Boulogne 14e, Laval 15e ; Sochaux 17e et Grenoble 18e (11 pts). Montpellier reste 3e (24 pts, +8).
+- Top 14 (10e journée les 28-29/11), Champions Cup (décembre), Starligue, Ligue des champions EHF (terminée), Ligue A volley (8e journée à partir du 26/11), Ligue des champions CEV (08/12), Division 2 hockey (journée du week-end) : aucun match trouvé le 24/11, sans changement.
+
 ## 2026-11-23 · Classements (passage du soir)
 
 Clé `verified` au 23/11 ; aucune ligne modifiée.
