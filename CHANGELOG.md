@@ -1,5 +1,29 @@
 # Journal des mises à jour
 
+## 2026-11-25 · Mise à jour hebdo
+
+Calendrier (`data/matches.json`, `verified` au 25/11)
+- Score : Montpellier 3-0 Chaumont (Ligue A volley, 19/11 ; 25-22, 25-18, 25-15) — https://cvb52.com/2026/11/19/montpellier-cvb52-defaite-3-0-alterna-volstar/ ; https://jhm.fr/le-cvb-craque-chez-le-champion/ ; https://toutmontpellier.fr/news/montpellier-le-mhsc-vb-s-impose-3-0-face-a-chaumont-en-alterna-volstar
+- MHSC – Clermont : 17e journée (et non 18e), programmée par la LFP vendredi 15/01 à 20h00 (`time` vide → 20h00, `date_ok`/`time_ok` false → true) — https://ligue1.com/fr/articles/l1_article_6085-programmation-tv-j17-l2-2627 ; https://www.footmercato.net/live/2341543967969849823-montpellier-vs-clermont
+- Volley – Perugia (05/01) : horaire probable 21h00 renseigné (vide → 21h00), `time_ok` reste false : Perugia (https://www.sirsafetyperugia.it/cev/) et DAZN Italie (https://www.dazn.com/it-IT/news/volley/perugia-volley-20262027-calendario-rosa-e-dove-vedere-le-partite/1lrbw7imk82511dkvvavo3pn7n) donnent 21h00 mais semblent reprendre la même source ; 17h00 chez les agrégateurs (valeur par défaut) ; calendrier CEV non publié.
+- MHB – PSG (19/02) : lieu Sud de France Arena renseigné (club + https://www.psg.fr/handball/calendrier?period=Feb) ; `date_ok` true → false, la page du PSG affiche aussi « jeudi 18 février (à confirmer) ».
+- Reconfirmés sans changement (sources mises à jour) : MHB – Cesson-Rennes 27/11 20h00, FDI Stadium (club, lnh.fr, Montpellier Tourisme, JDS) ; volley – Narbonne 04/12 20h00 (https://agenda.montpellier.fr/es/event/141268/mhsc-volley-ball-vs-narbonne, events4you, 365Scores en UTC) ; MHSC – Nantes 05/12 14h00 (LFP programmation J14, sources existantes) ; MHR – La Rochelle 05/12 16h35 (LNR, allrugby, lerugby.com) ; MHB – Caen 11/12 20h00 (club, BetExplorer) ; MHR – Bulls 12/12 16h15 et – Northampton 09/01 18h30 (https://www.epcrugby.com/champions-cup/clubs/montpellier-herault-rugby/fixtures-results en heure UK, Planet Rugby) ; volley – Tourcoing 18/12, – Sète 30/12, – Saint-Nazaire 08/01 20h00 (spikelive journées 13 et 14, events4you, 365Scores) ; MHSC – Guingamp 02/01 19h00 (LFP J16, ESPN).
+- Inchangés, toujours non confirmés : hockey, Vipers – Mulhouse (05/12), – Annecy (19/12), – Dijon (16/01), – Roanne (06/02) : dates du seul site du club (cohérentes avec le calendrier de Clermont, https://hccalessangliers.fr/prochains-matchs/), aucun horaire ; Vipers – Clermont 12/12 19h00 toujours selon le seul site de Clermont ; PDF FFHG et page du club inaccessibles. MHR – Bayonne (26/12) : LNR n'a pas encore programmé la 13e journée.
+- Non ajoutés (à l'extérieur) : Coupe de France foot, 8e tour Avenir Foot Lozère – Montpellier samedi 28/11 18h30 à Mende (https://antichambre.eu/coupe-de-france-la-programmation-des-clubs-de-ligue-2-pour-le-8eme-tour/). Coupe de France volley : Narbonne 1-3 Montpellier le 24/11 (Midi Libre via https://www.titrespresse.com/30467792603/mhsc-vb-narbonne ; 365Scores), tour suivant non encore tiré. Ligue des champions CEV : premier match à Ankara contre Ziraat (08/12 selon les agrégateurs, 09/12 selon https://championsleague.cev.eu/team/14511-montpellier-hsc-vb).
+
+Désaccords non résolus
+- Volley – Perugia (05/01) : 21h00 (sources italiennes) contre 17h00 (agrégateurs).
+- Volley – Ziraat (09/02) et – Dinamo (17/02) : dates des seuls agrégateurs (TheSportsDB, Fixtured, BetExplorer ; Volleybox donnait le 16/02 pour Dinamo) ; calendrier CEV non publié. TheSportsDB place aussi Perugia – Montpellier le 26/01 contre le 27/01 chez Perugia (match à l'extérieur).
+- MHB – PSG : 18 ou 19/02. MHB – Tremblay (05/02) : toujours « date provisoire » chez le club ; les horaires 19h00/20h00 de BetExplorer pour les matchs de 2027 sont des valeurs par défaut, non retenues.
+- Hockey, Vipers – Toulon (31/10) : 9-4 (FFHG) contre 5-1 (site du club), inchangé.
+
+Classements (`data/standings.json`, `verified` au 25/11) : aucune rencontre des compétitions suivies depuis le passage du 24/11 au soir ; lignes inchangées. Division 2 hockey reconfirmée (tableaux identiques sur https://www.hockeyfrance.com/competitions/championnats-seniors/d2/saison-reguliere/classements/ et https://hccalessangliers.fr/, mis à jour le 24/11) ; Ligue A volley reconfirmée par events4you (après la 7e journée).
+
+Grands Prix (`data/gp.json`, `verified` au 25/11)
+- MotoGP Valence : horaires inchangés, reconfirmés par https://www.speedweek.com/en/a/motogp/motogp-valencia-2026-schedule-season-finale (CET) et https://www.crash.net/motogp/event/1044238/2026-valencia-motogp (UTC) ; horaire officiel motogp.com pas encore publié, note ajoutée.
+- F1 Qatar et Abu Dhabi : horaires reconfirmés (formula1.com + Crash.net), inchangés ; sources mises à jour.
+- Las Vegas et Portimão courus comme prévu. Calendriers 2027 F1 et MotoGP : aucun changement officiel (rumeurs sur l'Arabie saoudite non retenues).
+
 ## 2026-11-24 · Classements (passage du soir)
 
 Clé `verified` au 24/11.

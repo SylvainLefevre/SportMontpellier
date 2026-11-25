@@ -1,6 +1,6 @@
 {
   "season": "2026-2027",
-  "verified": "2026-11-18",
+  "verified": "2026-11-25",
   "matches": [
     {
       "date": "2026-08-08",
@@ -445,7 +445,7 @@
       "venue": "Palais des Sports Chaban-Delmas (Castelnau-le-Lez)",
       "date_ok": true,
       "time_ok": true,
-      "score": "",
+      "score": "3-0",
       "note": "Volleybox et une annonce de RTS FM indiquent encore le 20/11 (calendrier initial)",
       "sources": [
         "https://spikelive.fr/ligue/lam/calendrier",
@@ -465,9 +465,9 @@
       "score": "",
       "note": "",
       "sources": [
-        "https://www.montpellierhandball.com/equipe-pro-masculine/calendrier-resultats/",
-        "https://www.montpellier-tourisme.fr/agenda/tout-l-agenda/handball-mhb-vs-cesson-rennes-montpellier-fr-6841786/",
-        "https://www.graden.fr/event/montpellier-cesson-rennes-1"
+        "https://www.montpellierhandball.com/",
+        "https://www.lnh.fr/daikin-starligue/accueil",
+        "https://www.montpellier-tourisme.fr/agenda/tout-l-agenda/handball-mhb-vs-cesson-rennes-montpellier-fr-6841786/"
       ]
     },
     {
@@ -482,9 +482,8 @@
       "score": "",
       "note": "",
       "sources": [
-        "https://spikelive.fr/ligue/lam/calendrier",
-        "https://lnv.fr/xml/calendrier-narbonne.xml",
-        "https://narbonnevolley.com/"
+        "https://agenda.montpellier.fr/es/event/141268/mhsc-volley-ball-vs-narbonne",
+        "https://events4you.app/competitions/volleyball/marmara-spike-league/"
       ]
     },
     {
@@ -531,7 +530,8 @@
       "note": "11e journée, programmée par la LNR (Canal+ Sport)",
       "sources": [
         "https://top14.lnr.fr/club/montpellier/calendrier-resultats",
-        "https://www.allrugby.com/news/top-14-2027-j11-programmation-3902.html"
+        "https://www.allrugby.com/news/top-14-2027-j11-programmation-3902.html",
+        "https://lerugby.com/match/la-rochelle-montpellier/2026-12-05"
       ]
     },
     {
@@ -546,8 +546,8 @@
       "score": "",
       "note": "14e journée, confirmée par le club (mention « provisoire » retirée)",
       "sources": [
-        "https://www.montpellierhandball.com/equipe-pro-masculine/calendrier-resultats/",
-        "https://www.graden.fr/event/montpellier-caen"
+        "https://www.montpellierhandball.com/",
+        "https://www.betexplorer.com/handball/france/starligue/fixtures/"
       ]
     },
     {
@@ -578,8 +578,8 @@
       "score": "",
       "note": "",
       "sources": [
-        "https://www.planetrugby.com/news/investec-champions-cup-2026-27-pool-fixtures",
-        "https://sports.orange.fr/rugby/coupes-europe/champions-cup/calendrier-resultats-phase-de-groupes-poule-4.html"
+        "https://www.epcrugby.com/champions-cup/clubs/montpellier-herault-rugby/fixtures-results",
+        "https://www.planetrugby.com/news/investec-champions-cup-2026-27-pool-fixtures"
       ]
     },
     {
@@ -594,7 +594,7 @@
       "score": "",
       "note": "",
       "sources": [
-        "https://spikelive.fr/ligue/lam/calendrier",
+        "https://events4you.app/competitions/volleyball/marmara-spike-league/",
         "https://www.365scores.com/en-uk/volleyball/match/pro-a-5712/montpellier-tourcoing-15921-15927-5712"
       ]
     },
@@ -641,8 +641,8 @@
       "score": "",
       "note": "",
       "sources": [
-        "https://spikelive.fr/ligue/lam/calendrier",
-        "https://www.365scores.com/fr/volleyball/team/sete-15919/matches"
+        "https://spikelive.fr/ligue/lam/journee/13",
+        "https://www.365scores.com/en-uk/volleyball/match/pro-a-5712/montpellier-sete-15919-15921-5712"
       ]
     },
     {
@@ -664,17 +664,17 @@
     {
       "date": "2027-01-05",
       "sport": "volley",
-      "time": "",
+      "time": "21h00",
       "opponent": "Perugia",
       "competition": "Ligue des champions",
       "venue": "",
       "date_ok": true,
       "time_ok": false,
       "score": "",
-      "note": "Horaire en désaccord : 21h00 selon Perugia, 17h00 selon BetExplorer (valeur par défaut probable), 20h00 selon Volleybox",
+      "note": "Horaire probable 21h00 (Perugia et DAZN Italie, sans doute même origine) ; 17h00 chez les agrégateurs (valeur par défaut probable) ; calendrier CEV pas encore publié",
       "sources": [
         "https://www.sirsafetyperugia.it/cev/",
-        "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
+        "https://www.dazn.com/it-IT/news/volley/perugia-volley-20262027-calendario-rosa-e-dove-vedere-le-partite/1lrbw7imk82511dkvvavo3pn7n"
       ]
     },
     {
@@ -689,9 +689,9 @@
       "score": "",
       "note": "",
       "sources": [
-        "https://spikelive.fr/ligue/lam/calendrier",
-        "https://www.365scores.com/nl/volleyball/team/montpellier-15921/matches",
-        "https://volleybox.net/montpellier-volley-t1664/matches"
+        "https://spikelive.fr/ligue/lam/journee/14",
+        "https://events4you.app/competitions/volleyball/marmara-spike-league/",
+        "https://www.365scores.com/en-uk/volleyball/match/pro-a-5712/montpellier-saint-nazaire-vba-15921-15925-5712"
       ]
     },
     {
@@ -706,24 +706,24 @@
       "score": "",
       "note": "",
       "sources": [
-        "https://www.planetrugby.com/news/investec-champions-cup-2026-27-pool-fixtures",
-        "https://sports.orange.fr/rugby/coupes-europe/champions-cup/calendrier-resultats-phase-de-groupes-poule-4.html"
+        "https://www.epcrugby.com/champions-cup/clubs/montpellier-herault-rugby/fixtures-results",
+        "https://www.planetrugby.com/news/investec-champions-cup-2026-27-pool-fixtures"
       ]
     },
     {
       "date": "2027-01-15",
       "sport": "foot",
-      "time": "",
+      "time": "20h00",
       "opponent": "Clermont",
       "competition": "Ligue 2",
       "venue": "Stade de la Mosson",
-      "date_ok": false,
-      "time_ok": false,
+      "date_ok": true,
+      "time_ok": true,
       "score": "",
-      "note": "Date de la journée, pas encore programmée par la LFP",
+      "note": "17e journée, programmée par la LFP le vendredi 15/01 à 20h00 (multiplex beIN SPORTS 1)",
       "sources": [
-        "https://www.liguesdefoot.fr/en/championnats/2026-2027/national/ligue-2.md",
-        "https://www.jds.fr/artistes/montpellier-hsc-12956_N"
+        "https://ligue1.com/fr/articles/l1_article_6085-programmation-tv-j17-l2-2627",
+        "https://www.footmercato.net/live/2341543967969849823-montpellier-vs-clermont"
       ]
     },
     {
@@ -846,7 +846,7 @@
       "date_ok": false,
       "time_ok": false,
       "score": "",
-      "note": "",
+      "note": "09/02 selon TheSportsDB et Fixtured (agrégateurs) ; calendrier CEV pas encore publié",
       "sources": [
         "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/"
       ]
@@ -893,7 +893,7 @@
       "date_ok": false,
       "time_ok": false,
       "score": "",
-      "note": "Désaccord : 17/02 selon BetExplorer, 16/02 selon Volleybox ; calendrier CEV non publié",
+      "note": "17/02 selon BetExplorer et TheSportsDB, 16/02 selon Volleybox ; calendrier CEV pas encore publié",
       "sources": [
         "https://www.betexplorer.com/volleyball/team/montpellier/fq1HkrTS/fixtures/",
         "https://volleybox.net/montpellier-volley-t1664/matches"
@@ -905,14 +905,14 @@
       "time": "",
       "opponent": "PSG",
       "competition": "Starligue",
-      "venue": "",
-      "date_ok": true,
+      "venue": "Sud de France Arena",
+      "date_ok": false,
       "time_ok": false,
       "score": "",
-      "note": "Sud de France Arena selon le seul site du club (lieu à confirmer)",
+      "note": "Sud de France Arena selon le club et le PSG ; le PSG affiche le 19/02 dans le titre mais « jeudi 18 février (à confirmer) » dans la date ; horaire non publié",
       "sources": [
-        "https://www.betexplorer.com/handball/team/montpellier/Qopo6dYu/fixtures/",
-        "https://www.365scores.com/handball/team/montpellier-8120/matches"
+        "https://www.montpellierhandball.com/equipe-pro-masculine/calendrier-resultats/",
+        "https://www.psg.fr/handball/calendrier?period=Feb"
       ]
     },
     {

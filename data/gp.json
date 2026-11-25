@@ -1,5 +1,5 @@
 {
-  "verified": "2026-11-18",
+  "verified": "2026-11-25",
   "events": [
     {
       "id": "f1-2026-2026-11-06",
@@ -262,8 +262,7 @@
       "note": "",
       "sources": [
         "https://www.formula1.com/en/latest/article/formula-1-qatar-airways-qatar-grand-prix-2026.3XJyoYSnpJEcuZovstTdcG",
-        "https://oversteer48.com/?p=22302",
-        "https://www.racefans.net/2026-f1-season/2026-f1-calendar/"
+        "https://www.crash.net/f1/event/1044272/f1-2026-qatar-grand-prix"
       ]
     },
     {
@@ -321,12 +320,11 @@
           "time_ok": true
         }
       ],
-      "note": "Décalé d'une semaine. Dernière course de la saison 2026.",
+      "note": "Décalé d'une semaine. Dernière course de la saison 2026. Horaire officiel motogp.com pas encore publié (le warm-up pourrait bouger).",
       "sources": [
-        "https://somosmotor.es/calendario/motogp/2026/gran-premio-de-la-comunitat-valenciana",
-        "https://statsniper.com/leagues/motogp/race/2026/grand-prix-of-valencia/",
-        "https://www.foxsports.com/motor/motogp/schedule",
-        "https://freshcalendars.com/news/motogp-2026-final-races-qatar-portugal-valencia-race-times-us-uk/"
+        "https://www.speedweek.com/en/a/motogp/motogp-valencia-2026-schedule-season-finale",
+        "https://www.crash.net/motogp/event/1044238/2026-valencia-motogp",
+        "https://statsniper.com/leagues/motogp/race/2026/grand-prix-of-valencia/"
       ]
     },
     {
@@ -372,8 +370,7 @@
       "note": "Dernière course de la saison 2026.",
       "sources": [
         "https://www.formula1.com/en/latest/article/formula-1-etihad-airways-abu-dhabi-grand-prix-2026.5mmDojxBdiltjPgeIxAKOq",
-        "https://oversteer48.com/?p=26187",
-        "https://www.racefans.net/2026-f1-season/2026-f1-calendar/"
+        "https://www.crash.net/f1/event/1044273/f1-2026-abu-dhabi-grand-prix"
       ]
     },
     {
