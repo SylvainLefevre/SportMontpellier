@@ -1,5 +1,11 @@
 # Journal des mises à jour
 
+## 2026-11-25 · Classements (passage du soir)
+
+Clé `verified` déjà au 25/11 ; aucune ligne modifiée.
+- Starligue : aucun match les 24-25/11 ; la 12e journée débute le 27/11 (Montpellier – Cesson-Rennes). Le haut du tableau de https://www.lnh.fr/daikin-starligue/accueil (Paris 22, Nantes 20, Montpellier 16, Nîmes 16, Limoges 14, Tremblay 13, Caen 12, 11 matchs chacun) concorde avec le classement vérifié.
+- Ligue 2 (14e journée le 05/12, Coupe de France le 28/11), Top 14 (10e journée les 28-29/11), Champions Cup (décembre), Ligue des champions EHF (terminée), Ligue A volley (8e journée à partir du 26/11), Ligue des champions CEV (08/12), Division 2 hockey (seuls des matchs de Coupe de France en semaine : https://www.hockeyfrance.com/competitions/2026/11/25/cdf-resultats-grenoble-qualifie-en-tremblant/) : aucun match de championnat le 25/11, sans changement.
+
 ## 2026-11-25 · Mise à jour hebdo
 
 Calendrier (`data/matches.json`, `verified` au 25/11)
