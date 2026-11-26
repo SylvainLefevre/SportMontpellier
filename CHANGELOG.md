@@ -1,5 +1,11 @@
 # Journal des mises à jour
 
+## 2026-11-26 · Classements (passage du soir)
+
+Clé `verified` au 26/11 ; aucune ligne modifiée.
+- Ligue A volley : 8e journée ouverte le 26/11 par Tours 3-2 Montpellier (https://www.flashscore.fr/match/volleyball/montpellier-fq1HkrTS/tours-WGABxZRf/ ; https://www.365scores.com/volleyball/team/montpellier-15921/standings ; L'Équipe via https://www.titrespresse.com/30710042603/tours-montpellier-earvin ; https://spikelive.fr/ligue/lam/calendrier). Un seul tableau complet intègre ce match (365Scores : Tours 1er, 19 pts ; Montpellier 10e, 7 pts, 8 matchs, sets 12-20) ; https://spikelive.fr/ligue/lam encore « après 7 journées » et la page classement de scores24 d'avant-match. Pas de deuxième source : classement vérifié après la 7e journée conservé (Montpellier 11e, 6 pts), `as_of` précisé « avant Tours – Montpellier du 26/11 ». Les six autres matchs de la journée se jouent le 28/11.
+- Ligue 2 (Coupe de France le 28/11, 14e journée le 05/12), Top 14 (10e journée les 28-29/11), Champions Cup (décembre), Starligue (12e journée à partir du 27/11), Ligue des champions EHF (terminée), Ligue des champions CEV (08/12), Division 2 hockey (journée du week-end) : aucun match de championnat le 26/11, sans changement.
+
 ## 2026-11-25 · Classements (passage du soir)
 
 Clé `verified` déjà au 25/11 ; aucune ligne modifiée.
