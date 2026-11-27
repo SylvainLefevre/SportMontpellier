@@ -1,5 +1,12 @@
 # Journal des mises à jour
 
+## 2026-11-27 · Classements (passage du soir)
+
+Clé `verified` au 27/11 ; aucune ligne modifiée.
+- Starligue : 12e journée ouverte le 27/11 — Montpellier 32-27 Cesson-Rennes, Chartres 27-30 Aix, Chambéry 30-30 Limoges, Sélestat 30-30 Saint-Raphaël (https://www.lnh.fr/lnh/news/2026-11-25/enjeux-12eme-journee-daikin-starligue ; https://handnews.fr/2026/stl-j12-un-grand-desbonnet-sauve-montpellier-limoges-et-saint-raphael-prennent-un-point-les-resultats-de-la-soiree/ ; https://www.montpellierhandball.com/daikinstarligue-le-mhb-assure-lessentiel-face-a-cesson-rennes/). Les quatre autres matchs se jouent les 28-29/11 (Tremblay – Toulouse, Nîmes – Nantes, Saran – Caen, Dunkerque – Paris). Aucun tableau complet intégrant les matchs du 27/11 trouvé (pages classement de lnh.fr, hbcnantes.com, usdk.fr et srvhb.com inaccessibles) : classement vérifié après la 11e journée conservé, `as_of` précisé. Au recalcul, Montpellier resterait 3e (18 pts, 12 matchs).
+- Ligue A volley : toujours une seule source intégrant Tours 3-2 Montpellier du 26/11 (365Scores, la veille) ; https://events4you.app/competitions/volleyball/marmara-spike-league/ encore après la 7e journée (match non scoré). Classement vérifié après la 7e journée conservé (Montpellier 11e, 6 pts) ; les six autres matchs de la 8e journée se jouent le 28/11.
+- Ligue 2 (Coupe de France le 28/11), Top 14 (10e journée les 28-29/11), Champions Cup (décembre), Ligue des champions EHF (terminée), Ligue des champions CEV (08/12), Division 2 hockey (journée du samedi) : aucun match de championnat le 27/11, sans changement.
+
 ## 2026-11-26 · Classements (passage du soir)
 
 Clé `verified` au 26/11 ; aucune ligne modifiée.
